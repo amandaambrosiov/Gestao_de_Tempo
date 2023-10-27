@@ -80,9 +80,16 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">
+                        <p class="scrool">Tendo tudo isso como base, nas próximas seções deste curso você perceberá os benefícios da gestão do tempo, como visualizar uma nova vida para si mesmo e planejar a sua realização através de objetivos e hábitos.
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                        <ul class="none ">
+                        <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i ></i><h4>
+                        Olá, Nome_Completo bem-vindo ao módulo 01 do curso de Gestão do tempo. Bons estudos!
+                        </h4> 
+                        </li>
+                    </ul>
 
 
                     </div>
@@ -92,6 +99,25 @@ include('layout/header.php');
     </div>
 
     <!-- FIM DO CONTEUDO INICIO  -->
+
+      <!-- INÍCIO DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP -->
+
+  <!-- BOTÃO BACK TO TOP COM UMA BARRA DE PROGRESSO -->
+  <div id="back_to_top">
+    <div id="btn_back">
+      <i id="icon_up" class="fa-solid fa-arrow-up"></i>
+    </div>
+  </div>
+  <!-- FIM DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP-->
+
+  <!-- Botões de navegação -->
+  <div class="text-center">
+    <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true">
+      <i class="fa-solid fa-chevron-right"></i> Próximo </a>
+
+    <?php
+include('layout/footer.php');
+    ?>
 
 
 
