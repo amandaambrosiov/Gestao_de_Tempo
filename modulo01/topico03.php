@@ -31,7 +31,7 @@ include('layout/header.php');
           <div class="col-md-1"></div>
           <div class="col-md-10 col-sm-8 container-fluid">
 
-            <!-- ... -->
+
 
           </div>
         </div>
@@ -54,9 +54,9 @@ include('layout/header.php');
 
     <!-- Botões de navegação -->
     <div class="text-center">
-        <a href="topico03.html" class="btn btn-outline-success" role="button" aria-pressed="true">
+        <a href="topico02.php" class="btn btn-outline-success" role="button" aria-pressed="true">
             <i class="fa-solid fa-chevron-left"></i> Voltar </a>
-        <a href="topico01.html" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+        <a href="referencias.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
                 class="fa-solid fa-chevron-right"></i></a>
     </div>
 
