@@ -37,7 +37,7 @@
                             <a href="topico01.php">
                                 <span class="icon "><i class="bi bi-1-circle"></i>
                                 </span>
-                                <span class="txt">A Gestão do Tempo</i></span>
+                                <span class="txt">A Mentalidade Realizadora</i></span>
                             </a>
                         </li>
 
@@ -45,7 +45,7 @@
                             <a href="topico02.php">
                                 <span class="icon "><i class="bi bi-2-circle"></i>
                                 </span>
-                                <span class="txt">O Poder da decisão</i></span>
+                                <span class="txt">Sistema 5s aplicado à gestão do tempo</i></span>
                             </a>
                         </li>
 
@@ -53,7 +53,7 @@
                             <a href="topico03.php">
                                 <span class="icon "><i class="bi bi-3-circle"></i>
                                 </span>
-                                <span class="txt">Planejamento de Metas</i></span>
+                                <span class="txt">Mudança de Hábitos</i></span>
                             </a>
                         </li>
 
