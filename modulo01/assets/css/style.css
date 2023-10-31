@@ -235,6 +235,8 @@ ul li.menu a:hover {
 /* (transition) no CONTEÚDO PRINCIPAL  */
 .all-conteudo {
     transition: 0.1s;
+    display: flex;
+    text-align: justify;
 }
 
 .menulateral:hover~.all-conteudo {
