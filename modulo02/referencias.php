@@ -57,7 +57,7 @@ include('layout/header.php');
 
             <div class="p-2 rounded" style="background-color: #f18519;">
               <!-- Interação com aluno-->
-              <ul class="none">
+              <ul class="none" style="padding-left:0">
                 <li class="img-fluid wow fadeIn text-light" data-wow-delay="0.3s"><i></i>
                   <p>
                     Parabéns, Nome_Completo, você concluiu o Módulo 02! Para continuar nos estudos,

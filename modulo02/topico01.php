@@ -29,6 +29,10 @@ include('layout/header.php');
           <div class="col-md-1"></div>
           <div class="col-md-10 col-sm-8 container-fluid">
 
+            <!--  Título Pricipal -->
+            <h2 class="Titulo fw-bolder">A Mentalidade Realizadora</h2><br>
+            <!--  Título Principal -->
+
             <!-- IMAGEM NO SITE  -->
 
             <div class="text-center img-01">
