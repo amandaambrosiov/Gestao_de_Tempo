@@ -104,6 +104,11 @@ include('layout/header.php');
                         </section>
                         <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
 
+                        <!-- Parágrafo com a biblioteca de animação  -->
+                        <p class="scrool">Para evitar tal movimento do cérebro é preciso que você substitua hábitos, mas isso só ocorre a partir de uma nova visão e de um bom planejamento. Desse modo, eu evito pensar que estou saindo da zona de conforto. Em contraste, eu aviso ao meu cérebro que estaremos indo em direção a uma <strong> zona de conforto </strong> de maior qualidade, afinal, se eu consigo dirigir melhor as minhas atividades eu posso reduzir o estresse e as preocupações e talvez tenha tempo para atividades recreativas e sociais.
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
+
 
                     </div>
                 </div>
