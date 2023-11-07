@@ -1,6 +1,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link do scroollrevel -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- CDN DO BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -9,28 +11,19 @@
         crossorigin="anonymous"></script>
     <!-- Cdn do bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <!-- nosso css -->
-    <link rel="stylesheet" href="http://localhost:8088/assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/modulo01.css">
     <!-- link do font awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <!-- link do script -->
-    <script src="http://localhost:8088/assets/js/script.js" defer></script>
-    <!-- link do scroollrevel -->
-    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Favicon -->
     <link rel="shortcut icon" href="http://ava.egp.ce.gov.br/2018/desv/logo/favicon.png" />
     <!-- cdn jquery  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- link do wow.js -->
-    <link rel="stylesheet" href="http://localhost:8088/assets/css/animate.css">
+    <!-- nosso css -->
+    <link rel="stylesheet" href="http://localhost:8088/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/modulo01.css">
+    <!-- link do script -->
+    <script src="http://localhost:8088/assets/js/script.js" defer></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
-
-        <title>EGPCE | Gestão do Tempo </title>
+    <title>EGPCE | Gestão do Tempo </title>
 </head>

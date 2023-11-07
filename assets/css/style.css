@@ -235,8 +235,6 @@ ul li.menu a:hover {
 /* (transition) no CONTEÚDO PRINCIPAL  */
 .all-conteudo {
     transition: 0.1s;
-    display: flex;
-    text-align: justify;
 }
 
 .menulateral:hover~.all-conteudo {
@@ -337,7 +335,7 @@ ul li.menu a:hover {
     text-decoration: none;
     color: #44833D;
     width: 100%;
-    font-size: 17px;
+    font-size: 18px;
     margin-bottom: 0.7rem;
     cursor: pointer;
     position: relative;
@@ -358,6 +356,7 @@ ul li.menu a:hover {
 
 [data-theme="dark"] .dropdown-container a:hover {
     background-color: #3be3e2;
+    color: #040504;
 }
 
 .circulo {
@@ -441,6 +440,9 @@ hr {
     margin-left: 5px;
 }
 
+strong{
+    font-weight: lighter;
+}
 .main-content {
     padding: 100px 50px 50px;
 }
@@ -474,10 +476,6 @@ hr {
 
 [data-theme="dark"] .dropdown-menu {
     background-color: var(--color-ciano);
-}
-
-strong{
-    font-weight: lighter;
 }
 
 /* INÍCIO DO ESTILO DO ACCORDION */

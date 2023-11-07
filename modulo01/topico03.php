@@ -346,31 +346,37 @@ include('layout/header.php');
                   </div> <!--caixa Principal-->
                   <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
                     <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-                    <p class="txt-caixasecundaria">Na segunda parte deste curso, falarei sobre os hábitos necessários para realizar e manter o planejamento de médio e longo prazo. Você perceberá que apesar de sua visão de futuro, o resultado de sua vida é determinado pelos seus hábitos diários.</p>
+                    <p class="txt-caixasecundaria">Na segunda parte deste curso, falarei sobre os hábitos necessários
+                      para realizar e manter o planejamento de médio e longo prazo. Você perceberá que apesar de sua
+                      visão de futuro, o resultado de sua vida é determinado pelos seus hábitos diários.</p>
                   </div>
                 </section>
             </section>
             <!-- FIM DA CAIXA FIQUE ATENTO -->
 
-              <!-- CAIXA DE TEXTO SAIBA-MAIS -->
-  <section class="container">
-    <div class="accordion ">
-      <section id="content">
-        <div class="caixaprincipal" id="tituloSaibaMais">
-          <div class="div_teste">
-            <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
+            <!-- CAIXA DE TEXTO SAIBA-MAIS -->
+            <section class="container">
+              <div class="accordion ">
+                <section id="content">
+                  <div class="caixaprincipal" id="tituloSaibaMais">
+                    <div class="div_teste">
+                      <div><i class="fa-solid fa-plus"></i> SAIBA MAIS </div>
 
-            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-          </div>
-        </div> <!--caixa Principal-->
-        <div class="accordion-content" id="saibamais">
-          <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75"> Passe o mouse acima
-              </strong></strong></p>
-          <p class="txt-caixasecundaria">Sugestão de atividade complementar: Assista ao filme: <strong> Antes de partir </strong>, de dezembro de 2007. <strong> Sinopse: </strong> O bilionário Edward Cole e o mecânico Carter Chambers são dois pacientes terminais em um mesmo quarto de hospital. Quando se conhecem, resolvem escrever uma lista das coisas que desejam fazer antes de morrer e fogem do hospital para realizá-las.</p><!--caixa secundaria-->
-        </div>
-      </section>
-  </section>
-  <!-- FIM DA CAIXA SAIBA MAIS  -->
+                      <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                    </div>
+                  </div> <!--caixa Principal-->
+                  <div class="accordion-content" id="saibamais">
+                    <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75"> Passe o mouse acima
+                        </strong></strong></p>
+                    <p class="txt-caixasecundaria">Sugestão de atividade complementar: Assista ao filme: <strong> Antes
+                        de partir </strong>, de dezembro de 2007. <strong> Sinopse: </strong> O bilionário Edward Cole e
+                      o mecânico Carter Chambers são dois pacientes terminais em um mesmo quarto de hospital. Quando se
+                      conhecem, resolvem escrever uma lista das coisas que desejam fazer antes de morrer e fogem do
+                      hospital para realizá-las.</p><!--caixa secundaria-->
+                  </div>
+                </section>
+            </section>
+            <!-- FIM DA CAIXA SAIBA MAIS  -->
 
           </div>
         </div>
