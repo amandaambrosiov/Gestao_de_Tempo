@@ -32,12 +32,12 @@ include('layout/header.php');
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <!--  Título Pricipal -->
-                        <h2 class="Titulo fw-bolder">A Gestão do Tempo</h2><br>
+                        <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.4s">A Gestão do Tempo</h2><br>
                         <!--  Título Principal -->
 
                         <!-- IMAGEM NO SITE  -->
                         <div class="wrapper">
-                            <div class="wow zoomIn">
+                            <div class="wow animate__zoomIn" data-wow-delay="0.3s">
                                 <div class="text-center img-01">
                                     <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
                                         Representação do tempo na mente humana</p>
@@ -70,7 +70,7 @@ include('layout/header.php');
                             </div>
                             <div class="text_wrapper">
                                 <!-- Parágrafo com a biblioteca de animação  -->
-                                <p class="scrool">Nossos dias e horas são basicamente definidos pela duração do sol, da
+                                <p class="wow fadeIn" data-wow-delay="0.3s">Nossos dias e horas são basicamente definidos pela duração do sol, da
                                     lua e
                                     das estações. Os egípcios resolveram organizar o tempo em calendários com a duração
                                     do ano e
@@ -88,7 +88,7 @@ include('layout/header.php');
                         </div>
 
                                 <!-- Parágrafo com a biblioteca de animação  -->
-                                <p class="scrool">A tecnologia diminuiu o tempo necessário para executar a maioria das
+                                <p class="wow fadeIn" data-wow-delay="0.3s">A tecnologia diminuiu o tempo necessário para executar a maioria das
                                     nossas
                                     tarefas e, além disso, contribuiu para aumentar nossa expectativa de vida. No
                                     entanto, nossa
@@ -105,7 +105,7 @@ include('layout/header.php');
 
 
                         <!-- CAIXA DE TEXTO IMPORTANTE -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloimportante">
@@ -136,7 +136,7 @@ include('layout/header.php');
 
 
                         <!-- Citação com borda verde (esquerda) -->
-                        <div class="bd-callout bd-callout-success m-3">
+                        <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
 
                             <!-- blockquote do bootstrap -->
                             <figure>
@@ -153,7 +153,7 @@ include('layout/header.php');
                         <!-- Citação com borda verde (esquerda) -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">A consequência imediata no fato de alguém conseguir o melhor aproveitamento do
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A consequência imediata no fato de alguém conseguir o melhor aproveitamento do
                             seu dia é que essas pessoas geralmente conseguem obter melhores resultados em relação à
                             execução das suas tarefas e atividades diárias. Mas, é também bastante comum que essas
                             pessoas tenham uma atitude mais empoderada em relação à sua vida e muitas vezes mais
@@ -162,14 +162,14 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Pessoas que se relacionam mal com o tempo, por outro lado, podem viver
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Pessoas que se relacionam mal com o tempo, por outro lado, podem viver
                             constantemente em estado de reclamação e apegadas ao tempo perdido ou desestimuladas com o
                             seu planejamento futuro.
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="titulofiqueatento">
@@ -198,7 +198,7 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA FIQUE ATENTO -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Planejar a utilização do tempo também implica fazer escolhas de objetivos, de
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Planejar a utilização do tempo também implica fazer escolhas de objetivos, de
                             prioridades e até mesmo do tipo de emoções que desejamos deixar para trás e aquelas que
                             gostaríamos de adicionar em um novo plano. A culpa, por exemplo, pode ser substituída pela
                             responsabilidade, de modo que você possa apenas olhar para todo o seu processo anterior como
@@ -207,7 +207,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!--CAIXA DE TEXTO REFLITA -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <section id="content">
@@ -231,7 +231,7 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA REFLITA-->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Você já deve ter alguma vez na sua vida escutado a frase “tempo é dinheiro”.
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Você já deve ter alguma vez na sua vida escutado a frase “tempo é dinheiro”.
                             Alguém que trabalhe 50 horas por semana e <strong> mal consiga ter dinheiro para sobreviver
                             </strong> vai discordar imediatamente dela, mas, a rigor, o tempo pode mesmo ser traduzido
                             como prosperidade. Para que você perceba o quão essa máxima é verdadeira basta você pensar
@@ -242,7 +242,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="titulofiqueatento">
@@ -267,7 +267,7 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA FIQUE ATENTO -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Um dos aspectos mais importantes que separam pessoas extremamente realizadores
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Um dos aspectos mais importantes que separam pessoas extremamente realizadores
                             das pessoas que mal conseguem fazer minimamente suas tarefas é a definição de prioridades
                             que, por sua vez, está ligada à sua visão futura. Se você pudesse duplicar as horas do seu
                             dia, como utilizaria esse excedente?
@@ -275,7 +275,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">A gestão do tempo possibilita uma percepção mais ampla do planejamento de
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A gestão do tempo possibilita uma percepção mais ampla do planejamento de
                             metas futuras que consequentemente levará a uma definição clara de prioridades e o
                             estabelecimento de metas. Para tanto, a autoavaliação do presente é fundamental. Como você
                             tem priorizado as suas atividades?
@@ -283,7 +283,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- CAIXA DE TEXTO CURIOSIDADE -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloCuriosidade">
@@ -311,12 +311,12 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">A disciplina para cumprir todas as atividades está relacionada principalmente
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A disciplina para cumprir todas as atividades está relacionada principalmente
                             com três aspectos:
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-                        <ul class="list">
+                        <ul class="list wow fadeIn" data-wow-delay="0.3s">
                             <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
                                     class="fa fa-dot-circle text-success"></i>
                                 A disposição natural do indivíduo
@@ -332,7 +332,7 @@ include('layout/header.php');
                         </ul>
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Desse modo, algumas pessoas conseguem seguir a disciplina de modo natural e
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Desse modo, algumas pessoas conseguem seguir a disciplina de modo natural e
                             até sentem prazer em executar as atividades programadas. No entanto, não fique chateado se
                             você não for uma dessas pessoas porque elas são uma pequena minoria. Para todas as outras
                             pessoas, a disciplina é o resultado de um bom planejamento e ótima organização das tarefas.
@@ -343,12 +343,12 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Por essa razão, destacamos entre as vantagens da gestão do tempo:
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Por essa razão, destacamos entre as vantagens da gestão do tempo:
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- lista ordenada  -->
-                        <ol class="scrool" id="txt_final">
+                        <ol class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
                             <li>Uma visão ampla da sua vida e do futuro;</li>
                             <li>Planejamento para atingir metas e aumentar a produtividade e eficiência do tempo;</li>
                             <li>A mudança de hábitos e da mentalidade sobre o tempo. A combinação dessas vantagens, por

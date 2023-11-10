@@ -1,29 +1,3 @@
 .caixa-de-referencias {
     background-color: #f18519;
 }
-
-/* BOTÕES DO TÓPICO 3 */
-
-.CorVerdeEstado {
-    background-color: rgb(39, 156, 61);
-    color: white
-}
-
-.CorVerdeEstado:hover {
-    background-color: rgb(39, 156, 61);
-    color: white;
-}
-
-#buton-t3 i {
-    width: 13rem;
-    height: 2.7rem;
-    font-size: 20px;
-}
-
-#buton-t3 i {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-/* BOTÕES DO TÓPICO 3 END */

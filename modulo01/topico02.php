@@ -37,39 +37,40 @@ include('layout/header.php');
 
             <div class="wrapper">
               <div>
-              <!-- IMAGEM NO SITE  -->
+                <!-- IMAGEM NO SITE  -->
 
-              <div class="text-center img-01">
-                <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 2:</strong>
-                  Representação da direção</p>
-                <div class="zoom">
-                  <a href="imgs01/Figura02.png" data-bs-toggle="modal" data-bs-target="#Imagem2">
-                    <img src="imgs01/Figura02.png" alt="Imagem que remete a organização" id="img-2">
-                  </a>
+                <div class="text-center img-01 wow animate__zoomIn" data-wow-delay="0.3s">
+                  <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 2:</strong>
+                    Representação da direção</p>
+                  <div class="zoom">
+                    <a href="imgs01/Figura02.png" data-bs-toggle="modal" data-bs-target="#Imagem2">
+                      <img src="imgs01/Figura02.png" alt="Imagem que remete a organização" id="img-2">
+                    </a>
+                  </div>
+                  <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>banco de imagens gratuitas do
+                    canvas, 2021.</p>
                 </div>
-                <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>banco de imagens gratuitas do
-                  canvas, 2021.</p>
-              </div>
 
-              <!-- Imagem - MODAL-->
-              <div class="modal fade text-center" id="Imagem2" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                  <div class="modal-content w-75">
-                    <img class="img-fluid" src="imgs01/Figura02.png" alt="Alt da imagem fica aqui">
-                  </div>
-                  <div class="modal-footer w-75 bg-light justify-content-center">
-                    <p class="text-secondary"><strong>Fonte:</strong>banco de imagens gratuitas do canvas, 2021.</p>
+                <!-- Imagem - MODAL-->
+                <div class="modal fade text-center" id="Imagem2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                    <div class="modal-content w-75">
+                      <img class="img-fluid" src="imgs01/Figura02.png" alt="Alt da imagem fica aqui">
+                    </div>
+                    <div class="modal-footer w-75 bg-light justify-content-center">
+                      <p class="text-secondary"><strong>Fonte:</strong>banco de imagens gratuitas do canvas, 2021.</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <!-- Imagem - End-->
+                <!-- Imagem - End-->
               </div>
 
               <!-- FIM DA IMAGEM NO SITE  -->
-              <div class="text_wrapper">
+              <div class="text_wrapper wow fadeIn" data-wow-delay="0.3s">
                 <!-- Parágrafo com a biblioteca de animação  -->
-                <p class="scrool ">Ter uma visão sobre si mesmo e sobre o que espera no futuro é o que garante que você
+                <p class="wow fadeIn" data-wow-delay="0.3s">Ter uma visão sobre si mesmo e sobre o que espera no futuro
+                  é o que garante que você
                   direcione corretamente a sua gestão do tempo para maximizar oportunidades e a sua qualidade de vida.
                   Além do mais, a gestão não impacta apenas o modo como organizamos as atividades, mas também nossa
                   produtividade, ou seja, <strong> a qualidade da execução de nossas tarefas </strong>, que também é
@@ -80,7 +81,7 @@ include('layout/header.php');
             </div>
 
             <!-- CAIXA DE TEXTO IMPORTANTE -->
-            <section class="container">
+            <section class="container wow fadeIn" data-wow-delay="0.3s">
               <div class="accordion">
                 <section id="content">
                   <div class="caixaprincipal" id="tituloimportante">
@@ -107,7 +108,7 @@ include('layout/header.php');
 
 
             <!-- Citação com borda verde (esquerda) -->
-            <div class="bd-callout bd-callout-success m-3">
+            <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
 
               <!-- blockquote do bootstrap -->
               <figure>
@@ -125,14 +126,16 @@ include('layout/header.php');
             <!-- Citação com borda verde (esquerda) -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool">Novamente, a questão da visão é importante para motivar a gestão do tempo e a execução das
+            <p class="wow fadeIn" data-wow-delay="0.3s">Novamente, a questão da visão é importante para motivar a gestão
+              do tempo e a execução das
               metas estabelecidas. Se suas razões para querer ser mais produtivo são superficiais e não atendem a um
               propósito maior em sua vida, são grandes as chances de sua motivação não permanecer no futuro.
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool">Como a <strong> visão de futuro pessoal</strong> pode ser algo extremamente subjetivo eu
+            <p class="wow fadeIn" data-wow-delay="0.3s">Como a <strong> visão de futuro pessoal</strong> pode ser algo
+              extremamente subjetivo eu
               gostaria de sugerir uma técnica que pode parecer bastante simples, mas é altamente eficaz. Trata-se de um
               exercício em que você escreve para si mesmo uma carta do futuro. Ao criar uma visualização da sua
               identidade por vir, você pode ter a clara percepção das metas que precisa atingir e até mesmo do tipo de
@@ -142,7 +145,7 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!--CAIXA DE TEXTO EXEMPLO-->
-            <section class="container">
+            <section class="container wow fadeIn" data-wow-delay="0.3s">
               <div class="accordion ">
                 <section id="content">
                   <div class="caixaprincipal" id="tituloexemplo">
@@ -167,26 +170,30 @@ include('layout/header.php');
                 </section>
             </section>
             <!-- FIM DA CAIXA EXEMPLO-->
-<div class="wrapper">
-  <div>
+            <div class="wrapper">
+              <div>
+                <!-- Parágrafo com a biblioteca de animação  -->
+                <p class="wow fadeIn" data-wow-delay="0.3s">Perceba que, no texto acima, existe a <strong> conexão </strong> entre objetivos
+                  futuros
+                  (que na carta já estão realizados) e decisões no presente momento deste curso (que na carta está no
+                  momento passado). O motivo pelo qual essa carta é tão importante é que nossa mente é obcecada por
+                  <strong>
+                    alinhar expectativas com a realidade </strong> e ela acabará regulando todas as nossas ações e
+                  emoções
+                  com esta finalidade. Por esta razão, o que você focaliza em sua mente consciente geralmente determina,
+                  em
+                  grande medida, como sua mente subconsciente será programada (JONES, 2020).
+                </p>
+                <!--  Fim do Parágrafo com a biblioteca de animação -->
+              </div>
+              <div>
+
+              </div>
+
+            </div>
+
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool">Perceba que, no texto acima, existe a <strong> conexão </strong> entre objetivos futuros
-              (que na carta já estão realizados) e decisões no presente momento deste curso (que na carta está no
-              momento passado). O motivo pelo qual essa carta é tão importante é que nossa mente é obcecada por <strong>
-                alinhar expectativas com a realidade </strong> e ela acabará regulando todas as nossas ações e emoções
-              com esta finalidade. Por esta razão, o que você focaliza em sua mente consciente geralmente determina, em
-              grande medida, como sua mente subconsciente será programada (JONES, 2020).
-            </p>
-            <!--  Fim do Parágrafo com a biblioteca de animação -->
-            </div>
-            <div>
-
-            </div>
-
-            </div>
-
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Ao determinar sua vida no futuro o seu cérebro perceberá que o que foi escrito não condiz
+            <p class="wow fadeIn" data-wow-delay="0.3s">Ao determinar sua vida no futuro o seu cérebro perceberá que o que foi escrito não condiz
               com a realidade presente e ele terá dois caminhos a seguir: poderá lhe redirecionar para o presente
               fazendo-o acreditar que tudo o que está escrito é uma grande bobagem e que não tende a se realizar ou
               ajustar todas as suas ações para realizar o que foi escrito.
@@ -194,7 +201,7 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool ms-4">Perceba que, “todas as ações que requerem pensamento ou percepção consciente, como
+            <p class="wow fadeIn" data-wow-delay="0.3s ms-4">Perceba que, “todas as ações que requerem pensamento ou percepção consciente, como
               resolver um problema de matemática, escrever e comer, são todas controladas por sua mente consciente”
               (JONES, 2020, p.7). No entanto, os hábitos que levam à procrastinação e a não realização de metas são
               inconscientes. Sua carta foi escrita pela sua mente consciente, mas é o seu <strong> inconsciente
@@ -206,7 +213,7 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Citação com borda verde (esquerda) -->
-            <div class="bd-callout bd-callout-success m-3">
+            <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
 
               <!-- blockquote do bootstrap -->
               <figure>
@@ -224,7 +231,7 @@ include('layout/header.php');
             <!-- Citação com borda verde (esquerda) -->
 
             <!-- CAIXA DE TEXTO IMPORTANTE -->
-            <section class="container">
+            <section class="container wow fadeIn" data-wow-delay="0.3s">
               <div class="accordion">
                 <section id="content">
                   <div class="caixaprincipal" id="tituloimportante">
@@ -248,7 +255,7 @@ include('layout/header.php');
             <!-- FIM DA CAIXA IMPORTANTE -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool ms-4">Também quero que você perceba que eu ressaltei algumas palavras. Elas estão
+            <p class="wow fadeIn" data-wow-delay="0.3s ms-4">Também quero que você perceba que eu ressaltei algumas palavras. Elas estão
               conectadas com uma determinada identidade que você constrói para si mesmo no intuito de que o seu
               inconsciente trabalhe para realizar o que você conscientemente escolhe. Você pode escolher as palavras que
               você quiser. No exemplo anterior, a minha identidade profissional está relacionada com confiança e
@@ -259,7 +266,7 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool">Já para a minha <strong> segunda identidade </strong>, que está relacionada com a minha
+            <p class="wow fadeIn" data-wow-delay="0.3s">Já para a minha <strong> segunda identidade </strong>, que está relacionada com a minha
               vida pessoal e familiar, eu destaquei as palavras <strong> felicidade e o estado de presença </strong>.
               Obviamente isso não significa que eu não preciso também ser uma pessoa confiante e inspiradora em minha
               vida pessoal, especialmente para os meus filhos. Também não quer dizer que eu não espero ser feliz com meu
@@ -269,7 +276,7 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool">Eu posso, por exemplo, aceitar que em alguns dias o meu trabalho pode ser exaustivo e eu
+            <p class="wow fadeIn" data-wow-delay="0.3s">Eu posso, por exemplo, aceitar que em alguns dias o meu trabalho pode ser exaustivo e eu
               não me sinta a pessoa mais feliz do mundo enquanto estou ali, mas tenho como <strong> meta estar feliz
               </strong> e presente sempre que estiver com a minha família. Essa separação que nem sempre é muito fácil
               de realizar ajuda também a compreender que os diferentes ambientes exigem comportamentos diversos. O
@@ -280,7 +287,7 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Citação com borda verde (esquerda) -->
-            <div class="bd-callout bd-callout-success m-3">
+            <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
 
               <!-- blockquote do bootstrap -->
               <figure>
@@ -296,7 +303,7 @@ include('layout/header.php');
             <!-- Citação com borda verde (esquerda) -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool">Desse modo, espera-se que ao elaborar a sua carta de seu futuro você considere tudo aquilo
+            <p class="wow fadeIn" data-wow-delay="0.3s">Desse modo, espera-se que ao elaborar a sua carta de seu futuro você considere tudo aquilo
               que deseja ser, as emoções que pretende vivenciar e irá perceber que diferentes versões de você podem
               estar relacionadas a diferentes partes dessa visão. Você também pode adicionar questões materiais como,
               por exemplo, em que tipo de casa espera estar morando, em qual local de moradia e até o veículo que
@@ -305,14 +312,14 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool">Apenas lembre que a carta é apenas um direcionamento que irá colaborar com o seu
+            <p class="wow fadeIn" data-wow-delay="0.3s">Apenas lembre que a carta é apenas um direcionamento que irá colaborar com o seu
               planejamento e alimentar o cérebro de motivação. Porém, como será mostrado adiante, os detalhes do seu
               plano de vida precisam considerar várias questões como número de pontos focais e a definição de prazos.
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool">Escreva sua carta:
+            <p class="wow fadeIn" data-wow-delay="0.3s">Escreva sua carta:
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 

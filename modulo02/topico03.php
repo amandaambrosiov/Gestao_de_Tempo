@@ -185,7 +185,7 @@ include('layout/header.php');
                             limpeza e os que seriam necessários para gerar comprometimento a longo prazo e disciplina.
                             Lembre-se que o que for definido aqui no curto prazo deve viabilizar o longo prazo já
                             determinado na primeira parte.<br>
-                            <strong>Clique nos títulos abaixo para mais informações</strong>
+                            <strong>Clique nos títulos abaixo para mais informações.</strong>
                         </p>
                         <br>
                         
