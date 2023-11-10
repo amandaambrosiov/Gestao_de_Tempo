@@ -1,8 +1,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- link do scroollrevel -->
-    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- CDN DO BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -23,7 +21,16 @@
     <script src="http://localhost:8088/assets/js/script.js" defer></script>
     <!-- nosso css -->
     <link rel="stylesheet" href="http://localhost:8088/assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/modulo01.css">
+    <link rel="stylesheet" href="assets/css/modulo02.css">
+
+    <!-- link do wow.js -->
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
 
     <title>EGPCE | Gestão do Tempo </title>
 </head>
