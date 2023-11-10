@@ -30,12 +30,12 @@ include('layout/header.php');
           <div class="col-md-10 col-sm-8 container-fluid">
 
             <!--  Título Pricipal -->
-            <h2 class="Titulo fw-bolder">A Mentalidade Realizadora</h2><br>
+            <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s">A Mentalidade Realizadora</h2><br>
             <!--  Título Principal -->
 
             <!-- IMAGEM NO SITE  -->
 
-            <div class="text-center img-01">
+            <div class="text-center img-01 wow animate__zoomIn" data-wow-delay="0.3s">
               <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
                 Representação de planejamento</p>
               <div class="zoom">
@@ -63,7 +63,8 @@ include('layout/header.php');
             <!-- FIM DA IMAGEM NO SITE  -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool">Grandes realizações exigem uma mente realizadora. Talvez neste ponto você já esteja
+            <p class="wow fadeIn" data-wow-delay="0.3s">Grandes realizações exigem uma mente realizadora. Talvez neste
+              ponto você já esteja
               ansioso (a) para praticar tudo aquilo que foi ensinado de modo a tornar realidade aquilo que foi
               idealizado. Entretanto, é preciso perceber que o foco deste curso é o longo prazo e para este a ansiedade
               é uma grande inimiga.
@@ -71,7 +72,7 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
-            <section class="container">
+            <section class="container wow fadeIn" data-wow-delay="0.3s">
               <div class="accordion ">
                 <section id="content">
                   <div class="caixaprincipal" id="titulofiqueatento">
@@ -93,7 +94,8 @@ include('layout/header.php');
             <!-- FIM DA CAIXA FIQUE ATENTO -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool">Se você se identifica com adjetivos que lhe encaminham para o alinhamento com fracasso,
+            <p class="wow fadeIn" data-wow-delay="0.3s">Se você se identifica com adjetivos que lhe encaminham para o
+              alinhamento com fracasso,
               sua mente também tratará de realizar este alinhamento. Tenho visto ao longo do meu trabalho como mentora,
               pessoas com potencial gigante que não conseguem realizar tudo o que sua capacidade lhe permitiria por
               medos, inseguranças e crenças limitantes.
@@ -101,7 +103,8 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool ms-3">Por essa razão, a gestão do tempo precisa ser praticada logo após a <strong> profunda
+            <p class="wow fadeIn" data-wow-delay="0.3s ms-3">Por essa razão, a gestão do tempo precisa ser praticada
+              logo após a <strong> profunda
                 limpeza </strong> de tudo aquilo que não permite que a nova identidade seja realizada e isso significa a
               retirada de crenças limitantes, de identidades conflitantes e de tudo que possa impedir que a sua nova
               agenda seja realizada.
@@ -109,7 +112,7 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
-            <section class="container">
+            <section class="container wow fadeIn" data-wow-delay="0.3s">
               <div class="accordion ">
                 <section id="content">
                   <div class="caixaprincipal" id="titulofiqueatento">
@@ -125,13 +128,16 @@ include('layout/header.php');
                       autoconhecimento necessário para separar-se das crenças que lhe impedem de ser a melhor versão de
                       você. Meu foco será lhe direcionar para uma profunda limpeza daquilo que lhe impede de ter tempo
                       para tornar-se um realizador.</p>
+                    </p>
                   </div>
                 </section>
             </section>
             <!-- FIM DA CAIXA FIQUE ATENTO -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool">Toda faxina se inicia pela retirada de obstáculos e objetos. Neste caso em específico,
+            <p class="wow fadeIn" data-wow-delay="0.3s">Toda faxina se inicia pela retirada de obstáculos e objetos.
+              Neste caso
+              em específico,
               para que você possa liberar espaço na sua agenda para uma nova versão de você, a limpeza requer alguns
               pontos tais como a execução da <strong> lista de tarefas, a escolha de prioridades e elaboração de
                 limites.</strong>
@@ -139,7 +145,9 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool ms-3">Se você está sobrecarregado com uma lista astronômica de coisas a fazer sem que ela
+            <p class="wow fadeIn" data-wow-delay="0.3s ms-3">Se você está sobrecarregado com uma lista astronômica de
+              coisas a
+              fazer sem que ela
               nunca consiga ser finalizada, com certeza existe algum ajuste necessário. Pode ser que você não esteja
               sendo um executor eficiente, ou esteja se comprometendo com mais coisas do que você pode entregar ou está
               <strong> procrastinando </strong> para realizar as tarefas que são agendadas.
@@ -147,7 +155,7 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- CAIXA DE TEXTO IMPORTANTE -->
-            <section class="container">
+            <section class="container wow fadeIn" data-wow-delay="0.3s">
               <div class="accordion">
                 <section id="content">
                   <div class="caixaprincipal" id="tituloimportante">
@@ -171,7 +179,8 @@ include('layout/header.php');
             <!-- FIM DA CAIXA IMPORTANTE -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool">É preciso ressaltar, no entanto, que a limpeza necessária para a mudança de hábitos e a
+            <p class="wow fadeIn" data-wow-delay="0.3s">É preciso ressaltar, no entanto, que a limpeza necessária para a
+              mudança de hábitos e a
               execução do planejamento de longo prazo exige, em primeiro lugar, a mudança de mentalidade. Novamente, é
               necessário romper com crenças limitantes como, por exemplo, acreditar que não existe qualquer espaço para
               mudança ou que você não tem tempo para estabelecer o que for necessário.
@@ -179,7 +188,8 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool ms-3">A mente pode tornar-se extremamente resistente à mudança. Para que isso não ocorra
+            <p class="wow fadeIn" data-wow-delay="0.3s ms-3">A mente pode tornar-se extremamente resistente à mudança.
+              Para que isso não ocorra
               você precisa apresentá-la a alternativas para uma melhor utilização do tempo, mesmo que não haja espaço
               livre atualmente em sua agenda. Como já foi mencionado na primeira parte, mesmo todas as pessoas tendo 24
               horas por dia, algumas conseguem utilizá-lo melhor que outras. Isso é possível porque elas só acreditam
