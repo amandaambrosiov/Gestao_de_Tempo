@@ -292,7 +292,7 @@ ul li.menu a:hover {
     right: 6%;
 }
 
-.offcanvas-body{
+.offcanvas-body {
     overflow-x: hidden;
 }
 
@@ -426,6 +426,15 @@ ul li.menu a.ativo {
 
 /* estilo do container de apresentação */
 
+@media screen {
+    @media(min-width:1000px) {
+        .wrapper {
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+    }
+}
+
 h2 {
     margin-left: 5px;
     padding-bottom: 10px;
@@ -440,9 +449,10 @@ hr {
     margin-left: 5px;
 }
 
-strong{
+strong {
     font-weight: lighter;
 }
+
 .main-content {
     padding: 100px 50px 50px;
 }
