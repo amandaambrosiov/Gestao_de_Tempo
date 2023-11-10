@@ -434,6 +434,12 @@ ul li.menu a.ativo {
         }
     }
 }
+.text_wrapper{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
 
 h2 {
     margin-left: 5px;
