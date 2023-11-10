@@ -36,33 +36,73 @@ include('layout/header.php');
                         <!--  Título Principal -->
 
                         <!-- IMAGEM NO SITE  -->
+                        <div class="wrapper">
+                            <div class="wow zoomIn">
+                                <div class="text-center img-01">
+                                    <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
+                                        Representação do tempo na mente humana</p>
+                                    <div class="zoom">
+                                        <a href="imgs01/Figura01.png" data-bs-toggle="modal" data-bs-target="#Imagem1">
+                                            <img src="imgs01/Figura01.png" alt="Imagem que remete a organização"
+                                                id="img-1">
+                                        </a>
+                                    </div>
+                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>banco de
+                                        imagens
+                                        gratuitas do canvas, 2020</p>
+                                </div>
 
-                        <div class="text-center img-01">
-                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
-                                Representação do tempo na mente humana</p>
-                            <div class="zoom">
-                                <a href="imgs01/Figura01.png" data-bs-toggle="modal" data-bs-target="#Imagem1">
-                                    <img src="imgs01/Figura01.png" alt="Imagem que remete a organização" id="img-1">
-                                </a>
+                                <!-- Imagem - MODAL-->
+                                <div class="modal fade text-center" id="Imagem1" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div
+                                        class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                        <div class="modal-content w-75">
+                                            <img class="img-fluid" src="imgs01/Figura01.png"
+                                                alt="Alt da imagem fica aqui">
+                                        </div>
+                                        <div class="modal-footer w-75 bg-light justify-content-center">
+                                            <p class="text-secondary"><strong>Fonte:</strong>descrição</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Imagem - End-->
                             </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>banco de imagens
-                                gratuitas do canvas, 2020</p>
+                            <div class="text_wrapper">
+                                <!-- Parágrafo com a biblioteca de animação  -->
+                                <p class="scrool">Nossos dias e horas são basicamente definidos pela duração do sol, da
+                                    lua e
+                                    das estações. Os egípcios resolveram organizar o tempo em calendários com a duração
+                                    do ano e
+                                    das horas do dia e, desde então, utilizamos essa referência para organizar nossas
+                                    vidas.
+                                    Isso não significa que a nossa <strong> relação com o tempo </strong>tenha sido
+                                    sempre a
+                                    mesma. Todos nós, mas em especial aqueles com mais de trinta anos, percebemos
+                                    claramente que
+                                    desde a chegada das novas tecnologias a nossa relação com o tempo mudou
+                                    drasticamente.
+                                </p>
+                                <!--  Fim do Parágrafo com a biblioteca de animação -->
+                            </div>
                         </div>
 
-                        <!-- Imagem - MODAL-->
-                        <div class="modal fade text-center" id="Imagem1" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div
-                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-75">
-                                    <img class="img-fluid" src="imgs01/Figura01.png" alt="Alt da imagem fica aqui">
-                                </div>
-                                <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Fonte:</strong>descrição</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Imagem - End-->
+                                <!-- Parágrafo com a biblioteca de animação  -->
+                                <p class="scrool">A tecnologia diminuiu o tempo necessário para executar a maioria das
+                                    nossas
+                                    tarefas e, além disso, contribuiu para aumentar nossa expectativa de vida. No
+                                    entanto, nossa
+                                    percepção sobre o tempo muito frequentemente tem sido de encurtamento e não de
+                                    alargamento.
+                                    Cada vez mais estamos vivendo de forma <strong>imediatista</strong> e os problemas
+                                    de
+                                    <strong>estresse e ansiedade</strong> se tornaram mais evidentes. Mas, percebam que
+                                    a
+                                    <strong> duração do tempo não mudou </strong>, apenas a nossa relação com o tempo se
+                                    modifica.
+                                </p>
+                                <!--  Fim do Parágrafo com a biblioteca de animação -->
+
 
                         <!-- CAIXA DE TEXTO IMPORTANTE -->
                         <section class="container">
@@ -91,26 +131,9 @@ include('layout/header.php');
                         </section>
                         <!-- FIM DA CAIXA IMPORTANTE -->
 
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Nossos dias e horas são basicamente definidos pela duração do sol, da lua e
-                            das estações. Os egípcios resolveram organizar o tempo em calendários com a duração do ano e
-                            das horas do dia e, desde então, utilizamos essa referência para organizar nossas vidas.
-                            Isso não significa que a nossa <strong> relação com o tempo </strong>tenha sido sempre a
-                            mesma. Todos nós, mas em especial aqueles com mais de trinta anos, percebemos claramente que
-                            desde a chegada das novas tecnologias a nossa relação com o tempo mudou drasticamente.
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">A tecnologia diminuiu o tempo necessário para executar a maioria das nossas
-                            tarefas e, além disso, contribuiu para aumentar nossa expectativa de vida. No entanto, nossa
-                            percepção sobre o tempo muito frequentemente tem sido de encurtamento e não de alargamento.
-                            Cada vez mais estamos vivendo de forma <strong>imediatista</strong> e os problemas de
-                            <strong>estresse e ansiedade</strong> se tornaram mais evidentes. Mas, percebam que a
-                            <strong> duração do tempo não mudou </strong>, apenas a nossa relação com o tempo se
-                            modifica.
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+
 
                         <!-- Citação com borda verde (esquerda) -->
                         <div class="bd-callout bd-callout-success m-3">
@@ -252,69 +275,86 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">A gestão do tempo possibilita uma percepção mais ampla do planejamento de metas futuras que consequentemente levará a uma definição clara de prioridades e o estabelecimento de metas. Para tanto, a autoavaliação do presente é fundamental. Como você tem priorizado as suas atividades?
+                        <p class="scrool">A gestão do tempo possibilita uma percepção mais ampla do planejamento de
+                            metas futuras que consequentemente levará a uma definição clara de prioridades e o
+                            estabelecimento de metas. Para tanto, a autoavaliação do presente é fundamental. Como você
+                            tem priorizado as suas atividades?
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-                          <!-- CAIXA DE TEXTO CURIOSIDADE -->
-  <section class="container">
-    <div class="accordion ">
-      <section id="content">
-        <div class="caixaprincipal" id="tituloCuriosidade">
-          <div class="div_teste">
-            <div><i class="fa-solid fa-question"></i> CURIOSIDADE </div>
+                        <!-- CAIXA DE TEXTO CURIOSIDADE -->
+                        <section class="container">
+                            <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="tituloCuriosidade">
+                                        <div class="div_teste">
+                                            <div><i class="fa-solid fa-question"></i> CURIOSIDADE </div>
 
-            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-          </div>
-        </div> <!--caixa Principal-->
-        <div class="accordion-content" id="Curiosidade">
-          <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
-                Passe o mouse acima
-              </strong></strong></p>
-          <p class="txt-caixasecundaria">Para muitas pessoas a gestão do tempo é completamente inexistente em sua rotina. Elas geralmente possuem um horário de trabalho e fazem todas as outras coisas no tempo de sobra e como podem. Alguns atentam para o planejamento do tempo, mas raramente executam as atividades planejadas. Poucos são aqueles completamente disciplinados que não apenas planejam, mas executam todas as atividades conforme programado. Quem está correto? Depende de suas necessidades.
-          </p><!--caixa secundaria-->
-        </div>
-      </section>
-  </section>
-  <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
+                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                        </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="Curiosidade">
+                                        <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
+                                                    Passe o mouse acima
+                                                </strong></strong></p>
+                                        <p class="txt-caixasecundaria">Para muitas pessoas a gestão do tempo é
+                                            completamente inexistente em sua rotina. Elas geralmente possuem um horário
+                                            de trabalho e fazem todas as outras coisas no tempo de sobra e como podem.
+                                            Alguns atentam para o planejamento do tempo, mas raramente executam as
+                                            atividades planejadas. Poucos são aqueles completamente disciplinados que
+                                            não apenas planejam, mas executam todas as atividades conforme programado.
+                                            Quem está correto? Depende de suas necessidades.
+                                        </p><!--caixa secundaria-->
+                                    </div>
+                                </section>
+                        </section>
+                        <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
 
-  <!-- Parágrafo com a biblioteca de animação  -->
-<p class="scrool">A disciplina para cumprir todas as atividades está relacionada principalmente com três aspectos:
-</p>
-<!--  Fim do Parágrafo com a biblioteca de animação -->
+                        <!-- Parágrafo com a biblioteca de animação  -->
+                        <p class="scrool">A disciplina para cumprir todas as atividades está relacionada principalmente
+                            com três aspectos:
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-<ul class="list">
-    <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
-            class="fa fa-dot-circle text-success"></i>
-            A disposição natural do indivíduo
-    </li>
-    <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
-            class="fa fa-dot-circle text-success"></i>
-            A definição clara de atividades e
-    </li>
-    <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
-            class="fa fa-dot-circle text-success"></i>
-            A motivação pessoal.
-    </li>
-</ul>
+                        <ul class="list">
+                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
+                                    class="fa fa-dot-circle text-success"></i>
+                                A disposição natural do indivíduo
+                            </li>
+                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
+                                    class="fa fa-dot-circle text-success"></i>
+                                A definição clara de atividades e
+                            </li>
+                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
+                                    class="fa fa-dot-circle text-success"></i>
+                                A motivação pessoal.
+                            </li>
+                        </ul>
 
-<!-- Parágrafo com a biblioteca de animação  -->
-<p class="scrool">Desse modo, algumas pessoas conseguem seguir a disciplina de modo natural e até sentem prazer em executar as atividades programadas. No entanto, não fique chateado se você não for uma dessas pessoas porque elas são uma pequena minoria. Para todas as outras pessoas, a disciplina é o resultado de um bom planejamento e ótima organização das tarefas. Já a manutenção da disciplina no decorrer do tempo exige para todas as pessoas (mesmo aquelas que são altamente disciplinadas) uma motivação permanente que pode ser traduzida como uma visão de mundo que conduz o indivíduo aos seus objetivos.
-</p>
-<!--  Fim do Parágrafo com a biblioteca de animação -->
+                        <!-- Parágrafo com a biblioteca de animação  -->
+                        <p class="scrool">Desse modo, algumas pessoas conseguem seguir a disciplina de modo natural e
+                            até sentem prazer em executar as atividades programadas. No entanto, não fique chateado se
+                            você não for uma dessas pessoas porque elas são uma pequena minoria. Para todas as outras
+                            pessoas, a disciplina é o resultado de um bom planejamento e ótima organização das tarefas.
+                            Já a manutenção da disciplina no decorrer do tempo exige para todas as pessoas (mesmo
+                            aquelas que são altamente disciplinadas) uma motivação permanente que pode ser traduzida
+                            como uma visão de mundo que conduz o indivíduo aos seus objetivos.
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-<!-- Parágrafo com a biblioteca de animação  -->
-<p class="scrool">Por essa razão, destacamos entre as vantagens da gestão do tempo:
-</p>
-<!--  Fim do Parágrafo com a biblioteca de animação -->
+                        <!-- Parágrafo com a biblioteca de animação  -->
+                        <p class="scrool">Por essa razão, destacamos entre as vantagens da gestão do tempo:
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-  <!-- lista ordenada  -->
-  <ol class="scrool" id="txt_final">
-    <li>Uma visão ampla da sua vida e do futuro;</li>
-    <li>Planejamento para atingir metas e aumentar a produtividade e eficiência do tempo;</li>
-    <li>A mudança de hábitos e da mentalidade sobre o tempo. A combinação dessas vantagens, por sua vez, pode trazer felicidade e satisfação pessoal.</li>
-  </ol>
-  <!-- fim da lista ordenada  -->
+                        <!-- lista ordenada  -->
+                        <ol class="scrool" id="txt_final">
+                            <li>Uma visão ampla da sua vida e do futuro;</li>
+                            <li>Planejamento para atingir metas e aumentar a produtividade e eficiência do tempo;</li>
+                            <li>A mudança de hábitos e da mentalidade sobre o tempo. A combinação dessas vantagens, por
+                                sua vez, pode trazer felicidade e satisfação pessoal.</li>
+                        </ol>
+                        <!-- fim da lista ordenada  -->
 
 
 

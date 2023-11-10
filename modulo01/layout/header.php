@@ -21,7 +21,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- nosso css -->
     <link rel="stylesheet" href="http://localhost:8088/assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/modulo01.css">
+    <link rel="stylesheet" href="assets/style.css">
     <!-- link do script -->
     <script src="http://localhost:8088/assets/js/script.js" defer></script>
 
