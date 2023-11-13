@@ -35,7 +35,7 @@ include('layout/header.php');
 
             <br>
 
-            <p class="Texto"> <i class="bi bi-book "></i>ALLEN, Steve. <strong> Aprenda como Einstein.</strong> 2017.
+            <p class="Texto"> <i class="bi bi-book "></i>ALLEN, Steve. <strong> Aprenda como Einstein.</strong> Técnica de Aprendizagem. E-book Kindle. 2017.
             </p>
 
             <p class="Texto"> <i class="bi bi-book "></i>JONES, Ryan. <strong> Produtividade para Procrastinadores.</strong> Editora

@@ -35,7 +35,7 @@ include('layout/header.php');
 
             <!-- IMAGEM NO SITE  -->
 
-            <div class="text-center img-01 wow animate__zoomIn" data-wow-delay="0.3s">
+            <div class="text-center img-01 wow animate__zoomIn" data-wow-delay="0.3s" id="img-left">
               <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 2:</strong>
                 Representação de organização</p>
               <div class="zoom">
@@ -64,7 +64,7 @@ include('layout/header.php');
             <!-- FIM DA IMAGEM NO SITE  -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">Para colaborar com o processo de limpeza e priorização, eu
+            <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">Para colaborar com o processo de limpeza e priorização, eu
               gostaria de lhe apresentar o
               <strong> sistema 5S </strong>. Trata-se de um programa de gestão de qualidade desenvolvido no Japão, que
               visa aperfeiçoar
@@ -81,6 +81,16 @@ include('layout/header.php');
                 a organização.</strong>
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
+       
+
+            <!-- VÍDEO DO YOUTUBE -->
+            <div class="container wow fadeIn" data-wow-delay="0.3s">
+              <iframe width="600" height="343" src="https://www.youtube.com/embed/nGBDxmDgMXU" title="5S - A Origem"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+            <!-- VÍDEO DO YOUTUBE -->
 
             <!-- CAIXA DE TEXTO CURIOSIDADE -->
             <section class="container wow fadeIn" data-wow-delay="0.3s">
@@ -112,7 +122,8 @@ include('layout/header.php');
             <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">O sistema 5S busca um <strong> aumento da produtividade e melhoria das atividades
+            <p class="wow fadeIn" data-wow-delay="0.3s">O sistema 5S busca um <strong> aumento da produtividade e
+                melhoria das atividades
               </strong>através da
               organização e do combate a qualquer tipo de dispersão. Quando falamos na palavra cultura subentende-se que
               esta nova mentalidade seja absorvida de forma suave como uma reprogramação mental e não simplesmente como
@@ -154,7 +165,8 @@ include('layout/header.php');
             <!-- FIM DA CAIXA FIQUE ATENTO -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s ms-3">Se você faz compras compulsivamente, por exemplo, pode acabar com um ambiente
+            <p class="wow fadeIn" data-wow-delay="0.3s ms-3">Se você faz compras compulsivamente, por exemplo, pode
+              acabar com um ambiente
               completamente <strong> obstruído de objetos sem utilização </strong> e, muitas vezes, com dívidas. Como
               consequência, seu
               ambiente de moradia e de trabalho podem tornar-se desorganizados ou você poderá necessitar dedicar muito
@@ -163,7 +175,8 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">Em contraste, se você se guia pelo senso de utilização e seleciona apenas os <strong>
+            <p class="wow fadeIn" data-wow-delay="0.3s">Em contraste, se você se guia pelo senso de utilização e
+              seleciona apenas os <strong>
                 objetos
                 necessários </strong> descartando o que não é utilizado você poderá reduzir o consumo e economizar
               recursos. Esta
@@ -196,7 +209,8 @@ include('layout/header.php');
             <!-- FIM DA CAIXA FIQUE ATENTO -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">De acordo com Allen (2017, p.53), “o "burnout" é um termo muito comum hoje e se refere ao
+            <p class="wow fadeIn" data-wow-delay="0.3s">De acordo com Allen (2017, p.53), “o "burnout" é um termo muito
+              comum hoje e se refere ao
               estado em que caímos quando esprememos até a última gota de gozo de nossas vidas devido ao estresse e a
               auto exigência excessiva para cumprir com tudo o que é necessário”. O excesso de disposição para o
               trabalho é muitas vezes percebido como algo positivo e que é socialmente adjetivado com bons nomes tais
@@ -206,7 +220,8 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">Pode ser relativamente fácil conseguir manter uma grande carga de trabalho por um pequeno
+            <p class="wow fadeIn" data-wow-delay="0.3s">Pode ser relativamente fácil conseguir manter uma grande carga
+              de trabalho por um pequeno
               período de tempo e sustentar uma rotina com longas horas de trabalho. No entanto, como afirma Allen (2017,
               p.53), “ironicamente, este excesso de compromisso rapidamente se torna contraproducente porque poucas
               pessoas têm uma bateria física e mental para trabalhar dessa forma”.
@@ -259,10 +274,6 @@ include('layout/header.php');
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-            <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">Para Jones (2020, p.17),
-            </p>
-            <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <div class="bd-callout bd-callout-success wow fadeIn" data-wow-delay="0.3s m-4">
               <p>
@@ -271,10 +282,12 @@ include('layout/header.php');
                 aprender a eliminar as distrações ao seu redor”. Por sua vez, a identificação das distrações é
                 possível depois que você determina suas prioridades. “Se você não prioriza, pode acabar tendo muitos
                 objetivos, deixando muito pouco tempo para se dedicar a cada um deles”
-              <p class="text-end">LAWRENCE,
-                2019, p.25</p>
+              <p class="text-end">LAWRENCE
+                (2019)</p>
               </p>
             </div>
+
+            <br>
 
             <!-- Parágrafo com a biblioteca de animação  -->
             <p class="wow fadeIn" data-wow-delay="0.3s">A organização, portanto, está claramente relacionada ao

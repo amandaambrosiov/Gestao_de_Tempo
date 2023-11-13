@@ -36,53 +36,52 @@ include('layout/header.php');
             <!--  Título Principal -->
 
             <!-- IMAGEM NO SITE  -->
-            <div class="wrapper">
 
-              <div>
-                <div class="text-center img-01 wow animate__zoomIn" data-wow-delay="0.3s">
-                  <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 3:</strong>
-                    Representação da direção</p>
-                  <div class="zoom">
-                    <a href="imgs01/Figura03.png" data-bs-toggle="modal" data-bs-target="#Imagem1">
-                      <img src="imgs01/Figura03.png" height="250px" alt="Imagem que remete a organização" id="img-1">
-                    </a>
-                  </div>
-                  <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>banco de imagens gratuitas do
-                    canvas, 2021.</p>
-                </div>
-
-                <!-- Imagem - MODAL-->
-                <div class="modal fade text-center" id="Imagem1" tabindex="-1" aria-labelledby="exampleModalLabel"
-                  aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                    <div class="modal-content w-75">
-                      <img class="img-fluid" src="imgs01/Figura03.png" alt="Alt da imagem fica aqui">
-                    </div>
-                    <div class="modal-footer w-75 bg-light justify-content-center">
-                      <p class="text-secondary"><strong>Fonte:</strong>banco de imagens gratuitas do canvas, 2021.</p>
-                    </div>
-                  </div>
-                </div>
-                <!-- Imagem - End-->
+            <div class="text-center img-01 wow animate__zoomIn" data-wow-delay="0.3s" id="img-left">
+              <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 3:</strong>
+                Representação da direção</p>
+              <div class="zoom">
+                <a href="imgs01/Figura03.png" data-bs-toggle="modal" data-bs-target="#Imagem1">
+                  <img src="imgs01/Figura03.png" height="250px" alt="Imagem que remete a organização" id="img-1">
+                </a>
               </div>
-              <div class="text_wrapper">
-                <!-- Parágrafo com a biblioteca de animação  -->
-                <p class="wow fadeIn" data-wow-delay="0.3s">Agora que você tem uma visão de si mesmo o seu cérebro irá
-                  planejar todas as ações
-                  necessárias para alinhar esse <strong> sentimento com a realidade </strong>. Todo este trabalho se
-                  inicia
-                  por uma pergunta muito simples: o que se requer para que minha mente consciente e inconsciente
-                  realizem
-                  as
-                  ações necessárias para que tudo isso que eu idealizei se realize?
-                </p>
-                <!--  Fim do Parágrafo com a biblioteca de animação -->
+              <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>banco de imagens gratuitas do
+                canvas, 2021.</p>
+            </div>
+
+            <!-- Imagem - MODAL-->
+            <div class="modal fade text-center" id="Imagem1" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                <div class="modal-content w-75">
+                  <img class="img-fluid" src="imgs01/Figura03.png" alt="Alt da imagem fica aqui">
+                </div>
+                <div class="modal-footer w-75 bg-light justify-content-center">
+                  <p class="text-secondary"><strong>Fonte:</strong>banco de imagens gratuitas do canvas, 2021.</p>
+                </div>
               </div>
             </div>
+            <!-- Imagem - End-->
+
+
+            <!-- Parágrafo com a biblioteca de animação  -->
+            <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">Agora que você tem uma visão de si mesmo o seu
+              cérebro irá
+              planejar todas as ações
+              necessárias para alinhar esse <strong> sentimento com a realidade </strong>. Todo este trabalho se
+              inicia
+              por uma pergunta muito simples: o que se requer para que minha mente consciente e inconsciente
+              realizem
+              as
+              ações necessárias para que tudo isso que eu idealizei se realize?
+            </p>
+            <!--  Fim do Parágrafo com a biblioteca de animação -->
+
             <p class="wow fadeIn" data-wow-delay="0.3s"> Esta pergunta também pode ser
               traduzida
               como: quem eu preciso ser para tornar-se esta pessoa que eu visualizei? E ainda, mantendo minha vida e
               rotina como está hoje irei alcançar essa meta futura?</p>
+            <br>
 
             <!-- Citação com borda verde (esquerda) -->
             <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
@@ -239,9 +238,11 @@ include('layout/header.php');
               necessariamente relacionado com algo que está muito distante do tempo presente, mas principalmente a algo
               que você deseja realizar ou continuar realizando ao longo da vida, como por exemplo, seu legado,
               casamento, filhos, compra de uma casa. Para que você exercite na prática esse planejamento, deixo abaixo
-              alguns exemplos a serem preenchidos:<br><strong>Clique nos títulos abaixo para mais informações.</strong>
+              alguns exemplos a serem preenchidos:<br><strong>(Clique nos títulos abaixo para mais informações)</strong>
             </p>
+
             <!--  Fim do Parágrafo com a biblioteca de animação -->
+            <br>
 
             <p class="d-flex justify-content-around gap-1">
               <a class="btn CorVerdeEstado" id="buton-t3" data-bs-toggle="collapse" href="#multiCollapseExample1"
@@ -298,7 +299,8 @@ include('layout/header.php');
 
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">Perceba que para a vida profissional foram criados diferentes
+            <p class="wow fadeIn" data-wow-delay="0.3s">Perceba que para a vida profissional foram criados
+              diferentes
               espaços para legado e
               providências. Esta ordem corresponde ao que mencionei acima sobre ter uma visão de vida e adaptar as
               nossas metas para se alinharem com essa versão. Se em sua carta você já imaginou um legado futuro você
@@ -309,9 +311,11 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s ms-3">No caso do exemplo que eu dei sobre a minha própria vida,
+            <p class="wow fadeIn" data-wow-delay="0.3s ms-3">No caso do exemplo que eu dei sobre a minha própria
+              vida,
               meu legado implícito são os
-              meus livros em que eu compartilho meus conhecimentos com os demais e com as gerações futuras. Seu legado
+              meus livros em que eu compartilho meus conhecimentos com os demais e com as gerações futuras. Seu
+              legado
               profissional pode ser qualquer coisa que lhe traga <strong> satisfação e orgulho </strong>.
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
@@ -320,15 +324,18 @@ include('layout/header.php');
             <p class="wow fadeIn" data-wow-delay="0.3s">Todos temos uma grande contribuição a oferecer. Mesmo a pessoa
               mais rica ou mais poderosa
               do mundo precisou da colaboração de uma grande cadeia de pessoas com ambições diversas para que pudesse
-              estar na posição em que está. Sua comida foi plantada por alguém, sua roupa foi fabricada por alguém, sua
+              estar na posição em que está. Sua comida foi plantada por alguém, sua roupa foi fabricada por alguém,
+              sua
               educação foi transmitida por alguém. Desse modo, toda contribuição é importante.
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">No objetivo de médio prazo, você precisa colocar <strong> todas
+            <p class="wow fadeIn" data-wow-delay="0.3s">No objetivo de médio prazo, você precisa colocar <strong>
+                todas
                 as mudanças e novas
-                atividades necessárias </strong> para que sua vida presente se transforme nesse legado futuro. Ele está
+                atividades necessárias </strong> para que sua vida presente se transforme nesse legado futuro. Ele
+              está
               relacionado com os processos necessários para que o longo prazo se torne realidade.
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
@@ -337,38 +344,53 @@ include('layout/header.php');
             <p class="wow fadeIn" data-wow-delay="0.3s">No caso do exemplo acima, para que o meu legado se realize, eu
               preciso estabelecer metas e
               prazos para escrever e publicar meus livros. Seu médio prazo pode também estar relacionado com uma
-              determinada educação que precisa adquirir ou finalizar, com cargos e funções que almeja e etc.
+              determinada educação que precisa adquirir ou finalizar, com cargos e funções que almeja e
+              etc.<br><strong>(Clique nos títulos abaixo para mais informações)</strong>
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
+            <br>
 
-            <div class="row wow fadeIn" data-wow-delay="0.3s">
-              <div class="col-1"></div>
-              <div class="col-9">
-                <p>Vida pessoal:</p>
+            <p class="d-flex justify-content-center gap-1">
+              <button class="btn CorVerdeEstado" id="buton-t3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3"><i
+                  class="fa-solid fa-umbrella-beach"> <strong id="text-teste">
+                    Vida
+                    Pessoal </strong></i></i></button>
+            </p>
+            <div class="row">
+              <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample3">
 
-                <table class="table table-bordered border-success">
-                  <tbody>
-                    <tr>
-                      <td colspan="2">Objetivo:</td>
-                    </tr>
-                    <tr>
-                      <td colspan="2">Quando: [ ] curto prazo [ x ] longo prazo</td>
-                    </tr>
-                    <tr>
-                      <td colspan="2">Visão</td>
-                    </tr>
-                  </tbody>
-                </table><br>
+                  <table class="table table-bordered border-success">
+                    <tbody>
+                      <tr>
+                        <td colspan="2">Objetivo:</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">Quando: [ ] curto prazo [ x ] longo prazo</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">Visão</td>
+                      </tr>
+                    </tbody>
+                  </table><br>
+                </div>
               </div>
-              <div class="col-1"></div>
             </div>
 
+            <br>
+
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">Para a vida pessoal, por hora, deixei apenas espaço para o longo
+            <p class="wow fadeIn" data-wow-delay="0.3s">Para a vida pessoal, por hora, deixei apenas espaço para o
+              longo
               prazo, que é aquela visão
-              de vida que você visualizou antes. Você pode pensar em onde deseja morar, quem são as pessoas com quem
-              deseja compartilhar momentos de lazer e se pretende manter ou estabelecer laços duradouros como família e
-              casamento. Evitei o espaço do médio prazo porque muitas vezes as realizações pessoais não dependem apenas
+              de vida que você visualizou antes. Você pode pensar em onde deseja morar, quem são as pessoas com
+              quem
+              deseja compartilhar momentos de lazer e se pretende manter ou estabelecer laços duradouros como
+              família
+              e
+              casamento. Evitei o espaço do médio prazo porque muitas vezes as realizações pessoais não dependem
+              apenas
               de nós, mas também da vontade pessoal de outras pessoas.
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
@@ -385,8 +407,10 @@ include('layout/header.php');
                   </div> <!--caixa Principal-->
                   <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
                     <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-                    <p class="txt-caixasecundaria">Na segunda parte deste curso, falarei sobre os hábitos necessários
-                      para realizar e manter o planejamento de médio e longo prazo. Você perceberá que apesar de sua
+                    <p class="txt-caixasecundaria">Na segunda parte deste curso, falarei sobre os hábitos
+                      necessários
+                      para realizar e manter o planejamento de médio e longo prazo. Você perceberá que apesar de
+                      sua
                       visão de futuro, o resultado de sua vida é determinado pelos seus hábitos diários.</p>
                   </div>
                 </section>
@@ -405,12 +429,19 @@ include('layout/header.php');
                     </div>
                   </div> <!--caixa Principal-->
                   <div class="accordion-content" id="saibamais">
-                    <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75"> Passe o mouse acima
+                    <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75"> Passe o mouse
+                          acima
                         </strong></strong></p>
-                    <p class="txt-caixasecundaria">Sugestão de atividade complementar: Assista ao filme: <strong> Antes
-                        de partir </strong>, de dezembro de 2007. <strong> Sinopse: </strong> O bilionário Edward Cole e
-                      o mecânico Carter Chambers são dois pacientes terminais em um mesmo quarto de hospital. Quando se
-                      conhecem, resolvem escrever uma lista das coisas que desejam fazer antes de morrer e fogem do
+                    <p class="txt-caixasecundaria">Sugestão de atividade complementar: Assista ao filme: <strong>
+                        Antes
+                        de partir </strong>, de dezembro de 2007. <strong> Sinopse: </strong> O bilionário Edward
+                      Cole
+                      e
+                      o mecânico Carter Chambers são dois pacientes terminais em um mesmo quarto de hospital.
+                      Quando
+                      se
+                      conhecem, resolvem escrever uma lista das coisas que desejam fazer antes de morrer e fogem
+                      do
                       hospital para realizá-las.</p><!--caixa secundaria-->
                   </div>
                 </section>

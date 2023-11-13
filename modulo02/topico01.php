@@ -35,7 +35,7 @@ include('layout/header.php');
 
             <!-- IMAGEM NO SITE  -->
 
-            <div class="text-center img-01 wow animate__zoomIn" data-wow-delay="0.3s">
+            <div class="text-center img-01 wow animate__zoomIn" data-wow-delay="0.3s" id="img-left">
               <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
                 Representação de planejamento</p>
               <div class="zoom">
@@ -63,7 +63,7 @@ include('layout/header.php');
             <!-- FIM DA IMAGEM NO SITE  -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">Grandes realizações exigem uma mente realizadora. Talvez neste
+            <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">Grandes realizações exigem uma mente realizadora. Talvez neste
               ponto você já esteja
               ansioso (a) para praticar tudo aquilo que foi ensinado de modo a tornar realidade aquilo que foi
               idealizado. Entretanto, é preciso perceber que o foco deste curso é o longo prazo e para este a ansiedade

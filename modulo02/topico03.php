@@ -35,7 +35,7 @@ include('layout/header.php');
 
                         <!-- IMAGEM NO SITE  -->
 
-                        <div class="text-center img-01 wow animate__zoomIn" data-wow-delay="0.3s">
+                        <div class="text-center img-01 wow animate__zoomIn" data-wow-delay="0.3s" id="img-left">
                             <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 3:</strong>
                                 Representação de hábitos saudáveis</p>
                             <div class="zoom">
@@ -64,7 +64,8 @@ include('layout/header.php');
                         <!-- Imagem - End-->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s">A realização de um objetivo futuro é o resultado de
+                        <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">A realização de um objetivo futuro é
+                            o resultado de
                             suas ações no presente. Se
                             seus hábitos te levam à direção oposta de tudo que deseja atingir, será necessário que uma
                             mudança seja realizada, pois continuar fazendo as mesmas coisas vai te levar a obter o
@@ -185,10 +186,10 @@ include('layout/header.php');
                             limpeza e os que seriam necessários para gerar comprometimento a longo prazo e disciplina.
                             Lembre-se que o que for definido aqui no curto prazo deve viabilizar o longo prazo já
                             determinado na primeira parte.<br>
-                            <strong>Clique nos títulos abaixo para mais informações.</strong>
+                            <strong>(Clique nos títulos abaixo para mais informações)</strong>
                         </p>
                         <br>
-                        
+
                         <p class="d-flex justify-content-around gap-1">
                             <a class="btn CorVerdeEstado" id="buton-t3" data-bs-toggle="collapse"
                                 href="#multiCollapseExample1" role="button" aria-expanded="false"
@@ -251,11 +252,44 @@ include('layout/header.php');
                             executadas pois a vida também é cheia de imprevistos. Se porventura você não conseguir
                             realizar certas atividades em um dia não deve se desgastar com culpa, mas apenas
                             redirecionar as suas ações.</p>
+                        <br>
 
+                        <!-- BOTÃO LER MAIS -->
+                        <p class="d-flex justify-content-center gap-1">
+                            <button class="btn CorVerdeEstado" id="buton-t3" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                                aria-controls="multiCollapseExample3"><span class="font-teste"> LER MAIS <i
+                                        class="fa-regular fa-hand-pointer fa-fade"></i> </span></button>
+                        </p>
 
+                        <div class="collapse multi-collapse" id="multiCollapseExample3">
 
+                            <div class="d-flex justify-content-center">
+                                <div class="card card-body" style="width: 800px;">
+                                    This is some placeholder content for a horizontal collapse. It's hidden by default
+                                    and shown when triggered. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Ab inventore nihil magni, sed aspernatur labore error asperiores ipsa.
+                                    Necessitatibus asperiores deleniti perspiciatis aliquid corporis error explicabo non
+                                    dolore ex tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Distinctio recusandae placeat ducimus. Omnis itaque sit, magnam repellat odio in hic
+                                    eveniet aut rem alias? Animi soluta deleniti eveniet quas dignissimos! Lorem, ipsum
+                                    dolor sit amet consectetur adipisicing elit. Excepturi cum eum minus sit tenetur vel
+                                    saepe facilis deleniti repellendus iusto debitis corporis sed voluptate amet ipsam
+                                    officiis facere, similique alias!
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <!-- BOTÃO LER MAIS -->
 
-
+                        <!-- VÍDEO DO YOUTUBE -->
+                        <div class="container wow fadeIn" data-wow-delay="0.3s">
+                            <iframe width="600" height="343" src="https://www.youtube.com/embed/HMeSOjEMqrw"
+                                title="6 Micro-Hábitos diários para Conquistar seus Objetivos" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <!-- VÍDEO DO YOUTUBE -->
 
 
                     </div>
