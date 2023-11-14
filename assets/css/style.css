@@ -73,10 +73,14 @@ a {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    transition: 0.1s;
 }
 
-/* BOTÕES DO TÓPICO 3 */
+.iconTitulo{
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+/* BOTÕES VIDA PESSOAL E PROFISSIONAL */
 
 .CorVerdeEstado {
     background-color: rgb(39, 156, 61);
@@ -89,18 +93,53 @@ a {
 }
 
 #buton-t3 i {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     width: 13rem;
     height: 2.7rem;
     font-size: 20px;
 }
 
-#buton-t3 i {
-    display: flex;
+/* BOTÕES DO PESSOAL E PROFISSIONAL END */
+
+/* BOTÃO LER MAIS */
+
+#buton-lerMais {
+    width: 21rem;
+    height: 2.7rem;
+    font-size: 1.1rem;
+    background-color: var(--CorAccordionImportante);
     align-items: center;
-    justify-content: space-evenly;
 }
 
-/* BOTÕES DO TÓPICO 3 END */
+#buton-lerMais i {
+    margin-left: 8px;
+    font-size: 1.2rem;
+}
+
+#conteudo-LerMais {
+    font-family: "Raleway";
+    font-size: 1.3rem;
+    font-style: italic;
+    line-height: 1.7em;
+}
+
+#buton-lerMais2{
+    background-color: var(--CorVerdeClaro);
+    color: white;
+    width: 21rem;
+    height: 2.7rem;
+    font-size: 1.1rem;
+    align-items: center;
+}
+
+#buton-lerMais2 i {
+    margin-left: 8px;
+    font-size: 1.2rem;
+}
+
+/* BOTÃO LER MAIS END */
 
 body {
     margin: 0;
@@ -203,7 +242,7 @@ ul li.menu a {
     color: #44833D;
     text-decoration: none;
     font-size: 21px;
-    padding: 10px 0%;
+    padding: 43px 0%;
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
@@ -252,7 +291,6 @@ ul li.menu a .icon>i {
 ul li.menu a:hover {
     color: #ffff;
     background-color: #1a9c60;
-
 }
 
 [data-theme="dark"] ul li.menu a:hover {
@@ -260,9 +298,6 @@ ul li.menu a:hover {
 }
 
 /* (transition) no CONTEÚDO PRINCIPAL  */
-.all-conteudo {
-    transition: 0.1s;
-}
 
 .menulateral:hover~.all-conteudo {
     margin-left: 100px;
@@ -423,7 +458,7 @@ ul li.menu a.ativo {
 
 /* estilos gerais */
 
-[data-theme="dark"] .btn {
+[data-theme="dark"] .btn-outline-success {
     color: var(--color-light-50);
     border: 1px solid white;
 }
@@ -1062,8 +1097,8 @@ h2,
     padding: 15px;
 }
 
-#text-left{
-    margin-top: 3em;
+#text-left {
+    margin-top: 3.5em;
 }
 
 

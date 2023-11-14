@@ -30,7 +30,7 @@ include('layout/header.php');
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <!--  Título Pricipal -->
-                        <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s">Mudança de Hábitos</h2><br>
+                        <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s">03 - Mudança de Hábitos</h2><br>
                         <!--  Título Principal -->
 
                         <!-- IMAGEM NO SITE  -->
@@ -255,27 +255,19 @@ include('layout/header.php');
                         <br>
 
                         <!-- BOTÃO LER MAIS -->
-                        <p class="d-flex justify-content-center gap-1">
-                            <button class="btn CorVerdeEstado" id="buton-t3" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#multiCollapseExample3" aria-expanded="false"
-                                aria-controls="multiCollapseExample3"><span class="font-teste"> LER MAIS <i
-                                        class="fa-regular fa-hand-pointer fa-fade"></i> </span></button>
+                        <p class="d-flex justify-content-center gap-2">
+                            <button class="btn CorVerdeEstado" id="buton-lerMais" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                                aria-controls="multiCollapseExample3"><strong>
+                                    CLIQUE AQUI PARA SABER MAIS</strong> <i
+                                    class="fa-solid fa-arrow-pointer fa-beat"></i></button>
                         </p>
 
                         <div class="collapse multi-collapse" id="multiCollapseExample3">
 
                             <div class="d-flex justify-content-center">
-                                <div class="card card-body" style="width: 800px;">
-                                    This is some placeholder content for a horizontal collapse. It's hidden by default
-                                    and shown when triggered. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Ab inventore nihil magni, sed aspernatur labore error asperiores ipsa.
-                                    Necessitatibus asperiores deleniti perspiciatis aliquid corporis error explicabo non
-                                    dolore ex tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Distinctio recusandae placeat ducimus. Omnis itaque sit, magnam repellat odio in hic
-                                    eveniet aut rem alias? Animi soluta deleniti eveniet quas dignissimos! Lorem, ipsum
-                                    dolor sit amet consectetur adipisicing elit. Excepturi cum eum minus sit tenetur vel
-                                    saepe facilis deleniti repellendus iusto debitis corporis sed voluptate amet ipsam
-                                    officiis facere, similique alias!
+                                <div class="card card-body" style="width: 800px;" id="conteudo-LerMais">
+                                   Neste vídeo Chistian Barbosa relata de forma simples 06 (seis) micro-hábitos para serem incorporados no nosso dia a dia e que podem nos auxiliar a trabalhar melhor com o nosso tempo. Autor do livro Estratégias Práticas para Ganhar Mais Tempo (2013), é considerado o maior especialista do pa´s em gerenciamento do tempo e produtividade pessoal. Um dos mais jovens profissionais certificados pela Microsoft.
                                 </div>
                             </div>
                         </div>
@@ -316,7 +308,7 @@ include('layout/header.php');
     <div class="text-center">
         <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true">
             <i class="fa-solid fa-chevron-left"></i> Voltar </a>
-        <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+        <a href="referencias.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
                 class="fa-solid fa-chevron-right"></i></a>
     </div>
 

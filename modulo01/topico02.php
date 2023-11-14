@@ -32,7 +32,7 @@ include('layout/header.php');
           <div class="col-md-10 col-sm-8 container-fluid">
 
             <!--  Título Pricipal -->
-            <h2 class="Titulo fw-bolder">O Poder da decisão</h2><br>
+            <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s">02 - O Poder da decisão</h2><br>
             <!--  Título Principal -->
 
 
@@ -212,27 +212,23 @@ include('layout/header.php');
             <br>
 
             <!-- BOTÃO LER MAIS -->
-            <p class="d-flex justify-content-center gap-1">
-              <button class="btn CorVerdeEstado" id="buton-t3" type="button" data-bs-toggle="collapse"
-                data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3"><i
-                  class="fa-regular fa-hand-pointer fa-bounce"></i><strong>
-                 LER MAIS</strong></button>
+            <p class="d-flex justify-content-center gap-2">
+              <button class="btn CorVerdeEstado" id="buton-lerMais" type="button" data-bs-toggle="collapse"
+                data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                aria-controls="multiCollapseExample3"><strong>
+                  CLIQUE AQUI PARA SABER MAIS</strong> <i class="fa-solid fa-arrow-pointer fa-beat"></i></button>
             </p>
 
             <div class="collapse multi-collapse" id="multiCollapseExample3">
 
-            <div class="d-flex justify-content-center">
-              <div class="card card-body" style="width: 800px;">
-                This is some placeholder content for a horizontal collapse. It's hidden by default
-                and shown when triggered. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Ab inventore nihil magni, sed aspernatur labore error asperiores ipsa.
-                Necessitatibus asperiores deleniti perspiciatis aliquid corporis error explicabo non
-                dolore ex tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Distinctio recusandae placeat ducimus. Omnis itaque sit, magnam repellat odio in hic
-                eveniet aut rem alias? Animi soluta deleniti eveniet quas dignissimos! Lorem, ipsum
-                dolor sit amet consectetur adipisicing elit. Excepturi cum eum minus sit tenetur vel
-                saepe facilis deleniti repellendus iusto debitis corporis sed voluptate amet ipsam
-                officiis facere, similique alias!
+              <div class="d-flex justify-content-center">
+                <div class="card card-body" style="width: 800px;" id="conteudo-LerMais">
+                  O que vem travando você na sua prática diária? Você sabia que no Brasil já existem pesquisas que
+                  apontam quem 20% das pesssoas são procastinadoras crônicas? Gabriela Brasil é Evernote Business
+                  Certified Consultant, consultora organizacional e de produtividade, profissional membro da NAPO -
+                  National Association of Professional Organizers (EUA). Reside em Pablo Alto, Vale do Sílicio -
+                  Califórnia (EUA). Neste vídeo ela nos apresenta o perfeccionismo, a autosabotagem e a procrastinação
+                  bem como relata dicas simples para nos auxiliar e encontrar mais tempo e tranquilidade em nossos dias.
                 </div>
               </div>
             </div>

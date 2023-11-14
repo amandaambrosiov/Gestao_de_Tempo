@@ -30,7 +30,8 @@ include('layout/header.php');
           <div class="col-md-10 col-sm-8 container-fluid">
 
             <!--  Título Pricipal -->
-            <h2 class="Titulo fw-bolder">Apresentação</h2><br>
+            <h2 class="Titulo fw-bolder"><span class="iconTitulo"><i class="bi bi-person-workspace"></i>
+                </span> Apresentação</h2><br>
             <!--  Título Principal -->
 
             <!-- Parágrafo com a biblioteca de animação  -->

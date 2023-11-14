@@ -30,7 +30,8 @@ include('layout/header.php');
           <div class="col-md-10 col-sm-8 container-fluid">
 
             <!--  Título Pricipal -->
-            <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s">A Mentalidade Realizadora</h2><br>
+            <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s">
+              </span>01 - A Mentalidade Realizadora</h2><br>
             <!--  Título Principal -->
 
             <!-- IMAGEM NO SITE  -->
@@ -63,7 +64,8 @@ include('layout/header.php');
             <!-- FIM DA IMAGEM NO SITE  -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">Grandes realizações exigem uma mente realizadora. Talvez neste
+            <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">Grandes realizações exigem uma mente realizadora.
+              Talvez neste
               ponto você já esteja
               ansioso (a) para praticar tudo aquilo que foi ensinado de modo a tornar realidade aquilo que foi
               idealizado. Entretanto, é preciso perceber que o foco deste curso é o longo prazo e para este a ansiedade
@@ -71,27 +73,6 @@ include('layout/header.php');
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-            <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
-            <section class="container wow fadeIn" data-wow-delay="0.3s">
-              <div class="accordion ">
-                <section id="content">
-                  <div class="caixaprincipal" id="titulofiqueatento">
-                    <div class="div_teste">
-                      <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO </div>
-                      <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                    </div>
-                  </div> <!--caixa Principal-->
-                  <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
-                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-                    <p class="txt-caixasecundaria">Para que você possa transformar os conhecimentos teóricos em
-                      ferramentas para realização de seus sonhos, alguns ajustes serão necessários. Como foi esclarecido
-                      antes, aquilo que focamos na nossa mente tende a se tornar realidade, pois a mente é obcecada em
-                      nos alinhar com aquilo que acreditamos que somos. <strong> Essa premissa serve para coisas
-                        positivas e coisas negativas.</strong></p>
-                  </div>
-                </section>
-            </section>
-            <!-- FIM DA CAIXA FIQUE ATENTO -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
             <p class="wow fadeIn" data-wow-delay="0.3s">Se você se identifica com adjetivos que lhe encaminham para o
@@ -103,13 +84,38 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s ms-3">Por essa razão, a gestão do tempo precisa ser praticada
+            <p class="wow fadeIn" data-wow-delay="0.3s">Por essa razão, a gestão do tempo precisa ser praticada
               logo após a <strong> profunda
                 limpeza </strong> de tudo aquilo que não permite que a nova identidade seja realizada e isso significa a
               retirada de crenças limitantes, de identidades conflitantes e de tudo que possa impedir que a sua nova
               agenda seja realizada.
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
+            <br>
+
+            <!-- BOTÃO LER MAIS -->
+            <p class="d-flex justify-content-center gap-2 wow fadeIn" data-wow-delay="0.3s">
+              <button class="btn" id="buton-lerMais2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                aria-controls="multiCollapseExample3"><strong>
+                  CLIQUE AQUI PARA SABER MAIS</strong> <i class="fa-solid fa-arrow-pointer fa-beat"></i></button>
+            </p>
+
+            <div class="collapse multi-collapse" id="multiCollapseExample3">
+
+              <div class="d-flex justify-content-center">
+                <div class="card card-body" style="width: 800px;" id="conteudo-LerMais">
+                  Para que você possa transformar os conhecimentos teóricos em
+                  ferramentas para realização de seus sonhos, alguns ajustes serão necessários. Como foi esclarecido
+                  antes, aquilo que focamos na nossa mente tende a se tornar realidade, pois a mente é obcecada em
+                  nos alinhar com aquilo que acreditamos que somos. <strong> Essa premissa serve para coisas
+                    positivas e coisas negativas.</strong></p>
+                </div>
+              </div>
+            </div>
+            <br>
+            <!-- BOTÃO LER MAIS -->
+
 
             <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
             <section class="container wow fadeIn" data-wow-delay="0.3s">

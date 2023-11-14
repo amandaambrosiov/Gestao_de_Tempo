@@ -30,7 +30,8 @@ include('layout/header.php');
           <div class="col-md-10 col-sm-8 container-fluid">
 
             <!--  Título Pricipal -->
-            <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s">Sistema 5s aplicado à gestão do tempo</h2><br>
+            <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s"></i>
+              </span>02 - Sistema 5s aplicado à gestão do tempo</h2><br>
             <!--  Título Principal -->
 
             <!-- IMAGEM NO SITE  -->
@@ -46,6 +47,7 @@ include('layout/header.php');
               <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>banco de imagens gratuitas do
                 canvas, 2021.</p>
             </div>
+            <br><br>
 
             <!-- Imagem - MODAL-->
             <div class="modal fade text-center" id="Imagem1" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -61,10 +63,12 @@ include('layout/header.php');
             </div>
             <!-- Imagem - End-->
 
+
             <!-- FIM DA IMAGEM NO SITE  -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">Para colaborar com o processo de limpeza e priorização, eu
+            <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">Para colaborar com o processo de limpeza e
+              priorização, eu
               gostaria de lhe apresentar o
               <strong> sistema 5S </strong>. Trata-se de um programa de gestão de qualidade desenvolvido no Japão, que
               visa aperfeiçoar
@@ -73,7 +77,8 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s ms-3">O sistema 5S não foi idealizado para tratar especificamente
+            <p class="wow fadeIn" data-wow-delay="0.3s">O sistema 5S não foi idealizado para tratar
+              especificamente
               da Gestão do Tempo pessoal,
               entretanto, esta ferramenta pode ser bastante útil, afinal, ela é utilizada nas maiores indústrias e está
               diretamente relacionada à cultura da <strong> disciplina </strong> e ajuda a <strong> economizar tempo,
@@ -81,15 +86,8 @@ include('layout/header.php');
                 a organização.</strong>
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
-       
 
-            <!-- VÍDEO DO YOUTUBE -->
-            <div class="container wow fadeIn" data-wow-delay="0.3s">
-              <iframe width="600" height="343" src="https://www.youtube.com/embed/nGBDxmDgMXU" title="5S - A Origem"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            </div>
+            <br><br>
             <!-- VÍDEO DO YOUTUBE -->
 
             <!-- CAIXA DE TEXTO CURIOSIDADE -->
@@ -133,13 +131,42 @@ include('layout/header.php');
 
             <!-- lista ordenada  -->
             <ol class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
-              <li>Senso de utilização;</li>
-              <li>Senso de organização;</li>
-              <li>Senso de limpeza;</li>
-              <li>Senso de padronização;</li>
-              <li>Senso de disciplina.</li>
+              <li class="wow fadeInLeft" data-wow-delay="0.3s">Senso de utilização;</li>
+              <li class="wow fadeInLeft" data-wow-delay="0.3s">Senso de organização;</li>
+              <li class="wow fadeInLeft" data-wow-delay="0.3s">Senso de limpeza;</li>
+              <li class="wow fadeInLeft" data-wow-delay="0.3s">Senso de padronização;</li>
+              <li class="wow fadeInLeft" data-wow-delay="0.3s">Senso de disciplina.</li>
             </ol>
             <!-- fim da lista ordenada  -->
+
+            <!-- BOTÃO LER MAIS -->
+            <p class="d-flex justify-content-center gap-2">
+              <button class="btn CorVerdeEstado" id="buton-lerMais" type="button" data-bs-toggle="collapse"
+                data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                aria-controls="multiCollapseExample3"><strong>
+                  CLIQUE AQUI PARA SABER MAIS</strong> <i class="fa-solid fa-arrow-pointer fa-beat"></i></button>
+            </p>
+
+            <div class="collapse multi-collapse" id="multiCollapseExample3">
+
+              <div class="d-flex justify-content-center">
+                <div class="card card-body" style="width: 800px;" id="conteudo-LerMais">
+                  Você sabe qual é a origem do 5S? Neste vídeo, o Consultor Haroldo Ribeiro apresenta a real origem do
+                  5S. Haroldo Ribeiro é consultor e foi o primeiro autor brasileiro de 5S e de Manutenção Autônoma. É o
+                  autor com maior número de livros publicados nestes dois temas (mais de 30 livros).
+                </div>
+              </div>
+            </div>
+            <br>
+            <!-- BOTÃO LER MAIS -->
+
+            <div class="container wow fadeIn" data-wow-delay="0.3s">
+              <iframe width="600" height="343" src="https://www.youtube.com/embed/nGBDxmDgMXU" title="5S - A Origem"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+            <!-- VÍDEO DO YOUTUBE -->
 
             <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
             <section class="container wow fadeIn" data-wow-delay="0.3s">
