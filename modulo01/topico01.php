@@ -85,7 +85,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">A tecnologia diminuiu o tempo
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A tecnologia diminuiu o tempo
                             necessário para
                             executar a maioria das
                             nossas
@@ -102,7 +102,7 @@ include('layout/header.php');
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-
+                        <br><br>
                         <!-- CAIXA DE TEXTO IMPORTANTE -->
                         <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion">
@@ -135,9 +135,7 @@ include('layout/header.php');
                             </div>
                         </section>
                         <!-- FIM DA CAIXA IMPORTANTE -->
-
-
-
+                        <br>
 
 
                         <!-- Citação com borda verde (esquerda) -->

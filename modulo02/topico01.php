@@ -91,7 +91,7 @@ include('layout/header.php');
               agenda seja realizada.
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
-            <br>
+            <br><br>
 
             <!-- BOTÃO LER MAIS -->
             <p class="d-flex justify-content-center gap-2 wow fadeIn" data-wow-delay="0.3s">

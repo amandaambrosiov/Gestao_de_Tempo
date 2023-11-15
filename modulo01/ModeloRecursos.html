@@ -199,10 +199,10 @@
   <h2 class="subsubtopico fw-bolder">Subsubtopico</h2>
   <!-- fim do subsubtopico  -->
 
-<!-- Parágrafo com a biblioteca de animação  -->
-<p class="scrool">
-</p>
-<!--  Fim do Parágrafo com a biblioteca de animação -->
+  <!-- Parágrafo com a biblioteca de animação  -->
+  <p class="scrool">
+  </p>
+  <!--  Fim do Parágrafo com a biblioteca de animação -->
 
   <!-- lista ordenada  -->
   <ol class="scrool" id="txt_final">
@@ -214,13 +214,12 @@
   <!-- lista  -->
 
   <ul class="list">
-    <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
-            class="fa fa-dot-circle text-success"></i>
-        Entender o que é usabilidade;
+    <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i class="fa fa-dot-circle text-success"></i>
+      Entender o que é usabilidade;
     </li>
-</ul>
+  </ul>
 
-<!-- fim da lista  -->
+  <!-- fim da lista  -->
 
   <!-- Citação com borda verde (esquerda) -->
   <div class="bd-callout bd-callout-success m-3">
@@ -244,19 +243,19 @@
   </div>
   <!-- Citação com borda verde (esquerda) -->
 
-      <!-- Citação com borda verde (esquerda) -->
-      <div class="bd-callout bd-callout-success m-4">
-        <p>
-          “Ser produtivo vem de um estado mental focado. Isso inclui apenas o foco no presente e a
-          concentração nas etapas necessárias para alcançar seus objetivos. Para fazer isso, você precisa
-          aprender a eliminar as distrações ao seu redor”. Por sua vez, a identificação das distrações é
-          possível depois que você determina suas prioridades. “Se você não prioriza, pode acabar tendo muitos
-          objetivos, deixando muito pouco tempo para se dedicar a cada um deles”
-        <p class="text-end">LAWRENCE,
-          2019, p.25</p>
-        </p>
-      </div>
-        <!-- fim Citação com borda verde (esquerda) -->
+  <!-- Citação com borda verde (esquerda) -->
+  <div class="bd-callout bd-callout-success m-4">
+    <p>
+      “Ser produtivo vem de um estado mental focado. Isso inclui apenas o foco no presente e a
+      concentração nas etapas necessárias para alcançar seus objetivos. Para fazer isso, você precisa
+      aprender a eliminar as distrações ao seu redor”. Por sua vez, a identificação das distrações é
+      possível depois que você determina suas prioridades. “Se você não prioriza, pode acabar tendo muitos
+      objetivos, deixando muito pouco tempo para se dedicar a cada um deles”
+    <p class="text-end">LAWRENCE,
+      2019, p.25</p>
+    </p>
+  </div>
+  <!-- fim Citação com borda verde (esquerda) -->
 
 
   <!-- Iframe - video -->
@@ -287,6 +286,28 @@
     </div>
   </section>
   <!-- FIM DA CAIXA IMPORTANTE -->
+
+  <!-- CAIXA DE TEXTO DÚVIDA -->
+  <section class="container scrool">
+    <div class="accordion ">
+      <section id="content">
+        <div class="caixaprincipal" id="tituloDuvida">
+          <div class="div_teste">
+            <div><i class="fa-solid fa-question"></i> DÚVIDA </div>
+
+            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+          </div>
+        </div> <!--caixa Principal-->
+        <div class="accordion-content" id="duvida">
+          <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
+                Passe o mouse acima
+              </strong></strong></p>
+          <p class="txt-caixasecundaria">O que é uma Metodologia de Gerenciamento de
+            Projetos (MGP)?.</p><!--caixa secundaria-->
+        </div>
+      </section>
+  </section>
+  <!-- FIM DA CAIXA DÚVIDA  -->
 
   <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
   <section class="container">
@@ -572,7 +593,7 @@
 
 
   <!-- Botões de navegação -->
-  
+
   <div class="text-center">
     <a href="topico03.html" class="btn btn-outline-success" role="button" aria-pressed="true">
       <i class="fa-solid fa-chevron-left"></i> Voltar </a>
@@ -580,16 +601,17 @@
       Avaliativa <i class="fa-solid fa-chevron-right"></i></a>
   </div>
 
-    <!-- Botões de navegação -->
-    <div class="text-center">
-      <a href="topico03.html" class="btn btn-outline-success" role="button" aria-pressed="true">
-        <i class="fa-solid fa-chevron-left"></i> Voltar </a>
-      <a href="topico01.html" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i class="fa-solid fa-chevron-right"></i></a>
-    </div>
+  <!-- Botões de navegação -->
+  <div class="text-center">
+    <a href="topico03.html" class="btn btn-outline-success" role="button" aria-pressed="true">
+      <i class="fa-solid fa-chevron-left"></i> Voltar </a>
+    <a href="topico01.html" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+        class="fa-solid fa-chevron-right"></i></a>
+  </div>
 
-    <!-- BARRA DE PROGRESSO -->
-    <div id="progress-bar"></div>
-    <!-- FIM DA BARRA DE PROGRESSO  -->
+  <!-- BARRA DE PROGRESSO -->
+  <div id="progress-bar"></div>
+  <!-- FIM DA BARRA DE PROGRESSO  -->
 </body>
 
 </html>
@@ -606,43 +628,43 @@ include('layout/header.php');
 <!-- FIM DO HEADER  -->
 
 <body>
-    <!-- NAV  -->
-    <?php
+  <!-- NAV  -->
+  <?php
     include('layout/nav.php');
     ?>
-    <!-- FIM DA NAV -->
+  <!-- FIM DA NAV -->
 
-    <!-- menu lateral  -->
-    <?php
+  <!-- menu lateral  -->
+  <?php
     include('layout/menu.php');
     ?>
-    <!-- FIM do menu lateral   -->
+  <!-- FIM do menu lateral   -->
 
-    
 
-    <!-- INÍCIO DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP -->
 
-    <!-- BOTÃO BACK TO TOP COM UMA BARRA DE PROGRESSO -->
-    <div id="back_to_top">
-        <div id="btn_back">
-            <i id="icon_up" class="fa-solid fa-arrow-up"></i>
-        </div>
+  <!-- INÍCIO DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP -->
+
+  <!-- BOTÃO BACK TO TOP COM UMA BARRA DE PROGRESSO -->
+  <div id="back_to_top">
+    <div id="btn_back">
+      <i id="icon_up" class="fa-solid fa-arrow-up"></i>
     </div>
-    <!-- FIM DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP-->
+  </div>
+  <!-- FIM DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP-->
 
-    <!-- Botões de navegação -->
-    <div class="text-center">
-        <a href="topico03.html" class="btn btn-outline-success" role="button" aria-pressed="true">
-            <i class="fa-solid fa-chevron-left"></i> Voltar </a>
-        <a href="topico01.html" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
-                class="fa-solid fa-chevron-right"></i></a>
-    </div>
+  <!-- Botões de navegação -->
+  <div class="text-center">
+    <a href="topico03.html" class="btn btn-outline-success" role="button" aria-pressed="true">
+      <i class="fa-solid fa-chevron-left"></i> Voltar </a>
+    <a href="topico01.html" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+        class="fa-solid fa-chevron-right"></i></a>
+  </div>
 
-    <!-- FOOTER  -->
-    <?php
+  <!-- FOOTER  -->
+  <?php
     include('layout/footer.php');
     ?>
-    <!-- FIM DO FOOTER  -->
+  <!-- FIM DO FOOTER  -->
 
 </body>
 

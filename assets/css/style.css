@@ -4,8 +4,7 @@
 /* OBS:
 A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
 
-/* estilo do menu lateral (feito pelo audi) */
-
+/* ######################################### CORES ########################################################## */
 :root {
     --CormenuLateral: #EFF7F0;
     --CorPreto: black;
@@ -55,19 +54,18 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     /* cor dos accordions */
     --CorAccordionImportante: #f18519;
     --CorAccordionImportanteMaisClaro: #ff7f0033;
+
     /* fontes */
     --FonteArial: Arial, Helvetica, sans-serif;
     --FonteRaleway: 'Raleway', sans-serif;
     --FonteVerdana: Verdana, Geneva, Tahoma, sans-serif;
-    /*  */
+    /* fontes end */
 }
+/* ######################################### CORES END ########################################################## */
 
 
-a {
-    text-decoration: none;
-    color: #4a71f1;
-}
-
+/* ######################################### GERAL ########################################################## */
+/* ------- CONFIGURAÇÕES GERAIS --------*/
 * {
     margin: 0;
     padding: 0;
@@ -75,72 +73,10 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.iconTitulo{
-    margin-right: 8px;
-    font-weight: bold;
-}
+/* ------- CONFIGURAÇÕES GERAIS END --------*/
 
-/* BOTÕES VIDA PESSOAL E PROFISSIONAL */
 
-.CorVerdeEstado {
-    background-color: rgb(39, 156, 61);
-    color: white
-}
-
-.CorVerdeEstado:hover {
-    background-color: rgb(39, 156, 61);
-    color: white;
-}
-
-#buton-t3 i {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 13rem;
-    height: 2.7rem;
-    font-size: 20px;
-}
-
-/* BOTÕES DO PESSOAL E PROFISSIONAL END */
-
-/* BOTÃO LER MAIS */
-
-#buton-lerMais {
-    width: 21rem;
-    height: 2.7rem;
-    font-size: 1.1rem;
-    background-color: var(--CorAccordionImportante);
-    align-items: center;
-}
-
-#buton-lerMais i {
-    margin-left: 8px;
-    font-size: 1.2rem;
-}
-
-#conteudo-LerMais {
-    font-family: "Raleway";
-    font-size: 1.3rem;
-    font-style: italic;
-    line-height: 1.7em;
-}
-
-#buton-lerMais2{
-    background-color: var(--CorVerdeClaro);
-    color: white;
-    width: 21rem;
-    height: 2.7rem;
-    font-size: 1.1rem;
-    align-items: center;
-}
-
-#buton-lerMais2 i {
-    margin-left: 8px;
-    font-size: 1.2rem;
-}
-
-/* BOTÃO LER MAIS END */
-
+/* --------- CONFIGURAÇÃO BODY --------*/
 body {
     margin: 0;
     background-color: var(--white);
@@ -148,6 +84,7 @@ body {
     overflow-x: hidden;
 }
 
+/* CONFIGURAÇÃO DO SCROOL */
 body::-webkit-scrollbar {
     width: 12px;
 }
@@ -161,6 +98,14 @@ body::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
+/* CONFIGURAÇÃO DO SCROOL END */
+
+/* --------- CONFIGURAÇÃO BODY END --------*/
+/* ######################################### GERAL END ########################################################## */
+
+
+/* ######################################### NAV ANIMADA  ########################################################## */
+
 /* aqui eu defini algumas propriedades que "ajudam" a nav a ficar animada --jayron-- */
 #navmenu {
     position: fixed;
@@ -171,9 +116,37 @@ body::-webkit-scrollbar-thumb {
     z-index: 4;
 }
 
-/* fim da nav animada */
+.nav {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.39);
+}
 
-/* INÍCIO DAS CONFIGURAÇÕES DO MENU LATERAL */
+/* modo escuro da nav */
+[data-theme="dark"] #navmenu {
+    background-color: var(--color-dark-100);
+}
+
+/* transição dos botões */
+.btn {
+    transition: 0.5s;
+}
+/* transição dos botões end */
+
+/* botão ir para o moodle - modo escuro */
+[data-theme="dark"] .btn-outline-success {
+    color: var(--color-light-50);
+    border: 1px solid white;
+}
+
+[data-theme="dark"] .btn-outline-success:hover {
+    border: 1px solid #198754;
+    transition: 0.2s;
+}
+
+/* botão ir para o moodle - modo escuro end */
+/* ######################################### NAV ANIMADA END ########################################################## */
+
+
+/* ######################################### MENU LATERAL ########################################################## */
 /* img logo da egp */
 #logo {
     width: 60px;
@@ -204,101 +177,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 999;
 }
 
-ul {
-    list-style: none;
-}
-
-ol {
-    margin: 30px 0;
-}
-
-ol li {
-    font-family: var(--FonteRaleway);
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-[data-theme="dark"] ol li {
-    color: white;
-}
-
-[data-theme="dark"] .list li {
-    color: white;
-}
-
-.list li {
-    font-family: var(--FonteRaleway);
-    font-size: 1.2rem;
-    margin-top: 5px;
-}
-
-
-[data-theme="dark"] ul li.menu a {
-    color: var(--color-light-50);
-}
-
-ul li.menu a {
-    color: #44833D;
-    text-decoration: none;
-    font-size: 21px;
-    padding: 43px 0%;
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-    cursor: pointer;
-    transition: 0.1s;
-    height: 70px;
-    width: 100%;
-    /* border: 1px solid red; */
-}
-
-.menulateral ul {
-    padding-left: 0px !important;
-    width: 105% !important;
-    position: relative;
-    right: 5%;
-}
-
-ul li.menu a .txt {
-    margin-left: 2.5rem;
-    display: flex;
-    text-align: left;
-    width: 100%;
-    /* border: 1px solid red; */
-}
-
-@media screen {
-    @media(max-width: 400px) {
-        ul li.menu a .txt {
-            margin-left: 0.5rem;
-        }
-
-        ul li.menu a .txt {
-            margin-left: 0.5rem;
-        }
-    }
-}
-
-ul li.menu a {
-    padding-left: 20px;
-}
-
-ul li.menu a .icon>i {
-    font-size: 25px;
-}
-
-ul li.menu a:hover {
-    color: #ffff;
-    background-color: #1a9c60;
-}
-
-[data-theme="dark"] ul li.menu a:hover {
-    background-color: #3be3e2;
-}
-
-/* (transition) no CONTEÚDO PRINCIPAL  */
-
+/* efeito hover do menu lateral */
 .menulateral:hover~.all-conteudo {
     margin-left: 100px;
 }
@@ -322,8 +201,279 @@ ul li.menu a:hover {
     border-radius: 10px;
 }
 
+/* efeito hover do menu lateral end */
+
+/* lista não ordenada - menu lateral */
+.menulateral ul {
+    padding-left: 0px !important;
+    width: 105% !important;
+    position: relative;
+    right: 5%;
+}
+
+ul li.menu a {
+    color: #44833D;
+    text-decoration: none;
+    font-size: 21px;
+    padding: 43px 0%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: 0.1s;
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+ul li.menu a .txt {
+    margin-left: 2.5rem;
+    display: flex;
+    text-align: left;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+ul li.menu a.ativo {
+    border-right: 5px solid #44833D;
+}
+
+ul li.menu a {
+    padding-left: 20px;
+}
+
+ul li.menu a .icon>i {
+    font-size: 25px;
+}
+
+ul li.menu a:hover {
+    color: #ffff;
+    background-color: #1a9c60;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    margin: 30px 0;
+}
+
+ol li {
+    font-family: var(--FonteRaleway);
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* configuração modo escuro do menu lateral */
+[data-theme="dark"] .menulateral {
+    background-color: var(--color-dark-900);
+}
+
+[data-theme="dark"] ol li {
+    color: white;
+}
+
+[data-theme="dark"] .list li {
+    color: white;
+}
+
+[data-theme="dark"] ul li.menu a {
+    color: var(--color-light-50);
+}
+
+[data-theme="dark"] ul li.menu a:hover {
+    background-color: #3be3e2;
+}
+
+[data-theme="dark"] ul li.menu a:hover {
+    color: rgb(0, 0, 0);
+}
+[data-theme="dark"] ul li.menu a.ativo {
+    border-right: 6px solid #1ab6b6;
+}
+/* configuração modo escuro do menu lateral end */
+
+/* lista não ordenada - menu lateral end */
+
+
+/* ####################### CONFIGURAÇÃO DOS SUBTÓPICOS ##################### */
+.circulo {
+    margin-right: 2em;
+}
+
+.barra-sub {
+    /* margin-left: 53px; */
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Subtopico {
+    color: var(--CorSubtopico);
+    margin: 30px 0;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    padding-bottom: 20px;
+}
+
+.subsubtopico {
+    color: var(--CorSubSubtopico);
+    font-size: 25px;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    padding-bottom: 10px;
+    margin: 20px 0;
+}
+
+.dropdown-menu {
+    background-color: var(--color-green);
+    color: white;
+    transition: 0.5s;
+    width: 80%;
+    margin-right: -2rem !important;
+    margin-left: 2rem !important;
+    position: fixed;
+}
+
+.dropdown-btn {
+    text-decoration: none;
+    color: #44833D;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+}
+
+.dropdown-container {
+    display: none;
+}
+
+.dropdown-container a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: #44833D;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+    position: relative;
+    padding-left: 1.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.3em;
+}
+
+/* hover dos subtópicos */
+.dropdown-btn .menu:hover {
+    color: white;
+}
+
+.dropdown-container a:hover {
+    color: white;
+    background-color: #1a9c60;
+    height: auto;
+}
+/* hover dos subtópicos end */
+
+
+/* configuração do modo escuro - subtópicos */
+[data-theme="dark"] .Subtopico {
+    color: white;
+}
+
+[data-theme="dark"] .dropdown-menu {
+    background-color: var(--color-ciano);
+}
+
+[data-theme="dark"] .dropdown-toggle {
+    color: white;
+}
+
+[data-theme="dark"] .dropdown-toggle:hover {
+    color: rgb(192, 185, 185);
+}
+
+[data-theme="dark"] .dropdown-container a {
+    color: white;
+}
+
+[data-theme="dark"] .dropdown-container a:hover {
+    background-color: #3be3e2;
+    color: #040504;
+}
+/* configuração do modo escuro - subtópicos */
+
+/* ####################### CONFIGURAÇÃO DOS SUBTÓPICOS END ##################### */
+
+
+
 /* ESTILO DO MENU RESPONSIVO */
 
+/*  MEDIA QUERY  */
+@media (min-width: 735px) {
+
+    .offcanvas.hiding,
+    .offcanvas.show,
+    .offcanvas.showing {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media (max-width: 735px) {
+    .menulateral {
+        display: none;
+        color: rgb(39, 79, 35);
+    }
+
+    ul li.menu a.ativo {
+        border-right: 6px solid #44833D;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    #img_logo {
+        width: 150px;
+    }
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+
+}
+
+@media (max-width: 386px) {
+    #moodle {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+
+@media screen {
+    @media(max-width: 400px) {
+        ul li.menu a .txt {
+            margin-left: 0.5rem;
+        }
+
+        ul li.menu a .txt {
+            margin-left: 0.5rem;
+        }
+    }
+}
+/*  MEDIA QUERY END */
+
+/* menu lateral responsivo */
 .offcanvas {
     max-width: 70%;
     padding-left: 0 !important;
@@ -332,7 +482,6 @@ ul li.menu a:hover {
 }
 
 /* LOGO EGP RESPONSIVO */
-
 .offcanvas-header a>img {
     position: relative;
     left: 2em;
@@ -371,102 +520,33 @@ ul li.menu a:hover {
     border-radius: 10px;
 }
 
-.dropdown-btn {
-    text-decoration: none;
-    color: #44833D;
-    display: block;
-    border: none;
-    background: none;
-    width: 100%;
-    cursor: pointer;
-    outline: none;
+/* COR DO MENU RESPONSIVO - MODO ESCURO */
+[data-theme="dark"] .offcanvas-body {
+    background-color: var(--color-dark-900);
 }
 
-.dropdown-btn .menu:hover {
-    color: white;
+[data-theme="dark"] .offcanvas-header {
+    background-color: var(--color-dark-900);
 }
 
-.dropdown-container {
-    display: none;
-}
-
-.dropdown-container a {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    text-decoration: none;
-    color: #44833D;
-    width: 100%;
-    font-size: 18px;
-    margin-bottom: 0.7rem;
-    cursor: pointer;
-    position: relative;
-    padding-left: 1.2em;
-    padding-top: 0.5em;
-    padding-bottom: 0.3em;
-}
-
-[data-theme="dark"] .dropdown-container a {
-    color: white;
-}
-
-.dropdown-container a:hover {
-    color: white;
-    background-color: #1a9c60;
-    height: auto;
-}
-
-[data-theme="dark"] .dropdown-container a:hover {
-    background-color: #3be3e2;
-    color: #040504;
-}
-
-.circulo {
-    margin-right: 2em;
-}
-
-.barra-sub {
-    /* margin-left: 53px; */
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-[data-theme="dark"] ul li.menu a:hover {
-    color: rgb(0, 0, 0);
-}
-
-ul li.menu a.ativo {
-    border-right: 5px solid #44833D;
-}
-
-[data-theme="dark"] ul li.menu a.ativo {
-    border-right: 6px solid #1ab6b6;
-}
-
-[data-theme="dark"] .dropdown-toggle {
-    color: white;
-}
-
-[data-theme="dark"] .dropdown-toggle:hover {
-    color: rgb(192, 185, 185);
-}
-
-/* FIM DAS CONFIGURAÇÕES DO MENU LATERAL */
-
-
-/* estilos gerais */
-
-[data-theme="dark"] .btn-outline-success {
+[data-theme="dark"] #btn_menu .fa-solid {
     color: var(--color-light-50);
-    border: 1px solid white;
 }
 
-[data-theme="dark"] .btn:hover {
-    border: 1px solid #198754;
-    transition: 0.2s;
+#btn_menu .fa-solid {
+    color: #274f23;
 }
+
+/* BOTÃO CLOSE MENU RESPONSIVO - MODO ESCURO (Audi)*/
+[data-theme="dark"] .btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+
+}
+/* COR DO MENU RESPONSIVO - MODO ESCURO END */
+
+/* ESTILO DO MENU RESPONSIVO END */
+/* ############################################ MENU LATERAL END ########################################################## */
+
 
 .nonedec {
     text-decoration: none;
@@ -478,13 +558,6 @@ ul li.menu a.ativo {
     color: #98989b;
 }
 
-.nav {
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.39);
-}
-
-.btn {
-    transition: 0.5s;
-}
 
 /* estilo do container de apresentação */
 
@@ -497,8 +570,10 @@ ul li.menu a.ativo {
     }
 } */
 
+/* ######################################### INÍCIO DAS CONFIGURÇÕES DO CONTEÚDO DA PÁGINA ################################################### */
 
-
+/* ------ CONFIGURÇÃO DOS TEXTOS ------- */
+/* Título Pricipal */
 h2 {
     margin-left: 5px;
     padding-bottom: 10px;
@@ -506,17 +581,85 @@ h2 {
     color: #44833D;
     font-weight: bolder;
 }
+h2,
+.Titulo {
+    color: var(--color-green);
+}
 
-/* estilo do conteudo da primeira pagina */
+.iconTitulo {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+/* modo escuro do título principal */
+[data-theme="dark"] h2,
+.Titulo {
+    color: var(--color-light-50);
+}
+/* modo escuro do título principal */
+
+/* Título Pricipal End*/
+
+/* links */
+a {
+    text-decoration: none;
+    color: #4a71f1;
+}
+/* links end */
+
+.Texto {
+    cursor: default;
+}
+
+.Texto:hover {
+    margin-left: 10px;
+}
+
+.text-center .text {
+    color: #b0b0b1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* negrito dos textos*/
+strong {
+    font-weight: lighter;
+}
+/* negrito dos textos*/
+
+/* modo escuro - textos */
+[data-theme="dark"] h5{
+    color: white;
+}
+
+[data-theme="dark"] #txt_final {
+    color: var(--color-light-50);
+}
+
+#txt_final {
+    color: black;
+}
+
+[data-theme="dark"] p {
+    color: var(--color-light-50);
+}
+/* modo escuro - textos end */
+
+/* ------ CONFIGURÇÃO DOS TEXTOS END ------- */
 
 hr {
     margin-left: 5px;
 }
 
-strong {
-    font-weight: lighter;
+/*  ------- LISTA NÃO ORDENADA NO CONTEÚDO ------- */
+.list li {
+    font-family: var(--FonteRaleway);
+    font-size: 1.2rem;
+    margin-top: 5px;
 }
+/*  ------- LISTA NÃO ORDENADA NO CONTEÚDO END ------- */
 
+
+/* ------- CONTEÚDO PRINCIPAL ------- */
 .main-content {
     padding: 100px 50px 50px;
 }
@@ -537,22 +680,71 @@ strong {
     font-family: Arial, Helvetica, sans-serif;
     font-size: -100px;
 }
+/* ------- CONTEÚDO PRINCIPAL END ------- */
 
-.dropdown-menu {
-    background-color: var(--color-green);
+
+/* ################### BOTÕES COM CONTEÚDO ######################## */
+/* BOTÕES VIDA PESSOAL E PROFISSIONAL */
+.CorVerdeEstado {
+    background-color: rgb(39, 156, 61);
+    color: white
+}
+
+.CorVerdeEstado:hover {
+    background-color: rgb(39, 156, 61);
     color: white;
-    transition: 0.5s;
-    width: 80%;
-    margin-right: -2rem !important;
-    margin-left: 2rem !important;
-    position: fixed;
 }
 
-[data-theme="dark"] .dropdown-menu {
-    background-color: var(--color-ciano);
+#buton-t3 i {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 13rem;
+    height: 2.7rem;
+    font-size: 20px;
 }
 
-/* INÍCIO DO ESTILO DO ACCORDION */
+/* BOTÕES DO PESSOAL E PROFISSIONAL END */
+
+/* BOTÃO LER MAIS */
+#buton-lerMais {
+    width: 21rem;
+    height: 2.7rem;
+    font-size: 1.1rem;
+    background-color: var(--CorAccordionImportante);
+    align-items: center;
+}
+
+#buton-lerMais i {
+    margin-left: 8px;
+    font-size: 1.2rem;
+}
+
+#conteudo-LerMais {
+    font-family: "Raleway";
+    font-size: 1.3rem;
+    font-style: italic;
+    line-height: 1.7em;
+}
+
+#buton-lerMais2 {
+    background-color: var(--CorVerdeClaro);
+    color: white;
+    width: 21rem;
+    height: 2.7rem;
+    font-size: 1.1rem;
+    align-items: center;
+}
+
+#buton-lerMais2 i {
+    margin-left: 8px;
+    font-size: 1.2rem;
+}
+/* BOTÃO LER MAIS END */
+/* ################### BOTÕES COM CONTEÚDO END ######################## */
+
+
+/* ############ INÍCIO DO ESTILO DO ACCORDION  ##################### */
 .container {
     min-height: 20vh;
     position: relative;
@@ -601,7 +793,6 @@ strong {
 
 /* CORES DOS DIFERENTES DOS ACCORDIONS */
 
-
 /* CAIXA IMPORTANTE */
 .accordion #content .caixaprincipal#tituloimportante {
     background-color: #f18519;
@@ -627,6 +818,22 @@ strong {
 #importante {
     background-color: #edb00929;
 }
+/* CAIXA IMPORTANTE END */
+
+/* CAIXA DÚVIDA */
+.accordion #content .caixaprincipal#tituloDuvida {
+    background-color: #008080;
+    color: #feffffe0;
+}
+
+#duvida {
+    background-color: #bee2e2;
+}
+
+#duvida p {
+    color: #040504;
+}
+/* CAIXA DÚVIDA END */
 
 /* CAIXA FIQUE ATENTO */
 .accordion #content .caixaprincipal#titulofiqueatento {
@@ -652,6 +859,7 @@ strong {
 #fiqueatento {
     background-color: #edb00929;
 }
+/* CAIXA FIQUE ATENTO END*/
 
 /* CAIXA REFLITA */
 [data-theme="dark"] .accordion #content .caixaprincipal#tituloreflita {
@@ -677,6 +885,8 @@ strong {
 #reflita {
     background-color: #3be3e229;
 }
+/* CAIXA REFLITA END*/
+
 
 /* CAIXA EXEMPLO */
 [data-theme="dark"] .accordion #content .caixaprincipal#tituloexemplo {
@@ -704,6 +914,7 @@ strong {
 [data-theme="dark"] #exemplo p {
     color: #040504;
 }
+/* CAIXA EXEMPLO END */
 
 
 /* CAIXA SAIBA MAIS */
@@ -741,6 +952,8 @@ strong {
 [data-theme="dark"] #saibamais p {
     color: #040504;
 }
+/* CAIXA SAIBA MAIS END */
+
 
 /* CAIXA CURIOSIDADES */
 .accordion #content .caixaprincipal#tituloCuriosidade {
@@ -767,8 +980,6 @@ strong {
 [data-theme="dark"] #Curiosidade {
     background-color: #ade7df;
 }
-
-/*  FIM CAIXA CURIOSIDADES */
 
 /* estilo do pointer dos accordion */
 
@@ -882,15 +1093,15 @@ o estado inicial de height 0 manteria o texto aparecendo */
         margin-left: 0.5rem;
     }
 }
+/* ################################# FIM DO ESTILO DO ACCORDION  ################################# */
 
-/* FIM DO ESTILO DO ACCORDION */
 
-
-/* estilo da tabela */
+/*------ ESTILO DA TABELA ------ */
 .table {
     font-weight: lighter;
     font-size: 1.2rem;
 }
+/*------ ESTILO DA TABELA END ------ */
 
 /* estilo da pagina do primeiro modulo */
 .bd-callout {
@@ -900,62 +1111,7 @@ o estado inicial de height 0 manteria o texto aparecendo */
     padding: 1.5rem;
 }
 
-
-
-.text-center .text {
-    color: #b0b0b1;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* ---------------------- início do menu lateral responsivo --jayron-- ------------------------- */
-@media (min-width: 735px) {
-
-    .offcanvas.hiding,
-    .offcanvas.show,
-    .offcanvas.showing {
-        visibility: hidden;
-        display: none;
-    }
-}
-
-@media (max-width: 735px) {
-    .menulateral {
-        display: none;
-        color: rgb(39, 79, 35);
-    }
-
-    ul li.menu a.ativo {
-        border-right: 6px solid #44833D;
-    }
-
-    .nav-link {
-        display: none;
-    }
-
-    #img_logo {
-        width: 150px;
-    }
-}
-
-form {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 20px;
-
-}
-
-@media (max-width: 386px) {
-    #moodle {
-        display: none;
-        visibility: hidden;
-    }
-}
-
-/* ---------------------- fim do menu lateral responsivo --jayron-- ------------------------- */
-
-
-/* INÍCIO DO BOTÃO DO MODO ESCURO */
+/* ################## INÍCIO DO BOTÃO DO MODO ESCURO ################## */
 #btn_tema {
     display: flex;
     align-items: center;
@@ -978,84 +1134,20 @@ form {
     box-shadow: 0px 0px 0px var(--color-ciano2);
 }
 
-/* FIM DO BOTÃO DO MODO ESCURO */
-
-
-/*CONFIGURAÇÃO DE ALGUNS ELEMENTOS NO MODO ESCURO */
-
-[data-theme="dark"] #btn_menu .fa-solid {
-    color: var(--color-light-50);
-}
-
-#btn_menu .fa-solid {
-    color: #274f23;
-}
-
+/* CORES MODO CLARO/ESCURO  */
 [data-theme="dark"] {
     --white: #29292B;
     --black: #fff;
 }
+/* CORES MODO CLARO/ESCURO END */
 
-[data-theme="dark"] #txt_final {
-    color: var(--color-light-50);
-}
-
-#txt_final {
-    color: black;
-}
-
-[data-theme="dark"] .offcanvas-body {
-    background-color: var(--color-dark-900);
-}
+/* ################## INÍCIO DO BOTÃO DO MODO ESCURO END ################## */
 
 
-[data-theme="dark"] .offcanvas-header {
-    background-color: var(--color-dark-900);
-}
 
-[data-theme="dark"] .menulateral {
-    background-color: var(--color-dark-900);
-}
-
-[data-theme="dark"] #navmenu {
-    background-color: var(--color-dark-100);
-}
-
-[data-theme="dark"] p {
-    color: var(--color-light-50);
-}
-
+/*CONFIGURAÇÃO DE ALGUNS ELEMENTOS NO MODO ESCURO */
 [data-theme="dark"] .none {
     color: var(--color-light-50);
-}
-
-[data-theme="dark"] h2,
-.Titulo {
-    color: var(--color-light-50);
-}
-
-h2,
-.Titulo {
-    color: var(--color-green);
-}
-
-.Subtopico {
-    color: var(--CorSubtopico);
-    margin: 30px 0;
-    border-bottom: 1px solid rgb(185, 185, 185);
-    padding-bottom: 20px;
-}
-
-.subsubtopico {
-    color: var(--CorSubSubtopico);
-    font-size: 25px;
-    border-bottom: 1px solid rgb(185, 185, 185);
-    padding-bottom: 10px;
-    margin: 20px 0;
-}
-
-[data-theme="dark"] .Subtopico {
-    color: white;
 }
 
 .none {
@@ -1073,16 +1165,9 @@ h2,
 [data-theme="dark"] #txt_referencias {
     color: var(--color-light-50);
 }
-
-/* BOTÃO CLOSE MENU RESPONSIVO (Audi)*/
-[data-theme="dark"] .btn-close {
-    filter: invert(1) grayscale(100%) brightness(200%);
-
-}
-
 /*FIM DA CONFIGURAÇÃO DO MODO ESCURO*/
 
-/* EFEITO DE ZOOM NA IMAGEM ADAPTADO (AUDI) */
+/*---------- EFEITO DE ZOOM NA IMAGEM ADAPTADO (AUDI) ------*/
 .zoom {
     overflow: hidden;
     max-width: 500px;
@@ -1090,18 +1175,6 @@ h2,
     margin-left: auto;
     margin-right: auto;
 }
-
-#img-left {
-    float: left;
-    margin-bottom: 10px;
-    padding: 15px;
-}
-
-#text-left {
-    margin-top: 3.5em;
-}
-
-
 .zoom img {
     max-width: 100%;
     transition: all 0.3s;
@@ -1117,158 +1190,22 @@ h2,
     -webkit-transform: scale(1.2);
 }
 
-/* INÍCIO DAS CONFIGURAÇÕES DA QUESTÃO DE FIXAÇÃO */
-/* header da questão de fixação */
-#base {
-    display: flex;
-    justify-content: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 30px;
+/* IMAGEM E TEXTOS JUNTOS */
+#img-left {
+    float: left;
+    margin-bottom: 10px;
+    padding: 15px;
 }
 
-#puzzle {
-    padding-right: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #505050;
+#text-left {
+    margin-top: 3.5em;
 }
+/* IMAGEM E TEXTOS JUNTOS END */
 
-#titulo {
-    font-weight: bolder;
-    font-size: 20px;
-    color: rgb(80, 80, 80);
-
-}
-
-.accordion-body {
-    background-color: rgb(196, 255, 252);
-    border-top: none;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    display: flex;
-    justify-content: center;
-    padding-left: 30px;
-    margin-left: 5px;
-    border: none;
-}
-
-h2.accordion-header {
-    padding-bottom: 0px;
-    border: none;
-
-}
-
-.accordion-item {
-    border: none;
-}
-
-[data-theme="dark"] .accordion-item {
-    background-color: var(--color-dark-100);
-}
-
-.accordion-button {
-    background-color: #3ce4cb;
-    --bs-accordion-active-bg: #3ce4cb;
-    --bs-accordion-btn-icon-bg: var(--white);
-}
-
-.accordion-button::after {
-    color: white;
-}
-
-/* começo da questão */
-
-#pergunta-principal {
-    /* margin-top: 30px; */
-    color: rgb(80, 80, 80);
-    border-radius: 10px;
-    display: flex;
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-
-/* botão com respostas */
-
-#botao-resposta {
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    background-color: #3ce4cb;
-    font-weight: bold;
-    font-size: 15px;
-    color: rgb(80, 80, 80);
-    padding: 10px 20px;
-    border-radius: 20px;
-
-}
-
-#grupo-botao {
-    display: grid;
-    justify-content: center;
-}
-
-#botao-resposta:hover {
-    background-color: #33beaa;
-
-}
-
-#titulo:focus {
-    box-shadow: 0 0 0 0;
-    outline: 0;
-}
+/*---------- EFEITO DE ZOOM NA IMAGEM ADAPTADO (AUDI) END ------*/
 
 
-/* modal após resposta do usuário */
-/* ajeitei a responsividade  */
-img#imagem-acerto {
-    width: 450px;
-    height: 250px;
-}
-
-img#imagem-erro {
-    width: 450px;
-    height: 250px;
-}
-
-@media screen {
-    @media(max-width:400px) {
-        img#imagem-acerto {
-            width: 250px;
-            height: 170px;
-        }
-
-        img#imagem-erro {
-            width: 250px;
-            height: 170px;
-        }
-    }
-}
-
-.imagem {
-    text-align: center;
-    margin-top: -50px;
-}
-
-/* header com botao de fechar */
-#botao-fechar {
-    justify-content: flex-end;
-    display: flex;
-    position: relative;
-    z-index: 5;
-}
-
-#header-modal {
-    border-bottom: none;
-}
-
-/* FIM DAS CONFIGURAÇÕES DA QUESTÃO DE FIXAÇÃO */
-
-
-/* INÍCIO DO BUTTON BACK TO TOP (JAMILLE) */
+/*-------- INÍCIO DO BUTTON BACK TO TOP (JAMILLE) --------*/
 #back_to_top {
     position: fixed;
     z-index: 2;
@@ -1286,11 +1223,6 @@ img#imagem-erro {
     transition: .4s all;
 }
 
-
-#back_to_top #btn_back #icon_up:hover {
-    transform: translateY(-3px);
-}
-
 #btn_back {
     display: block;
     height: calc(100% - 12px);
@@ -1301,30 +1233,17 @@ img#imagem-erro {
     place-items: center;
 }
 
-/* FIM DO BUTTON BACK TO TOP (JAMILLE) */
-
-.Texto {
-    cursor: default;
+/* efeito ao clicar no botão back to top */
+#back_to_top #btn_back #icon_up:hover {
+    transform: translateY(-3px);
 }
-
-.Texto:hover {
-    margin-left: 10px;
-}
-
-/* BARRA DE PROGRESSO  */
-#progress-bar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    height: 10px;
-    background: linear-gradient(#03cc65 0%, #03cc65 100%);
-    transition: width 0.5s ease-out;
-    z-index: 5;
-}
+/* ------- FIM DO BUTTON BACK TO TOP -------- */
 
 
-
-/* FOOTER */
+/* ------- FOOTER ---------*/
 footer {
     margin-bottom: 15px;
 }
+/* ------- FOOTER END ---------*/
+
+/* ######################################### FIM DAS CONFIGURÇÕES DO CONTEÚDO DA PÁGINA ################################################### */

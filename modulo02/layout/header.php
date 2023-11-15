@@ -18,9 +18,9 @@
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- link do script -->
-    <script src="http://localhost:8088/assets/js/script.js" defer></script>
+    <script src="../assets/js/script.js" defer></script>
     <!-- nosso css -->
-    <link rel="stylesheet" href="http://localhost:8088/assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="assets/css/modulo02.css">
 
     <!-- link do wow.js -->
