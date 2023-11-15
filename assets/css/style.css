@@ -581,10 +581,6 @@ h2 {
     color: #44833D;
     font-weight: bolder;
 }
-h2,
-.Titulo {
-    color: var(--color-green);
-}
 
 .iconTitulo {
     margin-right: 8px;
@@ -598,6 +594,10 @@ h2,
 }
 /* modo escuro do título principal */
 
+h2,
+.Titulo {
+    color: var(--color-green);
+}
 /* Título Pricipal End*/
 
 /* links */
