@@ -5,7 +5,7 @@
 include('layout/header.php');
 ?>
 
-<body>
+<body class="transparente">
     <!-- NAV  -->
     <?php
     include('layout/nav.php');

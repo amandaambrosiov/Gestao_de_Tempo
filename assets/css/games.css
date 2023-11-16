@@ -15,9 +15,12 @@
 .start_btn{
   display: flex;
   justify-content: center;
-  margin-bottom: 4em;
-}
+  transition: 0.4s;
 
+}
+.start_btn:hover{
+    transform: scale(1.2);
+}
 .info_box.activeInfo,
 .quiz_box.activeQuiz,
 .result_box.activeResult{
@@ -33,10 +36,12 @@
     padding: 15px 30px;
     outline: none;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-    background-color: #26a737;
+    background-color: rgb(17, 213, 219);
     color: white;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 3em 0;
 }
 
 .info_box{
@@ -112,7 +117,7 @@
     z-index: 2;
     height: 70px;
     padding: 0 30px;
-    background-color: #26a737;
+    background-color: rgb(17, 213, 219);
     border-radius: 5px 5px 0 0;
     display: flex;
     align-items: center;
@@ -128,7 +133,7 @@
 
 section{
     padding: 25px 30px 20px 30px;
-    background: #fff;
+
 }
 
 section .que_text{
@@ -142,7 +147,7 @@ section .option_list{
 }
 
 section .option_list .option{
-    background-color: #26a737;
+    background-color: rgb(17, 213, 219);
     color: white;
     /* border: 1px solid #84c5fe; */
     border-radius: 5px;
@@ -161,7 +166,7 @@ section .option_list .option:last-child{
 }
 
 section .option_list .option:hover{
-    background-color: #26a737;
+    background-color: rgb(17, 213, 219);
     color: white;
     /* border: 1px solid #b8daff; */
 }
@@ -237,7 +242,7 @@ footer button{
     border: none;
     outline: none;
     border-radius: 5px;
-    background-color: #26a737;
+    background-color: rgb(17, 213, 219);
     color: white;
     /* border: 1px solid #007bff; */
     line-height: 10px;
@@ -248,7 +253,7 @@ footer button{
 }
 
 footer button:hover{
-    background-color: #208b2f;
+    transform: scale(1.2);
     color: white;
 }
 
@@ -316,22 +321,24 @@ footer button.show{
 }
 
 .buttons button.restart{
-    background-color: #26a737;
+    background-color: rgb(17, 213, 219);
     color: white;
+    transition: 0.4s;
 }
 
 .buttons button.restart:hover{
-    background-color: #208b2f;
+    transform: scale(1.2);
     color: white;
 }
 
 .buttons button.quit{
-    background-color: #26a737;
+    background-color: rgb(17, 213, 219);
     color: white;
+    transition: 0.4s;
 }
 
 .buttons button.quit:hover{
-    background-color: #208b2f;
+    transform: scale(1.2);
     color: white;
 }
 .icone{
