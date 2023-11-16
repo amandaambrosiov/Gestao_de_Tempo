@@ -1,6 +1,9 @@
 /* font relawey (para os conteúdos de textos dos parágrafos)  */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 /* OBS:
 A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
 
@@ -70,7 +73,8 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Kanit', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 /* ------- CONFIGURAÇÕES GERAIS END --------*/

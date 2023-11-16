@@ -21,9 +21,13 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- nosso css -->
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/games.css">
     <link rel="stylesheet" href="assets/style.css">
+
     <!-- link do script -->
     <script src="../assets/js/script.js" defer></script>
+    <script src="../assets/js/games.js" defer></script>
+    <script src="../assets/js/questions.js" defer></script>
 
     <!-- link do wow.js -->
     <link rel="stylesheet" href="../assets/css/animate.css">
