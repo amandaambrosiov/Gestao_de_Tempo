@@ -221,15 +221,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // SUBTÓPICO COM JQUERY
 $(document).ready(function () {
-  
+
     // Adicione um evento de clique a todos os botões de dropdown
     $(".dropdown-btn").click(function (event) {
         // Encontre o conteúdo de dropdown associado a este botão
         var dropdown = $(this).next('.dropdown-container');
 
-        dropdown.stop(true,true).slideToggle();
+        dropdown.stop(true, true).slideToggle();
 
-         event.stopPropagation();
+        event.stopPropagation();
 
         //    fecha o dropdown no evento "mouseleave" na ul "dropDown"
         $('.menulateral').mouseleave(function () {
