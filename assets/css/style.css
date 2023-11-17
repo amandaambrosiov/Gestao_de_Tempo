@@ -787,11 +787,14 @@ hr {
     margin-bottom: 2rem;
     cursor: pointer;
 }
-
+section{
+    padding: 0 !important;
+}
 .accordion {
-    width: 1000px;
+    width: 100%;
+    margin: 2rem 0;
     /*define o tamanho do acordeon*/
-    margin: 40px 10px 0px 10px;
+    /* margin: 40px 10px 0px 10px; */
     /*coloquei o top só para tirar lá de cima e nas laterais para no reponsivo não grudar na tela*/
 }
 
