@@ -712,10 +712,8 @@ hr {
 
 /* BOTÃO LER MAIS */
 #buton-lerMais {
-    /* width: 21rem; */
-    /* height: 2.7rem; */
-    float: right;
-    padding: 10px;
+    width: 21rem;
+    height: 2.7rem;
     font-size: 1.1rem;
     background-color: var(--CorAccordionImportante);
     align-items: center;
@@ -727,19 +725,17 @@ hr {
 }
 
 #conteudo-LerMais {
+    font-family: "Raleway";
     font-size: 1.3rem;
     font-style: italic;
     line-height: 1.7em;
-    float: right;
 }
 
 #buton-lerMais2 {
     background-color: var(--CorVerdeClaro);
     color: white;
-    /* width: 21rem; */
-    /* height: 2.7rem; */
-    float: right;
-    padding: 10px;
+    width: 21rem;
+    height: 2.7rem;
     font-size: 1.1rem;
     align-items: center;
 }
@@ -1255,18 +1251,3 @@ footer {
 /* ------- FOOTER END ---------*/
 
 /* ######################################### FIM DAS CONFIGURÇÕES DO CONTEÚDO DA PÁGINA ################################################### */
-
-.video{
-background-color: var(--color-green);
-height: fit-content;
-border-radius: 10px;
-padding: 20px;
-display: grid;
-grid-template-columns: 50% 50%;
-}
-iframe{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-#buton-lerMais{
-
-}
