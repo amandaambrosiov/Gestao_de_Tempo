@@ -212,35 +212,37 @@ include('layout/header.php');
             <br>
 
             <!-- BOTÃO LER MAIS -->
-            <p class="d-flex justify-content-center gap-2">
-              <button class="btn CorVerdeEstado" id="buton-lerMais" type="button" data-bs-toggle="collapse"
-                data-bs-target="#multiCollapseExample3" aria-expanded="false"
-                aria-controls="multiCollapseExample3"><strong>
-                  CLIQUE AQUI PARA SABER MAIS</strong> <i class="fa-solid fa-arrow-pointer fa-beat"></i></button>
-            </p>
+            <div class="card-video">
+              <p class="d-flex justify-content-center gap-2 wow animate__slideInRight" data-wow-delay="0.3s">
+                <button class="btn CorVerdeEstado" id="buton-lerMais" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                  aria-controls="multiCollapseExample3"><strong>
+                    CLIQUE AQUI PARA SABER MAIS</strong> <i class="fa-solid fa-arrow-pointer fa-beat"></i></button>
+              </p>
 
-            <div class="collapse multi-collapse" id="multiCollapseExample3">
+              <div class="collapse multi-collapse" id="multiCollapseExample3">
 
-              <div class="d-flex justify-content-center">
-                <div class="card card-body" style="width: 800px;" id="conteudo-LerMais">
-                  O que vem travando você na sua prática diária? Você sabia que no Brasil já existem pesquisas que
-                  apontam quem 20% das pesssoas são procastinadoras crônicas? Gabriela Brasil é Evernote Business
-                  Certified Consultant, consultora organizacional e de produtividade, profissional membro da NAPO -
-                  National Association of Professional Organizers (EUA). Reside em Pablo Alto, Vale do Sílicio -
-                  Califórnia (EUA). Neste vídeo ela nos apresenta o perfeccionismo, a autosabotagem e a procrastinação
-                  bem como relata dicas simples para nos auxiliar e encontrar mais tempo e tranquilidade em nossos dias.
+                <div class="d-flex justify-content-center">
+                  <div class="card card-body" style="width: 800px;" id="conteudo-LerMais">
+                    O que vem travando você na sua prática diária? Você sabia que no Brasil já existem pesquisas que
+                    apontam quem 20% das pesssoas são procastinadoras crônicas? Gabriela Brasil é Evernote Business
+                    Certified Consultant, consultora organizacional e de produtividade, profissional membro da NAPO -
+                    National Association of Professional Organizers (EUA). Reside em Pablo Alto, Vale do Sílicio -
+                    Califórnia (EUA). Neste vídeo ela nos apresenta o perfeccionismo, a autosabotagem e a procrastinação
+                    bem como relata dicas simples para nos auxiliar e encontrar mais tempo e tranquilidade em nossos
+                    dias.
+                  </div>
                 </div>
               </div>
-            </div>
-            <br>
-            <!-- BOTÃO LER MAIS -->
+              <!-- BOTÃO LER MAIS -->
 
-            <!-- VÍDEO DO YOUTUBE -->
-            <div class="container wow fadeIn" data-wow-delay="0.3s">
-              <iframe width="600" height="340" src="https://www.youtube.com/embed/mfZUoSQbaec"
-                title="Um olhar sobre o perfeccionismo, autosabotagem e procrastinação" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+              <!-- VÍDEO DO YOUTUBE -->
+              <div class="container wow fadeIn" data-wow-delay="0.3s">
+                <iframe width="600" height="340" src="https://www.youtube.com/embed/mfZUoSQbaec"
+                  title="Um olhar sobre o perfeccionismo, autosabotagem e procrastinação" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
             </div>
             <!-- VÍDEO DO YOUTUBE -->
 

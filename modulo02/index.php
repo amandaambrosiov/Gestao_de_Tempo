@@ -31,8 +31,17 @@ include('layout/header.php');
 
             <!--  Título Pricipal -->
             <h2 class="Titulo fw-bolder"><span class="iconTitulo"><i class="bi bi-person-workspace"></i>
-                </span> Apresentação</h2><br>
+              </span> Apresentação</h2><br>
             <!--  Título Principal -->
+
+            <ul class="none ">
+              <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i></i>
+                <h4>
+                  Olá, Nome_Completo bem-vindo ao módulo 02 do curso de Gestão do tempo. Bons estudos!
+                </h4>
+              </li>
+            </ul>
+            <br>
 
             <!-- Parágrafo com a biblioteca de animação  -->
             <p class="scrool">Na primeira parte deste curso, você aprendeu sobre os aspectos mais gerais da Gestão do
@@ -50,17 +59,13 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="scrool">Nesta segunda parte, eu Kamilla Nascimento lhe conduzirei de forma mais profunda na compreensão da Gestão do Tempo que se relaciona com uma mentalidade realizadora e com os hábitos necessários para transformar seus sonhos em realidade. Como foi mencionado, a longo prazo, essas mudanças poderão ser traduzidas em uma melhor qualidade de vida, melhoria da motivação e até na ampliação da felicidade.
+            <p class="scrool">Nesta segunda parte, eu Kamilla Nascimento lhe conduzirei de forma mais profunda na
+              compreensão da Gestão do Tempo que se relaciona com uma mentalidade realizadora e com os hábitos
+              necessários para transformar seus sonhos em realidade. Como foi mencionado, a longo prazo, essas mudanças
+              poderão ser traduzidas em uma melhor qualidade de vida, melhoria da motivação e até na ampliação da
+              felicidade.
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-            <ul class="none ">
-                        <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i ></i><h4>
-                        Olá, Nome_Completo bem-vindo ao módulo 01 do curso de Gestão do tempo. Bons estudos!
-                        </h4> 
-                        </li>
-                    </ul>
-
 
 
           </div>

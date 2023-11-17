@@ -1,4 +1,4 @@
-<footer>
+<div class="footer">
   <hr>
   <div class="text-center">
     <p class="text">
@@ -7,4 +7,4 @@
     <img class="img-fluid" style="max-width: 200px;"
       src="https://www.egp.ce.gov.br/wp-content/uploads/sites/8/2021/06/seplag-cinza.png" alt="Logo Seplag">
   </div>
-</footer>
+</div>

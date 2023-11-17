@@ -64,6 +64,7 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     --FonteVerdana: Verdana, Geneva, Tahoma, sans-serif;
     /* fontes end */
 }
+
 /* ######################################### CORES END ########################################################## */
 
 
@@ -73,6 +74,7 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--FonteRaleway);
     font-family: 'Kanit', sans-serif;
     /* font-family: Arial, Helvetica, sans-serif; */
 }
@@ -133,6 +135,7 @@ body::-webkit-scrollbar-thumb {
 .btn {
     transition: 0.5s;
 }
+
 /* transição dos botões end */
 
 /* botão ir para o moodle - modo escuro */
@@ -219,19 +222,19 @@ ul li.menu a {
     color: #44833D;
     text-decoration: none;
     font-size: 21px;
-    padding: 43px 0%;
+    padding: 15px 0%;
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
     cursor: pointer;
     transition: 0.1s;
-    height: 70px;
+    height: 65px;
     width: 100%;
     /* border: 1px solid red; */
 }
 
 ul li.menu a .txt {
-    margin-left: 2.5rem;
+    margin-left: 2rem;
     display: flex;
     text-align: left;
     width: 100%;
@@ -295,9 +298,11 @@ ol li {
 [data-theme="dark"] ul li.menu a:hover {
     color: rgb(0, 0, 0);
 }
+
 [data-theme="dark"] ul li.menu a.ativo {
     border-right: 6px solid #1ab6b6;
 }
+
 /* configuração modo escuro do menu lateral end */
 
 /* lista não ordenada - menu lateral end */
@@ -382,6 +387,7 @@ ol li {
     background-color: #1a9c60;
     height: auto;
 }
+
 /* hover dos subtópicos end */
 
 
@@ -410,6 +416,7 @@ ol li {
     background-color: #3be3e2;
     color: #040504;
 }
+
 /* configuração do modo escuro - subtópicos */
 
 /* ####################### CONFIGURAÇÃO DOS SUBTÓPICOS END ##################### */
@@ -475,6 +482,7 @@ form {
         }
     }
 }
+
 /*  MEDIA QUERY END */
 
 /* menu lateral responsivo */
@@ -546,6 +554,7 @@ form {
     filter: invert(1) grayscale(100%) brightness(200%);
 
 }
+
 /* COR DO MENU RESPONSIVO - MODO ESCURO END */
 
 /* ESTILO DO MENU RESPONSIVO END */
@@ -576,6 +585,18 @@ form {
 
 /* ######################################### INÍCIO DAS CONFIGURÇÕES DO CONTEÚDO DA PÁGINA ################################################### */
 
+/* CARD DOS VÍDEOS DO YOUTUBE */
+/* .card-video{
+    background-color: #008080;
+    border: 1px solid red;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+/* CARD DOS VÍDEOS DO YOUTUBE END*/
+
 /* ------ CONFIGURÇÃO DOS TEXTOS ------- */
 /* Título Pricipal */
 h2 {
@@ -596,12 +617,14 @@ h2 {
 .Titulo {
     color: var(--color-light-50);
 }
+
 /* modo escuro do título principal */
 
 h2,
 .Titulo {
     color: var(--color-green);
 }
+
 /* Título Pricipal End*/
 
 /* links */
@@ -609,6 +632,7 @@ a {
     text-decoration: none;
     color: #4a71f1;
 }
+
 /* links end */
 
 .Texto {
@@ -628,10 +652,11 @@ a {
 strong {
     font-weight: 300;
 }
+
 /* negrito dos textos*/
 
 /* modo escuro - textos */
-[data-theme="dark"] h5{
+[data-theme="dark"] h5 {
     color: white;
 }
 
@@ -646,6 +671,7 @@ strong {
 [data-theme="dark"] p {
     color: var(--color-light-50);
 }
+
 /* modo escuro - textos end */
 
 /* ------ CONFIGURÇÃO DOS TEXTOS END ------- */
@@ -660,6 +686,7 @@ hr {
     font-size: 1.2rem;
     margin-top: 5px;
 }
+
 /*  ------- LISTA NÃO ORDENADA NO CONTEÚDO END ------- */
 
 
@@ -684,6 +711,7 @@ hr {
     font-family: Arial, Helvetica, sans-serif;
     font-size: -100px;
 }
+
 /* ------- CONTEÚDO PRINCIPAL END ------- */
 
 
@@ -715,7 +743,7 @@ hr {
     width: 21rem;
     height: 2.7rem;
     font-size: 1.1rem;
-    background-color: var(--CorAccordionImportante);
+    background-color: #e94f0e;
     align-items: center;
 }
 
@@ -732,7 +760,7 @@ hr {
 }
 
 #buton-lerMais2 {
-    background-color: var(--CorVerdeClaro);
+    background-color: #e94f0e;
     color: white;
     width: 21rem;
     height: 2.7rem;
@@ -744,6 +772,7 @@ hr {
     margin-left: 8px;
     font-size: 1.2rem;
 }
+
 /* BOTÃO LER MAIS END */
 /* ################### BOTÕES COM CONTEÚDO END ######################## */
 
@@ -822,6 +851,7 @@ hr {
 #importante {
     background-color: #edb00929;
 }
+
 /* CAIXA IMPORTANTE END */
 
 /* CAIXA DÚVIDA */
@@ -837,6 +867,7 @@ hr {
 #duvida p {
     color: #040504;
 }
+
 /* CAIXA DÚVIDA END */
 
 /* CAIXA FIQUE ATENTO */
@@ -863,6 +894,7 @@ hr {
 #fiqueatento {
     background-color: #edb00929;
 }
+
 /* CAIXA FIQUE ATENTO END*/
 
 /* CAIXA REFLITA */
@@ -889,6 +921,7 @@ hr {
 #reflita {
     background-color: #3be3e229;
 }
+
 /* CAIXA REFLITA END*/
 
 
@@ -918,6 +951,7 @@ hr {
 [data-theme="dark"] #exemplo p {
     color: #040504;
 }
+
 /* CAIXA EXEMPLO END */
 
 
@@ -956,6 +990,7 @@ hr {
 [data-theme="dark"] #saibamais p {
     color: #040504;
 }
+
 /* CAIXA SAIBA MAIS END */
 
 
@@ -1097,14 +1132,15 @@ o estado inicial de height 0 manteria o texto aparecendo */
         margin-left: 0.5rem;
     }
 }
+
 /* ################################# FIM DO ESTILO DO ACCORDION  ################################# */
 
 
 /*------ ESTILO DA TABELA ------ */
 .table {
-    font-weight: lighter;
     font-size: 1.2rem;
 }
+
 /*------ ESTILO DA TABELA END ------ */
 
 /* estilo da pagina do primeiro modulo */
@@ -1143,6 +1179,7 @@ o estado inicial de height 0 manteria o texto aparecendo */
     --white: #29292B;
     --black: #fff;
 }
+
 /* CORES MODO CLARO/ESCURO END */
 
 /* ################## INÍCIO DO BOTÃO DO MODO ESCURO END ################## */
@@ -1169,6 +1206,7 @@ o estado inicial de height 0 manteria o texto aparecendo */
 [data-theme="dark"] #txt_referencias {
     color: var(--color-light-50);
 }
+
 /*FIM DA CONFIGURAÇÃO DO MODO ESCURO*/
 
 /*---------- EFEITO DE ZOOM NA IMAGEM ADAPTADO (AUDI) ------*/
@@ -1179,6 +1217,7 @@ o estado inicial de height 0 manteria o texto aparecendo */
     margin-left: auto;
     margin-right: auto;
 }
+
 .zoom img {
     max-width: 100%;
     transition: all 0.3s;
@@ -1202,8 +1241,9 @@ o estado inicial de height 0 manteria o texto aparecendo */
 }
 
 #text-left {
-    margin-top: 3.5em;
+    margin-top: 2.3em;
 }
+
 /* IMAGEM E TEXTOS JUNTOS END */
 
 /*---------- EFEITO DE ZOOM NA IMAGEM ADAPTADO (AUDI) END ------*/
@@ -1241,13 +1281,15 @@ o estado inicial de height 0 manteria o texto aparecendo */
 #back_to_top #btn_back #icon_up:hover {
     transform: translateY(-3px);
 }
+
 /* ------- FIM DO BUTTON BACK TO TOP -------- */
 
 
 /* ------- FOOTER ---------*/
-footer {
-    margin-bottom: 15px;
+.footer {
+    margin-bottom: 5px;
 }
+
 /* ------- FOOTER END ---------*/
 
 /* ######################################### FIM DAS CONFIGURÇÕES DO CONTEÚDO DA PÁGINA ################################################### */

@@ -84,17 +84,28 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">Por essa razão, a gestão do tempo precisa ser praticada
-              logo após a <strong> profunda
-                limpeza </strong> de tudo aquilo que não permite que a nova identidade seja realizada e isso significa a
-              retirada de crenças limitantes, de identidades conflitantes e de tudo que possa impedir que a sua nova
-              agenda seja realizada.
-            </p>
-            <!--  Fim do Parágrafo com a biblioteca de animação -->
+            <div class="p-2 rounded wow animate__lightSpeedInLeft" data-wow-delay="0.3s" style="background-color: rgb(14, 149, 129);">
+              <!-- Interação com aluno-->
+              <ul class="none" style="padding-left:0">
+                <li class="img-fluid wow fadeIn text-light" data-wow-delay="0.3s"><i></i>
+                  <p>
+                    Por essa razão, a gestão do tempo precisa
+                    ser praticada
+                    logo após a <strong> profunda
+                      limpeza </strong> de tudo aquilo que não permite que a nova identidade seja realizada e isso
+                    significa a
+                    retirada de crenças limitantes, de identidades conflitantes e de tudo que possa impedir que a sua
+                    nova
+                    agenda seja realizada.
+                  </p>
+                </li>
+              </ul>
+            </div>
             <br><br>
+            <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- BOTÃO LER MAIS -->
-            <p class="d-flex justify-content-center gap-2 wow fadeIn" data-wow-delay="0.3s">
+            <p class="d-flex justify-content-center gap-2 wow animate__slideInRight" data-wow-delay="0.3s">
               <button class="btn" id="buton-lerMais2" type="button" data-bs-toggle="collapse"
                 data-bs-target="#multiCollapseExample3" aria-expanded="false"
                 aria-controls="multiCollapseExample3"><strong>
@@ -113,7 +124,6 @@ include('layout/header.php');
                 </div>
               </div>
             </div>
-            <br>
             <!-- BOTÃO LER MAIS -->
 
 

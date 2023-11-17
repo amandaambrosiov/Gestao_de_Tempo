@@ -28,13 +28,23 @@ include('layout/header.php');
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <!--  Título Pricipal -->
-                        <h2 class="Titulo fw-bolder"><span class="icon "><i class="bi bi-person-workspace"></i>
+                        <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s"><span class="icon"><i class="bi bi-person-workspace"></i>
                             </span> Apresentação</h2><br>
                         <!--  Título Principal -->
 
 
+                        <ul class="none wow fadeIn" data-wow-delay="0.3s">
+                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i></i>
+                                <h4>
+                                    Olá, Nome_Completo bem-vindo ao módulo 01 do curso de Gestão do tempo. Bons
+                                    estudos!
+                                </h4>
+                            </li>
+                        </ul>
+                        <br>
+
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Bem-vindo ao curso de Gestão do Tempo. Se você tem a percepção de
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Bem-vindo ao curso de Gestão do Tempo. Se você tem a percepção de
                             que
                             todas as
                             suas horas passam voando e você nunca realiza todos os planos ou nem consegue
@@ -60,7 +70,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- CAIXA DE TEXTO IMPORTANTE -->
-                        <section class="container">
+                        <section class="container wow fadeIn" data-wow-delay="0.3s">
                             <div class="accordion">
                                 <section id="content">
                                     <div class="caixaprincipal" id="tituloimportante">
@@ -97,7 +107,7 @@ include('layout/header.php');
 
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Note que cada ser humano possui exatamente a mesma quantidade de horas
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Note que cada ser humano possui exatamente a mesma quantidade de horas
                             diárias
                             para realizar suas atividades, mas a nossa percepção sobre o tempo pode ser
                             completamente
@@ -110,21 +120,11 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="scrool">Tendo tudo isso como base, nas próximas seções deste curso você
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Tendo tudo isso como base, nas próximas seções deste curso você
                             perceberá os benefícios da gestão do tempo, como visualizar uma nova vida para si
                             mesmo e planejar a sua realização através de objetivos e hábitos.
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-                        <ul class="none ">
-                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i></i>
-                                <h4>
-                                    Olá, Nome_Completo bem-vindo ao módulo 01 do curso de Gestão do tempo. Bons
-                                    estudos!
-                                </h4>
-                            </li>
-                        </ul>
-
 
                     </div>
                 </div>
