@@ -48,10 +48,8 @@ include('layout/header.php');
                         </div>
 
                         <!-- Imagem - MODAL-->
-                        <div class="modal fade text-center" id="Imagem1" tabindex="-1"
-                            aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div
-                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                        <div class="modal fade text-center" id="Imagem1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
                                 <div class="modal-content w-75">
                                     <img class="img-fluid" src="imgs02/Figura03.png" alt="Alt da imagem fica aqui">
                                 </div>
@@ -191,14 +189,9 @@ include('layout/header.php');
                         <br>
 
                         <p class="d-flex justify-content-around gap-1">
-                            <a class="btn CorVerdeEstado" id="buton-t3" data-bs-toggle="collapse"
-                                href="#multiCollapseExample1" role="button" aria-expanded="false"
-                                aria-controls="multiCollapseExample1"><i class="fa-solid fa-computer"> <strong> Vida
+                            <a class="btn CorVerdeEstado" id="buton-t3" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa-solid fa-computer"> <strong> Vida
                                         Profissional</strong></i></a>
-                            <button class="btn CorVerdeEstado" id="buton-t3" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#multiCollapseExample2" aria-expanded="false"
-                                aria-controls="multiCollapseExample2"><i class="fa-solid fa-umbrella-beach"> <strong
-                                        id="text-teste">
+                            <button class="btn CorVerdeEstado" id="buton-t3" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"><i class="fa-solid fa-umbrella-beach"> <strong id="text-teste">
                                         Vida
                                         Pessoal </strong></i></i></button>
                         </p>
@@ -254,38 +247,20 @@ include('layout/header.php');
                             redirecionar as suas ações.</p>
                         <br>
 
-                        <!-- BOTÃO LER MAIS -->
-                        <p class="d-flex justify-content-center gap-2">
-                            <button class="btn CorVerdeEstado" id="buton-lerMais" type="button"
-                                data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false"
-                                aria-controls="multiCollapseExample3"><strong>
-                                    CLIQUE AQUI PARA SABER MAIS</strong> <i
-                                    class="fa-solid fa-arrow-pointer fa-beat"></i></button>
-                        </p>
-
-                        <div class="collapse multi-collapse" id="multiCollapseExample3">
-
-                            <div class="d-flex justify-content-center">
-                                <div class="card card-body" style="width: 800px;" id="conteudo-LerMais">
-                                    Neste vídeo Chistian Barbosa relata de forma simples 06 (seis) micro-hábitos para
+                        <!-- VÍDEO DO YOUTUBE -->
+                        <div class="video wow fadeInDown">
+                            <div class=" wow fadeIn" data-wow-delay="0.3s">
+                                <iframe width="700" height="380" src="https://www.youtube.com/embed/HMeSOjEMqrw" title="6 Micro-Hábitos diários para Conquistar seus Objetivos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="descricao">
+                                <div class="titulo_video wow fadeInDown">Saiba mais</div>
+                                <p class="wow fadeInDown">Neste vídeo Chistian Barbosa relata de forma simples 06 (seis) micro-hábitos para
                                     serem incorporados no nosso dia a dia e que podem nos auxiliar a trabalhar melhor
                                     com o nosso tempo. Autor do livro Estratégias Práticas para Ganhar Mais Tempo
                                     (2013), é considerado o maior especialista do pa´s em gerenciamento do tempo e
-                                    produtividade pessoal. Um dos mais jovens profissionais certificados pela Microsoft.
-                                </div>
+                                    produtividade pessoal. Um dos mais jovens profissionais certificados pela Microsoft.</p>
                             </div>
                         </div>
-                        <br>
-                        <!-- BOTÃO LER MAIS -->
-
-                        <!-- VÍDEO DO YOUTUBE -->
-                        <div class="container wow fadeIn" data-wow-delay="0.3s">
-                            <iframe width="600" height="343" src="https://www.youtube.com/embed/HMeSOjEMqrw"
-                                title="6 Micro-Hábitos diários para Conquistar seus Objetivos" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
-                        </div>
-                        <!-- VÍDEO DO YOUTUBE -->
 
 
                     </div>
@@ -312,8 +287,7 @@ include('layout/header.php');
     <div class="text-center">
         <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true">
             <i class="fa-solid fa-chevron-left"></i> Voltar </a>
-        <a href="referencias.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
-                class="fa-solid fa-chevron-right"></i></a>
+        <a href="referencias.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i class="fa-solid fa-chevron-right"></i></a>
     </div>
 
     <!-- FOOTER  -->

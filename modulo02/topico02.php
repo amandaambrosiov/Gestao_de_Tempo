@@ -49,8 +49,7 @@ include('layout/header.php');
             <br><br>
 
             <!-- Imagem - MODAL-->
-            <div class="modal fade text-center" id="Imagem1" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
+            <div class="modal fade text-center" id="Imagem1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
                 <div class="modal-content w-75">
                   <img class="img-fluid" src="imgs02/Figura02.png" alt="Alt da imagem fica aqui">
@@ -128,44 +127,27 @@ include('layout/header.php');
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-            <!-- lista ordenada  -->
-            <ol class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
-              <li class="wow fadeInLeft" data-wow-delay="0.3s">Senso de utilização;</li>
-              <li class="wow fadeInLeft" data-wow-delay="0.3s">Senso de organização;</li>
-              <li class="wow fadeInLeft" data-wow-delay="0.3s">Senso de limpeza;</li>
-              <li class="wow fadeInLeft" data-wow-delay="0.3s">Senso de padronização;</li>
-              <li class="wow fadeInLeft" data-wow-delay="0.3s">Senso de disciplina.</li>
-            </ol>
-            <!-- fim da lista ordenada  -->
-
-            <!-- BOTÃO LER MAIS -->
-            <p class="d-flex justify-content-center gap-2">
-              <button class="btn CorVerdeEstado" id="buton-lerMais" type="button" data-bs-toggle="collapse"
-                data-bs-target="#multiCollapseExample3" aria-expanded="false"
-                aria-controls="multiCollapseExample3"><strong>
-                  CLIQUE AQUI PARA SABER MAIS</strong> <i class="fa-solid fa-arrow-pointer fa-beat"></i></button>
-            </p>
-
-            <div class="collapse multi-collapse" id="multiCollapseExample3">
-
-              <div class="d-flex justify-content-center">
-                <div class="card card-body" style="width: 800px;" id="conteudo-LerMais">
-                  Você sabe qual é a origem do 5S? Neste vídeo, o Consultor Haroldo Ribeiro apresenta a real origem do
-                  5S. Haroldo Ribeiro é consultor e foi o primeiro autor brasileiro de 5S e de Manutenção Autônoma. É o
-                  autor com maior número de livros publicados nestes dois temas (mais de 30 livros).
+            <div class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
+              <div class="container">
+                <div class="row">
+                  <div class="col d-flex justify-content-center">
+                    <a class="li_interativo wow fadeInLeft" data-wow-delay="0.1s">Senso de utilização</a>
+                    <a class="li_interativo wow fadeInLeft" data-wow-delay="0.3s">Senso de organização</a>
+                    <a class="li_interativo wow fadeInLeft" data-wow-delay="0.6s">Senso de limpeza</a>
+                  </div>
+                  <div class="row">
+                    <div class="col d-flex justify-content-center">
+                      <a class="li_interativo wow fadeInLeft" data-wow-delay="0.8s">Senso de padronização</a>
+                      <a class="li_interativo wow fadeInLeft" data-wow-delay="0.9s">Senso de disciplina</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <br>
-            <!-- BOTÃO LER MAIS -->
 
-            <div class="container wow fadeIn" data-wow-delay="0.3s">
-              <iframe width="600" height="343" src="https://www.youtube.com/embed/nGBDxmDgMXU" title="5S - A Origem"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            </div>
-            <!-- VÍDEO DO YOUTUBE -->
+
+
+
 
             <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
             <section class="container wow fadeIn" data-wow-delay="0.3s">
@@ -315,6 +297,19 @@ include('layout/header.php');
 
             <br>
 
+                        <!-- VÍDEO DO YOUTUBE -->
+                        <div class="video wow fadeInDown">
+              <div class="wow fadeIn" data-wow-delay="0.3s">
+                <iframe width="700" height="380" src="https://www.youtube.com/embed/nGBDxmDgMXU" title="5S - A Origem" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <div class="descricao">
+                <div class="titulo_video wow fadeInDown">Saiba mais</div>
+                <p class="wow fadeInDown">Você sabe qual é a origem do 5S? Neste vídeo, o Consultor Haroldo Ribeiro apresenta a real origem do
+                  5S. Haroldo Ribeiro é consultor e foi o primeiro autor brasileiro de 5S e de Manutenção Autônoma. É o
+                  autor com maior número de livros publicados nestes dois temas (mais de 30 livros).</p>
+              </div>
+            </div>
+
             <!-- Parágrafo com a biblioteca de animação  -->
             <p class="wow fadeIn" data-wow-delay="0.3s">A organização, portanto, está claramente relacionada ao
               planejamento do qual falamos na
@@ -378,8 +373,7 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- começo do Quiz botao -->
-            <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button id="openModalBtn"><i
-                  class="icone fa-solid fa-puzzle-piece"></i>CLIQUE E TESTE SEUS
+            <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button id="openModalBtn"><i class="icone fa-solid fa-puzzle-piece"></i>CLIQUE E TESTE SEUS
                 CONHECIMENTOS</button></div>
 
             <!-- Caixa de informações -->
@@ -423,78 +417,78 @@ include('layout/header.php');
                     <!-- aqui está inserido o número de questões do js -->
                   </div>
                   <button class="next_btn">Próximo</button>
-              </footer>
-                </div>
+                </footer>
               </div>
-
-              <!-- Resultado -->
-              <div class="center">
-                <div class="result_box">
-                  <div class="icon">
-                    <i class="fa-solid fa-puzzle-piece"></i>
-                  </div>
-                  <div class="complete_text">Você completou o quiz!</div>
-                  <div class="score_text">
-                    <!-- Aqui é inserido o resultado -->
-                  </div>
-                  <div class="buttons">
-                    <button class="restart">Tentar novamente</button>
-                    <button class="quit">Fechar</button>
-                  </div>
-                </div>
-              </div>
-
-
-
-
-
-              <!-- Parágrafo com a biblioteca de animação  -->
-              <p class="wow fadeIn" data-wow-delay="0.3s">Manter a padronização requer um grande senso de disciplina.
-                “O compromisso é a chave para
-                a execução e, sem ele, você continuará sendo prejudicado ao perseguir seus objetivos” (LAWRENCE, 2019,
-                p.35). Perceba que o compromisso não está relacionado com a atividade, mas com você e com o que você
-                estabelece como objetivo futuro. Cada vez que você não cumpre aquilo que se comprometeu consigo mesmo,
-                está agindo contra seus próprios interesses.
-              </p>
-              <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-              <!-- CAIXA DE TEXTO IMPORTANTE -->
-              <section class="container wow fadeIn" data-wow-delay="0.3s">
-                <div class="accordion">
-                  <section id="content">
-                    <div class="caixaprincipal" id="tituloimportante">
-                      <div class="div_teste">
-                        <div><i class="bi bi-exclamation-circle"></i> IMPORTANTE </div>
-                        <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                      </div>
-                    </div> <!--caixa Principal-->
-                    <div class="accordion-content" id="importante">
-                      <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-                      <p class="txt-caixasecundaria">É importante destacar que, assim como ocorre nas organizações, a
-                        aplicação dessas premissas em sua vida muitas vezes depende do <strong> envolvimento de outras
-                          pessoas </strong>. Nesse caso, será necessário que você envolva todos os participantes de modo
-                        que possam também compreender a importância das mudanças e os impactos positivos que podem
-                        trazer.
-                      </p> <!--caixa secundaria-->
-                    </div>
-                  </section>
-                </div>
-              </section>
-              <!-- FIM DA CAIXA IMPORTANTE -->
-
-              <!-- Parágrafo com a biblioteca de animação  -->
-              <p class="wow fadeIn" data-wow-delay="0.3s">É preciso também ressaltar que, objetivos requerem ação.
-                Para que o planejado possa se realizar, você tem que tomar medidas diárias que o aproximem do que você
-                tem
-                em mente. “As metas têm um preço - não necessariamente monetário, mas as metas precisarão que você
-                invista
-                tempo e esforço e outras coisas em que possa pensar” (LAWRENCE, 2019, p.25).
-              </p>
-              <!--  Fim do Parágrafo com a biblioteca de animação -->
-
             </div>
+
+            <!-- Resultado -->
+            <div class="center">
+              <div class="result_box">
+                <div class="icon">
+                  <i class="fa-solid fa-puzzle-piece"></i>
+                </div>
+                <div class="complete_text">Você completou o quiz!</div>
+                <div class="score_text">
+                  <!-- Aqui é inserido o resultado -->
+                </div>
+                <div class="buttons">
+                  <button class="restart">Tentar novamente</button>
+                  <button class="quit">Fechar</button>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+            <!-- Parágrafo com a biblioteca de animação  -->
+            <p class="wow fadeIn" data-wow-delay="0.3s">Manter a padronização requer um grande senso de disciplina.
+              “O compromisso é a chave para
+              a execução e, sem ele, você continuará sendo prejudicado ao perseguir seus objetivos” (LAWRENCE, 2019,
+              p.35). Perceba que o compromisso não está relacionado com a atividade, mas com você e com o que você
+              estabelece como objetivo futuro. Cada vez que você não cumpre aquilo que se comprometeu consigo mesmo,
+              está agindo contra seus próprios interesses.
+            </p>
+            <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+            <!-- CAIXA DE TEXTO IMPORTANTE -->
+            <section class="container wow fadeIn" data-wow-delay="0.3s">
+              <div class="accordion">
+                <section id="content">
+                  <div class="caixaprincipal" id="tituloimportante">
+                    <div class="div_teste">
+                      <div><i class="bi bi-exclamation-circle"></i> IMPORTANTE </div>
+                      <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                    </div>
+                  </div> <!--caixa Principal-->
+                  <div class="accordion-content" id="importante">
+                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
+                    <p class="txt-caixasecundaria">É importante destacar que, assim como ocorre nas organizações, a
+                      aplicação dessas premissas em sua vida muitas vezes depende do <strong> envolvimento de outras
+                        pessoas </strong>. Nesse caso, será necessário que você envolva todos os participantes de modo
+                      que possam também compreender a importância das mudanças e os impactos positivos que podem
+                      trazer.
+                    </p> <!--caixa secundaria-->
+                  </div>
+                </section>
+              </div>
+            </section>
+            <!-- FIM DA CAIXA IMPORTANTE -->
+
+            <!-- Parágrafo com a biblioteca de animação  -->
+            <p class="wow fadeIn" data-wow-delay="0.3s">É preciso também ressaltar que, objetivos requerem ação.
+              Para que o planejado possa se realizar, você tem que tomar medidas diárias que o aproximem do que você
+              tem
+              em mente. “As metas têm um preço - não necessariamente monetário, mas as metas precisarão que você
+              invista
+              tempo e esforço e outras coisas em que possa pensar” (LAWRENCE, 2019, p.25).
+            </p>
+            <!--  Fim do Parágrafo com a biblioteca de animação -->
+
           </div>
         </div>
+      </div>
     </section>
   </div>
 
@@ -517,8 +511,7 @@ include('layout/header.php');
   <div class="text-center">
     <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true">
       <i class="fa-solid fa-chevron-left"></i> Voltar </a>
-    <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
-        class="fa-solid fa-chevron-right"></i></a>
+    <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i class="fa-solid fa-chevron-right"></i></a>
   </div>
 
   <!-- FOOTER  -->

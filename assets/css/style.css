@@ -62,6 +62,7 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     --FonteArial: Arial, Helvetica, sans-serif;
     --FonteRaleway: 'Raleway', sans-serif;
     --FonteVerdana: Verdana, Geneva, Tahoma, sans-serif;
+    --FonteKanit: 'Kanit', sans-serif;
     /* fontes end */
 }
 
@@ -74,9 +75,7 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--FonteRaleway);
-    font-family: 'Kanit', sans-serif;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: var(--FonteKanit);
 }
 
 /* ------- CONFIGURAÇÕES GERAIS END --------*/
@@ -90,7 +89,7 @@ body {
     overflow-x: hidden;
 }
 
-/* CONFIGURAÇÃO DO SCROOL */
+/* CONFIGURAÇÃO DO SCROLL */
 body::-webkit-scrollbar {
     width: 12px;
 }
@@ -267,10 +266,10 @@ ol {
 }
 
 ol li {
-    font-family: var(--FonteRaleway);
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-weight: 200 !important;
 }
 
 
@@ -585,18 +584,6 @@ form {
 
 /* ######################################### INÍCIO DAS CONFIGURÇÕES DO CONTEÚDO DA PÁGINA ################################################### */
 
-/* CARD DOS VÍDEOS DO YOUTUBE */
-/* .card-video{
-    background-color: #008080;
-    border: 1px solid red;
-    width: 20rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-} */
-
-/* CARD DOS VÍDEOS DO YOUTUBE END*/
-
 /* ------ CONFIGURÇÃO DOS TEXTOS ------- */
 /* Título Pricipal */
 h2 {
@@ -682,7 +669,6 @@ hr {
 
 /*  ------- LISTA NÃO ORDENADA NO CONTEÚDO ------- */
 .list li {
-    font-family: var(--FonteRaleway);
     font-size: 1.2rem;
     margin-top: 5px;
 }
@@ -697,8 +683,8 @@ hr {
 
 .main-content p {
     font-size: 20px;
-    font-family: var(--FonteRaleway);
     margin-left: 5px;
+    font-weight: 200 !important;
 }
 
 .main-content .FonteMenor {
@@ -753,7 +739,6 @@ hr {
 }
 
 #conteudo-LerMais {
-    font-family: "Raleway";
     font-size: 1.3rem;
     font-style: italic;
     line-height: 1.7em;
@@ -783,13 +768,14 @@ hr {
     position: relative;
     display: flex;
     justify-content: center;
-    font-family: 'Raleway' !important;
     margin-bottom: 2rem;
     cursor: pointer;
 }
-section{
+
+section {
     padding: 0 !important;
 }
+
 .accordion {
     width: 100%;
     margin: 2rem 0;
@@ -1226,8 +1212,7 @@ o estado inicial de height 0 manteria o texto aparecendo */
     transition: all 0.3s;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
-    border: 7px solid rgba(0, 0, 0, 0.062);
-    border-top: 0;
+border: 1px solid rgb(238, 238, 238);
 }
 
 .zoom:hover img {
@@ -1251,6 +1236,106 @@ o estado inicial de height 0 manteria o texto aparecendo */
 
 /*---------- EFEITO DE ZOOM NA IMAGEM ADAPTADO (AUDI) END ------*/
 
+/* IFRAME NO SITE  */
+@media (min-width:1260px) {
+    .video {
+        background-color: rgb(14, 149, 129);
+        padding: 20px;
+        border-radius: 0 50px 0 50px;
+        margin: 4em 0;
+        min-height: 450px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+
+    iframe {
+        float: left;
+        margin: 1em;
+    }
+
+    .titulo_video {
+        background-color: white;
+        color: rgb(14, 149, 129);
+        font-size: 25px;
+        width: fit-content;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        margin: 1em 0;
+        border-radius: 30px;
+    }
+
+    .descricao {
+        margin: 0 3em;
+    }
+}
+
+.descricao p {
+    font-weight: 300 !important;
+    color: #ffff;
+}
+
+@media (max-width:1260px) {
+    iframe {
+        width: 90%;
+        height: 200px auto;
+        margin: 1em;
+    }
+
+    .video {
+        background-color: rgb(14, 149, 129);
+        padding: 20px;
+        border-radius: 0 50px 0 50px;
+        margin: 2em 0;
+    }
+
+    .titulo_video {
+        background-color: white;
+        color: rgb(14, 149, 129);
+        font-size: 25px;
+        width: fit-content;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1em;
+        border-radius: 30px;
+    }
+
+    .descricao {
+        margin: 0 3em;
+    }
+}
+
+
+.texto_apresentacao {
+    background-color: orange;
+    border-radius: 100px 100px 100px 0;
+    padding: 40px;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media (min-width:1029px) {
+    .apresentacao {
+        display: grid;
+        grid-template-columns: 40% 50%;
+    }
+    .img_apresentacao{
+        display: flex;
+        justify-content: center;
+    }
+    .img_apresentacao img{
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media (max-width:1029px) {
+    .img_apresentacao {
+        display: none;
+    }
+}
 
 /*-------- INÍCIO DO BUTTON BACK TO TOP (JAMILLE) --------*/
 #back_to_top {

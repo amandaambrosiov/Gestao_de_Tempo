@@ -32,7 +32,6 @@ include('layout/header.php');
                             </span> Apresentação</h2><br>
                         <!--  Título Principal -->
 
-
                         <ul class="none wow fadeIn" data-wow-delay="0.3s">
                             <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i></i>
                                 <h4>
@@ -43,16 +42,31 @@ include('layout/header.php');
                         </ul>
                         <br>
 
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Bem-vindo ao curso de Gestão do Tempo. Se você tem a percepção de
-                            que
-                            todas as
-                            suas horas passam voando e você nunca realiza todos os planos ou nem consegue
-                            planejar nada
-                            e apenas lida com as coisas de acordo com a ordem em que aparecem, este curso
-                            vai te
-                            ajudar
-                            a tornar-se um <strong> realizador muito mais eficiente </strong>. Embora não
+
+
+                        <div class="apresentacao">
+
+                            <div class="img_apresentacao wow animate__zoomIn">
+                                <img src="imgs/Group 10.png" alt="">
+                            </div>
+                            <div>
+                                <!-- Parágrafo com a biblioteca de animação  -->
+                                <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s" >Bem-vindo ao curso de <strong> Gestão do Tempo</strong>! Se você tem a percepção de
+                                    que
+                                    todas as
+                                    suas horas passam voando e você nunca realiza todos os planos ou nem consegue
+                                    planejar nada
+                                    e apenas lida com as coisas de acordo com a ordem em que aparecem, este curso
+                                    vai te
+                                    ajudar
+                                    a tornar-se um <strong> realizador muito mais eficiente </strong>.
+                                </p>
+
+
+                            </div>
+                        </div>
+
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Embora não
                             exista
                             uma
                             única forma correta de lidar com o tempo, você aprenderá boas práticas para
@@ -65,8 +79,7 @@ include('layout/header.php');
                             importância do tempo e possa decidir, de acordo com suas próprias necessidades,
                             se
                             vale a
-                            pena mudar sua gestão pessoal do tempo.
-                        </p>
+                            pena mudar sua gestão pessoal do tempo.</p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- CAIXA DE TEXTO IMPORTANTE -->
@@ -126,6 +139,7 @@ include('layout/header.php');
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
+                        
                     </div>
                 </div>
             </div>

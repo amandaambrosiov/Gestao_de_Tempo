@@ -52,8 +52,7 @@ include('layout/header.php');
             </div>
 
             <!-- Imagem - MODAL-->
-            <div class="modal fade text-center" id="Imagem2" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
+            <div class="modal fade text-center" id="Imagem2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
                 <div class="modal-content w-75">
                   <img class="img-fluid" src="imgs01/Figura02.png" alt="Alt da imagem fica aqui">
@@ -187,6 +186,23 @@ include('layout/header.php');
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
+                        <!-- VÍDEO DO YOUTUBE -->
+                        <div class="video wow fadeInDown">
+              <div class="wow fadeIn" data-wow-delay="0.3s">
+                <iframe width="700" height="380" src="https://www.youtube.com/embed/mfZUoSQbaec" title="Um olhar sobre o perfeccionismo, autosabotagem e procrastinação" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <div class="descricao">
+                <div class="titulo_video wow fadeInDown">Saiba mais</div>
+                <p class="wow fadeInDown">O que vem travando você na sua prática diária? Você sabia que no Brasil já existem pesquisas que
+                  apontam quem 20% das pesssoas são procastinadoras crônicas? Gabriela Brasil é Evernote Business
+                  Certified Consultant, consultora organizacional e de produtividade, profissional membro da NAPO -
+                  National Association of Professional Organizers (EUA). Reside em Pablo Alto, Vale do Sílicio -
+                  Califórnia (EUA). Neste vídeo ela nos apresenta o perfeccionismo, a autosabotagem e a procrastinação
+                  bem como relata dicas simples para nos auxiliar e encontrar mais tempo e tranquilidade em nossos
+                  dias.</p>
+              </div>
+            </div>
+
             <!-- Parágrafo com a biblioteca de animação  -->
             <p class="wow fadeIn" data-wow-delay="0.3s">Ao determinar sua vida no futuro o seu cérebro perceberá que
               o
@@ -211,40 +227,7 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
             <br>
 
-            <!-- BOTÃO LER MAIS -->
-            <div class="card-video">
-              <p class="d-flex justify-content-center gap-2 wow animate__slideInRight" data-wow-delay="0.3s">
-                <button class="btn CorVerdeEstado" id="buton-lerMais" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#multiCollapseExample3" aria-expanded="false"
-                  aria-controls="multiCollapseExample3"><strong>
-                    CLIQUE AQUI PARA SABER MAIS</strong> <i class="fa-solid fa-arrow-pointer fa-beat"></i></button>
-              </p>
 
-              <div class="collapse multi-collapse" id="multiCollapseExample3">
-
-                <div class="d-flex justify-content-center">
-                  <div class="card card-body" style="width: 800px;" id="conteudo-LerMais">
-                    O que vem travando você na sua prática diária? Você sabia que no Brasil já existem pesquisas que
-                    apontam quem 20% das pesssoas são procastinadoras crônicas? Gabriela Brasil é Evernote Business
-                    Certified Consultant, consultora organizacional e de produtividade, profissional membro da NAPO -
-                    National Association of Professional Organizers (EUA). Reside em Pablo Alto, Vale do Sílicio -
-                    Califórnia (EUA). Neste vídeo ela nos apresenta o perfeccionismo, a autosabotagem e a procrastinação
-                    bem como relata dicas simples para nos auxiliar e encontrar mais tempo e tranquilidade em nossos
-                    dias.
-                  </div>
-                </div>
-              </div>
-              <!-- BOTÃO LER MAIS -->
-
-              <!-- VÍDEO DO YOUTUBE -->
-              <div class="container wow fadeIn" data-wow-delay="0.3s">
-                <iframe width="600" height="340" src="https://www.youtube.com/embed/mfZUoSQbaec"
-                  title="Um olhar sobre o perfeccionismo, autosabotagem e procrastinação" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
-              </div>
-            </div>
-            <!-- VÍDEO DO YOUTUBE -->
 
 
             <!-- Citação com borda verde (esquerda) -->
@@ -406,8 +389,7 @@ include('layout/header.php');
   <div class="text-center">
     <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true">
       <i class="fa-solid fa-chevron-left"></i> Voltar </a>
-    <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
-        class="fa-solid fa-chevron-right"></i></a>
+    <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i class="fa-solid fa-chevron-right"></i></a>
   </div>
 
   <!-- FOOTER  -->

@@ -83,11 +83,7 @@ include('layout/header.php');
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-            <!-- Parágrafo com a biblioteca de animação  -->
-            <div class="p-2 rounded wow animate__lightSpeedInLeft" data-wow-delay="0.3s" style="background-color: rgb(14, 149, 129);">
               <!-- Interação com aluno-->
-              <ul class="none" style="padding-left:0">
-                <li class="img-fluid wow fadeIn text-light" data-wow-delay="0.3s"><i></i>
                   <p>
                     Por essa razão, a gestão do tempo precisa
                     ser praticada
@@ -98,33 +94,7 @@ include('layout/header.php');
                     nova
                     agenda seja realizada.
                   </p>
-                </li>
-              </ul>
-            </div>
-            <br><br>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-            <!-- BOTÃO LER MAIS -->
-            <p class="d-flex justify-content-center gap-2 wow animate__slideInRight" data-wow-delay="0.3s">
-              <button class="btn" id="buton-lerMais2" type="button" data-bs-toggle="collapse"
-                data-bs-target="#multiCollapseExample3" aria-expanded="false"
-                aria-controls="multiCollapseExample3"><strong>
-                  CLIQUE AQUI PARA SABER MAIS</strong> <i class="fa-solid fa-arrow-pointer fa-beat"></i></button>
-            </p>
-
-            <div class="collapse multi-collapse" id="multiCollapseExample3">
-
-              <div class="d-flex justify-content-center">
-                <div class="card card-body" style="width: 800px;" id="conteudo-LerMais">
-                  Para que você possa transformar os conhecimentos teóricos em
-                  ferramentas para realização de seus sonhos, alguns ajustes serão necessários. Como foi esclarecido
-                  antes, aquilo que focamos na nossa mente tende a se tornar realidade, pois a mente é obcecada em
-                  nos alinhar com aquilo que acreditamos que somos. <strong> Essa premissa serve para coisas
-                    positivas e coisas negativas.</strong></p>
-                </div>
-              </div>
-            </div>
-            <!-- BOTÃO LER MAIS -->
 
 
             <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
@@ -212,6 +182,28 @@ include('layout/header.php');
               que uma melhor gestão do tempo é possível e as praticam diariamente.
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+            <!-- BOTÃO LER MAIS -->
+            <p class="d-flex justify-content-center gap-2 wow animate__slideInRight" data-wow-delay="0.3s">
+              <button class="btn" id="buton-lerMais2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                aria-controls="multiCollapseExample3"><strong>
+                  CLIQUE AQUI PARA SABER MAIS</strong> <i class="fa-solid fa-arrow-pointer fa-beat"></i></button>
+            </p>
+
+            <div class="collapse multi-collapse" id="multiCollapseExample3">
+
+              <div class="d-flex justify-content-center">
+                <div class="card card-body" style="width: 800px;" id="conteudo-LerMais">
+                  Para que você possa transformar os conhecimentos teóricos em
+                  ferramentas para realização de seus sonhos, alguns ajustes serão necessários. Como foi esclarecido
+                  antes, aquilo que focamos na nossa mente tende a se tornar realidade, pois a mente é obcecada em
+                  nos alinhar com aquilo que acreditamos que somos. <strong> Essa premissa serve para coisas
+                    positivas e coisas negativas.</strong></p>
+                </div>
+              </div>
+            </div>
+            <!-- BOTÃO LER MAIS -->
 
 
           </div>

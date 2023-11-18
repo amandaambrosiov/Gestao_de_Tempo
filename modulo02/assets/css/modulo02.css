@@ -2,3 +2,13 @@
     background-color: #f18519;
 }
 
+.li_interativo {
+    background-color: #1989f1;
+    color: #ffff;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 2rem;
+  }
