@@ -28,10 +28,11 @@ include('layout/header.php');
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <!--  Título Pricipal -->
-                        <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s"><span class="icon"><i class="bi bi-person-workspace"></i>
+                        <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s"><span class="icon"><i
+                                    class="bi bi-person-workspace"></i>
                             </span> Apresentação</h2><br>
                         <!--  Título Principal -->
-
+                        <!-- 
                         <ul class="none wow fadeIn" data-wow-delay="0.3s">
                             <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i></i>
                                 <h4>
@@ -40,7 +41,7 @@ include('layout/header.php');
                                 </h4>
                             </li>
                         </ul>
-                        <br>
+                        <br> -->
 
 
 
@@ -51,7 +52,10 @@ include('layout/header.php');
                             </div>
                             <div>
                                 <!-- Parágrafo com a biblioteca de animação  -->
-                                <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s" >Bem-vindo ao curso de <strong> Gestão do Tempo</strong>! Se você tem a percepção de
+                                <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
+
+                                    <strong>Olá, Nome_Completo bem-vindo ao módulo 01 do curso de Gestão do tempo.
+                                    </strong><br>Se você tem a percepção de
                                     que
                                     todas as
                                     suas horas passam voando e você nunca realiza todos os planos ou nem consegue
@@ -59,28 +63,29 @@ include('layout/header.php');
                                     e apenas lida com as coisas de acordo com a ordem em que aparecem, este curso
                                     vai te
                                     ajudar
-                                    a tornar-se um <strong> realizador muito mais eficiente </strong>.
-                                </p>
+                                    a tornar-se um <strong> realizador muito mais eficiente.</strong>
+                                </p><br><br><br>
 
+
+                                <p class="wow fadeIn" data-wow-delay="0.3s">Embora não
+                                    exista
+                                    uma
+                                    única forma correta de lidar com o tempo, você aprenderá boas práticas para
+                                    utilização do
+                                    seu próprio tempo e talvez passe a percebê-lo de forma diferente. O que importa
+                                    é
+                                    que ao
+                                    final dessa breve jornada espera-se que você possa estar completamente
+                                    consciente da
+                                    importância do tempo e possa decidir, de acordo com suas próprias necessidades,
+                                    se
+                                    vale a
+                                    pena mudar sua gestão pessoal do tempo.</p>
+                                <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                             </div>
-                        </div>
+                        </div><br><br>
 
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Embora não
-                            exista
-                            uma
-                            única forma correta de lidar com o tempo, você aprenderá boas práticas para
-                            utilização do
-                            seu próprio tempo e talvez passe a percebê-lo de forma diferente. O que importa
-                            é
-                            que ao
-                            final dessa breve jornada espera-se que você possa estar completamente
-                            consciente da
-                            importância do tempo e possa decidir, de acordo com suas próprias necessidades,
-                            se
-                            vale a
-                            pena mudar sua gestão pessoal do tempo.</p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- CAIXA DE TEXTO IMPORTANTE -->
                         <section class="container wow fadeIn" data-wow-delay="0.3s">
@@ -120,7 +125,8 @@ include('layout/header.php');
 
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Note que cada ser humano possui exatamente a mesma quantidade de horas
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Note que cada ser humano possui exatamente a mesma
+                            quantidade de horas
                             diárias
                             para realizar suas atividades, mas a nossa percepção sobre o tempo pode ser
                             completamente
@@ -133,13 +139,14 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Tendo tudo isso como base, nas próximas seções deste curso você
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Tendo tudo isso como base, nas próximas seções deste
+                            curso você
                             perceberá os benefícios da gestão do tempo, como visualizar uma nova vida para si
                             mesmo e planejar a sua realização através de objetivos e hábitos.
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-                        
+
                     </div>
                 </div>
             </div>

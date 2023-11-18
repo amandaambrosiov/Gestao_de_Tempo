@@ -1,3 +1,4 @@
+/* ######################## QUIZ BOX ########################## */
 // criando array com o numero da questão, a questão, opçoes e resposta
 let questions = [
     {
@@ -69,3 +70,5 @@ let questions = [
   //   ]
   // },
 ];
+/* ######################## FIM DO QUIZ BOX ########################## */
+

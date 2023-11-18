@@ -295,10 +295,6 @@ include('layout/header.php');
             </div>
             <br>
 
-
-
-
-            <!-- Parágrafo com a biblioteca de animação  -->
             <p class="wow fadeIn" data-wow-delay="0.3s">Perceba que para a vida profissional foram criados
               diferentes
               espaços para legado e
@@ -310,25 +306,43 @@ include('layout/header.php');
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-            <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s ms-3">No caso do exemplo que eu dei sobre a minha própria
-              vida,
-              meu legado implícito são os
-              meus livros em que eu compartilho meus conhecimentos com os demais e com as gerações futuras. Seu
-              legado
-              profissional pode ser qualquer coisa que lhe traga <strong> satisfação e orgulho </strong>.
-            </p>
-            <!--  Fim do Parágrafo com a biblioteca de animação -->
+            <div class="apresentacao">
 
-            <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">Todos temos uma grande contribuição a oferecer. Mesmo a pessoa
-              mais rica ou mais poderosa
-              do mundo precisou da colaboração de uma grande cadeia de pessoas com ambições diversas para que pudesse
-              estar na posição em que está. Sua comida foi plantada por alguém, sua roupa foi fabricada por alguém,
-              sua
-              educação foi transmitida por alguém. Desse modo, toda contribuição é importante.
-            </p>
-            <!--  Fim do Parágrafo com a biblioteca de animação -->
+              <div class="img_apresentacao wow animate__zoomIn">
+                <img src="imgs/Group 3.png" alt="">
+              </div>
+              <div>
+                <!-- Parágrafo com a biblioteca de animação  -->
+                <p class="wow fadeIn wow animate__zoomIn" data-wow-delay="0.3s">
+
+
+                  <!-- Parágrafo com a biblioteca de animação  -->
+                <p class="wow fadeIn" data-wow-delay="0.3s ms-3">No caso do exemplo que eu dei sobre a minha própria
+                  vida,
+                  meu legado implícito são os
+                  meus livros em que eu compartilho meus conhecimentos com os demais e com as gerações futuras. Seu
+                  legado
+                  profissional pode ser qualquer coisa que lhe traga <strong> satisfação e orgulho </strong>.
+                </p>
+                <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                <!-- Parágrafo com a biblioteca de animação  -->
+                <p class="wow fadeIn" data-wow-delay="0.3s">Todos temos uma grande contribuição a oferecer. Mesmo a
+                  pessoa
+                  mais rica ou mais poderosa
+                  do mundo precisou da colaboração de uma grande cadeia de pessoas com ambições diversas para que
+                  pudesse
+                  estar na posição em que está. Sua comida foi plantada por alguém, sua roupa foi fabricada por alguém,
+                  sua
+                  educação foi transmitida por alguém. Desse modo, toda contribuição é importante.
+                </p>
+                <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+              </div>
+            </div><br><br>
+
+
+
 
             <!-- Parágrafo com a biblioteca de animação  -->
             <p class="wow fadeIn" data-wow-delay="0.3s">No objetivo de médio prazo, você precisa colocar <strong>

@@ -49,7 +49,8 @@ include('layout/header.php');
             <br><br>
 
             <!-- Imagem - MODAL-->
-            <div class="modal fade text-center" id="Imagem1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade text-center" id="Imagem1" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
                 <div class="modal-content w-75">
                   <img class="img-fluid" src="imgs02/Figura02.png" alt="Alt da imagem fica aqui">
@@ -297,14 +298,18 @@ include('layout/header.php');
 
             <br>
 
-                        <!-- VÍDEO DO YOUTUBE -->
-                        <div class="video wow fadeInDown">
+            <!-- VÍDEO DO YOUTUBE -->
+            <div class="video wow fadeInDown">
               <div class="wow fadeIn" data-wow-delay="0.3s">
-                <iframe width="700" height="380" src="https://www.youtube.com/embed/nGBDxmDgMXU" title="5S - A Origem" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="700" height="380" src="https://www.youtube.com/embed/nGBDxmDgMXU" title="5S - A Origem"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
               </div>
               <div class="descricao">
                 <div class="titulo_video wow fadeInDown">Saiba mais</div>
-                <p class="wow fadeInDown">Você sabe qual é a origem do 5S? Neste vídeo, o Consultor Haroldo Ribeiro apresenta a real origem do
+                <p class="wow fadeInDown">Você sabe qual é a origem do 5S? Neste vídeo, o Consultor Haroldo Ribeiro
+                  apresenta a real origem do
                   5S. Haroldo Ribeiro é consultor e foi o primeiro autor brasileiro de 5S e de Manutenção Autônoma. É o
                   autor com maior número de livros publicados nestes dois temas (mais de 30 livros).</p>
               </div>
@@ -372,71 +377,89 @@ include('layout/header.php');
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-            <!-- começo do Quiz botao -->
-            <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button id="openModalBtn"><i class="icone fa-solid fa-puzzle-piece"></i>CLIQUE E TESTE SEUS
-                CONHECIMENTOS</button></div>
+            <div class="apresentacao">
 
-            <!-- Caixa de informações -->
-            <div class="center">
-              <div class="info_box">
-                <div class="info-title"><span><i class="icone fa-solid fa-pen-clip"></i>Regras do
-                    QUIZ</span></div>
-                <div class="info-list">
-                  <div class="info">1. Depois que você selecionar a respota, não poderá ser desfeito.
-                  </div>
-                  <div class="info">2. Você não pode sair durante o quiz.</div>
-                  <div class="info">3. Você vai receber a pontuação conforme responde as questões.
-                  </div>
-                  <div class="info">4. Esse quiz não vai interferir na sua nota final.</div>
-                </div>
-                <div class="buttons">
-                  <button class="quit">Sair</button>
-                  <button class="restart">Continuar</button>
-                </div>
+              <div class="img_apresentacao wow animate__zoomIn">
+                <img src="imgs/Group 4.png" alt="">
               </div>
-            </div>
-            <!-- caixa do quiz -->
-            <div class="center">
-              <div class="quiz_box">
-                <header>
-                  <div class="title"><i class="fa-solid fa-puzzle-piece icone"></i>QUIZ</div>
-                  <div class="time_line"></div>
-                </header>
-                <section>
-                  <div class="que_text">
-                    <!-- Aqui é inserido o quiz do javascript -->
-                  </div>
-                  <div class="option_list">
-                    <!-- Aqui é inserido as opções do JavaScript -->
-                  </div>
-                </section>
+              <div>
+                <!-- Parágrafo com a biblioteca de animação  -->
+                <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
+                  <strong>Olá, Nome_Completo!</strong><br> Clique no botão a seguir e teste seus conhecimentos.
+                </p><br>
 
-                <!-- footer do quiz -->
-                <footer>
-                  <div class="total_que">
-                    <!-- aqui está inserido o número de questões do js -->
-                  </div>
-                  <button class="next_btn">Próximo</button>
-                </footer>
-              </div>
-            </div>
+                <!-- começo do Quiz botao -->
+                <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button id="openModalBtn"><i
+                      class="icone fa-solid fa-puzzle-piece"></i>TESTE SEUS
+                    CONHECIMENTOS</button></div>
 
-            <!-- Resultado -->
-            <div class="center">
-              <div class="result_box">
-                <div class="icon">
-                  <i class="fa-solid fa-puzzle-piece"></i>
+                <!-- Caixa de informações -->
+                <div class="center">
+                  <div class="info_box">
+                    <div class="info-title"><span><i class="icone fa-solid fa-pen-clip"></i>Regras do
+                        QUIZ</span></div>
+                    <div class="info-list">
+                      <div class="info">1. Depois que você selecionar a respota, não poderá ser desfeito.
+                      </div>
+                      <div class="info">2. Você não pode sair durante o quiz.</div>
+                      <div class="info">3. Você vai receber a pontuação conforme responde as questões.
+                      </div>
+                      <div class="info">4. Esse quiz não vai interferir na sua nota final.</div>
+                    </div>
+                    <div class="buttons">
+                      <button class="quit">Sair</button>
+                      <button class="restart">Continuar</button>
+                    </div>
+                  </div>
                 </div>
-                <div class="complete_text">Você completou o quiz!</div>
-                <div class="score_text">
-                  <!-- Aqui é inserido o resultado -->
+                <!-- caixa do quiz -->
+                <div class="center">
+                  <div class="quiz_box">
+                    <header>
+                      <div class="title"><i class="fa-solid fa-puzzle-piece icone"></i>QUIZ</div>
+                      <div class="time_line"></div>
+                    </header>
+                    <section>
+                      <div class="que_text">
+                        <!-- Aqui é inserido o quiz do javascript -->
+                      </div>
+                      <div class="option_list">
+                        <!-- Aqui é inserido as opções do JavaScript -->
+                      </div>
+                    </section>
+
+                    <!-- footer do quiz -->
+                    <footer>
+                      <div class="total_que">
+                        <!-- aqui está inserido o número de questões do js -->
+                      </div>
+                      <button class="next_btn">Próximo</button>
+                    </footer>
+                  </div>
                 </div>
-                <div class="buttons">
-                  <button class="restart">Tentar novamente</button>
-                  <button class="quit">Fechar</button>
+
+                <!-- Resultado -->
+                <div class="center">
+                  <div class="result_box">
+                    <div class="icon">
+                      <i class="fa-solid fa-puzzle-piece"></i>
+                    </div>
+                    <div class="complete_text">Você completou o quiz!</div>
+                    <div class="score_text">
+                      <!-- Aqui é inserido o resultado -->
+                    </div>
+                    <div class="buttons">
+                      <button class="restart">Tentar novamente</button>
+                      <button class="quit">Fechar</button>
+                    </div>
+                  </div>
                 </div>
+                <!-- Fim do Quiz -->
+
+
               </div>
-            </div>
+            </div><br><br>
+
 
 
 
@@ -511,7 +534,8 @@ include('layout/header.php');
   <div class="text-center">
     <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true">
       <i class="fa-solid fa-chevron-left"></i> Voltar </a>
-    <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i class="fa-solid fa-chevron-right"></i></a>
+    <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+        class="fa-solid fa-chevron-right"></i></a>
   </div>
 
   <!-- FOOTER  -->

@@ -425,6 +425,12 @@ ol li {
 /* ESTILO DO MENU RESPONSIVO */
 
 /*  MEDIA QUERY  */
+@media (min-width: 1600px) {
+    #text-left2 {
+        margin-top: 14rem;
+    }
+}
+
 @media (min-width: 735px) {
 
     .offcanvas.hiding,
@@ -1212,7 +1218,7 @@ o estado inicial de height 0 manteria o texto aparecendo */
     transition: all 0.3s;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
-border: 1px solid rgb(238, 238, 238);
+    border: 1px solid rgb(238, 238, 238);
 }
 
 .zoom:hover img {
@@ -1229,7 +1235,7 @@ border: 1px solid rgb(238, 238, 238);
 }
 
 #text-left {
-    margin-top: 2.3em;
+    margin-top: 3em;
 }
 
 /* IMAGEM E TEXTOS JUNTOS END */
@@ -1305,37 +1311,50 @@ border: 1px solid rgb(238, 238, 238);
     }
 }
 
+/* IFRAME NO SITE END */
 
+/* IMAGEM E TEXTO NO TÓPICO APRESENTAÇÃO */
 .texto_apresentacao {
     background-color: orange;
     border-radius: 100px 100px 100px 0;
     padding: 40px;
+    margin-top: 1rem;
     height: fit-content;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-@media (min-width:1029px) {
+[data-theme="dark"] .texto_apresentacao {
+    color: black;
+}
+
+@media (min-width:1250px) {
     .apresentacao {
         display: grid;
         grid-template-columns: 40% 50%;
     }
-    .img_apresentacao{
+
+    .img_apresentacao {
         display: flex;
+        flex-direction: column;
         justify-content: center;
     }
-    .img_apresentacao img{
-        margin-top: 5rem;
+
+    .img_apresentacao img {
+        margin-top: 2rem;
         margin-bottom: 2rem;
-        width: 70%;
+        width: 80%;
         height: auto;
     }
 }
 
-@media (max-width:1029px) {
+@media (max-width:1250px) {
     .img_apresentacao {
         display: none;
     }
 }
+
+/* IMAGEM E TEXTO NO TÓPICO APRESENTAÇÃO END*/
+
 
 /*-------- INÍCIO DO BUTTON BACK TO TOP (JAMILLE) --------*/
 #back_to_top {

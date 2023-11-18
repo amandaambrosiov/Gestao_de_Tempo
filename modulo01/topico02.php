@@ -52,7 +52,8 @@ include('layout/header.php');
             </div>
 
             <!-- Imagem - MODAL-->
-            <div class="modal fade text-center" id="Imagem2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade text-center" id="Imagem2" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
                 <div class="modal-content w-75">
                   <img class="img-fluid" src="imgs01/Figura02.png" alt="Alt da imagem fica aqui">
@@ -67,6 +68,7 @@ include('layout/header.php');
 
             <!-- FIM DA IMAGEM NO SITE  -->
             <!-- Parágrafo com a biblioteca de animação  -->
+
             <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">Ter uma
               visão sobre si mesmo e sobre o que espera no futuro é o que garante que você
               direcione corretamente a sua gestão do tempo para maximizar oportunidades e a sua qualidade de vida.
@@ -186,14 +188,18 @@ include('layout/header.php');
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-                        <!-- VÍDEO DO YOUTUBE -->
-                        <div class="video wow fadeInDown">
+            <!-- VÍDEO DO YOUTUBE -->
+            <div class="video wow fadeInDown">
               <div class="wow fadeIn" data-wow-delay="0.3s">
-                <iframe width="700" height="380" src="https://www.youtube.com/embed/mfZUoSQbaec" title="Um olhar sobre o perfeccionismo, autosabotagem e procrastinação" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="700" height="380" src="https://www.youtube.com/embed/mfZUoSQbaec"
+                  title="Um olhar sobre o perfeccionismo, autosabotagem e procrastinação" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
               </div>
               <div class="descricao">
                 <div class="titulo_video wow fadeInDown">Saiba mais</div>
-                <p class="wow fadeInDown">O que vem travando você na sua prática diária? Você sabia que no Brasil já existem pesquisas que
+                <p class="wow fadeInDown">O que vem travando você na sua prática diária? Você sabia que no Brasil já
+                  existem pesquisas que
                   apontam quem 20% das pesssoas são procastinadoras crônicas? Gabriela Brasil é Evernote Business
                   Certified Consultant, consultora organizacional e de produtividade, profissional membro da NAPO -
                   National Association of Professional Organizers (EUA). Reside em Pablo Alto, Vale do Sílicio -
@@ -324,6 +330,131 @@ include('layout/header.php');
             </div>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
+            <div class="apresentacao">
+
+              <div class="img_apresentacao wow animate__zoomIn">
+                <img src="imgs/Group 4.png" alt="">
+              </div>
+              <div>
+                <!-- Parágrafo com a biblioteca de animação  -->
+                <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
+                  <strong>Olá, Nome_Completo!</strong><br> Clique no botão a seguir e teste seus conhecimentos.
+                </p><br>
+
+                <!-- começo do Quiz botao -->
+                <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button
+                    data-bs-target="#exampleModalToggle" id="btn-game" data-bs-toggle="modal"><i
+                      class="icone fa-solid fa-puzzle-piece"></i>TESTE SEUS
+                    CONHECIMENTOS</button></div>
+
+                <!-- ######################################## GAME DE EMBARALHAR PALAVRAS ##################################### -->
+                <div id="game" class="wow fadeIn" data-wow-delay="0.3s">
+                  <!-- MODAL 1 - INSTRUÇÕES DO JOGO -->
+                  <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-3" id="exampleModalToggleLabel"><i class="fa-solid fa-pen-clip"></i>
+                            Instruções do
+                            Teste</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body fw-normal" id="instrucoes">
+
+                          1. Você deverá descobrir qual é a palavraque está embaralhada;<br><br>
+                          2. Haverá uma dica para lhe auxiliar;<br><br>
+                          3. Ao concluir clique em confirmar;<br><br>
+                          4. Este teste não influenciará na avaliação final.<br><br>
+
+                        </div>
+                        <div class="modal-footer">
+                          <button class="btn" id="btn-game" data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal">Continuar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- MODAL 2 - INÍCIO DO JOGO -->
+                  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel2" tabindex="-1" data-bs-keyboard="false">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-3" id="exampleModalToggleLabel2"><i class="fa-solid fa-gamepad"></i>
+                            Palavra
+                            Embaralhada</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="content">
+                            <div class="word"></div>
+                            <div class="details">
+                              <div class="hint"> <span></span></div>
+                            </div>
+                            <input type="text" spellcheck="false" placeholder="Escreva a palavra">
+                            <div class="buttons">
+                              <button class="btn-game" id="refresh-word">Embaralhar</button>
+                              <button class="btn-game" id="check-word">Confirmar</button>
+
+                              <div id="divTransparente" class="escondida"></div>
+                              <div id="d2" class="escondida" data-bs-dismiss="modal"></div>
+
+                              <!-- MODAIS DAS RESPOSTAS -->
+                              <!-- MODAL QUANDO A CAIXA DE RESPOSTA ESTIVER VAZIA -->
+                              <div id="modal-js">
+                                <dialog class="modal01">
+                                  <i id="close01" class="bi bi-x"></i>
+                                  <div class="text-center">
+                                    <img src="imgs/opps.png"  class="img-fluid"
+                                      alt="Imagem indicando que a caixa de resposta está vazia.">
+
+                                    <!-- <img src="imgs/opps-menor.png" id="menor-opps" class="img-fluid"
+                                      alt="Imagem indicando que a caixa de resposta está vazia."> -->
+                                  </div>
+                                </dialog>
+                              </div>
+
+                              <!-- MODAL QUANDO A RESPOSTA ESTIVER CORRETA -->
+                              <div id="modal-js">
+                                <dialog class="modal02">
+                                  <i id="close02" class="bi bi-x" data-bs-dismiss="modal"></i>
+                                  <div class="text-center">
+                                    <img src="imgs/parabens.png" class="img-fluid"
+                                      alt="Imagem indicando que você acertou a resposta.">
+                                  </div>
+                                </dialog>
+                              </div>
+
+                              <!-- MODAL QUANDO A RESPOSTA ESTIVER ERRADA-->
+                              <div id="modal-js">
+                                <dialog class="modal03">
+                                  <i id="close03" class="bi bi-x"></i>
+                                  <div class="text-center">
+                                    <img src="imgs/que-pena.png" class="img-fluid"
+                                      alt="Imagem indicando que você errou a resposta.">
+                                  </div>
+                                </dialog>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <div class="modal-footer d-flex  justify-content-center">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Voltar</button>
+      </div> -->
+                      </div>
+                    </div>
+                  </div>
+                </div> <br><br>
+
+                <!-- ######################################## GAME DE EMBARALHAR PALAVRAS END ##################################### -->
+
+
+              </div>
+            </div><br>
+
             <!-- Citação com borda verde (esquerda) -->
             <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
 
@@ -389,7 +520,8 @@ include('layout/header.php');
   <div class="text-center">
     <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true">
       <i class="fa-solid fa-chevron-left"></i> Voltar </a>
-    <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i class="fa-solid fa-chevron-right"></i></a>
+    <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+        class="fa-solid fa-chevron-right"></i></a>
   </div>
 
   <!-- FOOTER  -->

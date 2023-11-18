@@ -24,7 +24,8 @@
 
     <!-- link do script -->
     <script src="../assets/js/script.js" defer></script>
-    <script src="../assets/js/games.js" defer></script>
+    <!-- <script src="../assets/js/games.js" defer></script> -->
+    <script src="../assets/js/game-embaralhar-palavra.js" defer></script>
     <script src="../assets/js/questions.js" defer></script>
 
     <!-- link do wow.js -->

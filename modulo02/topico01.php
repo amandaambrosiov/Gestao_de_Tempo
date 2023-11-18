@@ -75,7 +75,7 @@ include('layout/header.php');
 
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">Se você se identifica com adjetivos que lhe encaminham para o
+            <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">Se você se identifica com adjetivos que lhe encaminham para o
               alinhamento com fracasso,
               sua mente também tratará de realizar este alinhamento. Tenho visto ao longo do meu trabalho como mentora,
               pessoas com potencial gigante que não conseguem realizar tudo o que sua capacidade lhe permitiria por
@@ -83,17 +83,21 @@ include('layout/header.php');
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
+            <!-- Interação com aluno-->
+            <div class="p-2 rounded wow animate__lightSpeedInLeft" data-wow-delay="0.3s"
+              style="background-color: rgb(14, 149, 129); color:white;" id="text-left2">
               <!-- Interação com aluno-->
-                  <p>
-                    Por essa razão, a gestão do tempo precisa
-                    ser praticada
-                    logo após a <strong> profunda
-                      limpeza </strong> de tudo aquilo que não permite que a nova identidade seja realizada e isso
-                    significa a
-                    retirada de crenças limitantes, de identidades conflitantes e de tudo que possa impedir que a sua
-                    nova
-                    agenda seja realizada.
-                  </p>
+              <p>
+                Por essa razão, a gestão do tempo precisa
+                ser praticada
+                logo após a <strong> profunda
+                  limpeza </strong> de tudo aquilo que não permite que a nova identidade seja realizada e isso
+                significa a
+                retirada de crenças limitantes, de identidades conflitantes e de tudo que possa impedir que a sua
+                nova
+                agenda seja realizada.
+              </p>
+            </div>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
 
