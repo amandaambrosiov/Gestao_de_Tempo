@@ -1,63 +1,3 @@
-// código do menu lateral feito pelo audi
-// todo esse código é do menu lateral
-// const menuLinks = document.querySelectorAll('#a01');
-// animação do botão de apresentação
-// menuLinks.forEach(link => {
-//   link.addEventListener('mouseover', () => {
-//     const originalText = link.textContent;
-//     link.textContent = originalText + 'Apresentacao' ;
-//   });
-
-//   link.addEventListener('mouseout', () => {
-//     const originalText = link.getAttribute('data-original-text1');
-//     link.textContent = originalText;
-//   });
-// });
-
-// animação do botão do primeiro módulo
-// const menuLinks2 = document.querySelectorAll('#a02');
-
-// menuLinks2.forEach(link => {
-//   link.addEventListener('mouseover', () => {
-//     const originalText = link.textContent;
-//     link.textContent = originalText + 'Modulo: Aprendendo' ;
-//   });
-
-//   link.addEventListener('mouseout', () => {
-//     const originalText = link.getAttribute('data-original-text2');
-//     link.textContent = originalText;
-//   });
-// });
-// animação do botão dos segundo módulo
-// const menuLinks3 = document.querySelectorAll('#a03');
-
-// menuLinks3.forEach(link => {
-//   link.addEventListener('mouseover', () => {
-//     const originalText = link.textContent;
-//     link.textContent = originalText + 'Módulo: Testes' ;
-//   });
-
-//   link.addEventListener('mouseout', () => {
-//     const originalText = link.getAttribute('data-original-text3');
-//     link.textContent = originalText;
-//   });
-// });
-// animação do botão do terceiro módulo 
-// const menuLinks4 = document.querySelectorAll('#a04');
-
-//     menuLinks4.forEach(link => {
-//       link.addEventListener('mouseover', () => {
-//         const originalText = link.textContent;
-//         link.textContent = originalText + 'Referencias' ;
-//       });
-
-//       link.addEventListener('mouseout', () => {
-//         const originalText = link.getAttribute('data-original-text4');
-//         link.textContent = originalText;
-//       });
-//     });
-
-// fim do código do menu lateral
 
 //BOTÃO BACK TO TOP
 let calcScrollValue = () => {
@@ -201,23 +141,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
-// teste do menu lateral
-
-// var d/ropdown = document.getElementsByClassName("dropdown-btn");
-// var i;
-
-// for (i = 0; i < dropdown.length; i++) {
-//     dropdown[i].addEventListener("click", function () {
-//         this.classList.toggle("active");
-//         var dropdownContent = this.nextElementSibling;
-//         if (dropdownContent.style.display === "block") {
-//             dropdownContent.style.display = "none";
-//         } else {
-//             dropdownContent.style.display = "block";
-//         }
-//     });
-// }
 
 // SUBTÓPICO COM JQUERY
 $(document).ready(function () {

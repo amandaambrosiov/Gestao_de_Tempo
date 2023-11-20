@@ -441,9 +441,9 @@ include('layout/header.php');
                 <!-- Resultado -->
                 <div class="center">
                   <div class="result_box">
-                    <div class="icon">
-                      <i class="fa-solid fa-puzzle-piece"></i>
-                    </div>
+                  <div class="img">
+                <!-- <i class="fa-solid fa-puzzle-piece"></i> -->
+            </div>
                     <div class="complete_text">Você completou o quiz!</div>
                     <div class="score_text">
                       <!-- Aqui é inserido o resultado -->

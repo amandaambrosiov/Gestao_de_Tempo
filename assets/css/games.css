@@ -1,9 +1,9 @@
 /* ######################## QUIZ BOX ########################## */
+
 .center {
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-left: 35%;
 }
 
 .start_btn {
@@ -97,6 +97,9 @@
     border-radius: 5px;
     /* border: 1px solid #007bff; */
     transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quiz_box {
@@ -134,12 +137,13 @@ section {
 }
 
 section .que_text {
+    padding: 20px;
     font-size: 25px;
     font-weight: 600;
 }
 
 section .option_list {
-    padding: 20px 0px;
+    padding: 20px;
     display: block;
 }
 
@@ -301,12 +305,12 @@ footer button.show {
 
 .result_box .buttons {
     display: flex;
-    margin: 20px 0;
+    margin: 20px 10px;
 }
 
 .result_box .buttons button {
     margin: 0 10px;
-    height: 45px;
+    height: 55px;
     padding: 0 20px;
     font-size: 18px;
     font-weight: 500;

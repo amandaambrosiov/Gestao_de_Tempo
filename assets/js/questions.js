@@ -23,17 +23,17 @@ let questions = [
       " Senso de acumulação, Senso de resistência, Senso de desapego, Senso de descuido, Senso de desinteresse."
     ]
   },
-  //   {
-  //   numb: 3,
-  //   question: "What does PHP stand for?",
-  //   answer: "Hypertext Preprocessor",
-  //   options: [
-  //     "Hypertext Preprocessor",
-  //     "Hypertext Programming",
-  //     "Hypertext Preprogramming",
-  //     "Hometext Preprocessor"
-  //   ]
-  // },
+    {
+    numb: 3,
+    question: "What does PHP stand for?",
+    answer: "Hypertext Preprocessor",
+    options: [
+      "Hypertext Preprocessor",
+      "Hypertext Programming",
+      "Hypertext Preprogramming",
+      "Hometext Preprocessor"
+    ]
+  },
   //   {
   //   numb: 4,
   //   question: "What does SQL stand for?",
