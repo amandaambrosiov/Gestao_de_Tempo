@@ -3,7 +3,7 @@
 // ############################# GAME DE EMBARALHAR PALAVRAS ########################################
 let words = [
     {
-        word: "imediatista",
+        word: "imediatismo",
         hint: "Dica: Tudo aquilo que se faz na busca do agora. Maneira direta de proceder, sem mediações nem rodeios."
     }
     // {
@@ -24,7 +24,7 @@ const buttonClose03 = document.querySelector("#close03")
 
 const wordText = document.querySelector(".word"),
     hintText = document.querySelector(".hint span"),
-    timeText = document.querySelector(".time b"),
+    timeTexto = document.querySelector(".time b"),
     inputField = document.querySelector("input"),
     refreshBtn = document.querySelector("#refresh-word"),
     checkBtn = document.querySelector("#check-word"),
@@ -135,23 +135,9 @@ d2.addEventListener('click', () => {
       }
     }
   }
-// document.addEventListener("keypress", function(o){
-//     if(o.key === 'Enter'){
-//         checkBtn.click()
-//     }
-// });
-
-
-// confirmar.addEventListener("keypress", function(e) {
-
-//     if(e.key === "Enter"){
-
-//        confirmar.click();
-
-//     }
-// });
-
 
 // ############################# GAME DE EMBARALHAR PALAVRAS END ########################################
+
+
 
 
