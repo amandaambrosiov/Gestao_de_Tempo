@@ -51,18 +51,18 @@ include('layout/header.php');
               <div>
                 <!-- Parágrafo com a biblioteca de animação  -->
                 <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s"><strong> Olá,
-                    Nome_Completo bem-vindo ao módulo 02 do curso de Gestão do tempo.</strong><br> Na primeira
-                  parte deste curso, <strong>você aprendeu sobre os aspectos mais gerais da Gestão do
+                    Nome_Completo bem-vindo ao módulo 02 do curso Gestão do tempo.</strong><br> Na primeira
+                  parte deste curso, você aprendeu sobre os aspectos mais gerais da Gestão do
                     Tempo e fez algumas atividades práticas para consolidar sua nova visão de vida e planejar ações que
                     as
-                    concretize</strong> . Neste ponto, você já compreende que a sua mente trabalha ativamente para
+                    concretize . Neste ponto, você já compreende que a sua mente trabalha ativamente para
                   realizar aquilo que
                   ela acredita ser real ou estar alinhada com suas emoções.
 
-                  <strong> Você também já aprendeu que os objetivos pessoais e profissionais podem estar relacionados
+                   Você também já aprendeu que os objetivos pessoais e profissionais podem estar relacionados
                     a ações diferentes e que devemos decidir sobre onde nosso foco deve se direcionar para que nosso
                     tempo
-                    seja corretamente utilizado, uma vez que se trata de um recurso não renovável</strong> .
+                    seja corretamente utilizado, uma vez que se trata de um recurso não renovável .
                 </p>
 
 
