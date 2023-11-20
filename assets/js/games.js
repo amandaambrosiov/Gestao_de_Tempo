@@ -14,11 +14,13 @@ const option_list = document.querySelector(".option_list");
 // o botão para começar o quiz
 start_btn.onclick = () => {
     info_box.classList.add("activeInfo"); //mostra info box
+    divTransparente2.style.display = 'block';
 }
 
 // botão para sair do quiz
 exit_btn.onclick = () => {
     info_box.classList.remove("activeInfo"); //esconde info box
+    divTransparente2.style.display = 'none';
 }
 
 // continuar no quiz

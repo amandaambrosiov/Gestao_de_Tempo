@@ -410,8 +410,6 @@ include('layout/header.php');
                                     <img src="imgs/opps.png"  class="img-fluid"
                                       alt="Imagem indicando que a caixa de resposta está vazia.">
 
-                                    <!-- <img src="imgs/opps-menor.png" id="menor-opps" class="img-fluid"
-                                      alt="Imagem indicando que a caixa de resposta está vazia."> -->
                                   </div>
                                 </dialog>
                               </div>
