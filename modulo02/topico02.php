@@ -8,6 +8,7 @@ include('layout/header.php');
 <!-- FIM DO HEADER  -->
 
 <body>
+  <div class="transparente"></div>
 
   <!-- NAV  -->
   <?php
@@ -391,9 +392,7 @@ include('layout/header.php');
     <strong>Olá, Nome_Completo!</strong><br> Clique no botão a seguir e teste seus conhecimentos.
   </p><br>
 
-   <!-- Caixa de informações -->
-   <div id="divTransparente2" class="escondida"></div>
-   
+ 
   <!-- começo do Quiz botao -->
   <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button id="openModalBtn"><i
         class="icone fa-solid fa-puzzle-piece"></i>TESTE SEUS
