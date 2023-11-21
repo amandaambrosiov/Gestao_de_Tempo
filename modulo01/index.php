@@ -31,18 +31,6 @@ include('layout/header.php');
                         <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s"><span class="icon"><i
                                     class="bi bi-person-workspace"></i>
                             </span> Apresentação</h2><br>
-                        <!--  Título Principal -->
-                        <!-- 
-                        <ul class="none wow fadeIn" data-wow-delay="0.3s">
-                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i></i>
-                                <h4>
-                                    Olá, Nome_Completo bem-vindo ao módulo 01 do curso de Gestão do tempo. Bons
-                                    estudos!
-                                </h4>
-                            </li>
-                        </ul>
-                        <br> -->
-
 
 
                         <div class="apresentacao">

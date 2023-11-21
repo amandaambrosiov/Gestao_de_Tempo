@@ -425,7 +425,7 @@ ol li {
 /* ESTILO DO MENU RESPONSIVO */
 
 /*  MEDIA QUERY  */
-    /* #text-left2 {
+/* #text-left2 {
        border-top: 1px solid black;
        border-bottom: 1px solid black;
     } */
@@ -648,6 +648,7 @@ strong {
 
 /* negrito dos textos*/
 
+/* DESTACANDO UMA FRASE */
 .li_interativo {
     background-color: #1989f1;
     color: #ffff;
@@ -657,7 +658,24 @@ strong {
     margin-right: 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 2rem;
-  }
+}
+
+/* clique para mais informações */
+.li_interativo2 {
+    background-color: #f08d1b;
+    color: #ffff;
+    width: fit-content;
+    padding: 8px;
+    font-style: italic;
+    border-radius: 2px;
+    margin-right: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 2rem;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* DESTACANDO UMA FRASE END*/
 
 /* modo escuro - textos */
 [data-theme="dark"] h5 {
@@ -1270,15 +1288,12 @@ o estado inicial de height 0 manteria o texto aparecendo */
     }
 
     .titulo_video {
-        background-color: white;
-        color: rgb(14, 149, 129);
-        font-size: 25px;
+        color: white;
+        font-size: 2.5rem;
         width: fit-content;
-        padding: 10px;
         display: flex;
         justify-content: center;
-        margin: 1em 0;
-        border-radius: 30px;
+        /* border-radius: 30px; */
     }
 
     .descricao {
@@ -1289,6 +1304,7 @@ o estado inicial de height 0 manteria o texto aparecendo */
 .descricao p {
     font-weight: 300 !important;
     color: #ffff;
+    margin-top: 2px;
 }
 
 @media (max-width:1260px) {
@@ -1329,6 +1345,15 @@ o estado inicial de height 0 manteria o texto aparecendo */
     background-color: orange;
     border-radius: 100px 100px 100px 0;
     padding: 40px;
+    margin-top: 1rem;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.texto_apresentacao2 {
+    background-color: orange;
+    border-radius: 100px 100px 100px 0;
+    padding: 20px;
     margin-top: 1rem;
     height: fit-content;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;

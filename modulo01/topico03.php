@@ -238,62 +238,82 @@ include('layout/header.php');
               necessariamente relacionado com algo que está muito distante do tempo presente, mas principalmente a algo
               que você deseja realizar ou continuar realizando ao longo da vida, como por exemplo, seu legado,
               casamento, filhos, compra de uma casa. Para que você exercite na prática esse planejamento, deixo abaixo
-              alguns exemplos a serem preenchidos:<br><strong>(Clique nos títulos abaixo para mais informações)</strong>
+              alguns exemplos a serem preenchidos:<br><br>
             </p>
-
             <!--  Fim do Parágrafo com a biblioteca de animação -->
             <br>
 
-            <p class="d-flex justify-content-around gap-1">
-              <a class="btn CorVerdeEstado" id="buton-t3" data-bs-toggle="collapse" href="#multiCollapseExample1"
-                role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i
-                  class="fa-solid fa-computer"> <strong> Vida
-                    Profissional</strong></i></a>
-              <button class="btn CorVerdeEstado" id="buton-t3" type="button" data-bs-toggle="collapse"
-                data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"><i
-                  class="fa-solid fa-umbrella-beach"> <strong id="text-teste">
-                    Vida
-                    Pessoal </strong></i></i></button>
-            </p>
-            <div class="row">
-              <div class="col">
-                <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="apresentacao">
 
-                  <table class="table table-bordered border-success">
-                    <tbody>
-                      <tr>
-                        <td colspan="4">Objetivo:</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Quando: [ ] curto prazo [ ] médio prazo [ x ] longo prazo</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">legado</td>
-                      </tr>
-                    </tbody>
-                  </table><br>
+              <div class="img_apresentacao wow animate__zoomIn">
+                <img src="imgs/Group 11.png" alt="">
+              </div>
+              <div>
+                <!-- Parágrafo com a biblioteca de animação  -->
+                <p class="wow fadeIn texto_apresentacao2 wow animate__zoomIn" data-wow-delay="0.3s">
+                  <strong><i class="fa-solid fa-circle-info"></i> Clique nos títulos abaixo
+                    para mais informações</strong>
+                  <strong></strong>
+                </p><br><br><br>
 
+                <p class="d-flex justify-content-around gap-1">
+                  <a class="btn CorVerdeEstado" id="buton-t3" data-bs-toggle="collapse" href="#multiCollapseExample1"
+                    role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i
+                      class="fa-solid fa-computer"> <strong> Vida
+                        Profissional</strong></i></a>
+                  <button class="btn CorVerdeEstado" id="buton-t3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                    aria-controls="multiCollapseExample2"><i class="fa-solid fa-umbrella-beach"> <strong
+                        id="text-teste">
+                        Vida
+                        Pessoal </strong></i></i></button>
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+
+                      <table class="table table-bordered border-success">
+                        <tbody>
+                          <tr>
+                            <td colspan="4">Objetivo:</td>
+                          </tr>
+                          <tr>
+                            <td colspan="4">Quando: [ ] curto prazo [ ] médio prazo [ x ] longo prazo</td>
+                          </tr>
+                          <tr>
+                            <td colspan="4">legado</td>
+                          </tr>
+                        </tbody>
+                      </table><br>
+
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                      <table class="table table-bordered border-success">
+                        <tbody>
+                          <tr>
+                            <td colspan="4">Objetivo:</td>
+                          </tr>
+                          <tr>
+                            <td colspan="4">Quando: [ ] curto prazo [x ] médio prazo [ ] longo prazo</td>
+                          </tr>
+                          <tr>
+                            <td colspan="4">legado</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
                 </div>
+                <br>
+
+
+
               </div>
-              <div class="col">
-                <div class="collapse multi-collapse" id="multiCollapseExample2">
-                  <table class="table table-bordered border-success">
-                    <tbody>
-                      <tr>
-                        <td colspan="4">Objetivo:</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Quando: [ ] curto prazo [x ] médio prazo [ ] longo prazo</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">legado</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-            <br>
+            </div><br><br>
+
+
 
             <p class="wow fadeIn" data-wow-delay="0.3s">Perceba que para a vida profissional foram criados
               diferentes
@@ -364,34 +384,53 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
             <br>
 
-            <p class="d-flex justify-content-center gap-1">
-              <button class="btn CorVerdeEstado" id="buton-t3" type="button" data-bs-toggle="collapse"
-                data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3"><i
-                  class="fa-solid fa-umbrella-beach"> <strong id="text-teste">
-                    Vida
-                    Pessoal </strong></i></i></button>
-            </p>
-            <div class="row">
-              <div class="col">
-                <div class="collapse multi-collapse" id="multiCollapseExample3">
+            <div class="apresentacao">
 
-                  <table class="table table-bordered border-success">
-                    <tbody>
-                      <tr>
-                        <td colspan="2">Objetivo:</td>
-                      </tr>
-                      <tr>
-                        <td colspan="2">Quando: [ ] curto prazo [ x ] longo prazo</td>
-                      </tr>
-                      <tr>
-                        <td colspan="2">Visão</td>
-                      </tr>
-                    </tbody>
-                  </table><br>
-                </div>
+              <div class="img_apresentacao wow animate__zoomIn">
+                <img src="imgs/Group 11.png" alt="">
               </div>
-            </div>
+              <div>
+                <!-- Parágrafo com a biblioteca de animação  -->
+                <p class="wow fadeIn texto_apresentacao2 wow animate__zoomIn" data-wow-delay="0.3s">
+                  <strong><i class="fa-solid fa-circle-info"></i> Clique nos títulos abaixo
+                    para mais informações</strong>
+                  <strong></strong>
+                </p><br><br><br>
 
+                <p class="d-flex justify-content-center gap-1">
+                  <button class="btn CorVerdeEstado" id="buton-t3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                    aria-controls="multiCollapseExample3"><i class="fa-solid fa-umbrella-beach"> <strong
+                        id="text-teste">
+                        Vida
+                        Pessoal </strong></i></i></button>
+                </p>
+                <div class="row">
+                  <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample3">
+
+                      <table class="table table-bordered border-success">
+                        <tbody>
+                          <tr>
+                            <td colspan="2">Objetivo:</td>
+                          </tr>
+                          <tr>
+                            <td colspan="2">Quando: [ ] curto prazo [ x ] longo prazo</td>
+                          </tr>
+                          <tr>
+                            <td colspan="2">Visão</td>
+                          </tr>
+                        </tbody>
+                      </table><br>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+            </div><br><br>
             <br>
 
             <!-- Parágrafo com a biblioteca de animação  -->

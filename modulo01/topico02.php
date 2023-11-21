@@ -197,7 +197,7 @@ include('layout/header.php');
                   allowfullscreen></iframe>
               </div>
               <div class="descricao">
-                <div class="titulo_video wow fadeInDown">Saiba mais</div>
+                <div class="titulo_video wow fadeInDown"> Saiba mais:</div>
                 <p class="wow fadeInDown">O que vem travando você na sua prática diária? Você sabia que no Brasil já
                   existem pesquisas que
                   apontam quem 20% das pesssoas são procastinadoras crônicas? Gabriela Brasil é Evernote Business
@@ -407,7 +407,7 @@ include('layout/header.php');
                                 <dialog class="modal01">
                                   <i id="close01" class="bi bi-x"></i>
                                   <div class="text-center">
-                                    <img src="imgs/opps.png"  class="img-fluid"
+                                    <img src="imgs/opps.png" class="img-fluid"
                                       alt="Imagem indicando que a caixa de resposta está vazia.">
 
                                   </div>
@@ -489,7 +489,8 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn li_interativo" data-wow-delay="0.3s"><i class="fa-solid fa-envelope"></i> Escreva sua carta!
+            <p class="wow fadeIn li_interativo" data-wow-delay="0.3s"><i class="fa-solid fa-envelope"></i> Escreva sua
+              carta!
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
