@@ -1,10 +1,19 @@
 /* ######################## QUIZ BOX ########################## */
+.transparente {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.568);
+    height: 1000vh;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
 
 .center {
     display: flex;
     justify-content: center;
     position: absolute;
 }
+
 @media (max-width:1250px) {
     .center {
         display: flex;
@@ -29,7 +38,7 @@
 .quiz_box.activeQuiz,
 .result_box.activeResult {
     opacity: 1;
-    z-index: 5;
+    z-index: 101;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
 }
@@ -58,6 +67,7 @@
     pointer-events: none;
     transition: all 0.3s ease;
 }
+
 .info_box .info-title {
     height: 60px;
     width: 100%;

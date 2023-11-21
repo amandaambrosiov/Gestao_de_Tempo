@@ -7,20 +7,25 @@ const continue_btn = info_box.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
+const transparente = document.querySelector(".transparente");
 // const time_line = document.querySelector("header .time_line");
 // const timeText = document.querySelector(".timer .time_left_txt");
 // const timeCount = document.querySelector(".timer .timer_sec");
 
 // o botão para começar o quiz
+
 start_btn.onclick = () => {
-    info_box.classList.add("activeInfo"); //mostra info box
-    document.body.style.overflow = 'hidden';
+        info_box.classList.add("activeInfo"); //mostra info box
+        document.body.style.overflow = 'hidden';
+        transparente.style.display = 'block';
+        
 }
 
 // botão para sair do quiz
 exit_btn.onclick = () => {
     info_box.classList.remove("activeInfo"); //esconde info box
     document.body.style.overflow = 'visible';
+    transparente.style.display = 'none';
 }
 
 // continuar no quiz
