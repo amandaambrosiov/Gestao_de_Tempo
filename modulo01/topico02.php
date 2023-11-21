@@ -489,7 +489,7 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">Escreva sua carta!
+            <p class="wow fadeIn li_interativo" data-wow-delay="0.3s"><i class="fa-solid fa-envelope"></i> Escreva sua carta!
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 

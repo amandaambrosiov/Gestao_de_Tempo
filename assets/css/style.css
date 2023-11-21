@@ -425,11 +425,11 @@ ol li {
 /* ESTILO DO MENU RESPONSIVO */
 
 /*  MEDIA QUERY  */
-@media (min-width: 1600px) {
-    #text-left2 {
-        margin-top: 14rem;
-    }
-}
+    /* #text-left2 {
+       border-top: 1px solid black;
+       border-bottom: 1px solid black;
+    } */
+
 
 @media (min-width: 735px) {
 
@@ -647,6 +647,17 @@ strong {
 }
 
 /* negrito dos textos*/
+
+.li_interativo {
+    background-color: #1989f1;
+    color: #ffff;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 2rem;
+  }
 
 /* modo escuro - textos */
 [data-theme="dark"] h5 {

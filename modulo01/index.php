@@ -54,7 +54,7 @@ include('layout/header.php');
                                 <!-- Parágrafo com a biblioteca de animação  -->
                                 <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
 
-                                    <strong>Olá, Nome_Completo bem-vindo ao módulo 01 do curso de Gestão do tempo.
+                                    <strong>Olá, Nome_Completo bem-vindo ao módulo 01 do curso Gestão do tempo.
                                     </strong><br>Se você tem a percepção de
                                     que
                                     todas as

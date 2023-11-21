@@ -35,70 +35,71 @@ include('layout/header.php');
             <!--  Título Principal -->
 
             <!-- IMAGEM NO SITE  -->
-
-            <div class="text-center img-01 wow animate__zoomIn" data-wow-delay="0.3s" id="img-left">
-              <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
-                Representação de planejamento</p>
-              <div class="zoom">
-                <a href="imgs02/Figura01.png" data-bs-toggle="modal" data-bs-target="#Imagem1">
-                  <img src="imgs02/Figura01.png" alt="Imagem que remete a organização" id="img-1">
-                </a>
-              </div>
-              <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Banco de Imagem Gratuita</p>
-            </div>
-
-            <!-- Imagem - MODAL-->
-            <div class="modal fade text-center" id="Imagem1" tabindex="-1" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                <div class="modal-content w-75">
-                  <img class="img-fluid" src="imgs02/Figura01.png" alt="Alt da imagem fica aqui">
+              <div class="img-01 wow animate__zoomIn" data-wow-delay="0.3s" id="img-left">
+                <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
+                  Representação de planejamento</p>
+                <div class="zoom">
+                  <a href="imgs02/Figura01.png" data-bs-toggle="modal" data-bs-target="#Imagem1">
+                    <img src="imgs02/Figura01.png" alt="Imagem que remete a organização" id="img-1">
+                  </a>
                 </div>
-                <div class="modal-footer w-75 bg-light justify-content-center">
-                  <p class="text-secondary"><strong>Fonte:</strong>Banco de Imagem Gratuita</p>
+                <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Banco de Imagem Gratuita</p>
+              </div>
+
+              <!-- Imagem - MODAL-->
+              <div class="modal fade text-center" id="Imagem1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                  <div class="modal-content w-75">
+                    <img class="img-fluid" src="imgs02/Figura01.png" alt="Alt da imagem fica aqui">
+                  </div>
+                  <div class="modal-footer w-75 bg-light justify-content-center">
+                    <p class="text-secondary"><strong>Fonte:</strong>Banco de Imagem Gratuita</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!-- Imagem - End-->
+              <!-- Imagem - End-->
 
-            <!-- FIM DA IMAGEM NO SITE  -->
+              <!-- FIM DA IMAGEM NO SITE  -->
 
-            <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">Grandes realizações exigem uma mente realizadora.
-              Talvez neste
-              ponto você já esteja
-              ansioso (a) para praticar tudo aquilo que foi ensinado de modo a tornar realidade aquilo que foi
-              idealizado. Entretanto, é preciso perceber que o foco deste curso é o longo prazo e para este a ansiedade
-              é uma grande inimiga.
-            </p>
-            <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-
-            <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">Se você se identifica com adjetivos que lhe encaminham para o
-              alinhamento com fracasso,
-              sua mente também tratará de realizar este alinhamento. Tenho visto ao longo do meu trabalho como mentora,
-              pessoas com potencial gigante que não conseguem realizar tudo o que sua capacidade lhe permitiria por
-              medos, inseguranças e crenças limitantes.
-            </p>
-            <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-            <!-- Interação com aluno-->
-            <div class="p-2 rounded wow animate__lightSpeedInLeft" data-wow-delay="0.3s"
-              style="background-color: rgb(14, 149, 129); color:white;" id="text-left2">
-              <!-- Interação com aluno-->
-              <p>
-                Por essa razão, a gestão do tempo precisa
-                ser praticada
-                logo após a <strong> profunda
-                  limpeza </strong> de tudo aquilo que não permite que a nova identidade seja realizada e isso
-                significa a
-                retirada de crenças limitantes, de identidades conflitantes e de tudo que possa impedir que a sua
-                nova
-                agenda seja realizada.
+              <!-- Parágrafo com a biblioteca de animação  -->
+              <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">Grandes realizações exigem uma mente
+                realizadora.
+                Talvez neste
+                ponto você já esteja
+                ansioso (a) para praticar tudo aquilo que foi ensinado de modo a tornar realidade aquilo que foi
+                idealizado. Entretanto, é preciso perceber que o foco deste curso é o longo prazo e para este a
+                ansiedade
+                é uma grande inimiga.
               </p>
-            </div>
-            <!--  Fim do Parágrafo com a biblioteca de animação -->
+              <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+
+              <!-- Parágrafo com a biblioteca de animação  -->
+              <p class="wow fadeIn" data-wow-delay="0.3s">Se você se identifica com adjetivos que lhe encaminham para o
+                alinhamento com fracasso,
+                sua mente também tratará de realizar este alinhamento. Tenho visto ao longo do meu trabalho como
+                mentora,
+                pessoas com potencial gigante que não conseguem realizar tudo o que sua capacidade lhe permitiria por
+                medos, inseguranças e crenças limitantes.
+              </p>
+              <!--  Fim do Parágrafo com a biblioteca de animação -->
+              <!-- Interação com aluno-->
+              <div class="p-2 rounded wow fadeIn" data-wow-delay="0.3s" id="text-left2">
+                <!-- Interação com aluno-->
+                <p>
+                  Por essa razão, a gestão do tempo precisa
+                  ser praticada
+                  logo após a <strong> profunda
+                    limpeza </strong> de tudo aquilo que não permite que a nova identidade seja realizada e isso
+                  significa a
+                  retirada de crenças limitantes, de identidades conflitantes e de tudo que possa impedir que a sua
+                  nova
+                  agenda seja realizada.
+                </p>
+              </div>
+              <!--  Fim do Parágrafo com a biblioteca de animação -->
+
 
 
             <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
