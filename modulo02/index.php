@@ -53,32 +53,47 @@ include('layout/header.php');
                 <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s"><strong> Olá,
                     Nome_Completo bem-vindo ao módulo 02 do curso Gestão do tempo.</strong><br> Na primeira
                   parte deste curso, você aprendeu sobre os aspectos mais gerais da Gestão do
-                    Tempo e fez algumas atividades práticas para consolidar sua nova visão de vida e planejar ações que
-                    as
-                    concretize . Neste ponto, você já compreende que a sua mente trabalha ativamente para
+                  Tempo e fez algumas atividades práticas para consolidar sua nova visão de vida e planejar ações que
+                  as
+                  concretize . Neste ponto, você já compreende que a sua mente trabalha ativamente para
                   realizar aquilo que
                   ela acredita ser real ou estar alinhada com suas emoções.
 
-                   Você também já aprendeu que os objetivos pessoais e profissionais podem estar relacionados
-                    a ações diferentes e que devemos decidir sobre onde nosso foco deve se direcionar para que nosso
-                    tempo
-                    seja corretamente utilizado, uma vez que se trata de um recurso não renovável .
+                  Você também já aprendeu que os objetivos pessoais e profissionais podem estar relacionados
+                  a ações diferentes e que devemos decidir sobre onde nosso foco deve se direcionar para que nosso
+                  tempo
+                  seja corretamente utilizado, uma vez que se trata de um recurso não renovável .
                 </p>
-
-
               </div>
             </div><br><br>
 
-            <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">Nesta segunda parte, eu Kamilla Nascimento lhe conduzirei de
-              forma mais profunda na
-              compreensão da Gestão do Tempo que se relaciona com uma mentalidade realizadora e com os hábitos
-              necessários para transformar seus sonhos em realidade. Como foi mencionado, a longo prazo, essas mudanças
-              poderão ser traduzidas em uma melhor qualidade de vida, melhoria da motivação e até na ampliação da
-              felicidade.
-            </p>
-            <!--  Fim do Parágrafo com a biblioteca de animação -->
-
+            <!-- ACCORDION -->
+            <div class="container wow animate__fadeInLeftBig" data-wow-delay="0.3s">
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <div class="accordion-header">
+                    <button class="accordion-button text-light collapsed" type="button" data-bs-toggle="collapse"
+                      id="accordion-botao" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseTwo">
+                      <h5>O que você verá agora?</h5>
+                    </button>
+                  </div>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      Nesta segunda parte, eu Kamilla Nascimento lhe conduzirei de
+                      forma mais profunda na
+                      compreensão da Gestão do Tempo que se relaciona com uma mentalidade realizadora e com os hábitos
+                      necessários para transformar seus sonhos em realidade. Como foi mencionado, a longo prazo, essas
+                      mudanças
+                      poderão ser traduzidas em uma melhor qualidade de vida, melhoria da motivação e até na ampliação
+                      da
+                      felicidade.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ACCORDION END-->
 
           </div>
         </div>

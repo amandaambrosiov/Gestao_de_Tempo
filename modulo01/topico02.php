@@ -74,7 +74,7 @@ include('layout/header.php');
               direcione corretamente a sua gestão do tempo para maximizar oportunidades e a sua qualidade de vida.
               Além do mais, a gestão não impacta apenas o modo como organizamos as atividades, mas também nossa
               produtividade, ou seja, <strong> a qualidade da execução de nossas tarefas </strong>, que também é
-              afetada pela nossa visão de mundo. Como bem salienta Jones (2020, p.4),
+              afetada pela nossa visão de mundo. Como bem salienta Jones (2020, p.4).
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
@@ -245,7 +245,7 @@ include('layout/header.php');
                   <p>Sua mente subconsciente é como um míssil guiado. Você pode fazê-lo ir para onde quiser e alcançar o
                     que deseja, simplesmente programando-o para adquirir certas metas ou hábitos, como alimentação
                     saudável, exercício e término da procrastinação. Você pode fazer isso usando sua mente consciente
-                    através da visualização e afirmações ou através de declarações e conversas positivas</p>
+                    através da visualização e afirmações ou através de declarações e conversas positivas.</p>
                 </blockquote>
                 <figcaption class="blockquote-footer">
                   <cite title="Source Title">(Jones (2020, p7))</cite>
@@ -278,57 +278,99 @@ include('layout/header.php');
             </section>
             <!-- FIM DA CAIXA IMPORTANTE -->
 
-            <!-- Parágrafo com a biblioteca de animação  -->
 
+            <!-- FLIP CARD -->
+            <div class="container wow animate__fadeInUp" data-wow-delay="0.3s">
+              <div class="cards">
+                <label id="summary">
+                  <input type="checkbox" />
+                  <article>
+                    <div class="front">
+                      <header>
+                        <h2>Clique aqui e saiba mais!</h2>
+                        <span class="material-symbols-outlined">
+                        </span>
+                      </header>
 
-            <p class="wow fadeIn" data-wow-delay="0.3s ms-4">Também quero que você perceba que eu ressaltei algumas
-              palavras. Elas estão
-              conectadas com uma determinada identidade que você constrói para si mesmo no intuito de que o seu
-              inconsciente trabalhe para realizar o que você conscientemente escolhe. Você pode escolher as palavras
-              que
-              você quiser. No exemplo anterior, a minha identidade profissional está relacionada com confiança e
-              inspiração. Eu preciso ter confiança e transmitir essa confiança para as pessoas a quem eu sirvo para
-              que
-              elas possam se sentirem inspiradas e confiantes, já que na minha profissão, como professora e
-              pesquisadora, sou constantemente representada como exemplo.
-            </p>
-            <!--  Fim do Parágrafo com a biblioteca de animação -->
-            <br>
+                      <div class="text-left">
+                        <p>Também quero que você perceba que eu ressaltei algumas
+                          palavras. Elas estão
+                          conectadas com uma determinada identidade que você constrói para si mesmo no intuito de que o
+                          seu
+                          inconsciente trabalhe para realizar o que você conscientemente escolhe. Você pode escolher as
+                          palavras
+                          que
+                          você quiser. No exemplo anterior, a minha identidade profissional está relacionada com
+                          confiança e
+                          inspiração. Eu preciso ter confiança e transmitir essa confiança para as pessoas a quem eu
+                          sirvo para
+                          que
+                          elas possam se sentirem inspiradas e confiantes, já que na minha profissão, como professora e
+                          pesquisadora, sou constantemente representada como exemplo.</p>
+                      </div>
 
-            <div class="row">
-              <div class="col d-flex">
-                <!-- Parágrafo com a biblioteca de animação  -->
-                <p class="wow fadeIn" data-wow-delay="0.3s">Já para a minha <strong> segunda identidade </strong>, que
-                  está
-                  relacionada com a minha
-                  vida pessoal e familiar, eu destaquei as palavras <strong> felicidade e o estado de presença
-                  </strong>.
-                  Obviamente isso não significa que eu não preciso também ser uma pessoa confiante e inspiradora em
-                  minha
-                  vida pessoal, especialmente para os meus filhos. Também não quer dizer que eu não espero ser feliz com
-                  meu
-                  trabalho. No entanto, os diferentes papéis que exercemos em diferentes momentos do nosso dia podem
-                  requerer que alguns tipos de emoções sejam mais destacadas.
-                </p>
-                <!--  Fim do Parágrafo com a biblioteca de animação -->
-              </div>
+                      <!-- <button class="flip-botao"><h2>Clique aqui para ler mais</h2></button> -->
 
-              <div class="col">
-                <!-- Parágrafo com a biblioteca de animação  -->
-                <p class="wow fadeIn" data-wow-delay="0.3s">Eu posso, por exemplo, aceitar que em alguns dias o meu
-                  trabalho
-                  pode ser exaustivo e eu
-                  não me sinta a pessoa mais feliz do mundo enquanto estou ali, mas tenho como <strong> meta estar feliz
-                  </strong> e presente sempre que estiver com a minha família. Essa separação que nem sempre é muito
-                  fácil
-                  de realizar ajuda também a compreender que os diferentes ambientes exigem comportamentos diversos. O
-                  trabalho, por exemplo, está diretamente relacionado a um senso de precisão, preciosismo e
-                  responsabilidade, enquanto o ambiente familiar está mais relacionado ao <strong> afeto e ao senso de
-                    participação </strong>.
-                </p>
+                    </div>
+                    <div class="back">
+                      <header>
+                        <h2>Clique para voltar</h2>
+                        <span class="material-symbols-outlined"></span>
+                      </header>
+                      <div class="text-left">
+                        <p>Já para a minha <strong> segunda identidade </strong>, que
+                          está
+                          relacionada com a minha
+                          vida pessoal e familiar, eu destaquei as palavras <strong> felicidade e o estado de presença
+                          </strong>.
+                          Obviamente isso não significa que eu não preciso também ser uma pessoa confiante e inspiradora
+                          em
+                          minha
+                          vida pessoal, especialmente para os meus filhos. Também não quer dizer que eu não espero ser
+                          feliz com
+                          meu
+                          trabalho. No entanto, os diferentes papéis que exercemos em diferentes momentos do nosso dia
+                          podem
+                          requerer que alguns tipos de emoções sejam mais destacadas.</p>
+                      </div>
+
+                    </div>
+                  </article>
+                </label>
               </div>
             </div>
-            <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+            <!--CAIXA DE TEXTO EXEMPLO-->
+            <section class="container wow fadeIn" data-wow-delay="0.3s">
+              <div class="accordion ">
+                <section id="content">
+                  <div class="caixaprincipal" id="tituloexemplo">
+                    <div class="div_teste">
+                      <div><i class="fa-regular fa-pen-to-square"></i></i> EXEMPLO </div>
+                      <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                    </div>
+                  </div> <!--caixa Principal-->
+                  <div class="accordion-content" id="exemplo"><!--caixa secundaria-->
+                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
+                    <p class="txt-caixasecundaria">Eu posso, por exemplo, aceitar que em alguns dias o meu
+                      trabalho
+                      pode ser exaustivo e eu
+                      não me sinta a pessoa mais feliz do mundo enquanto estou ali, mas tenho como <strong> meta estar
+                        feliz
+                      </strong> e presente sempre que estiver com a minha família. Essa separação que nem sempre é muito
+                      fácil
+                      de realizar ajuda também a compreender que os diferentes ambientes exigem comportamentos diversos.
+                      O
+                      trabalho, por exemplo, está diretamente relacionado a um senso de precisão, preciosismo e
+                      responsabilidade, enquanto o ambiente familiar está mais relacionado ao <strong> afeto e ao senso
+                        de
+                        participação</strong>.
+                    <p>
+                  </div>
+                </section>
+            </section>
+            <!-- FIM DA CAIXA EXEMPLO-->
+
 
             <div class="apresentacao">
 
@@ -407,8 +449,11 @@ include('layout/header.php');
                                 <dialog class="modal01">
                                   <i id="close01" class="bi bi-x"></i>
                                   <div class="text-center">
-                                    <img src="imgs/opps.png" class="img-fluid"
+                                    <img src="imgs/opps.png" id="img-maior" class="img-fluid"
                                       alt="Imagem indicando que a caixa de resposta está vazia.">
+
+                                    <!-- <img src="imgs/opps-menor.png" id="img-menor" class="img-fluid"
+                                      alt="Imagem indicando que a caixa de resposta está vazia."> -->
 
                                   </div>
                                 </dialog>

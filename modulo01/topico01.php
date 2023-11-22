@@ -136,7 +136,7 @@ include('layout/header.php');
                             </div>
                         </section>
                         <!-- FIM DA CAIXA IMPORTANTE -->
-                        <br>
+              
 
                         <!-- Citação com borda verde (esquerda) -->
                         <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
@@ -259,7 +259,7 @@ include('layout/header.php');
                             seja
                             multiplicado com o tempo. Na verdade, todos nós nos beneficiamos da relação tempo x
                             dinheiro
-                            quando colocamos nossas economias <strong> na poupança </strong>.
+                            quando colocamos nossas economias <strong> na poupança</strong>.
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
@@ -354,11 +354,11 @@ include('layout/header.php');
                         <ul class="list wow fadeIn" data-wow-delay="0.3s">
                             <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
                                     class="fa fa-dot-circle text-success"></i>
-                                A disposição natural do indivíduo
+                                A disposição natural do indivíduo;
                             </li>
                             <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
                                     class="fa fa-dot-circle text-success"></i>
-                                A definição clara de atividades e
+                                A definição clara de atividades e;
                             </li>
                             <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
                                     class="fa fa-dot-circle text-success"></i>

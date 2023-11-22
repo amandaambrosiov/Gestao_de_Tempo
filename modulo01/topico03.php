@@ -81,7 +81,7 @@ include('layout/header.php');
               traduzida
               como: quem eu preciso ser para tornar-se esta pessoa que eu visualizei? E ainda, mantendo minha vida e
               rotina como está hoje irei alcançar essa meta futura?</p>
-            <br>
+            <br><br><br>
 
             <!-- Citação com borda verde (esquerda) -->
             <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
@@ -256,7 +256,7 @@ include('layout/header.php');
                   <strong></strong>
                 </p><br><br><br>
 
-                <p class="d-flex justify-content-around gap-1">
+                <p class="d-flex justify-content-around gap-1 wow animate__zoomIn" data-wow-delay="0.3s"">
                   <a class="btn CorVerdeEstado" id="buton-t3" data-bs-toggle="collapse" href="#multiCollapseExample1"
                     role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i
                       class="fa-solid fa-computer"> <strong> Vida
@@ -296,7 +296,7 @@ include('layout/header.php');
                             <td colspan="4">Objetivo:</td>
                           </tr>
                           <tr>
-                            <td colspan="4">Quando: [ ] curto prazo [x ] médio prazo [ ] longo prazo</td>
+                            <td colspan="4">Quando: [ ] curto prazo [ x ] médio prazo [ ] longo prazo</td>
                           </tr>
                           <tr>
                             <td colspan="4">legado</td>
@@ -328,7 +328,7 @@ include('layout/header.php');
 
             <div class="apresentacao">
 
-              <div class="img_apresentacao wow animate__zoomIn">
+              <div class="img_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
                 <img src="imgs/Group 3.png" alt="">
               </div>
               <div>
@@ -379,7 +379,7 @@ include('layout/header.php');
               preciso estabelecer metas e
               prazos para escrever e publicar meus livros. Seu médio prazo pode também estar relacionado com uma
               determinada educação que precisa adquirir ou finalizar, com cargos e funções que almeja e
-              etc.<br><strong>(Clique nos títulos abaixo para mais informações)</strong>
+              etc.
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
             <br>
@@ -397,7 +397,7 @@ include('layout/header.php');
                   <strong></strong>
                 </p><br><br><br>
 
-                <p class="d-flex justify-content-center gap-1">
+                <p class="d-flex justify-content-center gap-1 wow animate__zoomIn" data-wow-delay="0.3s">
                   <button class="btn CorVerdeEstado" id="buton-t3" type="button" data-bs-toggle="collapse"
                     data-bs-target="#multiCollapseExample3" aria-expanded="false"
                     aria-controls="multiCollapseExample3"><i class="fa-solid fa-umbrella-beach"> <strong
