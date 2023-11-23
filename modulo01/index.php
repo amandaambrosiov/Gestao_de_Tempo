@@ -5,7 +5,7 @@
 include('layout/header.php');
 ?>
 
-<body class="transparente">
+<body>
     <!-- NAV  -->
     <?php
     include('layout/nav.php');
@@ -35,7 +35,7 @@ include('layout/header.php');
 
                         <div class="apresentacao">
 
-                            <div class="img_apresentacao wow animate__zoomIn">
+                            <div class="img_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
                                 <img src="imgs/Group 10.png" alt="">
                             </div>
                             <div>
@@ -125,6 +125,11 @@ include('layout/header.php');
                             sua vida e eu vou te ajudar nessa caminhada.
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
+                        <br><br>
+                        <div class="d-flex justify-content-center">
+                            <div class="li_interativo2"><i class="bi bi-info-circle"></i> Clique na caixa abaixo
+                                para saber mais</div>
+                        </div>
 
                         <!-- ACCORDION -->
                         <div class="container wow animate__fadeInLeftBig" data-wow-delay="0.3s">

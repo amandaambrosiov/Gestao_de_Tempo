@@ -65,7 +65,12 @@ include('layout/header.php');
                   seja corretamente utilizado, uma vez que se trata de um recurso não renovável .
                 </p>
               </div>
-            </div><br><br>
+            </div><br><br><br>
+
+            <div class="d-flex justify-content-center">
+              <div class="li_interativo2"><i class="bi bi-info-circle"></i> Clique na caixa abaixo
+                para saber mais</div>
+            </div>
 
             <!-- ACCORDION -->
             <div class="container wow animate__fadeInLeftBig" data-wow-delay="0.3s">

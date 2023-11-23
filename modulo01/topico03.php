@@ -256,7 +256,7 @@ include('layout/header.php');
                   <strong></strong>
                 </p><br><br><br>
 
-                <p class="d-flex justify-content-around gap-1 wow animate__zoomIn" data-wow-delay="0.3s"">
+                <p class="d-flex justify-content-around gap-1 wow animate__zoomIn" data-wow-delay="0.3s">
                   <a class="btn CorVerdeEstado" id="buton-t3" data-bs-toggle="collapse" href="#multiCollapseExample1"
                     role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i
                       class="fa-solid fa-computer"> <strong> Vida

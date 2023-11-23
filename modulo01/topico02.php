@@ -280,14 +280,14 @@ include('layout/header.php');
 
 
             <!-- FLIP CARD -->
-            <div class="container wow animate__fadeInUp" data-wow-delay="0.3s">
+            <div class="container wow animate__fadeInUp" data-wow-delay="0.3s" id="flip-resposividade">
               <div class="cards">
                 <label id="summary">
                   <input type="checkbox" />
                   <article>
                     <div class="front">
                       <header>
-                        <h2>Clique aqui e saiba mais!</h2>
+                        <h2><i class="fa-solid fa-computer"></i> Identidade Profissional</h2>
                         <span class="material-symbols-outlined">
                         </span>
                       </header>
@@ -309,20 +309,20 @@ include('layout/header.php');
                           pesquisadora, sou constantemente representada como exemplo.</p>
                       </div>
 
-                      <!-- <button class="flip-botao"><h2>Clique aqui para ler mais</h2></button> -->
+                      <div class="flip-botao">Clique aqui para saber mais</div>
 
                     </div>
                     <div class="back">
                       <header>
-                        <h2>Clique para voltar</h2>
+                        <h2><i class="fa-solid fa-umbrella-beach"></i> Identidade Pessoal</h2>
                         <span class="material-symbols-outlined"></span>
                       </header>
                       <div class="text-left">
-                        <p>Já para a minha <strong> segunda identidade </strong>, que
+                        <p>Já para a minha <strong>segunda identidade</strong>, que
                           está
                           relacionada com a minha
-                          vida pessoal e familiar, eu destaquei as palavras <strong> felicidade e o estado de presença
-                          </strong>.
+                          vida pessoal e familiar, eu destaquei as palavras <strong> felicidade e o estado de
+                            presença</strong>.
                           Obviamente isso não significa que eu não preciso também ser uma pessoa confiante e inspiradora
                           em
                           minha
@@ -334,217 +334,252 @@ include('layout/header.php');
                           requerer que alguns tipos de emoções sejam mais destacadas.</p>
                       </div>
 
+                      <div class="flip-botao">Clique aqui para voltar</div>
+
                     </div>
                   </article>
                 </label>
               </div>
             </div>
-
-            <!--CAIXA DE TEXTO EXEMPLO-->
-            <section class="container wow fadeIn" data-wow-delay="0.3s">
-              <div class="accordion ">
-                <section id="content">
-                  <div class="caixaprincipal" id="tituloexemplo">
-                    <div class="div_teste">
-                      <div><i class="fa-regular fa-pen-to-square"></i></i> EXEMPLO </div>
-                      <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                    </div>
-                  </div> <!--caixa Principal-->
-                  <div class="accordion-content" id="exemplo"><!--caixa secundaria-->
-                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-                    <p class="txt-caixasecundaria">Eu posso, por exemplo, aceitar que em alguns dias o meu
-                      trabalho
-                      pode ser exaustivo e eu
-                      não me sinta a pessoa mais feliz do mundo enquanto estou ali, mas tenho como <strong> meta estar
-                        feliz
-                      </strong> e presente sempre que estiver com a minha família. Essa separação que nem sempre é muito
-                      fácil
-                      de realizar ajuda também a compreender que os diferentes ambientes exigem comportamentos diversos.
-                      O
-                      trabalho, por exemplo, está diretamente relacionado a um senso de precisão, preciosismo e
-                      responsabilidade, enquanto o ambiente familiar está mais relacionado ao <strong> afeto e ao senso
-                        de
-                        participação</strong>.
-                    <p>
-                  </div>
-                </section>
-            </section>
-            <!-- FIM DA CAIXA EXEMPLO-->
-
-
-            <div class="apresentacao">
-
-              <div class="img_apresentacao wow animate__zoomIn">
-                <img src="imgs/Group 4.png" alt="">
-              </div>
-              <div>
-                <!-- Parágrafo com a biblioteca de animação  -->
-                <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
-                  <strong>Olá, Nome_Completo!</strong><br> Clique no botão a seguir e teste seus conhecimentos.
-                </p><br>
-
-                <!-- começo do Quiz botao -->
-                <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button
-                    data-bs-target="#exampleModalToggle" id="btn-game" data-bs-toggle="modal"><i
-                      class="icone fa-solid fa-puzzle-piece"></i>TESTE SEUS
-                    CONHECIMENTOS</button></div>
-
-                <!-- ######################################## GAME DE EMBARALHAR PALAVRAS ##################################### -->
-                <div id="game" class="wow fadeIn" data-wow-delay="0.3s">
-                  <!-- MODAL 1 - INSTRUÇÕES DO JOGO -->
-                  <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
-                    aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-3" id="exampleModalToggleLabel"><i class="fa-solid fa-pen-clip"></i>
-                            Instruções do
-                            Teste</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body fw-normal" id="instrucoes">
-
-                          1. Você deverá descobrir qual é a palavraque está embaralhada;<br><br>
-                          2. Haverá uma dica para lhe auxiliar;<br><br>
-                          3. Ao concluir clique em confirmar;<br><br>
-                          4. Este teste não influenciará na avaliação final.<br><br>
-
-                        </div>
-                        <div class="modal-footer">
-                          <button class="btn" id="btn-game" data-bs-target="#exampleModalToggle2"
-                            data-bs-toggle="modal">Continuar</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- MODAL 2 - INÍCIO DO JOGO -->
-                  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
-                    aria-labelledby="exampleModalToggleLabel2" tabindex="-1" data-bs-keyboard="false">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h1 class="modal-title fs-3" id="exampleModalToggleLabel2"><i class="fa-solid fa-gamepad"></i>
-                            Palavra
-                            Embaralhada</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="content">
-                            <div class="word"></div>
-                            <div class="details">
-                              <div class="hint"> <span></span></div>
-                            </div>
-                            <input type="text" spellcheck="false" placeholder="Escreva a palavra">
-                            <div class="buttons">
-                              <button class="btn-game" id="refresh-word">Embaralhar</button>
-                              <button class="btn-game" id="check-word">Confirmar</button>
-
-                              <div id="divTransparente" class="escondida"></div>
-                              <div id="d2" class="escondida" data-bs-dismiss="modal"></div>
-
-                              <!-- MODAIS DAS RESPOSTAS -->
-                              <!-- MODAL QUANDO A CAIXA DE RESPOSTA ESTIVER VAZIA -->
-                              <div id="modal-js">
-                                <dialog class="modal01">
-                                  <i id="close01" class="bi bi-x"></i>
-                                  <div class="text-center">
-                                    <img src="imgs/opps.png" id="img-maior" class="img-fluid"
-                                      alt="Imagem indicando que a caixa de resposta está vazia.">
-
-                                    <!-- <img src="imgs/opps-menor.png" id="img-menor" class="img-fluid"
-                                      alt="Imagem indicando que a caixa de resposta está vazia."> -->
-
-                                  </div>
-                                </dialog>
-                              </div>
-
-                              <!-- MODAL QUANDO A RESPOSTA ESTIVER CORRETA -->
-                              <div id="modal-js">
-                                <dialog class="modal02">
-                                  <i id="close02" class="bi bi-x" data-bs-dismiss="modal"></i>
-                                  <div class="text-center">
-                                    <img src="imgs/parabens.png" class="img-fluid"
-                                      alt="Imagem indicando que você acertou a resposta.">
-                                  </div>
-                                </dialog>
-                              </div>
-
-                              <!-- MODAL QUANDO A RESPOSTA ESTIVER ERRADA-->
-                              <div id="modal-js">
-                                <dialog class="modal03">
-                                  <i id="close03" class="bi bi-x"></i>
-                                  <div class="text-center">
-                                    <img src="imgs/que-pena.png" class="img-fluid"
-                                      alt="Imagem indicando que você errou a resposta.">
-                                  </div>
-                                </dialog>
-                              </div>
-
-                            </div>
-                          </div>
-                        </div>
-                        <!-- <div class="modal-footer d-flex  justify-content-center">
-        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Voltar</button>
-      </div> -->
-                      </div>
-                    </div>
-                  </div>
-                </div> <br><br>
-
-                <!-- ######################################## GAME DE EMBARALHAR PALAVRAS END ##################################### -->
-
-
-              </div>
-            </div><br>
-
-            <!-- Citação com borda verde (esquerda) -->
-            <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
-
-              <!-- blockquote do bootstrap -->
-              <figure>
-                <blockquote class="blockquote">
-                  <p>No ambiente profissional, embora seja muito desejável os <strong> bons relacionamentos </strong>,
-                    as atividades recreativas não podem atrapalhar os resultados a serem entregues. Do mesmo modo, nos
-                    relacionamentos pessoais, embora um bom senso de compromisso e responsabilidade sejam desejáveis, o
-                    <strong> afeto </strong> é absolutamente indispensável.
-                  </p>
-                </blockquote>
-              </figure>
-            </div>
-            <!-- Citação com borda verde (esquerda) -->
             <br>
 
-            <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">Desse modo, espera-se que ao elaborar a sua carta de seu futuro
-              você considere tudo aquilo
-              que deseja ser, as emoções que pretende vivenciar e irá perceber que diferentes versões de você podem
-              estar relacionadas a diferentes partes dessa visão. Você também pode adicionar questões materiais como,
-              por exemplo, em que tipo de casa espera estar morando, em qual local de moradia e até o veículo que
-              pretende utilizar para se locomover.
-            </p>
-            <!--  Fim do Parágrafo com a biblioteca de animação -->
+            <div class="tela-menor">
+              <p class="wow fadeIn" data-wow-delay="0.3s">Também quero que você perceba que eu ressaltei algumas
+                palavras. Elas estão
+                conectadas com uma determinada identidade que você constrói para si mesmo no intuito de que o
+                seu
+                inconsciente trabalhe para realizar o que você conscientemente escolhe. Você pode escolher as
+                palavras
+                que
+                você quiser. No exemplo anterior, a minha identidade profissional está relacionada com
+                confiança e
+                inspiração. Eu preciso ter confiança e transmitir essa confiança para as pessoas a quem eu
+                sirvo para
+                que
+                elas possam se sentirem inspiradas e confiantes, já que na minha profissão, como professora e
+                pesquisadora, sou constantemente representada como exemplo.</p>
 
-            <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">Apenas lembre que a carta é apenas um direcionamento que irá
-              colaborar com o seu
-              planejamento e alimentar o cérebro de motivação. Porém, como será mostrado adiante, os detalhes do seu
-              plano de vida precisam considerar várias questões como número de pontos focais e a definição de prazos.
-            </p>
-            <!--  Fim do Parágrafo com a biblioteca de animação -->
+              <p class="wow fadeIn" data-wow-delay="0.3s">Já para a minha <strong>segunda identidade</strong>, que
+                está
+                relacionada com a minha
+                vida pessoal e familiar, eu destaquei as palavras <strong> felicidade e o estado de
+                  presença</strong>.
+                Obviamente isso não significa que eu não preciso também ser uma pessoa confiante e inspiradora
+                em
+                minha
+                vida pessoal, especialmente para os meus filhos. Também não quer dizer que eu não espero ser
+                feliz com
+                meu
+                trabalho. No entanto, os diferentes papéis que exercemos em diferentes momentos do nosso dia
+                podem
+                requerer que alguns tipos de emoções sejam mais destacadas.</p>
+            </div>
 
-            <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn li_interativo" data-wow-delay="0.3s"><i class="fa-solid fa-envelope"></i> Escreva sua
-              carta!
-            </p>
-            <!--  Fim do Parágrafo com a biblioteca de animação -->
+          <!--CAIXA DE TEXTO EXEMPLO-->
+          <section class="container wow fadeIn" data-wow-delay="0.3s">
+            <div class="accordion ">
+              <section id="content">
+                <div class="caixaprincipal" id="tituloexemplo">
+                  <div class="div_teste">
+                    <div><i class="fa-regular fa-pen-to-square"></i></i> EXEMPLO </div>
+                    <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                  </div>
+                </div> <!--caixa Principal-->
+                <div class="accordion-content" id="exemplo"><!--caixa secundaria-->
+                  <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
+                  <p class="txt-caixasecundaria">Eu posso, por exemplo, aceitar que em alguns dias o meu
+                    trabalho
+                    pode ser exaustivo e eu
+                    não me sinta a pessoa mais feliz do mundo enquanto estou ali, mas tenho como <strong> meta estar
+                      feliz
+                    </strong> e presente sempre que estiver com a minha família. Essa separação que nem sempre é muito
+                    fácil
+                    de realizar ajuda também a compreender que os diferentes ambientes exigem comportamentos diversos.
+                    O
+                    trabalho, por exemplo, está diretamente relacionado a um senso de precisão, preciosismo e
+                    responsabilidade, enquanto o ambiente familiar está mais relacionado ao <strong> afeto e ao senso
+                      de
+                      participação</strong>.
+                  <p>
+                </div>
+              </section>
+          </section>
+          <!-- FIM DA CAIXA EXEMPLO-->
 
 
+          <div class="apresentacao">
 
+            <div class="img_apresentacao wow animate__zoomIn">
+              <img src="imgs/Group 4.png" alt="">
+            </div>
+            <div>
+              <!-- Parágrafo com a biblioteca de animação  -->
+              <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
+                <strong>Olá, Nome_Completo!</strong><br> Clique no botão a seguir e teste seus conhecimentos.
+              </p><br>
+
+              <!-- começo do Quiz botao -->
+              <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button
+                  data-bs-target="#exampleModalToggle" id="btn-game" data-bs-toggle="modal"><i
+                    class="icone fa-solid fa-puzzle-piece"></i>TESTE SEUS
+                  CONHECIMENTOS</button></div>
+
+              <!-- ######################################## GAME DE EMBARALHAR PALAVRAS ##################################### -->
+              <div id="game" class="wow fadeIn" data-wow-delay="0.3s">
+                <!-- MODAL 1 - INSTRUÇÕES DO JOGO -->
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                  aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-3" id="exampleModalToggleLabel"><i class="fa-solid fa-pen-clip"></i>
+                          Instruções do
+                          Teste</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body fw-normal" id="instrucoes">
+
+                        1. Você deverá descobrir qual é a palavraque está embaralhada;<br><br>
+                        2. Haverá uma dica para lhe auxiliar;<br><br>
+                        3. Ao concluir clique em confirmar;<br><br>
+                        4. Este teste não influenciará na avaliação final.<br><br>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn" id="btn-game" data-bs-target="#exampleModalToggle2"
+                          data-bs-toggle="modal">Continuar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- MODAL 2 - INÍCIO DO JOGO -->
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                  aria-labelledby="exampleModalToggleLabel2" tabindex="-1" data-bs-keyboard="false">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-3" id="exampleModalToggleLabel2"><i class="fa-solid fa-gamepad"></i>
+                          Palavra
+                          Embaralhada</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="content">
+                          <div class="word"></div>
+                          <div class="details">
+                            <div class="hint"> <span></span></div>
+                          </div>
+                          <input type="text" spellcheck="false" placeholder="Escreva a palavra">
+                          <div class="buttons">
+                            <button class="btn-game" id="refresh-word">Embaralhar</button>
+                            <button class="btn-game" id="check-word">Confirmar</button>
+
+                            <div id="divTransparente" class="escondida"></div>
+                            <div id="d2" class="escondida" data-bs-dismiss="modal"></div>
+
+                            <!-- MODAIS DAS RESPOSTAS -->
+                            <!-- MODAL QUANDO A CAIXA DE RESPOSTA ESTIVER VAZIA -->
+                            <div id="modal-js">
+                              <dialog class="modal01">
+                                <i id="close01" class="bi bi-x"></i>
+                                <div class="text-center">
+                                  <img src="imgs/opps.png" id="img-maior" class="img-fluid"
+                                    alt="Imagem indicando que a caixa de resposta está vazia.">
+
+                                  <!-- <img src="imgs/opps-menor.png" id="img-menor" class="img-fluid"
+                                      alt="Imagem indicando que a caixa de resposta está vazia."> -->
+
+                                </div>
+                              </dialog>
+                            </div>
+
+                            <!-- MODAL QUANDO A RESPOSTA ESTIVER CORRETA -->
+                            <div id="modal-js">
+                              <dialog class="modal02">
+                                <i id="close02" class="bi bi-x" data-bs-dismiss="modal"></i>
+                                <div class="text-center">
+                                  <img src="imgs/parabens.png" class="img-fluid"
+                                    alt="Imagem indicando que você acertou a resposta.">
+                                </div>
+                              </dialog>
+                            </div>
+
+                            <!-- MODAL QUANDO A RESPOSTA ESTIVER ERRADA-->
+                            <div id="modal-js">
+                              <dialog class="modal03">
+                                <i id="close03" class="bi bi-x"></i>
+                                <div class="text-center">
+                                  <img src="imgs/que-pena.png" class="img-fluid"
+                                    alt="Imagem indicando que você errou a resposta.">
+                                </div>
+                              </dialog>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!-- <div class="modal-footer d-flex  justify-content-center">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Voltar</button>
+      </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div> <br><br>
+
+              <!-- ######################################## GAME DE EMBARALHAR PALAVRAS END ##################################### -->
+
+
+            </div>
+          </div><br>
+
+          <!-- Citação com borda verde (esquerda) -->
+          <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
+
+            <!-- blockquote do bootstrap -->
+            <figure>
+              <blockquote class="blockquote">
+                <p>No ambiente profissional, embora seja muito desejável os <strong> bons relacionamentos </strong>,
+                  as atividades recreativas não podem atrapalhar os resultados a serem entregues. Do mesmo modo, nos
+                  relacionamentos pessoais, embora um bom senso de compromisso e responsabilidade sejam desejáveis, o
+                  <strong> afeto </strong> é absolutamente indispensável.
+                </p>
+              </blockquote>
+            </figure>
           </div>
+          <!-- Citação com borda verde (esquerda) -->
+          <br>
+
+          <!-- Parágrafo com a biblioteca de animação  -->
+          <p class="wow fadeIn" data-wow-delay="0.3s">Desse modo, espera-se que ao elaborar a sua carta de seu futuro
+            você considere tudo aquilo
+            que deseja ser, as emoções que pretende vivenciar e irá perceber que diferentes versões de você podem
+            estar relacionadas a diferentes partes dessa visão. Você também pode adicionar questões materiais como,
+            por exemplo, em que tipo de casa espera estar morando, em qual local de moradia e até o veículo que
+            pretende utilizar para se locomover.
+          </p>
+          <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+          <!-- Parágrafo com a biblioteca de animação  -->
+          <p class="wow fadeIn" data-wow-delay="0.3s">Apenas lembre que a carta é apenas um direcionamento que irá
+            colaborar com o seu
+            planejamento e alimentar o cérebro de motivação. Porém, como será mostrado adiante, os detalhes do seu
+            plano de vida precisam considerar várias questões como número de pontos focais e a definição de prazos.
+          </p>
+          <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+          <!-- Parágrafo com a biblioteca de animação  -->
+          <p class="wow fadeIn li_interativo" data-wow-delay="0.3s"><i class="fa-solid fa-envelope"></i> Escreva sua
+            carta!
+          </p>
+          <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+
+
         </div>
       </div>
-    </section>
+  </div>
+  </section>
   </div>
 
   <!-- FIM DO CONTEUDO INICIO  -->

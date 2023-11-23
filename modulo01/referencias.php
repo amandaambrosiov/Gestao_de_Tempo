@@ -75,7 +75,7 @@ include('layout/header.php');
 
                         <!-- FIM DAS REFERENCIAS  -->
 
-                        <div class="border border-success m-4 p-4 text-rounded rounded rounded-lg wow fadeIn"
+                        <div class="border border-success m-4 p-4 text-rounded rounded rounded-lg wow animate__fadeInLeftBig"
                             data-wow-delay="0.3s">
                             <h5>Pronto, <strong>Nome_Completo</strong> agora você já pode fazer a avaliação do curso
                                 <strong>Gestão do Tempo</strong> Módulo 01 abaixo, Boa Sorte!

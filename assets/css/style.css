@@ -662,7 +662,7 @@ strong {
 
 /* clique para mais informações */
 .li_interativo2 {
-    background-color: #f08d1b;
+    background-color: #1989f1;
     color: #ffff;
     width: fit-content;
     padding: 8px;
@@ -707,8 +707,8 @@ strong {
 article {
     position: relative;
     perspective: 1000px;
-    width: 100vh;
-    height: 78vh;
+    width: 50vw;
+    height: 30em;
     border-radius: 10px;
 }
 
@@ -805,10 +805,56 @@ article p {
     justify-content: center;
 }
 
-.flip-botao{
-    background-color: white;
-    padding: 10px;
+/* BOTAO INDICANDO PARA CLICAR */
+.flip-botao {
+    /* background-color: rgb(14, 149, 129); */
+    padding: 4px;
+    width: 40%;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    font-weight: 300;
+    position: absolute;
+    bottom: 12px;
 }
+
+/* RESPONSIVIDADE DO FLIP CARD */
+@media (max-width: 1200px) {
+    article {
+        position: relative;
+        perspective: 1000px;
+        width: 50vw;
+        height: 40em;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    article {
+        position: relative;
+        perspective: 1000px;
+        width: 46vw;
+        height: 55em;
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 900px) {
+    .tela-menor {
+        display: none;
+    }
+}
+
+@media (max-width: 901px) {
+    .tela-menor {
+        display: block;
+    }
+    
+    #flip-resposividade{
+        display: none;
+    }
+}
+/* RESPONSIVIDADE DO FLIP CARD END */
 
 /* ----------- FLIP CARD END -------------- */
 
@@ -920,6 +966,12 @@ hr {
     background-image: linear-gradient(to right, #2db39e, #26a737);
 }
 
+.accordion-button:focus {
+    z-index: 3;
+    /* border-color: #dc3545; */
+    box-shadow: 0 0 0 0.05rem #008442;
+}
+
 #accordion-botao {
     background-image: linear-gradient(to right, #2db39e, #26a737);
 }
@@ -928,6 +980,7 @@ hr {
     background-image: linear-gradient(to right, #2db39e, #26a737);
     color: #fff;
 }
+
 /* ACCORDION DA APRESENTAÇÃO END */
 
 .container {
@@ -1396,7 +1449,7 @@ o estado inicial de height 0 manteria o texto aparecendo */
 }
 
 #text-left {
-    margin-top: 3em;
+    margin-top: 2.5em;
 }
 
 /* IMAGEM E TEXTOS JUNTOS END */

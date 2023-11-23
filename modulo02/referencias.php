@@ -72,10 +72,10 @@ include('layout/header.php');
 
             <!-- FIM DAS REFERENCIAS  -->
 
-            <div class="p-2 rounded wow fadeIn" data-wow-delay="0.3s" style="background-color: #f18519;">
+            <div class="p-2 rounded wow animate__fadeInLeftBig" data-wow-delay="0.1s" style="background-color: #f18519;">
               <!-- Interação com aluno-->
               <ul class="none" style="padding-left:0">
-                <li class="img-fluid wow fadeIn text-light" data-wow-delay="0.3s"><i></i>
+                <li class="img-fluid"><i></i>
                   <p>
                     Parabéns, Nome_Completo, você concluiu o Módulo 02! Para continuar nos estudos,
                     sugerimos o livro: Estratégias práticas para ganhar mais tempo, Christian Barbosa, Editora Sextante.
@@ -86,7 +86,7 @@ include('layout/header.php');
             <br><br>
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">Chegamos ao final do curso, agora você vai clicar em <strong>
+            <p class="wow fadeIn" data-wow-delay="0.3s">Chegamos ao final do curso, agora você deve clicar em <strong>
                 Realizar Atividade
                 Avaliativa </strong> do
               Modulo 02, para finalizar.

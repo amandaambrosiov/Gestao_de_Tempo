@@ -48,7 +48,7 @@ include('layout/header.php');
               <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>banco de imagens gratuitas do
                 canvas, 2021.</p>
             </div>
-            <br><br>
+           <br><br>
 
             <!-- Imagem - MODAL-->
             <div class="modal fade text-center" id="Imagem1" tabindex="-1" aria-labelledby="exampleModalLabel"
