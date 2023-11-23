@@ -425,7 +425,7 @@ ol li {
 /* ESTILO DO MENU RESPONSIVO */
 
 /*  MEDIA QUERY  */
-    /* #text-left2 {
+/* #text-left2 {
        border-top: 1px solid black;
        border-bottom: 1px solid black;
     } */
@@ -648,6 +648,7 @@ strong {
 
 /* negrito dos textos*/
 
+/* DESTACANDO UMA FRASE */
 .li_interativo {
     background-color: #1989f1;
     color: #ffff;
@@ -657,7 +658,24 @@ strong {
     margin-right: 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 2rem;
-  }
+}
+
+/* clique para mais informações */
+.li_interativo2 {
+    background-color: #f08d1b;
+    color: #ffff;
+    width: fit-content;
+    padding: 8px;
+    font-style: italic;
+    border-radius: 2px;
+    margin-right: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 2rem;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* DESTACANDO UMA FRASE END*/
 
 /* modo escuro - textos */
 [data-theme="dark"] h5 {
@@ -677,6 +695,122 @@ strong {
 }
 
 /* modo escuro - textos end */
+
+
+/* ----------- FLIP CARD ------------- */
+
+.cards {
+    display: flex;
+    gap: 10px;
+}
+
+article {
+    position: relative;
+    perspective: 1000px;
+    width: 100vh;
+    height: 78vh;
+    border-radius: 10px;
+}
+
+article header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+
+}
+
+article header h2 {
+    font-size: 25px;
+    margin-top: 0.8em;
+    color: white;
+}
+
+article .front,
+article .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    backface-visibility: hidden;
+    background-image: linear-gradient(to right, #2db39e, #26a737);
+    border-radius: 10px;
+    padding: 24px;
+    transition: 0.6s;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+input {
+    position: absolute;
+    scale: 0;
+}
+
+input:checked~article .back {
+    transform: rotateY(0);
+}
+
+input:checked~article .front {
+    transform: rotateY(-180deg);
+}
+
+article var {
+    font-style: normal;
+    font-size: 80px;
+    line-height: 1;
+}
+
+article h3 {
+    margin: 3.5em 0 30px;
+    font-weight: 500;
+}
+
+#summary :is(var, h3) {
+    color: #3b82f6;
+}
+
+#overdue :is(var, h3) {
+    color: #ef4444;
+}
+
+#features :is(var, h3) {
+    color: #22c55e;
+}
+
+article :is(h4, p) {
+    font-size: 20px;
+}
+
+article p {
+
+    margin-top: 1.5em;
+    color: white;
+    font-weight: bold;
+    font-family: var(--FonteKanit);
+}
+
+.text-left {
+    text-align: left;
+    z-index: 10;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.flip-botao{
+    background-color: white;
+    padding: 10px;
+}
+
+/* ----------- FLIP CARD END -------------- */
 
 /* ------ CONFIGURÇÃO DOS TEXTOS END ------- */
 
@@ -780,6 +914,22 @@ hr {
 
 
 /* ############ INÍCIO DO ESTILO DO ACCORDION  ##################### */
+
+/* ACOORDION DA APRESENTAÇÃO */
+.accordion-item {
+    background-image: linear-gradient(to right, #2db39e, #26a737);
+}
+
+#accordion-botao {
+    background-image: linear-gradient(to right, #2db39e, #26a737);
+}
+
+.accordion-body {
+    background-image: linear-gradient(to right, #2db39e, #26a737);
+    color: #fff;
+}
+/* ACCORDION DA APRESENTAÇÃO END */
+
 .container {
     min-height: 20vh;
     position: relative;
@@ -1270,15 +1420,12 @@ o estado inicial de height 0 manteria o texto aparecendo */
     }
 
     .titulo_video {
-        background-color: white;
-        color: rgb(14, 149, 129);
-        font-size: 25px;
+        color: white;
+        font-size: 2.5rem;
         width: fit-content;
-        padding: 10px;
         display: flex;
         justify-content: center;
-        margin: 1em 0;
-        border-radius: 30px;
+        /* border-radius: 30px; */
     }
 
     .descricao {
@@ -1289,6 +1436,7 @@ o estado inicial de height 0 manteria o texto aparecendo */
 .descricao p {
     font-weight: 300 !important;
     color: #ffff;
+    margin-top: 2px;
 }
 
 @media (max-width:1260px) {
@@ -1306,15 +1454,12 @@ o estado inicial de height 0 manteria o texto aparecendo */
     }
 
     .titulo_video {
-        background-color: white;
-        color: rgb(14, 149, 129);
-        font-size: 25px;
+        color: white;
+        font-size: 2.5rem;
         width: fit-content;
-        padding: 10px;
         display: flex;
         justify-content: center;
-        margin-bottom: 1em;
-        border-radius: 30px;
+        /* border-radius: 30px; */
     }
 
     .descricao {
@@ -1329,6 +1474,15 @@ o estado inicial de height 0 manteria o texto aparecendo */
     background-color: orange;
     border-radius: 100px 100px 100px 0;
     padding: 40px;
+    margin-top: 1rem;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.texto_apresentacao2 {
+    background-color: orange;
+    border-radius: 100px 100px 100px 0;
+    padding: 20px;
     margin-top: 1rem;
     height: fit-content;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;

@@ -48,8 +48,10 @@ include('layout/header.php');
                         </div>
 
                         <!-- Imagem - MODAL-->
-                        <div class="modal fade text-center" id="Imagem1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                        <div class="modal fade text-center" id="Imagem1" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
                                 <div class="modal-content w-75">
                                     <img class="img-fluid" src="imgs02/Figura03.png" alt="Alt da imagem fica aqui">
                                 </div>
@@ -184,60 +186,81 @@ include('layout/header.php');
                             limpeza e os que seriam necessários para gerar comprometimento a longo prazo e disciplina.
                             Lembre-se que o que for definido aqui no curto prazo deve viabilizar o longo prazo já
                             determinado na primeira parte.<br>
-                            <strong>(Clique nos títulos abaixo para mais informações)</strong>
                         </p>
                         <br>
 
-                        <p class="d-flex justify-content-around gap-1">
-                            <a class="btn CorVerdeEstado" id="buton-t3" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa-solid fa-computer"> <strong> Vida
-                                        Profissional</strong></i></a>
-                            <button class="btn CorVerdeEstado" id="buton-t3" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"><i class="fa-solid fa-umbrella-beach"> <strong id="text-teste">
-                                        Vida
-                                        Pessoal </strong></i></i></button>
-                        </p>
-                        <div class="row">
-                            <div class="col">
-                                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="apresentacao">
 
-                                    <table class="table table-bordered border-success">
-                                        <tbody>
-                                            <tr>
-                                                <td colspan="4">Objetivo:</td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="4">Quando: [ x ] curto prazo [ ] médio prazo [ ] longo
-                                                    prazo
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="4">legado</td>
-                                            </tr>
-                                        </tbody>
-                                    </table><br>
-
-                                </div>
+                            <div class="img_apresentacao wow animate__zoomIn">
+                                <img src="imgs/Group 11.png" alt="">
                             </div>
-                            <div class="col">
-                                <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                    <table class="table table-bordered border-success">
-                                        <tbody>
-                                            <tr>
-                                                <td colspan="4">Objetivo:</td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="4">Quando: [ x ] curto prazo [ ] médio prazo [ ] longo
-                                                    prazo
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="4">legado</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
+                            <div>
+                                <!-- Parágrafo com a biblioteca de animação  -->
+                                <p class="wow fadeIn texto_apresentacao2 wow animate__zoomIn" data-wow-delay="0.3s">
+                                    <strong><i class="fa-solid fa-circle-info"></i> Clique nos títulos abaixo para mais informações</strong>
+                                </p><br><br><br>
 
+                                <p class="d-flex justify-content-around gap-1">
+                                    <a class="btn CorVerdeEstado" id="buton-t3" data-bs-toggle="collapse"
+                                        href="#multiCollapseExample1" role="button" aria-expanded="false"
+                                        aria-controls="multiCollapseExample1"><i class="fa-solid fa-computer"> <strong>
+                                                Vida
+                                                Profissional</strong></i></a>
+                                    <button class="btn CorVerdeEstado" id="buton-t3" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2"
+                                        aria-expanded="false" aria-controls="multiCollapseExample2"><i
+                                            class="fa-solid fa-umbrella-beach"> <strong id="text-teste">
+                                                Vida
+                                                Pessoal </strong></i></i></button>
+                                </p>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+
+                                            <table class="table table-bordered border-success">
+                                                <tbody>
+                                                    <tr>
+                                                        <td colspan="4">Objetivo:</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4">Quando: [ x ] curto prazo [ ] médio prazo [ ]
+                                                            longo
+                                                            prazo
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4">legado</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table><br>
+
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                            <table class="table table-bordered border-success">
+                                                <tbody>
+                                                    <tr>
+                                                        <td colspan="4">Objetivo:</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4">Quando: [ x ] curto prazo [ ] médio prazo [ ]
+                                                            longo
+                                                            prazo
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan="4">legado</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div><br><br>
                         <br>
                         <p class="wow fadeIn" data-wow-delay="0.3s">Por fim, cabe ressaltar que toda agenda deve
                             funcionar como um ideal a ser perseguido. Porém,
@@ -250,15 +273,20 @@ include('layout/header.php');
                         <!-- VÍDEO DO YOUTUBE -->
                         <div class="video wow fadeInDown">
                             <div class=" wow fadeIn" data-wow-delay="0.3s">
-                                <iframe width="700" height="380" src="https://www.youtube.com/embed/HMeSOjEMqrw" title="6 Micro-Hábitos diários para Conquistar seus Objetivos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <iframe width="700" height="380" src="https://www.youtube.com/embed/HMeSOjEMqrw"
+                                    title="6 Micro-Hábitos diários para Conquistar seus Objetivos" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
                             </div>
                             <div class="descricao">
                                 <div class="titulo_video wow fadeInDown">Saiba mais</div>
-                                <p class="wow fadeInDown">Neste vídeo Chistian Barbosa relata de forma simples 06 (seis) micro-hábitos para
+                                <p class="wow fadeInDown">Neste vídeo Chistian Barbosa relata de forma simples 06 (seis)
+                                    micro-hábitos para
                                     serem incorporados no nosso dia a dia e que podem nos auxiliar a trabalhar melhor
                                     com o nosso tempo. Autor do livro Estratégias Práticas para Ganhar Mais Tempo
                                     (2013), é considerado o maior especialista do pa´s em gerenciamento do tempo e
-                                    produtividade pessoal. Um dos mais jovens profissionais certificados pela Microsoft.</p>
+                                    produtividade pessoal. Um dos mais jovens profissionais certificados pela Microsoft.
+                                </p>
                             </div>
                         </div>
 
@@ -287,7 +315,8 @@ include('layout/header.php');
     <div class="text-center">
         <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true">
             <i class="fa-solid fa-chevron-left"></i> Voltar </a>
-        <a href="referencias.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="referencias.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+                class="fa-solid fa-chevron-right"></i></a>
     </div>
 
     <!-- FOOTER  -->

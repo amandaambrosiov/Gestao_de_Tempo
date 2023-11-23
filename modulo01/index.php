@@ -31,18 +31,6 @@ include('layout/header.php');
                         <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s"><span class="icon"><i
                                     class="bi bi-person-workspace"></i>
                             </span> Apresentação</h2><br>
-                        <!--  Título Principal -->
-                        <!-- 
-                        <ul class="none wow fadeIn" data-wow-delay="0.3s">
-                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i></i>
-                                <h4>
-                                    Olá, Nome_Completo bem-vindo ao módulo 01 do curso de Gestão do tempo. Bons
-                                    estudos!
-                                </h4>
-                            </li>
-                        </ul>
-                        <br> -->
-
 
 
                         <div class="apresentacao">
@@ -138,13 +126,31 @@ include('layout/header.php');
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-                        <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s">Tendo tudo isso como base, nas próximas seções deste
-                            curso você
-                            perceberá os benefícios da gestão do tempo, como visualizar uma nova vida para si
-                            mesmo e planejar a sua realização através de objetivos e hábitos.
-                        </p>
-                        <!--  Fim do Parágrafo com a biblioteca de animação -->
+                        <!-- ACCORDION -->
+                        <div class="container wow animate__fadeInLeftBig" data-wow-delay="0.3s">
+                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item">
+                                    <div class="accordion-header">
+                                        <button class="accordion-button text-light collapsed" type="button"
+                                            data-bs-toggle="collapse" id="accordion-botao"
+                                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                            aria-controls="panelsStayOpen-collapseTwo">
+                                            <h5>O que você verá agora?</h5>
+                                        </button>
+                                    </div>
+                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            Tendo tudo isso como base, nas próximas seções deste
+                                            curso você
+                                            perceberá os benefícios da gestão do tempo, como visualizar uma nova vida
+                                            para si
+                                            mesmo e planejar a sua realização através de objetivos e hábitos.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ACCORDION END-->
 
 
                     </div>

@@ -154,7 +154,6 @@
 
 section {
     padding: 25px 30px 20px 30px;
-
 }
 
 section .que_text {
@@ -592,7 +591,6 @@ dialog {
 
 /* FIM DAS CONFIGURAÇÕES DO CONTEÚDO DO MODAL */
 
-
 /* INÍCIO DAS CONFIGURAÇÕES DA RESPONSIVIDADE */
 @media screen and (max-width: 470px) {
     .container h2 {
@@ -630,11 +628,10 @@ dialog {
 }
 
 
-
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 400px) {
     dialog {
-        margin-top: -9rem;
-        height: 130%;
+        margin-top: -8rem;
+        height: 120%;
     }
 }
 
