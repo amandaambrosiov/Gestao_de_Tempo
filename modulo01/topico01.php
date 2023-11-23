@@ -86,7 +86,7 @@ include('layout/header.php');
 
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s" >A tecnologia diminuiu o tempo
+                        <p class="wow fadeIn" data-wow-delay="0.3s">A tecnologia diminuiu o tempo
                             necessário para
                             executar a maioria das
                             nossas
@@ -136,7 +136,7 @@ include('layout/header.php');
                             </div>
                         </section>
                         <!-- FIM DA CAIXA IMPORTANTE -->
-              
+
 
                         <!-- Citação com borda verde (esquerda) -->
                         <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
@@ -345,26 +345,35 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn" data-wow-delay="0.3s">A disciplina para cumprir todas as atividades
+                        <p class="wow fadeIn d-flex justify-content-center" data-wow-delay="0.3s">A disciplina para
+                            cumprir todas as atividades
                             está relacionada principalmente
                             com três aspectos:
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-                        <ul class="list wow fadeIn" data-wow-delay="0.3s">
-                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
-                                    class="fa fa-dot-circle text-success"></i>
-                                A disposição natural do indivíduo;
-                            </li>
-                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
-                                    class="fa fa-dot-circle text-success"></i>
-                                A definição clara de atividades e;
-                            </li>
-                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
-                                    class="fa fa-dot-circle text-success"></i>
-                                A motivação pessoal.
-                            </li>
-                        </ul>
+                        <div class="wow fadeIn" data-wow-delay="0.3s">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col d-flex justify-content-center">
+                                        <a class="li_interativo wow fadeInDown fw-light" data-wow-delay="0.1s">A
+                                            disposição
+                                            natural do indivíduo</a>
+                                        <a class="li_interativo wow fadeInDown fw-light" data-wow-delay="0.3s">A
+                                            definição clara
+                                            de atividades</a>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col d-flex justify-content-center">
+                                            <a class="li_interativo wow fadeInDown fw-light" data-wow-delay="0.6s">A
+                                                motivação
+                                                pessoal.</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
 
                         <!-- Parágrafo com a biblioteca de animação  -->
                         <p class="wow fadeIn" data-wow-delay="0.3s">Desse modo, algumas pessoas conseguem seguir a
@@ -388,7 +397,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                         <!-- lista ordenada  -->
-                        <ol class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
+                        <!-- <ol class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
                             <li class="wow fadeInLeft" data-wow-delay="0.3s">Planejamento para atingir metas e aumentar
                                 a produtividade e eficiência do tempo;
                             </li>
@@ -396,10 +405,109 @@ include('layout/header.php');
                                 o tempo. A combinação dessas vantagens,
                                 por
                                 sua vez, pode trazer felicidade e satisfação pessoal.</li>
-                        </ol>
+                        </ol> -->
                         <!-- fim da lista ordenada  -->
 
+                        <div>
+                            <button class="btn_interativo" id="toggle-button"><i class="bi bi-caret-right-fill"></i>
+                                Planejamento para
+                                atingir metas e aumentar
+                                a produtividade e eficiência do tempo;
+                            </button>
+                            <button class="btn_interativo"><i class="bi bi-caret-right-fill"></i>A mudança de hábitos e
+                                da mentalidade sobre
+                                o tempo. A combinação dessas vantagens,</button>
+                        </div>
 
+                        <script>
+                            // const btn_interativo = document.querySelector(".btn_interativo");
+
+                            // btn_interativo.onclick = () => {
+                            //     btn_interativo.style.width = '35px';
+                            // }
+
+                            // function changeNav() {
+                            //     document.getElementByClassName("btn_interativo").classList.toggle("open");
+                            // }
+
+                            $(document).ready(function () {
+                                $('.btn_interativo').click(function () {
+                                    var toggleWidth = $(".btn_interativo").width() == 1000 ? "35px" : "1000px";
+                                    $('.btn_interativo').animate({ width: toggleWidth });
+                                });
+                            });
+                            // </script>
+
+                        <!-- <input  type="button" value="Click me!"/>
+
+                        <div id="toggle"></div> -->
+
+
+                        <style>
+                            /* .open{
+                                width:fit-content;
+                            } */
+                            .btn_interativo {
+                                background-color: green;
+                                font-size: 20px;
+                                font-weight: light;
+                                border: none;
+                                padding: 5px;
+                                margin: 1rem 0;
+                                color: white;
+                                width: 35px;
+                                height: 40px;
+                                border-radius: 10px;
+                                transition: width 750ms ease-in-out;
+                            }
+
+                            .txt_interativo {
+                                height: 45px !important;
+                            }
+
+                            /* .btn_interativo p {
+                                opacity: 0;
+                            } */
+
+                            /* 
+                            .btn_interativo:hover{
+                                width: fit-content;
+                            }
+                            .btn_interativo:hover>p{
+                                display: block;
+                            }
+                            .btn_interativo:hover>i{
+                                display: none;
+                            } */
+                            /*
+                            .btn_interativo:hover{
+                                width: fit-content;
+                                display: flex;
+                                justify-content: center;
+                            }
+                            .btn_interativo:hover>p{
+                                display: block;;
+                            } */
+                        </style>
+
+                        <div style="display:flex; justify-content:flex-start;">
+                            <p>
+                                <button style="height:60px" class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseWidthExample" aria-expanded="false"
+                                    aria-controls="collapseWidthExample">
+                                    Clique aqui!
+                                </button>
+                            </p>
+                            <div style="min-height: 120px;">
+                                <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                                    <div class="card card-body" style="width: 900px;">
+                                        This is some placeholder content for a horizontal collapse. It's hidden by
+                                        default
+                                        and shown when triggered.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
                     </div>

@@ -272,15 +272,15 @@ include('layout/header.php');
 
                         <!-- VÍDEO DO YOUTUBE -->
                         <div class="video wow fadeInDown">
-                            <div class=" wow fadeIn" data-wow-delay="0.3s">
+                            <div>
                                 <iframe width="700" height="380" src="https://www.youtube.com/embed/HMeSOjEMqrw"
                                     title="6 Micro-Hábitos diários para Conquistar seus Objetivos" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowfullscreen></iframe>
                             </div>
                             <div class="descricao">
-                                <div class="titulo_video wow fadeInDown">Saiba mais</div>
-                                <p class="wow fadeInDown">Neste vídeo Chistian Barbosa relata de forma simples 06 (seis)
+                                <div class="titulo_video">Saiba mais</div>
+                                <p>Neste vídeo Chistian Barbosa relata de forma simples 06 (seis)
                                     micro-hábitos para
                                     serem incorporados no nosso dia a dia e que podem nos auxiliar a trabalhar melhor
                                     com o nosso tempo. Autor do livro Estratégias Práticas para Ganhar Mais Tempo

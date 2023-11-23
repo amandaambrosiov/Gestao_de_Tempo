@@ -20,7 +20,13 @@ start_btn.onclick = () => {
         transparente.style.display = 'block';
         
 }
-
+transparente.onclick = () => {
+    info_box.classList.remove("activeInfo"); //esconde info box
+    quiz_box.classList.remove("activeQuiz")
+    result_box.classList.remove("activeResult");
+    document.body.style.overflow = 'visible';
+    transparente.style.display = 'none';
+}
 // botão para sair do quiz
 exit_btn.onclick = () => {
     info_box.classList.remove("activeInfo"); //esconde info box
