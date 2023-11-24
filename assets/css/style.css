@@ -1627,6 +1627,17 @@ o estado inicial de height 0 manteria o texto aparecendo */
 
 /* ------- FIM DO BUTTON BACK TO TOP -------- */
 
+/* BARRA DE PROGRESSO  */
+#progress-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    background: linear-gradient(#03cc65 0%, #03cc65 100%);
+    transition: width 0.5s ease-out;
+    z-index: 5;
+}
+
 
 /* ------- FOOTER ---------*/
 .footer {

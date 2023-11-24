@@ -34,15 +34,6 @@ include('layout/header.php');
               </span> Apresentação</h2><br>
             <!--  Título Principal -->
 
-            <!-- <ul class="none ">
-              <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i></i>
-                <h4>
-                  Olá, Nome_Completo bem-vindo ao módulo 02 do curso de Gestão do tempo. Bons estudos!
-                </h4>
-              </li>
-            </ul>
-            <br> -->
-
             <div class="apresentacao">
 
               <div class="img_apresentacao wow animate__zoomIn">
@@ -50,27 +41,30 @@ include('layout/header.php');
               </div>
               <div>
                 <!-- Parágrafo com a biblioteca de animação  -->
-                <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s"><strong> Olá,
+                <p class=" texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s"><strong> Olá,
                     Nome_Completo bem-vindo ao módulo 02 do curso Gestão do tempo.</strong><br> Na primeira
                   parte deste curso, você aprendeu sobre os aspectos mais gerais da Gestão do
                   Tempo e fez algumas atividades práticas para consolidar sua nova visão de vida e planejar ações que
                   as
-                  concretize . Neste ponto, você já compreende que a sua mente trabalha ativamente para
+                  concretize. 
+                </p><br>
+                <p class="wow fadeIn" data-wow-delay="0.3s">
+                Neste ponto, você já compreende que a sua mente trabalha ativamente para
                   realizar aquilo que
                   ela acredita ser real ou estar alinhada com suas emoções.
 
                   Você também já aprendeu que os objetivos pessoais e profissionais podem estar relacionados
                   a ações diferentes e que devemos decidir sobre onde nosso foco deve se direcionar para que nosso
                   tempo
-                  seja corretamente utilizado, uma vez que se trata de um recurso não renovável .
+                  seja corretamente utilizado, uma vez que se trata de um recurso não renovável.
                 </p>
               </div>
             </div><br><br><br>
 
-            <div class="d-flex justify-content-center">
+            <!-- <div class="d-flex justify-content-center">
               <div class="li_interativo2"><i class="bi bi-info-circle"></i> Clique na caixa abaixo
                 para saber mais</div>
-            </div>
+            </div> -->
 
             <!-- ACCORDION -->
             <div class="container wow animate__fadeInLeftBig" data-wow-delay="0.3s">
@@ -80,7 +74,8 @@ include('layout/header.php');
                     <button class="accordion-button text-light collapsed" type="button" data-bs-toggle="collapse"
                       id="accordion-botao" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                       aria-controls="panelsStayOpen-collapseTwo">
-                      <h5>O que você verá agora?</h5>
+                      <h5>O que você verá agora? <span class="fw-lighter">(Clique aqui
+                para saber mais)</span> </h5>
                     </button>
                   </div>
                   <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
@@ -125,6 +120,10 @@ include('layout/header.php');
     <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
         class="fa-solid fa-chevron-right"></i></a>
   </div>
+
+    <!-- BARRA DE PROGRESSO -->
+    <div id="progress-bar"></div>
+  <!-- FIM DA BARRA DE PROGRESSO  -->
 
   <!-- FOOTER  -->
   <?php

@@ -121,6 +121,10 @@ include('layout/header.php');
       aria-pressed="true"> Realizar Atividade Avaliativa <i class="fa-solid fa-chevron-right"></i></a>
   </div>
 
+    <!-- BARRA DE PROGRESSO -->
+    <div id="progress-bar"></div>
+  <!-- FIM DA BARRA DE PROGRESSO  -->
+
   <!-- FOOTER  -->
   <?php
   include('layout/footer.php');

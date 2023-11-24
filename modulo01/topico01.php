@@ -380,11 +380,11 @@ include('layout/header.php');
                         Já a manutenção da disciplina no decorrer do tempo exige para todas as pessoas (mesmo
                         aquelas que são altamente disciplinadas) uma motivação permanente que pode ser traduzida
                         como uma visão de mundo que conduz o indivíduo aos seus objetivos.
-                    </p>
+                    </p><br>
                     <!--  Fim do Parágrafo com a biblioteca de animação -->
 
                     <!-- Parágrafo com a biblioteca de animação  -->
-                    <p class="wow fadeIn" data-wow-delay="0.3s"> <strong>
+                    <p class="wow fadeIn d-flex justify-content-center" data-wow-delay="0.3s"> <strong>
                             Por essa razão, destacamos entre as vantagens da
                             gestão do tempo:
                         </strong>
@@ -440,6 +440,10 @@ include('layout/header.php');
             <i class="fa-solid fa-chevron-left"></i> Voltar </a>
         <a href="topico02.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i class="fa-solid fa-chevron-right"></i></a>
     </div>
+
+      <!-- BARRA DE PROGRESSO -->
+  <div id="progress-bar"></div>
+  <!-- FIM DA BARRA DE PROGRESSO  -->
 
     <!-- FOOTER  -->
     <?php

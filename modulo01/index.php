@@ -126,10 +126,10 @@ include('layout/header.php');
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
                         <br><br>
-                        <div class="d-flex justify-content-center">
+                        <!-- <div class="d-flex justify-content-center">
                             <div class="li_interativo2"><i class="bi bi-info-circle"></i> Clique na caixa abaixo
                                 para saber mais</div>
-                        </div>
+                        </div> -->
 
                         <!-- ACCORDION -->
                         <div class="container wow animate__fadeInLeftBig" data-wow-delay="0.3s">
@@ -140,7 +140,8 @@ include('layout/header.php');
                                             data-bs-toggle="collapse" id="accordion-botao"
                                             data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                                             aria-controls="panelsStayOpen-collapseTwo">
-                                            <h5>O que você verá agora?</h5>
+                                            <h5>O que você verá agora? <span class="fw-lighter">(Clique aqui
+                                                    para saber mais)</span></h5>
                                         </button>
                                     </div>
                                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
@@ -180,6 +181,10 @@ include('layout/header.php');
     <div class="text-center">
         <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true"> Próximo
             <i class="fa-solid fa-chevron-right"></i></a>
+
+        <!-- BARRA DE PROGRESSO -->
+        <div id="progress-bar"></div>
+        <!-- FIM DA BARRA DE PROGRESSO  -->
 
         <?php
         include('layout/footer.php');
