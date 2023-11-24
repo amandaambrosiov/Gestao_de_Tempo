@@ -81,7 +81,7 @@ include('layout/header.php');
               traduzida
               como: quem eu preciso ser para tornar-se esta pessoa que eu visualizei? E ainda, mantendo minha vida e
               rotina como está hoje irei alcançar essa meta futura?</p>
-            <br><br><br>
+            <br>
 
             <!-- Citação com borda verde (esquerda) -->
             <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
@@ -96,7 +96,7 @@ include('layout/header.php');
                     diferentes, e terão prioridades diferentes.</p>
                 </blockquote>
               </figure>
-            </div>
+            </div><br>
             <!-- Citação com borda verde (esquerda) -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
@@ -359,7 +359,7 @@ include('layout/header.php');
                 <!--  Fim do Parágrafo com a biblioteca de animação -->
 
               </div>
-            </div><br><br>
+            </div><br>
 
 
 

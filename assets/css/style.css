@@ -688,6 +688,11 @@ a.link_tooltip{
     color: #008442;
     font-weight: 300;
   }
+  a.link_tooltip_white{
+    text-decoration: underline 3px #ffff;
+    color: #ffff;
+    font-weight: 300;
+  }
   .custom-tooltip {
     --bs-tooltip-bg: #008442;
     --bs-tooltip-color: white;

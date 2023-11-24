@@ -48,7 +48,7 @@ include('layout/header.php');
               <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>banco de imagens gratuitas do
                 canvas, 2021.</p>
             </div>
-           <br><br>
+            <br><br>
 
             <!-- Imagem - MODAL-->
             <div class="modal fade text-center" id="Imagem1" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -220,7 +220,10 @@ include('layout/header.php');
             <!-- FIM DA CAIXA FIQUE ATENTO -->
 
             <!-- Parágrafo com a biblioteca de animação  -->
-            <p class="wow fadeIn" data-wow-delay="0.3s">De acordo com Allen (2017, p.53), “o "burnout" é um termo muito
+            <p class="wow fadeIn" data-wow-delay="0.3s">De acordo com <a class="link_tooltip" href="#"
+                data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+                data-bs-title="Steve Allen foi um renomado escritor, comediante, músico e apresentador de televisão norte-americano. Nascido em 1921, ficou conhecido por sua contribuição para a comédia e por ser o primeiro apresentador do icônico programa de variedades 'The Tonight Show'. Além de sua carreira na televisão, Allen escreveu vários livros, abrangendo temas que iam desde comédia até religião e filosofia. Ele faleceu em 2000, deixando um legado duradouro no entretenimento.">Allen</a>
+              (2017, p.53), “o "burnout" é um termo muito
               comum hoje e se refere ao
               estado em que caímos quando esprememos até a última gota de gozo de nossas vidas devido ao estresse e a
               auto exigência excessiva para cumprir com tudo o que é necessário”. O excesso de disposição para o
@@ -233,7 +236,11 @@ include('layout/header.php');
             <!-- Parágrafo com a biblioteca de animação  -->
             <p class="wow fadeIn" data-wow-delay="0.3s">Pode ser relativamente fácil conseguir manter uma grande carga
               de trabalho por um pequeno
-              período de tempo e sustentar uma rotina com longas horas de trabalho. No entanto, como afirma Allen (2017,
+              período de tempo e sustentar uma rotina com longas horas de trabalho. No entanto, como afirma <a
+                class="link_tooltip" href="#" data-bs-custom-class="custom-tooltip" data-bs-placement="right"
+                data-bs-toggle="tooltip"
+                data-bs-title="Steve Allen foi um renomado escritor, comediante, músico e apresentador de televisão norte-americano. Nascido em 1921, ficou conhecido por sua contribuição para a comédia e por ser o primeiro apresentador do icônico programa de variedades 'The Tonight Show'. Além de sua carreira na televisão, Allen escreveu vários livros, abrangendo temas que iam desde comédia até religião e filosofia. Ele faleceu em 2000, deixando um legado duradouro no entretenimento.">Allen</a>
+              (2017,
               p.53), “ironicamente, este excesso de compromisso rapidamente se torna contraproducente porque poucas
               pessoas têm uma bateria física e mental para trabalhar dessa forma”.
             </p>
@@ -258,7 +265,10 @@ include('layout/header.php');
                       compromissos. Quanto a esse fato é preciso lembrar que muitas vezes dizer não a algo ou alguém
                       simplesmente implica em dizer sim a si mesmo. “Dizer não pode ser um dos atos mais sublimes de
                       amor próprio e valorização. Quando uma pessoa diz não a um amigo, em função de seu bem-estar,
-                      está, sem sombra de dúvidas, demonstrando amor próprio” (MOURA, 2021, p.11).</p>
+                      está, sem sombra de dúvidas, demonstrando amor próprio” (<a class="link_tooltip" href="#"
+                        data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+                        data-bs-title="Aficionada pela temática do desenvolvimento humano, com pitadas de humor e ironia, Jaqueline não hesita em fazer com que seus leitores reflitam sobre temas complexos, enquanto os diverte e entretêm com textos verossímeis e cativantes. Jaqueline é Especialista em Linguagem e Comunicação em Língua Portuguesa e atualmente cursa Mestrado em Língua, Literatura e Interculturalidade.">MOURA</a>
+                      , 2021, p.11).</p>
                     <!--caixa secundaria-->
                   </div>
                 </section>
@@ -293,7 +303,9 @@ include('layout/header.php');
                 aprender a eliminar as distrações ao seu redor”. Por sua vez, a identificação das distrações é
                 possível depois que você determina suas prioridades. “Se você não prioriza, pode acabar tendo muitos
                 objetivos, deixando muito pouco tempo para se dedicar a cada um deles”
-              <p class="text-end">LAWRENCE
+              <p class="text-end"><a class="link_tooltip" href="#"
+                        data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+                        data-bs-title="Steven Lawrence é escritor e gerente de mídia social que ajuda profissionais e startups a construir um público e conseguir mais clientes pagantes online. Antes de iniciar um negócio de redação, Steven passou seis anos como caixa de banco e assistente virtual para empresas financeiras nos EUA e no Reino Unido. Depois de uma carreira de sucesso ajudando pequenos bancos e imobiliárias, Steven decidiu seguir em frente com seu sonho e então começou a escrever muitos ensaios, livros, textos de marketing para seus produtos e serviços.">LAWRENCE</a> 
                 (2019)</p>
               </p>
             </div>
@@ -302,7 +314,7 @@ include('layout/header.php');
 
             <!-- VÍDEO DO YOUTUBE -->
             <div class="video wow fadeInDown">
-              <div >
+              <div>
                 <iframe width="700" height="380" src="https://www.youtube.com/embed/nGBDxmDgMXU" title="5S - A Origem"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -310,7 +322,9 @@ include('layout/header.php');
               </div>
               <div class="descricao">
                 <div class="titulo_video ">Saiba mais</div>
-                <p>Você sabe qual é a origem do 5S? Neste vídeo, o Consultor Haroldo Ribeiro
+                <p>Você sabe qual é a origem do 5S? Neste vídeo, o Consultor <a class="link_tooltip_white" href="#"
+                        data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+                        data-bs-title="Diretor da PDCA - Consultoria em Qualidade e Consultor especializado no Japão. Administrador de Empresas e Engenheiro Mecânico, Pós-Graduado em Manutenção Mecânica. Professor de Pós-Graduação da FEI - Faculdade de Engenharia Industrial. Engenheiro e Auditor da Qualidade Certificado pela ASQ – Estados Unidos desde 1991. Examinador do Prêmio Nacional da Qualidade-94 e 97. Consultor e Conferencista de atuação destacada em todo o país, pela sua experiência e abordagem prática sobre TPM, 5S, Qualidade Total e suas ferramentas, desde 1984. Têm artigos publicados no Japão em várias revistas brasileiro, além de consultorias realizadas na Europa e países da América Latina. Tem passado a metodologia de implantação do 5S e TPM para várias empresas. “Autor de mais de 30 títulos de livros sobre 5S e TPM”">Haroldo Ribeiro</a> 
                   apresenta a real origem do
                   5S. Haroldo Ribeiro é consultor e foi o primeiro autor brasileiro de 5S e de Manutenção Autônoma. É o
                   autor com maior número de livros publicados nestes dois temas (mais de 30 livros).</p>
@@ -324,7 +338,9 @@ include('layout/header.php');
               qual foco deve determinar as suas atividades, não faz sentido ficar se comprometendo com qualquer outra
               eventualidade que possa ser evitada. “Quando você não planeja, você também <strong> planeja falhar
               </strong>. Um bom plano é essencial para atingir os objetivos e preencher a lacuna de execução, uma vez
-              que lhe dá direção e ajuda você a permanecer no caminho certo” (LAWRENCE, 2019, p.36).
+              que lhe dá direção e ajuda você a permanecer no caminho certo” (<a class="link_tooltip" href="#"
+                        data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+                        data-bs-title="Steven Lawrence é escritor e gerente de mídia social que ajuda profissionais e startups a construir um público e conseguir mais clientes pagantes online. Antes de iniciar um negócio de redação, Steven passou seis anos como caixa de banco e assistente virtual para empresas financeiras nos EUA e no Reino Unido. Depois de uma carreira de sucesso ajudando pequenos bancos e imobiliárias, Steven decidiu seguir em frente com seu sonho e então começou a escrever muitos ensaios, livros, textos de marketing para seus produtos e serviços.">LAWRENCE</a> , 2019, p.36).
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
@@ -383,87 +399,87 @@ include('layout/header.php');
 
             <div class="apresentacao">
 
-<div class="img_apresentacao wow animate__zoomIn">
-  <img src="imgs/Group 4.png" alt="">
-</div>
-<div>
-  <!-- Parágrafo com a biblioteca de animação  -->
-  <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
-    <strong>Olá, Nome_Completo!</strong><br> Clique no botão a seguir e teste seus conhecimentos.
-  </p><br>
-
- 
-  <!-- começo do Quiz botao -->
-  <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button id="openModalBtn"><i
-        class="icone fa-solid fa-puzzle-piece"></i>TESTE SEUS
-      CONHECIMENTOS</button></div>
-
-  <div class="center">
-    <div class="info_box">
-      <div class="info-title"><span><i class="icone fa-solid fa-pen-clip"></i>Regras do
-          QUIZ</span></div>
-      <div class="info-list">
-        <div class="info">1. Depois que você selecionar a respota, não poderá ser desfeito.
-        </div>
-        <div class="info">2. Você não pode sair durante o quiz.</div>
-        <div class="info">3. Você vai receber a pontuação conforme responde as questões.
-        </div>
-        <div class="info">4. Esse quiz não vai interferir na sua nota final.</div>
-      </div>
-      <div class="buttons">
-        <button class="quit">Sair</button>
-        <button class="restart">Continuar</button>
-      </div>
-    </div>
-  </div>
-
-        <!-- caixa do quiz -->
-        <div class="center">
-            <div class="quiz_box">
-              <header>
-                <div class="title"><i class="fa-solid fa-puzzle-piece icone"></i>QUIZ</div>
-                <div class="time_line"></div>
-              </header>
-              <section>
-                <div class="que_text">
-                  <!-- Aqui é inserido o quiz do javascript -->
-                </div>
-                <div class="option_list">
-                  <!-- Aqui é inserido as opções do JavaScript -->
-                </div>
-              </section>
-
-              <!-- footer do quiz -->
-              <footer>
-                <div class="total_que">
-                  <!-- aqui está inserido o número de questões do js -->
-                </div>
-                <button class="next_btn">Próximo</button>
-              </footer>
-            </div>
-          </div>
-
-          <!-- Resultado -->
-          <div class="center">
-            <div class="result_box">
-            <div class="img">
-          <!-- <i class="fa-solid fa-puzzle-piece"></i> -->
-      </div>
-              <div class="complete_text">Você completou o quiz!</div>
-              <div class="score_text">
-                <!-- Aqui é inserido o resultado -->
+              <div class="img_apresentacao wow animate__zoomIn">
+                <img src="imgs/Group 4.png" alt="">
               </div>
-              <div class="buttons">
-                <button class="restart">Tentar novamente</button>
-                <button class="quit">Fechar</button>
+              <div>
+                <!-- Parágrafo com a biblioteca de animação  -->
+                <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
+                  <strong>Olá, Nome_Completo!</strong><br> Clique no botão a seguir e teste seus conhecimentos.
+                </p><br>
+
+
+                <!-- começo do Quiz botao -->
+                <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button id="openModalBtn"><i
+                      class="icone fa-solid fa-puzzle-piece"></i>TESTE SEUS
+                    CONHECIMENTOS</button></div>
+
+                <div class="center">
+                  <div class="info_box">
+                    <div class="info-title"><span><i class="icone fa-solid fa-pen-clip"></i>Regras do
+                        QUIZ</span></div>
+                    <div class="info-list">
+                      <div class="info">1. Depois que você selecionar a respota, não poderá ser desfeito.
+                      </div>
+                      <div class="info">2. Você não pode sair durante o quiz.</div>
+                      <div class="info">3. Você vai receber a pontuação conforme responde as questões.
+                      </div>
+                      <div class="info">4. Esse quiz não vai interferir na sua nota final.</div>
+                    </div>
+                    <div class="buttons">
+                      <button class="quit">Sair</button>
+                      <button class="restart">Continuar</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- caixa do quiz -->
+                <div class="center">
+                  <div class="quiz_box">
+                    <header>
+                      <div class="title"><i class="fa-solid fa-puzzle-piece icone"></i>QUIZ</div>
+                      <div class="time_line"></div>
+                    </header>
+                    <section>
+                      <div class="que_text">
+                        <!-- Aqui é inserido o quiz do javascript -->
+                      </div>
+                      <div class="option_list">
+                        <!-- Aqui é inserido as opções do JavaScript -->
+                      </div>
+                    </section>
+
+                    <!-- footer do quiz -->
+                    <footer>
+                      <div class="total_que">
+                        <!-- aqui está inserido o número de questões do js -->
+                      </div>
+                      <button class="next_btn">Próximo</button>
+                    </footer>
+                  </div>
+                </div>
+
+                <!-- Resultado -->
+                <div class="center">
+                  <div class="result_box">
+                    <div class="img">
+                      <!-- <i class="fa-solid fa-puzzle-piece"></i> -->
+                    </div>
+                    <div class="complete_text">Você completou o quiz!</div>
+                    <div class="score_text">
+                      <!-- Aqui é inserido o resultado -->
+                    </div>
+                    <div class="buttons">
+                      <button class="restart">Tentar novamente</button>
+                      <button class="quit">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+                <!-- Fim do Quiz -->
+
+
               </div>
-            </div>
-          </div>
-          <!-- Fim do Quiz -->
-
-
-        </div>
-      </div><br><br>
+            </div><br><br>
 
 
 
@@ -473,7 +489,9 @@ include('layout/header.php');
             <!-- Parágrafo com a biblioteca de animação  -->
             <p class="wow fadeIn" data-wow-delay="0.3s">Manter a padronização requer um grande senso de disciplina.
               “O compromisso é a chave para
-              a execução e, sem ele, você continuará sendo prejudicado ao perseguir seus objetivos” (LAWRENCE, 2019,
+              a execução e, sem ele, você continuará sendo prejudicado ao perseguir seus objetivos” (<a class="link_tooltip" href="#"
+                        data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+                        data-bs-title="Steven Lawrence é escritor e gerente de mídia social que ajuda profissionais e startups a construir um público e conseguir mais clientes pagantes online. Antes de iniciar um negócio de redação, Steven passou seis anos como caixa de banco e assistente virtual para empresas financeiras nos EUA e no Reino Unido. Depois de uma carreira de sucesso ajudando pequenos bancos e imobiliárias, Steven decidiu seguir em frente com seu sonho e então começou a escrever muitos ensaios, livros, textos de marketing para seus produtos e serviços.">LAWRENCE</a> , 2019,
               p.35). Perceba que o compromisso não está relacionado com a atividade, mas com você e com o que você
               estabelece como objetivo futuro. Cada vez que você não cumpre aquilo que se comprometeu consigo mesmo,
               está agindo contra seus próprios interesses.
@@ -510,7 +528,9 @@ include('layout/header.php');
               tem
               em mente. “As metas têm um preço - não necessariamente monetário, mas as metas precisarão que você
               invista
-              tempo e esforço e outras coisas em que possa pensar” (LAWRENCE, 2019, p.25).
+              tempo e esforço e outras coisas em que possa pensar” (<a class="link_tooltip" href="#"
+                        data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+                        data-bs-title="Steven Lawrence é escritor e gerente de mídia social que ajuda profissionais e startups a construir um público e conseguir mais clientes pagantes online. Antes de iniciar um negócio de redação, Steven passou seis anos como caixa de banco e assistente virtual para empresas financeiras nos EUA e no Reino Unido. Depois de uma carreira de sucesso ajudando pequenos bancos e imobiliárias, Steven decidiu seguir em frente com seu sonho e então começou a escrever muitos ensaios, livros, textos de marketing para seus produtos e serviços.">LAWRENCE</a> , 2019, p.25).
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
@@ -543,8 +563,8 @@ include('layout/header.php');
         class="fa-solid fa-chevron-right"></i></a>
   </div>
 
-    <!-- BARRA DE PROGRESSO -->
-    <div id="progress-bar"></div>
+  <!-- BARRA DE PROGRESSO -->
+  <div id="progress-bar"></div>
   <!-- FIM DA BARRA DE PROGRESSO  -->
 
   <!-- FOOTER  -->
