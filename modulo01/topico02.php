@@ -190,15 +190,15 @@ include('layout/header.php');
 
             <!-- VÍDEO DO YOUTUBE -->
             <div class="video wow fadeInDown">
-              <div class="wow fadeIn" data-wow-delay="0.3s">
+              <div>
                 <iframe width="700" height="380" src="https://www.youtube.com/embed/mfZUoSQbaec"
                   title="Um olhar sobre o perfeccionismo, autosabotagem e procrastinação" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen></iframe>
               </div>
               <div class="descricao">
-                <div class="titulo_video wow fadeInDown"> Saiba mais:</div>
-                <p class="wow fadeInDown">O que vem travando você na sua prática diária? Você sabia que no Brasil já
+                <div class="titulo_video "> Saiba mais:</div>
+                <p>O que vem travando você na sua prática diária? Você sabia que no Brasil já
                   existem pesquisas que
                   apontam quem 20% das pesssoas são procastinadoras crônicas? Gabriela Brasil é Evernote Business
                   Certified Consultant, consultora organizacional e de produtividade, profissional membro da NAPO -
