@@ -302,15 +302,15 @@ include('layout/header.php');
 
             <!-- VÍDEO DO YOUTUBE -->
             <div class="video wow fadeInDown">
-              <div class="wow fadeIn" data-wow-delay="0.3s">
+              <div >
                 <iframe width="700" height="380" src="https://www.youtube.com/embed/nGBDxmDgMXU" title="5S - A Origem"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen></iframe>
               </div>
               <div class="descricao">
-                <div class="titulo_video wow fadeInDown">Saiba mais</div>
-                <p class="wow fadeInDown">Você sabe qual é a origem do 5S? Neste vídeo, o Consultor Haroldo Ribeiro
+                <div class="titulo_video ">Saiba mais</div>
+                <p>Você sabe qual é a origem do 5S? Neste vídeo, o Consultor Haroldo Ribeiro
                   apresenta a real origem do
                   5S. Haroldo Ribeiro é consultor e foi o primeiro autor brasileiro de 5S e de Manutenção Autônoma. É o
                   autor com maior número de livros publicados nestes dois temas (mais de 30 livros).</p>
