@@ -76,6 +76,7 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     padding: 0;
     box-sizing: border-box;
     font-family: var(--FonteKanit);
+    font-weight: light;
 }
 
 /* ------- CONFIGURAÇÕES GERAIS END --------*/
@@ -679,6 +680,20 @@ strong {
 }
 
 /* DESTACANDO UMA FRASE END*/
+
+/* TOOLTIP  */
+
+a.link_tooltip{
+    text-decoration: underline 3px #008442;
+    color: #008442;
+    font-weight: 300;
+  }
+  .custom-tooltip {
+    --bs-tooltip-bg: #008442;
+    --bs-tooltip-color: white;
+    font-weight: 200;
+    padding: 10px;
+  }
 
 /* modo escuro - textos */
 [data-theme="dark"] h5 {
@@ -1452,7 +1467,7 @@ o estado inicial de height 0 manteria o texto aparecendo */
 }
 
 #text-left {
-    margin-top: 2.5em;
+    margin-top: 3em;
 }
 
 /* IMAGEM E TEXTOS JUNTOS END */

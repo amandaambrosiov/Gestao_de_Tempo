@@ -125,7 +125,7 @@ include('layout/header.php');
                             sua vida e eu vou te ajudar nessa caminhada.
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
-                        <br><br>
+                        <br>
                         <!-- <div class="d-flex justify-content-center">
                             <div class="li_interativo2"><i class="bi bi-info-circle"></i> Clique na caixa abaixo
                                 para saber mais</div>

@@ -74,10 +74,11 @@ include('layout/header.php');
               direcione corretamente a sua gestão do tempo para maximizar oportunidades e a sua qualidade de vida.
               Além do mais, a gestão não impacta apenas o modo como organizamos as atividades, mas também nossa
               produtividade, ou seja, <strong> a qualidade da execução de nossas tarefas </strong>, que também é
-              afetada pela nossa visão de mundo. Como bem salienta Jones (2020, p.4).
+              afetada pela nossa visão de mundo. Como bem salienta <a class="link_tooltip" href="#" data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+                data-bs-title="Ryan Jones investe seus próprios fundos e estuda economia, finanças pessoais e investimentos há mais de 10 anos. Ele é formado em engenharia mecânica pela Auburn University, tem mestrado em administração geral pela Troy State University e mestrado em finanças pela Goizueta Business School da Emory University.">Jones</a> (2020,
+              p.4).
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
-
 
 
             <!-- CAIXA DE TEXTO IMPORTANTE -->
@@ -95,7 +96,8 @@ include('layout/header.php');
                     <p class="txt-caixasecundaria">A visão sobre a própria vida é um aspecto fundamental para que
                       possamos aproveitar este recurso não renovável que é o tempo. Visão não significa necessariamente
                       ter mais tempo para trabalhar e ter sucesso profissional. O sucesso é subjetivo e seu objetivo
-                      pode estar relacionado a fatores diversos do seu trabalho. Conforme salienta Jones (2020, p.11),
+                      pode estar relacionado a fatores diversos do seu trabalho. Conforme salienta <a class="link_tooltip" href="#" data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+                data-bs-title="Ryan Jones investe seus próprios fundos e estuda economia, finanças pessoais e investimentos há mais de 10 anos. Ele é formado em engenharia mecânica pela Auburn University, tem mestrado em administração geral pela Troy State University e mestrado em finanças pela Goizueta Business School da Emory University.">Jones</a> (2020, p.11),
                       você pode ter a intenção de passar mais tempo com sua família e amigos, mas é importante que sua
                       motivação não seja simplesmente cumprir uma meta por pressão familiar, pois “passar algum tempo
                       com eles de má vontade, não trará a felicidade duradoura”.</p> <!--caixa secundaria-->
@@ -184,7 +186,8 @@ include('layout/header.php');
               emoções
               com esta finalidade. Por esta razão, o que você focaliza em sua mente consciente geralmente determina,
               em
-              grande medida, como sua mente subconsciente será programada (JONES, 2020).
+              grande medida, como sua mente subconsciente será programada <a class="link_tooltip" href="#" data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+                data-bs-title="Ryan Jones investe seus próprios fundos e estuda economia, finanças pessoais e investimentos há mais de 10 anos. Ele é formado em engenharia mecânica pela Auburn University, tem mestrado em administração geral pela Troy State University e mestrado em finanças pela Goizueta Business School da Emory University.">Jones</a>.
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
@@ -223,7 +226,8 @@ include('layout/header.php');
             <p class="wow fadeIn" data-wow-delay="0.3s ms-4">Perceba que, “todas as ações que requerem pensamento ou
               percepção consciente, como
               resolver um problema de matemática, escrever e comer, são todas controladas por sua mente consciente”
-              (JONES, 2020, p.7). No entanto, os hábitos que levam à procrastinação e a não realização de metas são
+              (<a class="link_tooltip" href="#" data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+                data-bs-title="Ryan Jones investe seus próprios fundos e estuda economia, finanças pessoais e investimentos há mais de 10 anos. Ele é formado em engenharia mecânica pela Auburn University, tem mestrado em administração geral pela Troy State University e mestrado em finanças pela Goizueta Business School da Emory University.">Jones</a>, 2020, p.7). No entanto, os hábitos que levam à procrastinação e a não realização de metas são
               inconscientes. Sua carta foi escrita pela sua mente consciente, mas é o seu <strong> inconsciente
               </strong> que determina se aquele plano será realizado. Para tanto, você precisará rejeitar qualquer tipo
               de <strong> autossabotagem </strong>que lhe indique que aquele caminho foi fabricado neste curso e
@@ -375,211 +379,211 @@ include('layout/header.php');
                 requerer que alguns tipos de emoções sejam mais destacadas.</p>
             </div>
 
-          <!--CAIXA DE TEXTO EXEMPLO-->
-          <section class="container wow fadeIn" data-wow-delay="0.3s">
-            <div class="accordion ">
-              <section id="content">
-                <div class="caixaprincipal" id="tituloexemplo">
-                  <div class="div_teste">
-                    <div><i class="fa-regular fa-pen-to-square"></i></i> EXEMPLO </div>
-                    <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                  </div>
-                </div> <!--caixa Principal-->
-                <div class="accordion-content" id="exemplo"><!--caixa secundaria-->
-                  <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
-                  <p class="txt-caixasecundaria">Eu posso, por exemplo, aceitar que em alguns dias o meu
-                    trabalho
-                    pode ser exaustivo e eu
-                    não me sinta a pessoa mais feliz do mundo enquanto estou ali, mas tenho como <strong> meta estar
-                      feliz
-                    </strong> e presente sempre que estiver com a minha família. Essa separação que nem sempre é muito
-                    fácil
-                    de realizar ajuda também a compreender que os diferentes ambientes exigem comportamentos diversos.
-                    O
-                    trabalho, por exemplo, está diretamente relacionado a um senso de precisão, preciosismo e
-                    responsabilidade, enquanto o ambiente familiar está mais relacionado ao <strong> afeto e ao senso
-                      de
-                      participação</strong>.
-                  <p>
-                </div>
-              </section>
-          </section>
-          <!-- FIM DA CAIXA EXEMPLO-->
-
-
-          <div class="apresentacao">
-
-            <div class="img_apresentacao wow animate__zoomIn">
-              <img src="imgs/Group 4.png" alt="">
-            </div>
-            <div>
-              <!-- Parágrafo com a biblioteca de animação  -->
-              <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
-                <strong>Olá, Nome_Completo!</strong><br> Clique no botão a seguir e teste seus conhecimentos.
-              </p><br>
-
-              <!-- começo do Quiz botao -->
-              <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button
-                  data-bs-target="#exampleModalToggle" id="btn-game" data-bs-toggle="modal"><i
-                    class="icone fa-solid fa-puzzle-piece"></i>TESTE SEUS
-                  CONHECIMENTOS</button></div>
-
-              <!-- ######################################## GAME DE EMBARALHAR PALAVRAS ##################################### -->
-              <div id="game" class="wow fadeIn" data-wow-delay="0.3s">
-                <!-- MODAL 1 - INSTRUÇÕES DO JOGO -->
-                <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
-                  aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                  <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-3" id="exampleModalToggleLabel"><i class="fa-solid fa-pen-clip"></i>
-                          Instruções do
-                          Teste</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body fw-normal" id="instrucoes">
-
-                        1. Você deverá descobrir qual é a palavraque está embaralhada;<br><br>
-                        2. Haverá uma dica para lhe auxiliar;<br><br>
-                        3. Ao concluir clique em confirmar;<br><br>
-                        4. Este teste não influenciará na avaliação final.<br><br>
-
-                      </div>
-                      <div class="modal-footer">
-                        <button class="btn" id="btn-game" data-bs-target="#exampleModalToggle2"
-                          data-bs-toggle="modal">Continuar</button>
-                      </div>
+            <!--CAIXA DE TEXTO EXEMPLO-->
+            <section class="container wow fadeIn" data-wow-delay="0.3s">
+              <div class="accordion ">
+                <section id="content">
+                  <div class="caixaprincipal" id="tituloexemplo">
+                    <div class="div_teste">
+                      <div><i class="fa-regular fa-pen-to-square"></i></i> EXEMPLO </div>
+                      <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
                     </div>
+                  </div> <!--caixa Principal-->
+                  <div class="accordion-content" id="exemplo"><!--caixa secundaria-->
+                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong></p>
+                    <p class="txt-caixasecundaria">Eu posso, por exemplo, aceitar que em alguns dias o meu
+                      trabalho
+                      pode ser exaustivo e eu
+                      não me sinta a pessoa mais feliz do mundo enquanto estou ali, mas tenho como <strong> meta estar
+                        feliz
+                      </strong> e presente sempre que estiver com a minha família. Essa separação que nem sempre é muito
+                      fácil
+                      de realizar ajuda também a compreender que os diferentes ambientes exigem comportamentos diversos.
+                      O
+                      trabalho, por exemplo, está diretamente relacionado a um senso de precisão, preciosismo e
+                      responsabilidade, enquanto o ambiente familiar está mais relacionado ao <strong> afeto e ao senso
+                        de
+                        participação</strong>.
+                    <p>
                   </div>
-                </div>
+                </section>
+            </section>
+            <!-- FIM DA CAIXA EXEMPLO-->
 
-                <!-- MODAL 2 - INÍCIO DO JOGO -->
-                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
-                  aria-labelledby="exampleModalToggleLabel2" tabindex="-1" data-bs-keyboard="false">
-                  <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-3" id="exampleModalToggleLabel2"><i class="fa-solid fa-gamepad"></i>
-                          Palavra
-                          Embaralhada</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        <div class="content">
-                          <div class="word"></div>
-                          <div class="details">
-                            <div class="hint"> <span></span></div>
-                          </div>
-                          <input type="text" spellcheck="false" placeholder="Escreva a palavra">
-                          <div class="buttons">
-                            <button class="btn-game" id="refresh-word">Embaralhar</button>
-                            <button class="btn-game" id="check-word">Confirmar</button>
 
-                            <div id="divTransparente" class="escondida"></div>
-                            <div id="d2" class="escondida" data-bs-dismiss="modal"></div>
+            <div class="apresentacao">
 
-                            <!-- MODAIS DAS RESPOSTAS -->
-                            <!-- MODAL QUANDO A CAIXA DE RESPOSTA ESTIVER VAZIA -->
-                            <div id="modal-js">
-                              <dialog class="modal01">
-                                <i id="close01" class="bi bi-x"></i>
-                                <div class="text-center">
-                                  <img src="imgs/opps.png" id="img-maior" class="img-fluid"
-                                    alt="Imagem indicando que a caixa de resposta está vazia.">
+              <div class="img_apresentacao wow animate__zoomIn">
+                <img src="imgs/Group 4.png" alt="">
+              </div>
+              <div>
+                <!-- Parágrafo com a biblioteca de animação  -->
+                <p class="wow fadeIn texto_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
+                  <strong>Olá, Nome_Completo!</strong><br> Clique no botão a seguir e teste seus conhecimentos.
+                </p><br>
 
-                                  <!-- <img src="imgs/opps-menor.png" id="img-menor" class="img-fluid"
-                                      alt="Imagem indicando que a caixa de resposta está vazia."> -->
+                <!-- começo do Quiz botao -->
+                <div class="start_btn wow animate__bounceInLeft" data-wow-delay="0.4s"><button
+                    data-bs-target="#exampleModalToggle" id="btn-game" data-bs-toggle="modal"><i
+                      class="icone fa-solid fa-puzzle-piece"></i>TESTE SEUS
+                    CONHECIMENTOS</button></div>
 
-                                </div>
-                              </dialog>
-                            </div>
+                <!-- ######################################## GAME DE EMBARALHAR PALAVRAS ##################################### -->
+                <div id="game" class="wow fadeIn" data-wow-delay="0.3s">
+                  <!-- MODAL 1 - INSTRUÇÕES DO JOGO -->
+                  <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-3" id="exampleModalToggleLabel"><i class="fa-solid fa-pen-clip"></i>
+                            Instruções do
+                            Teste</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body fw-normal" id="instrucoes">
 
-                            <!-- MODAL QUANDO A RESPOSTA ESTIVER CORRETA -->
-                            <div id="modal-js">
-                              <dialog class="modal02">
-                                <i id="close02" class="bi bi-x" data-bs-dismiss="modal"></i>
-                                <div class="text-center">
-                                  <img src="imgs/parabens.png" class="img-fluid"
-                                    alt="Imagem indicando que você acertou a resposta.">
-                                </div>
-                              </dialog>
-                            </div>
+                          1. Você deverá descobrir qual é a palavraque está embaralhada;<br><br>
+                          2. Haverá uma dica para lhe auxiliar;<br><br>
+                          3. Ao concluir clique em confirmar;<br><br>
+                          4. Este teste não influenciará na avaliação final.<br><br>
 
-                            <!-- MODAL QUANDO A RESPOSTA ESTIVER ERRADA-->
-                            <div id="modal-js">
-                              <dialog class="modal03">
-                                <i id="close03" class="bi bi-x"></i>
-                                <div class="text-center">
-                                  <img src="imgs/que-pena.png" class="img-fluid"
-                                    alt="Imagem indicando que você errou a resposta.">
-                                </div>
-                              </dialog>
-                            </div>
-
-                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button class="btn" id="btn-game" data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal">Continuar</button>
                         </div>
                       </div>
-                      <!-- <div class="modal-footer d-flex  justify-content-center">
-        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Voltar</button>
-      </div> -->
                     </div>
                   </div>
-                </div>
-              </div> <br><br>
 
-              <!-- ######################################## GAME DE EMBARALHAR PALAVRAS END ##################################### -->
+                  <!-- MODAL 2 - INÍCIO DO JOGO -->
+                  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel2" tabindex="-1" data-bs-keyboard="false">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-3" id="exampleModalToggleLabel2"><i class="fa-solid fa-gamepad"></i>
+                            Palavra
+                            Embaralhada</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="content">
+                            <div class="word"></div>
+                            <div class="details">
+                              <div class="hint"> <span></span></div>
+                            </div>
+                            <input type="text" spellcheck="false" placeholder="Escreva a palavra">
+                            <div class="buttons">
+                              <button class="btn-game" id="refresh-word">Embaralhar</button>
+                              <button class="btn-game" id="check-word">Confirmar</button>
+
+                              <div id="divTransparente" class="escondida"></div>
+                              <div id="d2" class="escondida" data-bs-dismiss="modal"></div>
+
+                              <!-- MODAIS DAS RESPOSTAS -->
+                              <!-- MODAL QUANDO A CAIXA DE RESPOSTA ESTIVER VAZIA -->
+                              <div id="modal-js">
+                                <dialog class="modal01">
+                                  <i id="close01" class="bi bi-x"></i>
+                                  <div class="text-center">
+                                    <img src="imgs/opps.png" id="img-maior" class="img-fluid"
+                                      alt="Imagem indicando que a caixa de resposta está vazia.">
+
+                                    <!-- <img src="imgs/opps-menor.png" id="img-menor" class="img-fluid"
+                                      alt="Imagem indicando que a caixa de resposta está vazia."> -->
+
+                                  </div>
+                                </dialog>
+                              </div>
+
+                              <!-- MODAL QUANDO A RESPOSTA ESTIVER CORRETA -->
+                              <div id="modal-js">
+                                <dialog class="modal02">
+                                  <i id="close02" class="bi bi-x" data-bs-dismiss="modal"></i>
+                                  <div class="text-center">
+                                    <img src="imgs/parabens.png" class="img-fluid"
+                                      alt="Imagem indicando que você acertou a resposta.">
+                                  </div>
+                                </dialog>
+                              </div>
+
+                              <!-- MODAL QUANDO A RESPOSTA ESTIVER ERRADA-->
+                              <div id="modal-js">
+                                <dialog class="modal03">
+                                  <i id="close03" class="bi bi-x"></i>
+                                  <div class="text-center">
+                                    <img src="imgs/que-pena.png" class="img-fluid"
+                                      alt="Imagem indicando que você errou a resposta.">
+                                  </div>
+                                </dialog>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <div class="modal-footer d-flex  justify-content-center">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Voltar</button>
+      </div> -->
+                      </div>
+                    </div>
+                  </div>
+                </div> <br><br>
+
+                <!-- ######################################## GAME DE EMBARALHAR PALAVRAS END ##################################### -->
 
 
+              </div>
+            </div><br>
+
+            <!-- Citação com borda verde (esquerda) -->
+            <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
+
+              <!-- blockquote do bootstrap -->
+              <figure>
+                <blockquote class="blockquote">
+                  <p>No ambiente profissional, embora seja muito desejável os <strong> bons relacionamentos </strong>,
+                    as atividades recreativas não podem atrapalhar os resultados a serem entregues. Do mesmo modo, nos
+                    relacionamentos pessoais, embora um bom senso de compromisso e responsabilidade sejam desejáveis, o
+                    <strong> afeto </strong> é absolutamente indispensável.
+                  </p>
+                </blockquote>
+              </figure>
             </div>
-          </div><br>
+            <!-- Citação com borda verde (esquerda) -->
+            <br>
 
-          <!-- Citação com borda verde (esquerda) -->
-          <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
+            <!-- Parágrafo com a biblioteca de animação  -->
+            <p class="wow fadeIn" data-wow-delay="0.3s">Desse modo, espera-se que ao elaborar a sua carta de seu futuro
+              você considere tudo aquilo
+              que deseja ser, as emoções que pretende vivenciar e irá perceber que diferentes versões de você podem
+              estar relacionadas a diferentes partes dessa visão. Você também pode adicionar questões materiais como,
+              por exemplo, em que tipo de casa espera estar morando, em qual local de moradia e até o veículo que
+              pretende utilizar para se locomover.
+            </p>
+            <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-            <!-- blockquote do bootstrap -->
-            <figure>
-              <blockquote class="blockquote">
-                <p>No ambiente profissional, embora seja muito desejável os <strong> bons relacionamentos </strong>,
-                  as atividades recreativas não podem atrapalhar os resultados a serem entregues. Do mesmo modo, nos
-                  relacionamentos pessoais, embora um bom senso de compromisso e responsabilidade sejam desejáveis, o
-                  <strong> afeto </strong> é absolutamente indispensável.
-                </p>
-              </blockquote>
-            </figure>
+            <!-- Parágrafo com a biblioteca de animação  -->
+            <p class="wow fadeIn" data-wow-delay="0.3s">Apenas lembre que a carta é apenas um direcionamento que irá
+              colaborar com o seu
+              planejamento e alimentar o cérebro de motivação. Porém, como será mostrado adiante, os detalhes do seu
+              plano de vida precisam considerar várias questões como número de pontos focais e a definição de prazos.
+            </p>
+            <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+            <!-- Parágrafo com a biblioteca de animação  -->
+            <p class="wow fadeIn li_interativo" data-wow-delay="0.3s"><i class="fa-solid fa-envelope"></i> Escreva sua
+              carta!
+            </p>
+            <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+
+
           </div>
-          <!-- Citação com borda verde (esquerda) -->
-          <br>
-
-          <!-- Parágrafo com a biblioteca de animação  -->
-          <p class="wow fadeIn" data-wow-delay="0.3s">Desse modo, espera-se que ao elaborar a sua carta de seu futuro
-            você considere tudo aquilo
-            que deseja ser, as emoções que pretende vivenciar e irá perceber que diferentes versões de você podem
-            estar relacionadas a diferentes partes dessa visão. Você também pode adicionar questões materiais como,
-            por exemplo, em que tipo de casa espera estar morando, em qual local de moradia e até o veículo que
-            pretende utilizar para se locomover.
-          </p>
-          <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-          <!-- Parágrafo com a biblioteca de animação  -->
-          <p class="wow fadeIn" data-wow-delay="0.3s">Apenas lembre que a carta é apenas um direcionamento que irá
-            colaborar com o seu
-            planejamento e alimentar o cérebro de motivação. Porém, como será mostrado adiante, os detalhes do seu
-            plano de vida precisam considerar várias questões como número de pontos focais e a definição de prazos.
-          </p>
-          <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-          <!-- Parágrafo com a biblioteca de animação  -->
-          <p class="wow fadeIn li_interativo" data-wow-delay="0.3s"><i class="fa-solid fa-envelope"></i> Escreva sua
-            carta!
-          </p>
-          <!--  Fim do Parágrafo com a biblioteca de animação -->
-
-
-
         </div>
       </div>
-  </div>
-  </section>
+    </section>
   </div>
 
   <!-- FIM DO CONTEUDO INICIO  -->
@@ -603,8 +607,8 @@ include('layout/header.php');
         class="fa-solid fa-chevron-right"></i></a>
   </div>
 
-    <!-- BARRA DE PROGRESSO -->
-    <div id="progress-bar"></div>
+  <!-- BARRA DE PROGRESSO -->
+  <div id="progress-bar"></div>
   <!-- FIM DA BARRA DE PROGRESSO  -->
 
   <!-- FOOTER  -->
