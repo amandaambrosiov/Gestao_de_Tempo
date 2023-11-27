@@ -74,12 +74,12 @@ include('layout/header.php');
                     <button class="accordion-button text-light collapsed" type="button" data-bs-toggle="collapse"
                       id="accordion-botao" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                       aria-controls="panelsStayOpen-collapseTwo">
-                      <h5>O que você verá agora? <span class="fw-lighter">(Clique aqui
+                      <h5>O que você verá agora? <span class="fw-lighter"><br>(Clique aqui
                 para saber mais)</span> </h5>
                     </button>
                   </div>
                   <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                    <div class="accordion-body">
+                    <div class="accordion-body fw-normal">
                       Nesta segunda parte, eu Kamilla Nascimento lhe conduzirei de
                       forma mais profunda na
                       compreensão da Gestão do Tempo que se relaciona com uma mentalidade realizadora e com os hábitos

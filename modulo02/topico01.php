@@ -193,7 +193,7 @@ include('layout/header.php');
               <button class="btn" id="buton-lerMais2" type="button" data-bs-toggle="collapse"
                 data-bs-target="#multiCollapseExample3" aria-expanded="false"
                 aria-controls="multiCollapseExample3"><strong>
-                  CLIQUE AQUI PARA SABER MAIS</strong> <i class="fa-solid fa-arrow-pointer fa-beat"></i></button>
+                  CLIQUE AQUI PARA SABER MAIS</strong></button>
             </p>
 
             <div class="collapse multi-collapse" id="multiCollapseExample3">

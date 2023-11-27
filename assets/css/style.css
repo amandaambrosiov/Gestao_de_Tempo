@@ -659,7 +659,7 @@ strong {
     width: fit-content;
     padding: 10px;
     border-radius: 8px;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-bottom: 2rem;
 }
@@ -683,22 +683,25 @@ strong {
 
 /* TOOLTIP  */
 
-a.link_tooltip{
+a.link_tooltip {
     text-decoration: underline 3px #008442;
     color: #008442;
     font-weight: 300;
-  }
-  a.link_tooltip_white{
+}
+
+a.link_tooltip_white {
     text-decoration: underline 3px #ffff;
     color: #ffff;
     font-weight: 300;
-  }
-  .custom-tooltip {
+}
+
+.custom-tooltip {
     --bs-tooltip-bg: #008442;
     --bs-tooltip-color: white;
     font-weight: 200;
     padding: 10px;
-  }
+    font-size: 1em;
+}
 
 /* modo escuro - textos */
 [data-theme="dark"] h5 {
@@ -770,7 +773,7 @@ article .back {
     transform: rotateY(180deg);
 }
 
-input {
+#input {
     position: absolute;
     scale: 0;
 }
@@ -872,11 +875,12 @@ article p {
     .tela-menor {
         display: block;
     }
-    
-    #flip-resposividade{
+
+    #flip-resposividade {
         display: none;
     }
 }
+
 /* RESPONSIVIDADE DO FLIP CARD END */
 
 /* ----------- FLIP CARD END -------------- */
@@ -987,6 +991,7 @@ hr {
 /* ACOORDION DA APRESENTAÇÃO */
 .accordion-item {
     background-image: linear-gradient(to right, #2db39e, #26a737);
+    border: none;
 }
 
 .accordion-button:focus {
@@ -1002,6 +1007,7 @@ hr {
 .accordion-body {
     background-image: linear-gradient(to right, #2db39e, #26a737);
     color: #fff;
+    font-size: 1.3em;
 }
 
 /* ACCORDION DA APRESENTAÇÃO END */
@@ -1519,7 +1525,7 @@ o estado inicial de height 0 manteria o texto aparecendo */
     iframe {
         width: 90%;
         height: 200px auto;
-        margin: 1em;
+        margin: 0.5em;
     }
 
     .video {
@@ -1538,12 +1544,19 @@ o estado inicial de height 0 manteria o texto aparecendo */
         /* border-radius: 30px; */
     }
 
-    .descricao {
+    /* .descricao {
         margin: 0 3em;
-    }
+    } */
 }
 
 /* IFRAME NO SITE END */
+
+/* @media (max-width:1050px) {
+    .botoes-informativo{
+        display: flex;
+        flex-direction: column;
+    }
+} */
 
 /* IMAGEM E TEXTO NO TÓPICO APRESENTAÇÃO */
 .texto_apresentacao {
@@ -1555,7 +1568,7 @@ o estado inicial de height 0 manteria o texto aparecendo */
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.texto_apresentacao_lista{
+.texto_apresentacao_lista {
     background-color: #1ab6b6;
     border-radius: 100px 100px 100px 0;
     color: white;
@@ -1565,7 +1578,8 @@ o estado inicial de height 0 manteria o texto aparecendo */
     height: fit-content;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.texto_apresentacao_lista i{
+
+.texto_apresentacao_lista i {
     font-size: 25px;
     margin-right: 5px;
 }

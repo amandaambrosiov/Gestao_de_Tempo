@@ -24,8 +24,8 @@ const buttonClose03 = document.querySelector("#close03")
 
 const wordText = document.querySelector(".word"),
     hintText = document.querySelector(".hint span"),
-    timeTexto = document.querySelector(".time b"),
-    inputField = document.querySelector("input"),
+    timeText = document.querySelector(".time b"),
+    inputField = document.querySelector("#palavras-respostas"),
     refreshBtn = document.querySelector("#refresh-word"),
     checkBtn = document.querySelector("#check-word"),
     confirmar = document.querySelector("#mostrarDiv");
@@ -73,7 +73,7 @@ buttonClose01.addEventListener("click", function () {
     }, 400);
 });
 
-// BUTÃO DE FECHAR QUANDO A RESPOSTA FOR INVÁLIDA:
+// BUTÃO DE FECHAR QUANDO A RESPOSTA FOR INVALIDA:
 buttonClose03.addEventListener("click", function () {
     modal03.classList.add("fade-out");
 
@@ -109,6 +109,7 @@ d2.addEventListener('click', () => {
     d2.style.display = 'none';
     modal02.close()
 });
+
 
 // Butões acionados com teclas:
 

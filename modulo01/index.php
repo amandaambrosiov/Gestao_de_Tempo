@@ -140,7 +140,7 @@ include('layout/header.php');
                                             data-bs-toggle="collapse" id="accordion-botao"
                                             data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                                             aria-controls="panelsStayOpen-collapseTwo">
-                                            <h5>O que você verá agora? <span class="fw-lighter">(Clique aqui
+                                            <h5>O que você verá agora? <span class="fw-lighter"><br>(Clique aqui
                                                     para saber mais)</span></h5>
                                         </button>
                                     </div>

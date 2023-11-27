@@ -58,7 +58,7 @@ include('layout/header.php');
                                     <img class="img-fluid" src="imgs01/Figura01.png" alt="Alt da imagem fica aqui">
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Fonte:</strong>descrição</p>
+                                    <p class="text-secondary"><strong>Figura 1:</strong>Representação do tempo na mente humana</p>
                                 </div>
                             </div>
                         </div>
@@ -350,7 +350,7 @@ include('layout/header.php');
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
                         <div class="container">
                             <div class="row">
-                                <div class="col d-flex justify-content-center">
+                                <div class="col d-flex justify-content-center gap-3">
                                     <a class="li_interativo wow fadeInDown" data-wow-delay="0.3s">
                                         A disposição natural do indivíduo
                                     </a>
@@ -359,7 +359,7 @@ include('layout/header.php');
                                     </a>
                                 </div>
                                 <div class="row">
-                                    <div class="col d-flex justify-content-center">
+                                    <div class="col d-flex justify-content-center gap-3">
                                         <a class="li_interativo wow fadeInDown" data-wow-delay="0.5s">
                                             A motivação pessoal.
                                         </a>

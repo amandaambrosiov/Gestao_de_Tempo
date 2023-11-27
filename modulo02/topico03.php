@@ -197,24 +197,21 @@ include('layout/header.php');
                             <div>
                                 <!-- Parágrafo com a biblioteca de animação  -->
                                 <p class="wow fadeIn texto_apresentacao2 wow animate__zoomIn" data-wow-delay="0.3s">
-                                    <strong><i class="fa-solid fa-circle-info"></i> Clique nos títulos abaixo para mais informações</strong>
+                                    <strong><i class="fa-solid fa-circle-info"></i> Clique nos títulos abaixo para mais
+                                        informações</strong>
                                 </p><br><br><br>
 
-                                <p class="d-flex justify-content-around gap-1">
-                                    <a class="btn CorVerdeEstado" id="buton-t3" data-bs-toggle="collapse"
-                                        href="#multiCollapseExample1" role="button" aria-expanded="false"
-                                        aria-controls="multiCollapseExample1"><i class="fa-solid fa-computer"> <strong>
-                                                Vida
-                                                Profissional</strong></i></a>
-                                    <button class="btn CorVerdeEstado" id="buton-t3" type="button"
-                                        data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2"
-                                        aria-expanded="false" aria-controls="multiCollapseExample2"><i
-                                            class="fa-solid fa-umbrella-beach"> <strong id="text-teste">
-                                                Vida
-                                                Pessoal </strong></i></i></button>
-                                </p>
                                 <div class="row">
                                     <div class="col">
+                                        <p class="d-flex justify-content-center wow animate__zoomIn">
+                                            <a class="btn CorVerdeEstado" id="buton-t3" data-bs-toggle="collapse"
+                                                href="#multiCollapseExample1" role="button" aria-expanded="false"
+                                                aria-controls="multiCollapseExample1"><i class="fa-solid fa-computer">
+                                                    <strong>
+                                                        Vida
+                                                        Profissional</strong></i></a>
+                                        </p>
+
                                         <div class="collapse multi-collapse" id="multiCollapseExample1">
 
                                             <table class="table table-bordered border-success">
@@ -233,10 +230,19 @@ include('layout/header.php');
                                                     </tr>
                                                 </tbody>
                                             </table><br>
-
                                         </div>
                                     </div>
+
                                     <div class="col">
+                                        <p class="d-flex justify-content-center wow animate__zoomIn"><button
+                                                class="btn CorVerdeEstado" id="buton-t3" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2"
+                                                aria-expanded="false" aria-controls="multiCollapseExample2"><i
+                                                    class="fa-solid fa-umbrella-beach"> <strong id="text-teste">
+                                                        Vida
+                                                        Pessoal </strong></i></i></button></p>
+
+
                                         <div class="collapse multi-collapse" id="multiCollapseExample2">
                                             <table class="table table-bordered border-success">
                                                 <tbody>
@@ -319,9 +325,9 @@ include('layout/header.php');
                 class="fa-solid fa-chevron-right"></i></a>
     </div>
 
-      <!-- BARRA DE PROGRESSO -->
-  <div id="progress-bar"></div>
-  <!-- FIM DA BARRA DE PROGRESSO  -->
+    <!-- BARRA DE PROGRESSO -->
+    <div id="progress-bar"></div>
+    <!-- FIM DA BARRA DE PROGRESSO  -->
 
     <!-- FOOTER  -->
     <?php

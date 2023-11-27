@@ -74,8 +74,10 @@ include('layout/header.php');
               direcione corretamente a sua gestão do tempo para maximizar oportunidades e a sua qualidade de vida.
               Além do mais, a gestão não impacta apenas o modo como organizamos as atividades, mas também nossa
               produtividade, ou seja, <strong> a qualidade da execução de nossas tarefas </strong>, que também é
-              afetada pela nossa visão de mundo. Como bem salienta <a class="link_tooltip" href="#" data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
-                data-bs-title="Ryan Jones investe seus próprios fundos e estuda economia, finanças pessoais e investimentos há mais de 10 anos. Ele é formado em engenharia mecânica pela Auburn University, tem mestrado em administração geral pela Troy State University e mestrado em finanças pela Goizueta Business School da Emory University.">Jones</a> (2020,
+              afetada pela nossa visão de mundo. Como bem salienta <a class="link_tooltip" 
+                data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+                data-bs-title="Ryan Jones investe seus próprios fundos e estuda economia, finanças pessoais e investimentos há mais de 10 anos. Ele é formado em engenharia mecânica pela Auburn University, tem mestrado em administração geral pela Troy State University e mestrado em finanças pela Goizueta Business School da Emory University.">Jones</a>
+              (2020,
               p.4).
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
@@ -96,8 +98,11 @@ include('layout/header.php');
                     <p class="txt-caixasecundaria">A visão sobre a própria vida é um aspecto fundamental para que
                       possamos aproveitar este recurso não renovável que é o tempo. Visão não significa necessariamente
                       ter mais tempo para trabalhar e ter sucesso profissional. O sucesso é subjetivo e seu objetivo
-                      pode estar relacionado a fatores diversos do seu trabalho. Conforme salienta <a class="link_tooltip" href="#" data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
-                data-bs-title="Ryan Jones investe seus próprios fundos e estuda economia, finanças pessoais e investimentos há mais de 10 anos. Ele é formado em engenharia mecânica pela Auburn University, tem mestrado em administração geral pela Troy State University e mestrado em finanças pela Goizueta Business School da Emory University.">Jones</a> (2020, p.11),
+                      pode estar relacionado a fatores diversos do seu trabalho. Conforme salienta <a
+                        class="link_tooltip" data-bs-custom-class="custom-tooltip" data-bs-placement="right"
+                        data-bs-toggle="tooltip"
+                        data-bs-title="Ryan Jones investe seus próprios fundos e estuda economia, finanças pessoais e investimentos há mais de 10 anos. Ele é formado em engenharia mecânica pela Auburn University, tem mestrado em administração geral pela Troy State University e mestrado em finanças pela Goizueta Business School da Emory University.">Jones</a>
+                      (2020, p.11),
                       você pode ter a intenção de passar mais tempo com sua família e amigos, mas é importante que sua
                       motivação não seja simplesmente cumprir uma meta por pressão familiar, pois “passar algum tempo
                       com eles de má vontade, não trará a felicidade duradoura”.</p> <!--caixa secundaria-->
@@ -186,7 +191,8 @@ include('layout/header.php');
               emoções
               com esta finalidade. Por esta razão, o que você focaliza em sua mente consciente geralmente determina,
               em
-              grande medida, como sua mente subconsciente será programada <a class="link_tooltip" href="#" data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+              grande medida, como sua mente subconsciente será programada <a class="link_tooltip"
+                data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
                 data-bs-title="Ryan Jones investe seus próprios fundos e estuda economia, finanças pessoais e investimentos há mais de 10 anos. Ele é formado em engenharia mecânica pela Auburn University, tem mestrado em administração geral pela Troy State University e mestrado em finanças pela Goizueta Business School da Emory University.">Jones</a>.
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
@@ -226,8 +232,10 @@ include('layout/header.php');
             <p class="wow fadeIn" data-wow-delay="0.3s ms-4">Perceba que, “todas as ações que requerem pensamento ou
               percepção consciente, como
               resolver um problema de matemática, escrever e comer, são todas controladas por sua mente consciente”
-              (<a class="link_tooltip" href="#" data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
-                data-bs-title="Ryan Jones investe seus próprios fundos e estuda economia, finanças pessoais e investimentos há mais de 10 anos. Ele é formado em engenharia mecânica pela Auburn University, tem mestrado em administração geral pela Troy State University e mestrado em finanças pela Goizueta Business School da Emory University.">Jones</a>, 2020, p.7). No entanto, os hábitos que levam à procrastinação e a não realização de metas são
+              (<a class="link_tooltip" data-bs-custom-class="custom-tooltip" data-bs-placement="right"
+                data-bs-toggle="tooltip"
+                data-bs-title="Ryan Jones investe seus próprios fundos e estuda economia, finanças pessoais e investimentos há mais de 10 anos. Ele é formado em engenharia mecânica pela Auburn University, tem mestrado em administração geral pela Troy State University e mestrado em finanças pela Goizueta Business School da Emory University.">Jones</a>,
+              2020, p.7). No entanto, os hábitos que levam à procrastinação e a não realização de metas são
               inconscientes. Sua carta foi escrita pela sua mente consciente, mas é o seu <strong> inconsciente
               </strong> que determina se aquele plano será realizado. Para tanto, você precisará rejeitar qualquer tipo
               de <strong> autossabotagem </strong>que lhe indique que aquele caminho foi fabricado neste curso e
@@ -287,7 +295,7 @@ include('layout/header.php');
             <div class="container wow animate__fadeInUp" data-wow-delay="0.3s" id="flip-resposividade">
               <div class="cards">
                 <label id="summary">
-                  <input type="checkbox" />
+                  <input type="checkbox" id="input" />
                   <article>
                     <div class="front">
                       <header>
@@ -474,7 +482,9 @@ include('layout/header.php');
                             <div class="details">
                               <div class="hint"> <span></span></div>
                             </div>
-                            <input type="text" spellcheck="false" placeholder="Escreva a palavra">
+
+                            <input type="text" spellcheck="false" placeholder="Escreva a palavra" id="palavras-respostas">
+
                             <div class="buttons">
                               <button class="btn-game" id="refresh-word">Embaralhar</button>
                               <button class="btn-game" id="check-word">Confirmar</button>
@@ -488,12 +498,8 @@ include('layout/header.php');
                                 <dialog class="modal01">
                                   <i id="close01" class="bi bi-x"></i>
                                   <div class="text-center">
-                                    <img src="imgs/opps.png" id="img-maior" class="img-fluid"
+                                    <img src="imgs/opps.png" class="img-fluid"
                                       alt="Imagem indicando que a caixa de resposta está vazia.">
-
-                                    <!-- <img src="imgs/opps-menor.png" id="img-menor" class="img-fluid"
-                                      alt="Imagem indicando que a caixa de resposta está vazia."> -->
-
                                   </div>
                                 </dialog>
                               </div>
