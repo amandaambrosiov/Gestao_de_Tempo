@@ -74,7 +74,7 @@ include('layout/header.php');
               direcione corretamente a sua gestão do tempo para maximizar oportunidades e a sua qualidade de vida.
               Além do mais, a gestão não impacta apenas o modo como organizamos as atividades, mas também nossa
               produtividade, ou seja, <strong> a qualidade da execução de nossas tarefas </strong>, que também é
-              afetada pela nossa visão de mundo. Como bem salienta <a class="link_tooltip" 
+              afetada pela nossa visão de mundo. Como bem salienta <a class="link_tooltip"
                 data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
                 data-bs-title="Ryan Jones investe seus próprios fundos e estuda economia, finanças pessoais e investimentos há mais de 10 anos. Ele é formado em engenharia mecânica pela Auburn University, tem mestrado em administração geral pela Troy State University e mestrado em finanças pela Goizueta Business School da Emory University.">Jones</a>
               (2020,
@@ -291,8 +291,86 @@ include('layout/header.php');
             <!-- FIM DA CAIXA IMPORTANTE -->
 
 
+            <div class="row">
+
+              <div class="col">
+                <div class="conteudo-card">
+                  <div class="card">
+                    <div class="img">
+                    </div>
+                    <!-- <img src="imgs/Group 12.jpg" width="380" height="300" alt=""> -->
+
+                    <div class="content">
+                      <p class="desc">Também quero que você perceba que eu ressaltei algumas
+                        palavras. Elas estão
+                        conectadas com uma determinada identidade que você constrói para si mesmo no intuito de que o
+                        seu
+                        inconsciente trabalhe para realizar o que você conscientemente escolhe. Você pode escolher as
+                        palavras
+                        que
+                        você quiser. No exemplo anterior, a minha identidade profissional está relacionada com
+                        confiança e
+                        inspiração. Eu preciso ter confiança e transmitir essa confiança para as pessoas a quem eu
+                        sirvo para
+                        que
+                        elas possam se sentirem inspiradas e confiantes, já que na minha profissão, como professora e
+                        pesquisadora, sou constantemente representada como exemplo.</p>
+                    </div>
+
+                    <div class="text-fixo-card ">
+                    <span class="title">Identidade Profissional</span>
+                      <div class="arrow">
+                        <span>&#8673;</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="conteudo-card">
+                  <div class="card">
+                    <div class="img2">
+                    </div>
+
+                    <div class="content">
+                      <p class="desc">Já para a minha <strong>segunda identidade</strong>, que
+                        está
+                        relacionada com a minha
+                        vida pessoal e familiar, eu destaquei as palavras <strong> felicidade e o estado de
+                          presença</strong>.
+                        Obviamente isso não significa que eu não preciso também ser uma pessoa confiante e inspiradora
+                        em
+                        minha
+                        vida pessoal, especialmente para os meus filhos. Também não quer dizer que eu não espero ser
+                        feliz com
+                        meu
+                        trabalho. No entanto, os diferentes papéis que exercemos em diferentes momentos do nosso dia
+                        podem
+                        requerer que alguns tipos de emoções sejam mais destacadas.</p>
+                    </div>
+
+                    <div class="text-fixo-card">
+                    <span class="title">Identidade Pessoal</span>
+                      <div class="arrow">
+                        <span>&#8673;</span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <br><br>
+
+
+
+
+
             <!-- FLIP CARD -->
-            <div class="container wow animate__fadeInUp" data-wow-delay="0.3s" id="flip-resposividade">
+            <!-- <div class="container wow animate__fadeInDown" data-wow-delay="0.3s" id="flip-resposividade">
               <div class="cards">
                 <label id="summary">
                   <input type="checkbox" id="input" />
@@ -352,7 +430,7 @@ include('layout/header.php');
                   </article>
                 </label>
               </div>
-            </div>
+            </div> -->
             <br>
 
             <div class="tela-menor">
@@ -483,7 +561,8 @@ include('layout/header.php');
                               <div class="hint"> <span></span></div>
                             </div>
 
-                            <input type="text" spellcheck="false" placeholder="Escreva a palavra" id="palavras-respostas">
+                            <input type="text" spellcheck="false" placeholder="Escreva a palavra"
+                              id="palavras-respostas">
 
                             <div class="buttons">
                               <button class="btn-game" id="refresh-word">Embaralhar</button>

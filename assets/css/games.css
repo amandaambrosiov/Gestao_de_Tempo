@@ -639,8 +639,8 @@ dialog {
 
 @media screen and (max-width: 400px) {
     dialog {
-        margin-top: -8rem;
-        height: 120%;
+        margin-top: -4rem;
+        height: 140%;
     }
 }
 

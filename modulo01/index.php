@@ -134,10 +134,10 @@ include('layout/header.php');
                         <!-- ACCORDION -->
                         <div class="container wow animate__fadeInLeftBig" data-wow-delay="0.3s">
                             <div class="accordion" id="accordionPanelsStayOpenExample">
-                                <div class="accordion-item">
+                                <div class="accordion-item" id="accordion-item-apresentacao">
                                     <div class="accordion-header">
                                         <button class="accordion-button text-light collapsed" type="button"
-                                            data-bs-toggle="collapse" id="accordion-botao"
+                                            data-bs-toggle="collapse" id="accordion-botao-apresentacao"
                                             data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
                                             aria-controls="panelsStayOpen-collapseTwo">
                                             <h5>O que você verá agora? <span class="fw-lighter"><br>(Clique aqui
@@ -145,7 +145,7 @@ include('layout/header.php');
                                         </button>
                                     </div>
                                     <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                                        <div class="accordion-body">
+                                        <div class="accordion-body01">
                                             Tendo tudo isso como base, nas próximas seções deste
                                             curso você
                                             perceberá os benefícios da gestão do tempo, como visualizar uma nova vida

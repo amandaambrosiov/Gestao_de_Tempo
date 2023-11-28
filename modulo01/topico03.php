@@ -367,8 +367,6 @@ include('layout/header.php');
             </div><br>
 
 
-
-
             <!-- Parágrafo com a biblioteca de animação  -->
             <p class="wow fadeIn" data-wow-delay="0.3s">No objetivo de médio prazo, você precisa colocar <strong>
                 todas
@@ -397,7 +395,7 @@ include('layout/header.php');
               <div>
                 <!-- Parágrafo com a biblioteca de animação  -->
                 <p class="wow fadeIn texto_apresentacao2 wow animate__zoomIn" data-wow-delay="0.3s">
-                  <strong><i class="fa-solid fa-circle-info"></i> Clique nos títulos abaixo
+                  <strong><i class="fa-solid fa-circle-info"></i> Clique no título abaixo
                     para mais informações</strong>
                   <strong></strong>
                 </p><br><br><br>
