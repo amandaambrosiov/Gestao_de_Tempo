@@ -290,8 +290,15 @@ include('layout/header.php');
             </section>
             <!-- FIM DA CAIXA IMPORTANTE -->
 
+            <!-- CARDS COM TEXTO E IMAGENS -->
 
-            <div class="row">
+            <!-- caixa informativa -->
+            <div class="d-flex justify-content-center">
+              <p class="wow fadeIn li_interativo2" data-wow-delay="0.3s"><i class="fa-solid fa-circle-info"></i> Clique nas caixas abaixo para saber mais
+              </p>
+            </div>
+
+            <div class="row gap-2" id="card-img">
 
               <div class="col">
                 <div class="conteudo-card">
@@ -318,7 +325,7 @@ include('layout/header.php');
                     </div>
 
                     <div class="text-fixo-card ">
-                    <span class="title">Identidade Profissional</span>
+                      <span class="title">Identidade Profissional</span>
                       <div class="arrow">
                         <span>&#8673;</span>
                       </div>
@@ -327,6 +334,7 @@ include('layout/header.php');
                   </div>
                 </div>
               </div>
+              <br><br>
 
               <div class="col">
                 <div class="conteudo-card">
@@ -352,7 +360,7 @@ include('layout/header.php');
                     </div>
 
                     <div class="text-fixo-card">
-                    <span class="title">Identidade Pessoal</span>
+                      <span class="title">Identidade Pessoal</span>
                       <div class="arrow">
                         <span>&#8673;</span>
                       </div>
@@ -364,6 +372,7 @@ include('layout/header.php');
 
             </div>
             <br><br>
+            <!-- CARDS COM TEXTO E IMAGENS END-->
 
 
 

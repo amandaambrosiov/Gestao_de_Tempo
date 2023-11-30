@@ -556,9 +556,8 @@ form {
 }
 
 /* BOTÃO CLOSE MENU RESPONSIVO - MODO ESCURO (Audi)*/
-[data-theme="dark"] .btn-close {
+[data-theme="dark"] #close {
     filter: invert(1) grayscale(100%) brightness(200%);
-
 }
 
 /* COR DO MENU RESPONSIVO - MODO ESCURO END */
@@ -743,20 +742,21 @@ a.link_tooltip_white {
     overflow: hidden;
     transition: all .5s;
     border: none;
-}
-
-.card:hover {
     background-color: #1989f1;
 }
 
+/* .card:hover {
+    background-color: #1989f1;
+} */
+
 .card .img {
-    width: 460px;
+    width: 560px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 300px;
     background-color: white;
-    background-image: url("/modulo01/imgs/Group\ 5.png");
+    background-image: url("/modulo01/imgs/Group\ 12.jpg");
     background-size: cover;
     background-position: center;
     transition: all .5s;
@@ -764,7 +764,7 @@ a.link_tooltip_white {
 }
 
 .card .img2 {
-    width: 460px;
+    width: 540px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -827,6 +827,7 @@ a.link_tooltip_white {
     transition: all .5s;
     /* display: flex;
     align-items: center; */
+    font-size: 28px;
 }
 
 .card:hover .arrow {

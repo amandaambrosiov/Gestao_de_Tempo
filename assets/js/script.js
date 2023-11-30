@@ -84,21 +84,21 @@ const progressbar = document.querySelector('#progress-bar')
 const section = document.querySelector('section')
 
 /*fazer minha animação e scroll - barra de progresso*/
- const animateProgressBar = () => {
-     let scrollMouse = -section.getBoundingClientRect().top;
-     let progressWidth = (scrollMouse / (section.getBoundingClientRect().height - document.documentElement.clientHeight)) * 100;
+const animateProgressBar = () => {
+    let scrollMouse = -section.getBoundingClientRect().top;
+    let progressWidth = (scrollMouse / (section.getBoundingClientRect().height - document.documentElement.clientHeight)) * 100;
 
-     let value = Math.floor(progressWidth)
+    let value = Math.floor(progressWidth)
     console.log(value)
 
     progressbar.style.width = value + "%"
 
     if (value < 0) {
         progressbar.style.width = '0%'
-     }
- }
- window.addEventListener('scroll', animateProgressBar)
- animateProgressBar()
+    }
+}
+window.addEventListener('scroll', animateProgressBar)
+animateProgressBar()
 
 // CORES DO MENU QUE MUDAM CONFORME O USUARIO MUDA DE PAG
 
@@ -117,15 +117,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // SUBTÓPICO COM JQUERY
 $(document).ready(function () {
-  
+
     // Adicione um evento de clique a todos os botões de dropdown
     $(".dropdown-btn").click(function (event) {
         // Encontre o conteúdo de dropdown associado a este botão
         var dropdown = $(this).next('.dropdown-container');
 
-        dropdown.stop(true,true).slideToggle();
+        dropdown.stop(true, true).slideToggle();
 
-         event.stopPropagation();
+        event.stopPropagation();
 
         //    fecha o dropdown no evento "mouseleave" na ul "dropDown"
         $('.menulateral').mouseleave(function () {
@@ -134,9 +134,7 @@ $(document).ready(function () {
     });
 });
 
-// FIM DO SUBTÓPICO COM JQUERY
 
 // TOOLTIP 
-
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
