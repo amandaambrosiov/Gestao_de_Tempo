@@ -669,7 +669,6 @@ strong {
     color: #ffff;
     width: fit-content;
     padding: 8px;
-    font-style: italic;
     border-radius: 2px;
     margin-right: 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -718,10 +717,10 @@ a.link_tooltip_white {
 [data-theme="dark"] p {
     color: var(--color-light-50);
 }
-
 /* modo escuro - textos end */
+/* ------ CONFIGURÇÃO DOS TEXTOS END ------- */
 
-/* CARD DE TEXTO COM IMAGEM */
+/* ------------------ CARD DE TEXTO COM IMAGEM ------------------ */
 .conteudo-card {
     width: 100%;
     display: flex;
@@ -733,7 +732,7 @@ a.link_tooltip_white {
     border-radius: 16px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
-    width: 460px;
+    width: 480px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -764,7 +763,7 @@ a.link_tooltip_white {
 }
 
 .card .img2 {
-    width: 540px;
+    width: 560px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -798,12 +797,24 @@ a.link_tooltip_white {
     transform: translateY(30px);
 }
 
-.card:hover .content {
+.card.active .content {
     height: auto;
     padding: 20px;
     opacity: 1;
     transform: translateY(0);
 }
+
+.card.active .content::before {
+    visibility: hidden;
+}
+
+/* .active{
+    visibility: hidden; 
+    height: auto;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+} */
 
 .card .content p {
     margin: 0;
@@ -845,10 +856,28 @@ a.link_tooltip_white {
     width: 100%;
 }
 
-/* CARD DE TEXTO COM IMAGEM */
+/* RESPONSIVIDADE DOS CARDS */
 
+/* @media (max-width: 835px) {
+    .conteudo-card * {
+        visibility: visible;
+    }
 
-/* ------ CONFIGURÇÃO DOS TEXTOS END ------- */
+    .card:hover .content * {
+        visibility: visible;
+    }
+
+    #informacao-card {
+        display: none;
+    }
+
+    .card .content .desc {
+        display: block;
+    }
+} */
+
+/* ------------------ CARD DE TEXTO COM IMAGEM END ------------------ */
+
 
 hr {
     margin-left: 5px;

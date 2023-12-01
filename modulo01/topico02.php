@@ -294,19 +294,25 @@ include('layout/header.php');
 
             <!-- caixa informativa -->
             <div class="d-flex justify-content-center">
-              <p class="wow fadeIn li_interativo2" data-wow-delay="0.3s"><i class="fa-solid fa-circle-info"></i> Clique nas caixas abaixo para saber mais
+              <p class="wow fadeIn li_interativo2" id="informacao-card" data-wow-delay="0.3s"><i
+                  class="fa-solid fa-circle-info"></i> Clique nas caixas abaixo para saber mais
               </p>
             </div>
 
-            <div class="row gap-2" id="card-img">
+            <div class="row gap-2" id="card-main">
 
+              <!-- primeiro card -->
               <div class="col">
+                <p class="FonteFigura FonteMenor text-secondary d-flex justify-content-center"><strong>Fonte:</strong>
+                  <a href="https://www.freepik.com/free-vector/flat-illustration-secretary-s-day-celebration_39431981.htm#query=woman%20illustration%20work&position=0&from_view=keyword&track=ais&uuid=597a7d63-6726-430f-9e03-4025b3b9b520"
+                    target="_blank" rel="noopener noreferrer"> <strong>Imagem retirada do Freepik</strong></a>
+                </p>
                 <div class="conteudo-card">
-                  <div class="card">
+                  <div class="card" id="card01">
                     <div class="img">
                     </div>
-                    <!-- <img src="imgs/Group 12.jpg" width="380" height="300" alt=""> -->
 
+                    <!-- texto do card -->
                     <div class="content">
                       <p class="desc">Também quero que você perceba que eu ressaltei algumas
                         palavras. Elas estão
@@ -323,25 +329,34 @@ include('layout/header.php');
                         elas possam se sentirem inspiradas e confiantes, já que na minha profissão, como professora e
                         pesquisadora, sou constantemente representada como exemplo.</p>
                     </div>
+                    <!-- texto do card end-->
 
-                    <div class="text-fixo-card ">
+                    <!-- título sobre o card -->
+                    <div class="text-fixo-card">
                       <span class="title">Identidade Profissional</span>
                       <div class="arrow">
                         <span>&#8673;</span>
                       </div>
                     </div>
+                    <!-- título sobre o card end-->
 
                   </div>
                 </div>
               </div>
               <br><br>
 
+              <!-- segundo card -->
               <div class="col">
-                <div class="conteudo-card">
-                  <div class="card">
+                <p class="FonteFigura FonteMenor text-secondary d-flex justify-content-center"><strong>Fonte:</strong>
+                  <a href="https://www.freepik.com/free-vector/flat-illustration-secretary-s-day-celebration_39431981.htm#query=woman%20illustration%20work&position=0&from_view=keyword&track=ais&uuid=597a7d63-6726-430f-9e03-4025b3b9b520"
+                    target="_blank" rel="noopener noreferrer"> <strong>Imagem retirada do Freepik</strong></a>
+                </p>
+                <div class="conteudo-card" id="cardmain" onclick="toggleActive('card2')">
+                  <div class="card" id="card02">
                     <div class="img2">
                     </div>
 
+                    <!-- texto do card -->
                     <div class="content">
                       <p class="desc">Já para a minha <strong>segunda identidade</strong>, que
                         está
@@ -358,13 +373,16 @@ include('layout/header.php');
                         podem
                         requerer que alguns tipos de emoções sejam mais destacadas.</p>
                     </div>
+                    <!-- texto do card end-->
 
+                    <!-- título sobre o card -->
                     <div class="text-fixo-card">
                       <span class="title">Identidade Pessoal</span>
                       <div class="arrow">
                         <span>&#8673;</span>
                       </div>
                     </div>
+                    <!-- título sobre o card end-->
 
                   </div>
                 </div>
@@ -374,72 +392,6 @@ include('layout/header.php');
             <br><br>
             <!-- CARDS COM TEXTO E IMAGENS END-->
 
-
-
-
-
-            <!-- FLIP CARD -->
-            <!-- <div class="container wow animate__fadeInDown" data-wow-delay="0.3s" id="flip-resposividade">
-              <div class="cards">
-                <label id="summary">
-                  <input type="checkbox" id="input" />
-                  <article>
-                    <div class="front">
-                      <header>
-                        <h2><i class="fa-solid fa-computer"></i> Identidade Profissional</h2>
-                        <span class="material-symbols-outlined">
-                        </span>
-                      </header>
-
-                      <div class="text-left">
-                        <p>Também quero que você perceba que eu ressaltei algumas
-                          palavras. Elas estão
-                          conectadas com uma determinada identidade que você constrói para si mesmo no intuito de que o
-                          seu
-                          inconsciente trabalhe para realizar o que você conscientemente escolhe. Você pode escolher as
-                          palavras
-                          que
-                          você quiser. No exemplo anterior, a minha identidade profissional está relacionada com
-                          confiança e
-                          inspiração. Eu preciso ter confiança e transmitir essa confiança para as pessoas a quem eu
-                          sirvo para
-                          que
-                          elas possam se sentirem inspiradas e confiantes, já que na minha profissão, como professora e
-                          pesquisadora, sou constantemente representada como exemplo.</p>
-                      </div>
-
-                      <div class="flip-botao">Clique aqui para saber mais</div>
-
-                    </div>
-                    <div class="back">
-                      <header>
-                        <h2><i class="fa-solid fa-umbrella-beach"></i> Identidade Pessoal</h2>
-                        <span class="material-symbols-outlined"></span>
-                      </header>
-                      <div class="text-left">
-                        <p>Já para a minha <strong>segunda identidade</strong>, que
-                          está
-                          relacionada com a minha
-                          vida pessoal e familiar, eu destaquei as palavras <strong> felicidade e o estado de
-                            presença</strong>.
-                          Obviamente isso não significa que eu não preciso também ser uma pessoa confiante e inspiradora
-                          em
-                          minha
-                          vida pessoal, especialmente para os meus filhos. Também não quer dizer que eu não espero ser
-                          feliz com
-                          meu
-                          trabalho. No entanto, os diferentes papéis que exercemos em diferentes momentos do nosso dia
-                          podem
-                          requerer que alguns tipos de emoções sejam mais destacadas.</p>
-                      </div>
-
-                      <div class="flip-botao">Clique aqui para voltar</div>
-
-                    </div>
-                  </article>
-                </label>
-              </div>
-            </div> -->
             <br>
 
             <div class="tela-menor">

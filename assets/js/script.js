@@ -134,7 +134,34 @@ $(document).ready(function () {
     });
 });
 
+// ################# FUNÇÃO PARA ABRIR OS CARDS COM IMAGEM E TEXTO #################
+// Select button
+// var button = document.querySelector('#cardmain');
+
+// Click Event
+// button.addEventListener('click', function() {
+// Select card
+// var card = document.querySelector('#card02');
+
+// Add/Remove Class Active
+// card.classList.toggle('active');
+
+// });
+// ################# FUNÇÃO PARA ABRIR OS CARDS COM IMAGEM E TEXTO END #################
+
+var button = document.querySelector('#card-main');
+
+// Click Event
+button.addEventListener('click', function() {
+  var cards = document.querySelectorAll('.card');
+
+  // Para cada card, adicione ou remova a classe 'active'
+  cards.forEach(function(card) {
+    card.classList.toggle('active');
+  });
+});
 
 // TOOLTIP 
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+// TOOLTIP END 
