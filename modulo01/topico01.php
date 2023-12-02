@@ -52,13 +52,16 @@ include('layout/header.php');
                         </div>
 
                         <!-- Imagem - MODAL-->
-                        <div class="modal fade text-center" id="Imagem1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                        <div class="modal fade text-center" id="Imagem1" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
                                 <div class="modal-content w-75">
                                     <img class="img-fluid" src="imgs01/Figura01.png" alt="Alt da imagem fica aqui">
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Figura 1:</strong>Representação do tempo na mente humana</p>
+                                    <p class="text-secondary"><strong>Figura 1:</strong>Representação do tempo na mente
+                                        humana</p>
                                 </div>
                             </div>
                         </div>
@@ -134,7 +137,7 @@ include('layout/header.php');
                             </div>
                         </section>
                         <!-- FIM DA CAIXA IMPORTANTE -->
-              
+
 
                         <!-- Citação com borda verde (esquerda) -->
                         <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
@@ -343,7 +346,8 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
 
                         <!-- Parágrafo com a biblioteca de animação  -->
-                        <p class="wow fadeIn d-flex justify-content-center" data-wow-delay="0.3s"><strong>A disciplina para cumprir todas as atividades
+                        <p class="wow fadeIn d-flex justify-content-center" data-wow-delay="0.3s"><strong>A disciplina
+                                para cumprir todas as atividades
                                 está relacionada principalmente
                                 com três aspectos:</strong>
                         </p>
@@ -368,56 +372,62 @@ include('layout/header.php');
                             </div>
                         </div>
 
-                    <!-- Parágrafo com a biblioteca de animação  -->
-                    <p class="wow fadeIn" data-wow-delay="0.3s">Desse modo, algumas pessoas conseguem seguir a
-                        disciplina de modo natural e
-                        até sentem prazer em executar as atividades programadas. No entanto, não fique chateado
-                        se
-                        você não for uma dessas pessoas porque elas são uma pequena minoria. Para todas as
-                        outras
-                        pessoas, a disciplina é o resultado de um bom planejamento e ótima organização das
-                        tarefas.
-                        Já a manutenção da disciplina no decorrer do tempo exige para todas as pessoas (mesmo
-                        aquelas que são altamente disciplinadas) uma motivação permanente que pode ser traduzida
-                        como uma visão de mundo que conduz o indivíduo aos seus objetivos.
-                    </p><br>
-                    <!--  Fim do Parágrafo com a biblioteca de animação -->
+                        <!-- Parágrafo com a biblioteca de animação  -->
+                        <p class="wow fadeIn" data-wow-delay="0.3s">Desse modo, algumas pessoas conseguem seguir a
+                            disciplina de modo natural e
+                            até sentem prazer em executar as atividades programadas. No entanto, não fique chateado
+                            se
+                            você não for uma dessas pessoas porque elas são uma pequena minoria. Para todas as
+                            outras
+                            pessoas, a disciplina é o resultado de um bom planejamento e ótima organização das
+                            tarefas.
+                            Já a manutenção da disciplina no decorrer do tempo exige para todas as pessoas (mesmo
+                            aquelas que são altamente disciplinadas) uma motivação permanente que pode ser traduzida
+                            como uma visão de mundo que conduz o indivíduo aos seus objetivos.
+                        </p><br>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
 
-                    <!-- Parágrafo com a biblioteca de animação  -->
-                    <p class="wow fadeIn d-flex justify-content-center" data-wow-delay="0.3s"> <strong>
-                            Por essa razão, destacamos entre as vantagens da
-                            gestão do tempo:
-                        </strong>
-                    </p>
-                    <!--  Fim do Parágrafo com a biblioteca de animação -->
+                        <!-- Parágrafo com a biblioteca de animação  -->
+                        <p class="wow fadeIn d-flex justify-content-center" data-wow-delay="0.3s"> <strong>
+                                Por essa razão, destacamos entre as vantagens da
+                                gestão do tempo:
+                            </strong>
+                        </p>
+                        <!--  Fim do Parágrafo com a biblioteca de animação -->
+
+                        <!-- IMAGEM COM CAIXAS DE TEXTO -->
+                        <div class="apresentacao">
+                            <div class="img_apresentacao wow animate__zoomIn">
+                                <img src="imgs/pessoa.png" alt="">
+                                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik">
+                                    <strong>Fonte: </strong>
+                                    <a href="https://br.freepik.com/vetores-gratis/icone-de-personagem-professor-homem-isolado_74222494.htm#query=pessoa%20dando%20oi&position=2&from_view=keyword&track=ais&uuid=f62cddf1-0953-4fc6-81a7-0f1f56865b4a"
+                                        target="_blank" rel="noopener noreferrer"> <strong> Imagem retirada do
+                                            Freepik</strong></a>
+                                </p>
+
+                            </div>
+                            <div>
+                                <!-- lista ordenada  -->
+                                <ul class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
+                                    <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i
+                                            class="bi bi-1-circle"></i> Planejamento para atingir metas e aumentar
+                                        a produtividade e eficiência do tempo;
+                                    </li>
+                                    <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.5s"><i
+                                            class="bi bi-2-circle"></i> A mudança de hábitos e da mentalidade sobre
+                                        o tempo. A combinação dessas vantagens,
+                                        por
+                                        sua vez, pode trazer felicidade e satisfação pessoal.</li>
+                                </ul>
+                                <!-- fim da lista ordenada  -->
+                            </div>
+                            <!-- IMAGEM COM CAIXAS DE TEXTO END-->
 
 
-                    <div class="apresentacao">
-                        <div class="img_apresentacao wow animate__zoomIn">
-                            <img src="imgs/pessoa.png" alt="">
                         </div>
-                        <div>
-                            <!-- lista ordenada  -->
-                            <ul class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
-                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.3s"><i class="bi bi-1-circle"></i> Planejamento para atingir metas e aumentar
-                                    a produtividade e eficiência do tempo;
-                                </li>
-                                <li class="wow animate__zoomIn texto_apresentacao_lista" data-wow-delay="0.5s"><i class="bi bi-2-circle"></i> A mudança de hábitos e da mentalidade sobre
-                                    o tempo. A combinação dessas vantagens,
-                                    por
-                                    sua vez, pode trazer felicidade e satisfação pessoal.</li>
-                            </ul>
-                            <!-- fim da lista ordenada  -->
-                        </div>
-
-
-
-
-
-
                     </div>
                 </div>
-            </div>
         </section>
     </div>
 
@@ -438,12 +448,13 @@ include('layout/header.php');
     <div class="text-center">
         <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true">
             <i class="fa-solid fa-chevron-left"></i> Voltar </a>
-        <a href="topico02.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="topico02.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+                class="fa-solid fa-chevron-right"></i></a>
     </div>
 
-      <!-- BARRA DE PROGRESSO -->
-  <div id="progress-bar"></div>
-  <!-- FIM DA BARRA DE PROGRESSO  -->
+    <!-- BARRA DE PROGRESSO -->
+    <div id="progress-bar"></div>
+    <!-- FIM DA BARRA DE PROGRESSO  -->
 
     <!-- FOOTER  -->
     <?php

@@ -36,7 +36,6 @@ include('layout/header.php');
             <!--  Título Principal -->
 
             <!-- IMAGEM NO SITE  -->
-
             <div class="text-center img-01 wow animate__zoomIn" data-wow-delay="0.3s" id="img-left">
               <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 3:</strong>
                 Representação da direção</p>
@@ -243,10 +242,17 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
             <br>
 
+            <!-- IMAGEM E BOTÕES COM TABELAS -->
             <div class="apresentacao">
 
               <div class="img_apresentacao wow animate__zoomIn">
                 <img src="imgs/Group 11.png" alt="">
+                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik">
+                  <strong>Fonte: </strong>
+                  <a href="https://www.freepik.com/free-vector/hand-drawn-flat-design-finance-leaders-concept_20548553.htm"
+                    target="_blank" rel="noopener noreferrer"> <strong> Imagem retirada do
+                      Freepik</strong></a>
+                </p>
               </div>
               <div>
                 <!-- Parágrafo com a biblioteca de animação  -->
@@ -283,15 +289,15 @@ include('layout/header.php');
 
                     </div>
                   </div>
-                 
+
 
                   <div class="col">
-                    <p class="d-flex justify-content-center wow animate__zoomIn"><button class="btn CorVerdeEstado" id="buton-t3" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#multiCollapseExample2" aria-expanded="false"
-                      aria-controls="multiCollapseExample2"><i class="fa-solid fa-umbrella-beach"> <strong
-                          id="text-teste">
-                          Vida
-                          Pessoal </strong></i></i></button></p>
+                    <p class="d-flex justify-content-center wow animate__zoomIn"><button class="btn CorVerdeEstado"
+                        id="buton-t3" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2"
+                        aria-expanded="false" aria-controls="multiCollapseExample2"><i
+                          class="fa-solid fa-umbrella-beach"> <strong id="text-teste">
+                            Vida
+                            Pessoal </strong></i></i></button></p>
 
 
                     <div class="collapse multi-collapse" id="multiCollapseExample2">
@@ -316,9 +322,9 @@ include('layout/header.php');
 
               </div>
             </div><br><br>
+            <!-- IMAGEM E BOTÕES COM TABELAS END-->
 
-
-
+            <!-- Parágrafo com a biblioteca de animação -->
             <p class="wow fadeIn" data-wow-delay="0.3s">Perceba que para a vida profissional foram criados
               diferentes
               espaços para legado e
@@ -330,10 +336,17 @@ include('layout/header.php');
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
+            <!-- IMAGEM E TEXTO ALINHADOS -->
             <div class="apresentacao">
 
               <div class="img_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
                 <img src="imgs/Group 3.png" alt="">
+                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik">
+                  <strong>Fonte: </strong>
+                  <a href="https://br.freepik.com/vetores-gratis/colegas-de-trabalho-do-conceito-de-pagina-de-destino_5615614.htm#query=conversacao%20local%20trabalho&position=0&from_view=keyword&track=ais&uuid=9d9a2171-507b-4fef-920f-97d5640d6178"
+                    target="_blank" rel="noopener noreferrer"> <strong> Imagem retirada do
+                      Freepik</strong></a>
+                </p>
               </div>
               <div>
                 <!-- Parágrafo com a biblioteca de animação  -->
@@ -365,6 +378,7 @@ include('layout/header.php');
 
               </div>
             </div><br>
+            <!-- IMAGEM E TEXTO ALINHADOS END -->
 
 
             <!-- Parágrafo com a biblioteca de animação  -->
@@ -387,10 +401,17 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
             <br>
 
+            <!-- IMAGEM E BOTÕES COM TABELAS -->
             <div class="apresentacao">
 
               <div class="img_apresentacao wow animate__zoomIn">
                 <img src="imgs/Group 11.png" alt="">
+                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik">
+                  <strong>Fonte: </strong>
+                  <a href="https://www.freepik.com/free-vector/hand-drawn-flat-design-finance-leaders-concept_20548553.htm"
+                    target="_blank" rel="noopener noreferrer"> <strong> Imagem retirada do
+                      Freepik</strong></a>
+                </p>
               </div>
               <div>
                 <!-- Parágrafo com a biblioteca de animação  -->
@@ -429,12 +450,10 @@ include('layout/header.php');
                   </div>
                 </div>
 
-
-
-
               </div>
             </div><br><br>
             <br>
+            <!-- IMAGEM E BOTÕES COM TABELAS END-->
 
             <!-- Parágrafo com a biblioteca de animação  -->
             <p class="wow fadeIn" data-wow-delay="0.3s">Para a vida pessoal, por hora, deixei apenas espaço para o

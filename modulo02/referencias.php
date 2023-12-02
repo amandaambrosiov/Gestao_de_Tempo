@@ -38,30 +38,22 @@ include('layout/header.php');
 
             <p class="Texto wow fadeIn" data-wow-delay="0.3s"> <i class="bi bi-book me-2"></i>ALLEN, Steve. <strong>
                 Aprenda como
-                Einstein</strong>. 2017. Técnica de Aprendizagem. E-book Kindle. <a
-                href="https://www.amazon.com.br/Aprenda-como-Einstein-aprendizagem-eficazmente-ebook/dp/B075C71B85"
-                target="_blank" rel="noopener noreferrer">Amazon.com.br </a> 2017.
+                Einstein</strong>. 2017. Técnica de Aprendizagem.
             </p>
 
             <p class="Texto wow fadeIn" data-wow-delay="0.3s"> <i class="bi bi-book me-2"></i>JONES, Ryan. <strong>
                 Produtividade para
-                Procrastinadores </strong>. E-book Kindle. <a
-                href="https://www.amazon.com.br/Produtividade-Para-Procrastinadores-Aumentar-Trabalhando-ebook/dp/B0871KGYSR"
-                target="_blank" rel="noopener noreferrer">Amazon.com.br</a> 2020.
+                Procrastinadores </strong>.
             </p>
 
             <p class="Texto wow fadeIn" data-wow-delay="0.3s"> <i class="bi bi-book me-2"></i>JLAWRENCE, Steven.
               <strong> O Poder da Execução
-                de Metas</strong> <a
-                href="https://www.amazon.com.br/Poder-Execu%C3%A7%C3%A3o-Metas-Definitivo-Eficientes-ebook/dp/B07P2BVZF9"
-                target="_blank" rel="noopener noreferrer">Amazon.com.br</a> 2019.
+                de Metas</strong>
             </p>
 
             <p class="Texto wow fadeIn" data-wow-delay="0.3s"> <i class="bi bi-book me-2"></i>MOURA, Jaqueline. <strong>
                 O poder do Não.
-              </strong>Poque dizemos sim quando queremos dizer não? Editora Ristretto. 1 ed. <a
-                href="https://www.amazon.com.br/Poder-N%C3%A3o-dizemos-quando-queremos-ebook/dp/B08Q6WKVH6/ref=sr_1_3?adgrpid=123642998121&gclid=EAIaIQobChMIiJfVivvDggMV_9EWBR1v6grNEAAYASAAEgIOofD_BwE&hvadid=615851894596&hvdev=c&hvlocphy=1001538&hvnetw=g&hvqmt=e&hvrand=14951436119570817873&hvtargid=kwd-469319931581&hydadcr=7384_13277759&keywords=o+poder+do+n%C3%A3o&qid=1699981097&sr=8-3"
-                target="_blank" rel="noopener noreferrer">Amazon.com.br</a> E-book Kindle. 2021.
+              </strong>Poque dizemos sim quando queremos dizer não? Editora Ristretto. 1 ed.
             </p>
 
             <p class="Texto wow fadeIn" data-wow-delay="0.3s"> <i class="bi bi-book me-2"></i>RIBEIRO, Haroldo. <strong>

@@ -38,6 +38,9 @@ include('layout/header.php');
 
               <div class="img_apresentacao wow animate__zoomIn">
                 <img src="imgs/Group 10.png" alt="">
+                <p class="FonteFigura FonteMenor text-secondary d-flex justify-content-start">
+                  <strong>Fonte:Imagem retirada do Freepik</strong>
+                </p>
               </div>
               <div>
                 <!-- Parágrafo com a biblioteca de animação  -->
@@ -46,10 +49,10 @@ include('layout/header.php');
                   parte deste curso, você aprendeu sobre os aspectos mais gerais da Gestão do
                   Tempo e fez algumas atividades práticas para consolidar sua nova visão de vida e planejar ações que
                   as
-                  concretize. 
+                  concretize.
                 </p><br>
                 <p class="wow fadeIn" data-wow-delay="0.3s">
-                Neste ponto, você já compreende que a sua mente trabalha ativamente para
+                  Neste ponto, você já compreende que a sua mente trabalha ativamente para
                   realizar aquilo que
                   ela acredita ser real ou estar alinhada com suas emoções.
 
@@ -61,25 +64,20 @@ include('layout/header.php');
               </div>
             </div><br><br><br>
 
-            <!-- <div class="d-flex justify-content-center">
-              <div class="li_interativo2"><i class="bi bi-info-circle"></i> Clique na caixa abaixo
-                para saber mais</div>
-            </div> -->
-
             <!-- ACCORDION -->
             <div class="container wow animate__fadeInLeftBig" data-wow-delay="0.3s">
               <div class="accordion" id="accordionPanelsStayOpenExample">
-                <div class="accordion-item">
+                <div class="accordion-item" id="accordion-item-apresentacao">
                   <div class="accordion-header">
                     <button class="accordion-button text-light collapsed" type="button" data-bs-toggle="collapse"
-                      id="accordion-botao" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                      aria-controls="panelsStayOpen-collapseTwo">
+                      id="accordion-botao-apresentacao" data-bs-target="#panelsStayOpen-collapseTwo"
+                      aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                       <h5>O que você verá agora? <span class="fw-lighter"><br>(Clique aqui
-                para saber mais)</span> </h5>
+                          para saber mais)</span></h5>
                     </button>
                   </div>
                   <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                    <div class="accordion-body fw-normal">
+                    <div class="accordion-body01">
                       Nesta segunda parte, eu Kamilla Nascimento lhe conduzirei de
                       forma mais profunda na
                       compreensão da Gestão do Tempo que se relaciona com uma mentalidade realizadora e com os hábitos
@@ -121,8 +119,8 @@ include('layout/header.php');
         class="fa-solid fa-chevron-right"></i></a>
   </div>
 
-    <!-- BARRA DE PROGRESSO -->
-    <div id="progress-bar"></div>
+  <!-- BARRA DE PROGRESSO -->
+  <div id="progress-bar"></div>
   <!-- FIM DA BARRA DE PROGRESSO  -->
 
   <!-- FOOTER  -->

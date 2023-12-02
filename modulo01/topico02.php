@@ -35,10 +35,7 @@ include('layout/header.php');
             <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s">02 - O Poder da decisão</h2><br>
             <!--  Título Principal -->
 
-
-
             <!-- IMAGEM NO SITE  -->
-
             <div class="text-center img-01 wow animate__zoomIn" data-wow-delay="0.3s" id="img-left">
               <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 2:</strong>
                 Representação da direção</p>
@@ -64,11 +61,9 @@ include('layout/header.php');
               </div>
             </div>
             <!-- Imagem - End-->
-
-
             <!-- FIM DA IMAGEM NO SITE  -->
-            <!-- Parágrafo com a biblioteca de animação  -->
 
+            <!-- Parágrafo com a biblioteca de animação  -->
             <p class="wow fadeIn" data-wow-delay="0.3s" id="text-left">Ter uma
               visão sobre si mesmo e sobre o que espera no futuro é o que garante que você
               direcione corretamente a sua gestão do tempo para maximizar oportunidades e a sua qualidade de vida.
@@ -111,7 +106,6 @@ include('layout/header.php');
               </div>
             </section>
             <!-- FIM DA CAIXA IMPORTANTE -->
-
 
 
             <!-- Citação com borda verde (esquerda) -->
@@ -245,9 +239,6 @@ include('layout/header.php');
             <!--  Fim do Parágrafo com a biblioteca de animação -->
             <br>
 
-
-
-
             <!-- Citação com borda verde (esquerda) -->
             <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">
 
@@ -291,26 +282,31 @@ include('layout/header.php');
             <!-- FIM DA CAIXA IMPORTANTE -->
 
             <!-- CARDS COM TEXTO E IMAGENS -->
-
             <!-- caixa informativa -->
             <div class="d-flex justify-content-center">
               <p class="wow fadeIn li_interativo2" id="informacao-card" data-wow-delay="0.3s"><i
                   class="fa-solid fa-circle-info"></i> Clique nas caixas abaixo para saber mais
               </p>
             </div>
+            <!-- caixa informativa end-->
 
-            <div class="row gap-2" id="card-main">
+            <div class="row gap-2">
 
               <!-- primeiro card -->
+              <!-- texto sobre a fonte da imagem -->
               <div class="col">
                 <p class="FonteFigura FonteMenor text-secondary d-flex justify-content-center"><strong>Fonte:</strong>
                   <a href="https://www.freepik.com/free-vector/flat-illustration-secretary-s-day-celebration_39431981.htm#query=woman%20illustration%20work&position=0&from_view=keyword&track=ais&uuid=597a7d63-6726-430f-9e03-4025b3b9b520"
                     target="_blank" rel="noopener noreferrer"> <strong>Imagem retirada do Freepik</strong></a>
                 </p>
+                <!-- texto sobre a fonte da imagem end-->
+
+                <!-- imagem do card -->
                 <div class="conteudo-card">
-                  <div class="card" id="card01">
+                  <div class="card">
                     <div class="img">
                     </div>
+                    <!-- imagem do card end-->
 
                     <!-- texto do card -->
                     <div class="content">
@@ -346,15 +342,20 @@ include('layout/header.php');
               <br><br>
 
               <!-- segundo card -->
+              <!-- texto sobre a fonte da imagem -->
               <div class="col">
                 <p class="FonteFigura FonteMenor text-secondary d-flex justify-content-center"><strong>Fonte:</strong>
-                  <a href="https://www.freepik.com/free-vector/flat-illustration-secretary-s-day-celebration_39431981.htm#query=woman%20illustration%20work&position=0&from_view=keyword&track=ais&uuid=597a7d63-6726-430f-9e03-4025b3b9b520"
+                  <a href="https://www.freepik.com/free-vector/staycation-backyard_9010394.htm#query=vetor%20homem%20relaxando%20e%20lendo%20na%20praia%20como%20coco&position=36&from_view=search&track=ais&uuid=86ff0c43-879e-4cde-bd58-e5f207d79c18"
                     target="_blank" rel="noopener noreferrer"> <strong>Imagem retirada do Freepik</strong></a>
                 </p>
-                <div class="conteudo-card" id="cardmain" onclick="toggleActive('card2')">
-                  <div class="card" id="card02">
+                <!-- texto sobre a fonte da imagem end-->
+
+                <!-- imagem do card -->
+                <div class="conteudo-card">
+                  <div class="card">
                     <div class="img2">
                     </div>
+                    <!-- imagem do card end-->
 
                     <!-- texto do card -->
                     <div class="content">
@@ -394,38 +395,6 @@ include('layout/header.php');
 
             <br>
 
-            <div class="tela-menor">
-              <p class="wow fadeIn" data-wow-delay="0.3s">Também quero que você perceba que eu ressaltei algumas
-                palavras. Elas estão
-                conectadas com uma determinada identidade que você constrói para si mesmo no intuito de que o
-                seu
-                inconsciente trabalhe para realizar o que você conscientemente escolhe. Você pode escolher as
-                palavras
-                que
-                você quiser. No exemplo anterior, a minha identidade profissional está relacionada com
-                confiança e
-                inspiração. Eu preciso ter confiança e transmitir essa confiança para as pessoas a quem eu
-                sirvo para
-                que
-                elas possam se sentirem inspiradas e confiantes, já que na minha profissão, como professora e
-                pesquisadora, sou constantemente representada como exemplo.</p>
-
-              <p class="wow fadeIn" data-wow-delay="0.3s">Já para a minha <strong>segunda identidade</strong>, que
-                está
-                relacionada com a minha
-                vida pessoal e familiar, eu destaquei as palavras <strong> felicidade e o estado de
-                  presença</strong>.
-                Obviamente isso não significa que eu não preciso também ser uma pessoa confiante e inspiradora
-                em
-                minha
-                vida pessoal, especialmente para os meus filhos. Também não quer dizer que eu não espero ser
-                feliz com
-                meu
-                trabalho. No entanto, os diferentes papéis que exercemos em diferentes momentos do nosso dia
-                podem
-                requerer que alguns tipos de emoções sejam mais destacadas.</p>
-            </div>
-
             <!--CAIXA DE TEXTO EXEMPLO-->
             <section class="container wow fadeIn" data-wow-delay="0.3s">
               <div class="accordion ">
@@ -457,11 +426,14 @@ include('layout/header.php');
             </section>
             <!-- FIM DA CAIXA EXEMPLO-->
 
-
+            <!-- IMAGEM E JOGO SOBRE O CURSO -->
             <div class="apresentacao">
 
               <div class="img_apresentacao wow animate__zoomIn">
                 <img src="imgs/Group 4.png" alt="">
+                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik"><strong>Fonte:Imagem retirada do
+                    Freepik</strong>
+                </p>
               </div>
               <div>
                 <!-- Parágrafo com a biblioteca de animação  -->
@@ -569,19 +541,15 @@ include('layout/header.php');
                             </div>
                           </div>
                         </div>
-                        <!-- <div class="modal-footer d-flex  justify-content-center">
-        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Voltar</button>
-      </div> -->
                       </div>
                     </div>
                   </div>
                 </div> <br><br>
-
                 <!-- ######################################## GAME DE EMBARALHAR PALAVRAS END ##################################### -->
-
 
               </div>
             </div><br>
+            <!-- IMAGEM E JOGO SOBRE O CURSO END-->
 
             <!-- Citação com borda verde (esquerda) -->
             <div class="bd-callout bd-callout-success m-3 wow fadeIn" data-wow-delay="0.3s">

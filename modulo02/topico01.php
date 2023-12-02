@@ -35,7 +35,7 @@ include('layout/header.php');
             <!--  Título Principal -->
 
             <!-- IMAGEM NO SITE  -->
-              <div class="img-01 wow animate__zoomIn" data-wow-delay="0.3s" id="img-left">
+              <div class="text-center img-01 wow animate__zoomIn" data-wow-delay="0.3s" id="img-left">
                 <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
                   Representação de planejamento</p>
                 <div class="zoom">
@@ -199,7 +199,7 @@ include('layout/header.php');
             <div class="collapse multi-collapse" id="multiCollapseExample3">
 
               <div class="d-flex justify-content-center">
-                <div class="card card-body" style="width: 800px;" id="conteudo-LerMais">
+                <div class="card-body" style="width: 800px;" id="conteudo-LerMais">
                   Para que você possa transformar os conhecimentos teóricos em
                   ferramentas para realização de seus sonhos, alguns ajustes serão necessários. Como foi esclarecido
                   antes, aquilo que focamos na nossa mente tende a se tornar realidade, pois a mente é obcecada em

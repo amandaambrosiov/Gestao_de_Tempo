@@ -130,6 +130,7 @@ include('layout/header.php');
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
+            <!-- CAIXAS DE TEXTO INTERATIVAS -->
             <div class="wow fadeIn" data-wow-delay="0.3s" id="txt_final">
               <div class="container">
                 <div class="row">
@@ -147,6 +148,8 @@ include('layout/header.php');
                 </div>
               </div>
             </div>
+            <!-- CAIXAS DE TEXTO INTERATIVAS END -->
+
 
 
 
@@ -265,7 +268,7 @@ include('layout/header.php');
                       compromissos. Quanto a esse fato é preciso lembrar que muitas vezes dizer não a algo ou alguém
                       simplesmente implica em dizer sim a si mesmo. “Dizer não pode ser um dos atos mais sublimes de
                       amor próprio e valorização. Quando uma pessoa diz não a um amigo, em função de seu bem-estar,
-                      está, sem sombra de dúvidas, demonstrando amor próprio” (<a class="link_tooltip" 
+                      está, sem sombra de dúvidas, demonstrando amor próprio” (<a class="link_tooltip"
                         data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
                         data-bs-title="Aficionada pela temática do desenvolvimento humano, com pitadas de humor e ironia, Jaqueline não hesita em fazer com que seus leitores reflitam sobre temas complexos, enquanto os diverte e entretêm com textos verossímeis e cativantes. Jaqueline é Especialista em Linguagem e Comunicação em Língua Portuguesa e atualmente cursa Mestrado em Língua, Literatura e Interculturalidade.">MOURA</a>
                       , 2021, p.11).</p>
@@ -303,9 +306,9 @@ include('layout/header.php');
                 aprender a eliminar as distrações ao seu redor”. Por sua vez, a identificação das distrações é
                 possível depois que você determina suas prioridades. “Se você não prioriza, pode acabar tendo muitos
                 objetivos, deixando muito pouco tempo para se dedicar a cada um deles”
-              <p class="text-end"><a class="link_tooltip" 
-                        data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
-                        data-bs-title="Steven Lawrence é escritor e gerente de mídia social que ajuda profissionais e startups a construir um público e conseguir mais clientes pagantes online. Antes de iniciar um negócio de redação, Steven passou seis anos como caixa de banco e assistente virtual para empresas financeiras nos EUA e no Reino Unido. Depois de uma carreira de sucesso ajudando pequenos bancos e imobiliárias, Steven decidiu seguir em frente com seu sonho e então começou a escrever muitos ensaios, livros, textos de marketing para seus produtos e serviços.">LAWRENCE</a> 
+              <p class="text-end"><a class="link_tooltip" data-bs-custom-class="custom-tooltip"
+                  data-bs-placement="right" data-bs-toggle="tooltip"
+                  data-bs-title="Steven Lawrence é escritor e gerente de mídia social que ajuda profissionais e startups a construir um público e conseguir mais clientes pagantes online. Antes de iniciar um negócio de redação, Steven passou seis anos como caixa de banco e assistente virtual para empresas financeiras nos EUA e no Reino Unido. Depois de uma carreira de sucesso ajudando pequenos bancos e imobiliárias, Steven decidiu seguir em frente com seu sonho e então começou a escrever muitos ensaios, livros, textos de marketing para seus produtos e serviços.">LAWRENCE</a>
                 (2019)</p>
               </p>
             </div>
@@ -323,8 +326,9 @@ include('layout/header.php');
               <div class="descricao">
                 <div class="titulo_video ">Saiba mais</div>
                 <p>Você sabe qual é a origem do 5S? Neste vídeo, o Consultor <a class="link_tooltip_white"
-                        data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
-                        data-bs-title="Diretor da PDCA - Consultoria em Qualidade e Consultor especializado no Japão. Administrador de Empresas e Engenheiro Mecânico, Pós-Graduado em Manutenção Mecânica. Professor de Pós-Graduação da FEI - Faculdade de Engenharia Industrial. Engenheiro e Auditor da Qualidade Certificado pela ASQ – Estados Unidos desde 1991. Examinador do Prêmio Nacional da Qualidade-94 e 97. Consultor e Conferencista de atuação destacada em todo o país, pela sua experiência e abordagem prática sobre TPM, 5S, Qualidade Total e suas ferramentas, desde 1984. Têm artigos publicados no Japão em várias revistas brasileiro, além de consultorias realizadas na Europa e países da América Latina. Tem passado a metodologia de implantação do 5S e TPM para várias empresas. “Autor de mais de 30 títulos de livros sobre 5S e TPM”">Haroldo Ribeiro</a> 
+                    data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+                    data-bs-title="Diretor da PDCA - Consultoria em Qualidade e Consultor especializado no Japão. Administrador de Empresas e Engenheiro Mecânico, Pós-Graduado em Manutenção Mecânica. Professor de Pós-Graduação da FEI - Faculdade de Engenharia Industrial. Engenheiro e Auditor da Qualidade Certificado pela ASQ – Estados Unidos desde 1991. Examinador do Prêmio Nacional da Qualidade-94 e 97. Consultor e Conferencista de atuação destacada em todo o país, pela sua experiência e abordagem prática sobre TPM, 5S, Qualidade Total e suas ferramentas, desde 1984. Têm artigos publicados no Japão em várias revistas brasileiro, além de consultorias realizadas na Europa e países da América Latina. Tem passado a metodologia de implantação do 5S e TPM para várias empresas. “Autor de mais de 30 títulos de livros sobre 5S e TPM”">Haroldo
+                    Ribeiro</a>
                   apresenta a real origem do
                   5S. Haroldo Ribeiro é consultor e foi o primeiro autor brasileiro de 5S e de Manutenção Autônoma. É o
                   autor com maior número de livros publicados nestes dois temas (mais de 30 livros).</p>
@@ -338,9 +342,10 @@ include('layout/header.php');
               qual foco deve determinar as suas atividades, não faz sentido ficar se comprometendo com qualquer outra
               eventualidade que possa ser evitada. “Quando você não planeja, você também <strong> planeja falhar
               </strong>. Um bom plano é essencial para atingir os objetivos e preencher a lacuna de execução, uma vez
-              que lhe dá direção e ajuda você a permanecer no caminho certo” (<a class="link_tooltip" 
-                        data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
-                        data-bs-title="Steven Lawrence é escritor e gerente de mídia social que ajuda profissionais e startups a construir um público e conseguir mais clientes pagantes online. Antes de iniciar um negócio de redação, Steven passou seis anos como caixa de banco e assistente virtual para empresas financeiras nos EUA e no Reino Unido. Depois de uma carreira de sucesso ajudando pequenos bancos e imobiliárias, Steven decidiu seguir em frente com seu sonho e então começou a escrever muitos ensaios, livros, textos de marketing para seus produtos e serviços.">LAWRENCE</a> , 2019, p.36).
+              que lhe dá direção e ajuda você a permanecer no caminho certo” (<a class="link_tooltip"
+                data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+                data-bs-title="Steven Lawrence é escritor e gerente de mídia social que ajuda profissionais e startups a construir um público e conseguir mais clientes pagantes online. Antes de iniciar um negócio de redação, Steven passou seis anos como caixa de banco e assistente virtual para empresas financeiras nos EUA e no Reino Unido. Depois de uma carreira de sucesso ajudando pequenos bancos e imobiliárias, Steven decidiu seguir em frente com seu sonho e então começou a escrever muitos ensaios, livros, textos de marketing para seus produtos e serviços.">LAWRENCE</a>
+              , 2019, p.36).
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 
@@ -401,6 +406,9 @@ include('layout/header.php');
 
               <div class="img_apresentacao wow animate__zoomIn">
                 <img src="imgs/Group 4.png" alt="">
+                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik"><strong>Fonte:Imagem retirada do
+                    Freepik</strong>
+                </p>
               </div>
               <div>
                 <!-- Parágrafo com a biblioteca de animação  -->
@@ -489,9 +497,11 @@ include('layout/header.php');
             <!-- Parágrafo com a biblioteca de animação  -->
             <p class="wow fadeIn" data-wow-delay="0.3s">Manter a padronização requer um grande senso de disciplina.
               “O compromisso é a chave para
-              a execução e, sem ele, você continuará sendo prejudicado ao perseguir seus objetivos” (<a class="link_tooltip"
-                        data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
-                        data-bs-title="Steven Lawrence é escritor e gerente de mídia social que ajuda profissionais e startups a construir um público e conseguir mais clientes pagantes online. Antes de iniciar um negócio de redação, Steven passou seis anos como caixa de banco e assistente virtual para empresas financeiras nos EUA e no Reino Unido. Depois de uma carreira de sucesso ajudando pequenos bancos e imobiliárias, Steven decidiu seguir em frente com seu sonho e então começou a escrever muitos ensaios, livros, textos de marketing para seus produtos e serviços.">LAWRENCE</a> , 2019,
+              a execução e, sem ele, você continuará sendo prejudicado ao perseguir seus objetivos” (<a
+                class="link_tooltip" data-bs-custom-class="custom-tooltip" data-bs-placement="right"
+                data-bs-toggle="tooltip"
+                data-bs-title="Steven Lawrence é escritor e gerente de mídia social que ajuda profissionais e startups a construir um público e conseguir mais clientes pagantes online. Antes de iniciar um negócio de redação, Steven passou seis anos como caixa de banco e assistente virtual para empresas financeiras nos EUA e no Reino Unido. Depois de uma carreira de sucesso ajudando pequenos bancos e imobiliárias, Steven decidiu seguir em frente com seu sonho e então começou a escrever muitos ensaios, livros, textos de marketing para seus produtos e serviços.">LAWRENCE</a>
+              , 2019,
               p.35). Perceba que o compromisso não está relacionado com a atividade, mas com você e com o que você
               estabelece como objetivo futuro. Cada vez que você não cumpre aquilo que se comprometeu consigo mesmo,
               está agindo contra seus próprios interesses.
@@ -529,8 +539,9 @@ include('layout/header.php');
               em mente. “As metas têm um preço - não necessariamente monetário, mas as metas precisarão que você
               invista
               tempo e esforço e outras coisas em que possa pensar” (<a class="link_tooltip"
-                        data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
-                        data-bs-title="Steven Lawrence é escritor e gerente de mídia social que ajuda profissionais e startups a construir um público e conseguir mais clientes pagantes online. Antes de iniciar um negócio de redação, Steven passou seis anos como caixa de banco e assistente virtual para empresas financeiras nos EUA e no Reino Unido. Depois de uma carreira de sucesso ajudando pequenos bancos e imobiliárias, Steven decidiu seguir em frente com seu sonho e então começou a escrever muitos ensaios, livros, textos de marketing para seus produtos e serviços.">LAWRENCE</a> , 2019, p.25).
+                data-bs-custom-class="custom-tooltip" data-bs-placement="right" data-bs-toggle="tooltip"
+                data-bs-title="Steven Lawrence é escritor e gerente de mídia social que ajuda profissionais e startups a construir um público e conseguir mais clientes pagantes online. Antes de iniciar um negócio de redação, Steven passou seis anos como caixa de banco e assistente virtual para empresas financeiras nos EUA e no Reino Unido. Depois de uma carreira de sucesso ajudando pequenos bancos e imobiliárias, Steven decidiu seguir em frente com seu sonho e então começou a escrever muitos ensaios, livros, textos de marketing para seus produtos e serviços.">LAWRENCE</a>
+              , 2019, p.25).
             </p>
             <!--  Fim do Parágrafo com a biblioteca de animação -->
 

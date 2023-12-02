@@ -31,12 +31,16 @@ include('layout/header.php');
                         <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s"><span class="icon"><i
                                     class="bi bi-person-workspace"></i>
                             </span> Apresentação</h2><br>
+                        <!--  Título Pricipal End-->
 
-
+                        <!-- Imagem de apresentação com texto introdutório -->
                         <div class="apresentacao">
 
                             <div class="img_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
                                 <img src="imgs/Group 10.png" alt="">
+                                <p class="FonteFigura FonteMenor text-secondary d-flex justify-content-start">
+                                    <strong>Fonte:Imagem retirada do Freepik</strong>
+                                </p>
                             </div>
                             <div>
                                 <!-- Parágrafo com a biblioteca de animação  -->
@@ -73,6 +77,7 @@ include('layout/header.php');
 
                             </div>
                         </div><br><br>
+                        <!-- Imagem de apresentação com texto introdutório end-->
 
 
                         <!-- CAIXA DE TEXTO IMPORTANTE -->
@@ -126,10 +131,6 @@ include('layout/header.php');
                         </p>
                         <!--  Fim do Parágrafo com a biblioteca de animação -->
                         <br>
-                        <!-- <div class="d-flex justify-content-center">
-                            <div class="li_interativo2"><i class="bi bi-info-circle"></i> Clique na caixa abaixo
-                                para saber mais</div>
-                        </div> -->
 
                         <!-- ACCORDION -->
                         <div class="container wow animate__fadeInLeftBig" data-wow-delay="0.3s">

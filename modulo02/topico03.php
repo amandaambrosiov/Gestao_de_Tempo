@@ -189,10 +189,17 @@ include('layout/header.php');
                         </p>
                         <br>
 
+                        <!-- IMAGEM E BOTÕES COM TABELAS -->
                         <div class="apresentacao">
 
                             <div class="img_apresentacao wow animate__zoomIn">
                                 <img src="imgs/Group 11.png" alt="">
+                                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik">
+                                    <strong>Fonte: </strong>
+                                    <a href="https://www.freepik.com/free-vector/hand-drawn-flat-design-finance-leaders-concept_20548553.htm"
+                                        target="_blank" rel="noopener noreferrer"> <strong> Imagem retirada do
+                                            Freepik</strong></a>
+                                </p>
                             </div>
                             <div>
                                 <!-- Parágrafo com a biblioteca de animação  -->
@@ -200,8 +207,11 @@ include('layout/header.php');
                                     <strong><i class="fa-solid fa-circle-info"></i> Clique nos títulos abaixo para mais
                                         informações</strong>
                                 </p><br><br><br>
+                                <!-- Parágrafo com a biblioteca de animação end-->
 
                                 <div class="row">
+
+                                    <!-- BOTÃO COM TABELA -->
                                     <div class="col">
                                         <p class="d-flex justify-content-center wow animate__zoomIn">
                                             <a class="btn CorVerdeEstado" id="buton-t3" data-bs-toggle="collapse"
@@ -232,7 +242,9 @@ include('layout/header.php');
                                             </table><br>
                                         </div>
                                     </div>
+                                    <!-- BOTÃO COM TABELA END -->
 
+                                    <!-- BOTÃO COM TABELA -->
                                     <div class="col">
                                         <p class="d-flex justify-content-center wow animate__zoomIn"><button
                                                 class="btn CorVerdeEstado" id="buton-t3" type="button"
@@ -262,12 +274,15 @@ include('layout/header.php');
                                             </table>
                                         </div>
                                     </div>
+                                    <!-- BOTÃO COM TABELA END-->
                                 </div>
-
 
                             </div>
                         </div><br><br>
+                        <!-- IMAGEM E BOTÕES COM TABELAS END-->
+
                         <br>
+                        <!-- Parágrafo com a biblioteca de animação  -->
                         <p class="wow fadeIn" data-wow-delay="0.3s">Por fim, cabe ressaltar que toda agenda deve
                             funcionar como um ideal a ser perseguido. Porém,
                             é necessário a consciência de que nem sempre todas as atividades poderão ser de fato
@@ -275,6 +290,7 @@ include('layout/header.php');
                             realizar certas atividades em um dia não deve se desgastar com culpa, mas apenas
                             redirecionar as suas ações.</p>
                         <br>
+                        <!-- Parágrafo com a biblioteca de animação end-->
 
                         <!-- VÍDEO DO YOUTUBE -->
                         <div class="video wow fadeInDown">
@@ -295,6 +311,7 @@ include('layout/header.php');
                                 </p>
                             </div>
                         </div>
+                        <!-- VÍDEO DO YOUTUBE END-->
 
 
                     </div>

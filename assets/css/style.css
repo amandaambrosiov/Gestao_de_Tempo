@@ -649,7 +649,12 @@ strong {
 
 /* negrito dos textos*/
 
+/* texto sobre as imagens do freepik */
+#text-freepik {
+    margin-left: 4.5rem;
+}
 
+/* texto sobre as imagens do freepik */
 
 /* DESTACANDO UMA FRASE */
 .li_interativo {
@@ -717,6 +722,7 @@ a.link_tooltip_white {
 [data-theme="dark"] p {
     color: var(--color-light-50);
 }
+
 /* modo escuro - textos end */
 /* ------ CONFIGURÇÃO DOS TEXTOS END ------- */
 
@@ -958,6 +964,13 @@ hr {
     font-size: 1.3rem;
     font-style: italic;
     line-height: 1.7em;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+[data-theme="dark"] #conteudo-LerMais {
+    color: white;
 }
 
 #buton-lerMais2 {
