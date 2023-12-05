@@ -425,14 +425,15 @@ include('layout/header.php');
                 </section>
             </section>
             <!-- FIM DA CAIXA EXEMPLO-->
-
             <!-- IMAGEM E JOGO SOBRE O CURSO -->
             <div class="apresentacao">
 
               <div class="img_apresentacao wow animate__zoomIn">
                 <img src="imgs/Group 4.png" alt="">
-                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik"><strong>Fonte:Imagem retirada do
-                    Freepik</strong>
+                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik"><strong>Fonte:<a
+                      href="https://br.freepik.com/vetores-premium/conceito-de-atividade-de-negocios_35481750.htm"
+                      target="_blank" rel="noopener noreferrer">Imagem retirada do
+                      Freepik</a></strong>
                 </p>
               </div>
               <div>
