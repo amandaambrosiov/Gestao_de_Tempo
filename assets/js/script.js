@@ -21,7 +21,7 @@ let calcScrollValue = () => {
 
 window.onscroll = calcScrollValue
 window.onload = calcScrollValue
-
+//BOTÃO BACK TO TOP
 
 // teste header
 var lastScrollTop = 0;

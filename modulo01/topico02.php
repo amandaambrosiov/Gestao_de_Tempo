@@ -425,13 +425,13 @@ include('layout/header.php');
                 </section>
             </section>
             <!-- FIM DA CAIXA EXEMPLO-->
-
             <!-- IMAGEM E JOGO SOBRE O CURSO -->
             <div class="apresentacao">
 
               <div class="img_apresentacao wow animate__zoomIn">
                 <img src="imgs/Group 4.png" alt="">
                 <strong class="FonteFigura FonteMenor text-secondary font">Fonte: <a href="https://br.freepik.com" target="_blank" rel="noopener noreferrer"> Freepik</a></strong>
+
               </div>
               <div>
                 <!-- Parágrafo com a biblioteca de animação  -->

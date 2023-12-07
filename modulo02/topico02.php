@@ -405,9 +405,11 @@ include('layout/header.php');
             <div class="apresentacao">
 
               <div class="img_apresentacao wow animate__zoomIn">
-                <img src="imgs/Group 4.png" alt="">
-                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik"><strong>Fonte:Imagem retirada do
-                    Freepik</strong>
+                <img src="imgs/Group 4.png" alt=""> 
+                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik"><strong>Fonte:<a
+                      href="https://br.freepik.com/vetores-premium/conceito-de-atividade-de-negocios_35481750.htm"
+                      target="_blank" rel="noopener noreferrer">Imagem retirada do
+                      Freepik</a></strong>
                 </p>
               </div>
               <div>
@@ -429,7 +431,8 @@ include('layout/header.php');
                     <div class="info-list">
                       <div class="info">1. Depois que você selecionar a respota, não poderá ser desfeito.
                       </div>
-                      <div class="info">2. Se estiver acessando pelo celular, para ver mais informações deslize a tela para baixo.</div>
+                      <div class="info">2. Se estiver acessando pelo celular, para ver mais informações deslize a tela
+                        para baixo.</div>
                       <div class="info">3. Você vai receber a pontuação conforme responde as questões.
                       </div>
                       <div class="info">4. Esse quiz não vai interferir na sua nota final.</div>
