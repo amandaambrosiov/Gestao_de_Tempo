@@ -399,13 +399,9 @@ include('layout/header.php');
                         <div class="apresentacao">
                             <div class="img_apresentacao wow animate__zoomIn">
                                 <img src="imgs/pessoa.png" alt="">
-                                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik">
-                                    <strong>Fonte: </strong>
-                                    <a href="https://br.freepik.com/vetores-gratis/icone-de-personagem-professor-homem-isolado_74222494.htm#query=pessoa%20dando%20oi&position=2&from_view=keyword&track=ais&uuid=f62cddf1-0953-4fc6-81a7-0f1f56865b4a"
-                                        target="_blank" rel="noopener noreferrer"> <strong> Imagem retirada do
-                                            Freepik</strong></a>
-                                </p>
-
+                                <strong class="FonteFigura FonteMenor text-secondary font">Fonte: <a
+                                        href="https://br.freepik.com" target="_blank" rel="noopener noreferrer">
+                                        Freepik</a></strong>
                             </div>
                             <div>
                                 <!-- lista ordenada  -->
@@ -423,8 +419,6 @@ include('layout/header.php');
                                 <!-- fim da lista ordenada  -->
                             </div>
                             <!-- IMAGEM COM CAIXAS DE TEXTO END-->
-
-
                         </div>
                     </div>
                 </div>

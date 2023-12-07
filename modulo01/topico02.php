@@ -431,9 +431,7 @@ include('layout/header.php');
 
               <div class="img_apresentacao wow animate__zoomIn">
                 <img src="imgs/Group 4.png" alt="">
-                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik"><strong>Fonte:Imagem retirada do
-                    Freepik</strong>
-                </p>
+                <strong class="FonteFigura FonteMenor text-secondary font">Fonte: <a href="https://br.freepik.com" target="_blank" rel="noopener noreferrer"> Freepik</a></strong>
               </div>
               <div>
                 <!-- Parágrafo com a biblioteca de animação  -->

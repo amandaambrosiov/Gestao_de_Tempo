@@ -247,12 +247,7 @@ include('layout/header.php');
 
               <div class="img_apresentacao wow animate__zoomIn">
                 <img src="imgs/Group 11.png" alt="">
-                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik">
-                  <strong>Fonte: </strong>
-                  <a href="https://www.freepik.com/free-vector/hand-drawn-flat-design-finance-leaders-concept_20548553.htm"
-                    target="_blank" rel="noopener noreferrer"> <strong> Imagem retirada do
-                      Freepik</strong></a>
-                </p>
+                <strong class="FonteFigura FonteMenor text-secondary font">Fonte: <a href="https://br.freepik.com" target="_blank" rel="noopener noreferrer"> Freepik</a></strong>
               </div>
               <div>
                 <!-- Parágrafo com a biblioteca de animação  -->
@@ -341,12 +336,7 @@ include('layout/header.php');
 
               <div class="img_apresentacao wow animate__zoomIn" data-wow-delay="0.3s">
                 <img src="imgs/Group 3.png" alt="">
-                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik">
-                  <strong>Fonte: </strong>
-                  <a href="https://br.freepik.com/vetores-gratis/colegas-de-trabalho-do-conceito-de-pagina-de-destino_5615614.htm#query=conversacao%20local%20trabalho&position=0&from_view=keyword&track=ais&uuid=9d9a2171-507b-4fef-920f-97d5640d6178"
-                    target="_blank" rel="noopener noreferrer"> <strong> Imagem retirada do
-                      Freepik</strong></a>
-                </p>
+                <strong class="FonteFigura FonteMenor text-secondary font">Fonte: <a href="https://br.freepik.com" target="_blank" rel="noopener noreferrer"> Freepik</a></strong>
               </div>
               <div>
                 <!-- Parágrafo com a biblioteca de animação  -->
@@ -406,12 +396,7 @@ include('layout/header.php');
 
               <div class="img_apresentacao wow animate__zoomIn">
                 <img src="imgs/Group 11.png" alt="">
-                <p class="FonteFigura FonteMenor text-secondary" id="text-freepik">
-                  <strong>Fonte: </strong>
-                  <a href="https://www.freepik.com/free-vector/hand-drawn-flat-design-finance-leaders-concept_20548553.htm"
-                    target="_blank" rel="noopener noreferrer"> <strong> Imagem retirada do
-                      Freepik</strong></a>
-                </p>
+                <strong class="FonteFigura FonteMenor text-secondary font">Fonte: <a href="https://br.freepik.com" target="_blank" rel="noopener noreferrer"> Freepik</a></strong>
               </div>
               <div>
                 <!-- Parágrafo com a biblioteca de animação  -->

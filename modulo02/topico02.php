@@ -458,7 +458,7 @@ include('layout/header.php');
                     </section>
 
                     <!-- footer do quiz -->
-                    <footer>
+                    <footer class="footer">
                       <div class="total_que">
                         <!-- aqui está inserido o número de questões do js -->
                       </div>
